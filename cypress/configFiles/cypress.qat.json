@@ -1,0 +1,6 @@
+{
+  "baseUrl": "https://csrb-gateway.csbb.qat.chewy.com",
+  "env": {
+    "TEST_CUSTOMER_ID": null
+  }
+}

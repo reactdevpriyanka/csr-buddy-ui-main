@@ -1,0 +1,109 @@
+{
+  "id": "1078597664",
+  "customerId": "162318096",
+  "status": "RELEASED",
+  "totalProduct": { "value": "55.73" },
+  "totalSalesTax": { "value": "0.00" },
+  "totalShippingTax": { "value": "0.00" },
+  "totalAdjustment": { "value": "-2.79" },
+  "totalBeforeTax": { "value": "52.94" },
+  "total": { "value": "52.94" },
+  "timePlaced": "2022-06-15T18:54:11.908Z",
+  "timeUpdated": "2022-06-15T19:40:06.508Z",
+  "lineItems": [
+    {
+      "id": "1510201204",
+      "externalId": "397782309",
+      "status": "RELEASED",
+      "product": {
+        "catalogEntryId": "32041",
+        "partNumber": "46861",
+        "name": "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 30-lb bag",
+        "description": "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 30-lb bag",
+        "thumbnail": "//img.chewy.com/is/image/catalog/46861_MAIN,1636150597"
+      },
+      "fulfillmentCenter": "MCI1",
+      "fulfillmentStatus": "RELEASED",
+      "quantity": 1,
+      "totalProduct": { "value": "55.73" },
+      "unitPrice": { "value": "55.73" },
+      "shippingCharge": { "value": "0.00" },
+      "totalAdjustment": { "value": "-2.79" },
+      "salesTax": { "value": "0.00" },
+      "shippingTax": { "value": "0.00" },
+      "currency": "USD",
+      "bundleItem": false,
+      "tags":["PERSONALIZED"]
+    }
+  ],
+  "subscriptionInfos": [{ "subscriptionId": "851114645", "parentOrderId": "851114645" }],
+  "trackingData": { "shippingStep": "ORDER_PLACED", "shippingStatus": "NONE" },
+  "shippingAddress": {
+    "id": "336245812",
+    "nickname": "c71a90fc-1076-47e9-b463-727dcfc0c7d2",
+    "fullName": "cypress_automation",
+    "addressLine1": "4 NORTHEASTERN BLVD",
+    "city": "SALEM",
+    "state": "NH",
+    "postcode": "03079-5916",
+    "country": "US",
+    "phone": "3222222222",
+    "primaryAddress": false,
+    "verified": false
+  },
+  "orderAttributes": ["AUTOSHIP"],
+  "releases": [
+    {
+      "id": "387542464",
+      "status": "PRINTED",
+      "releaseNumber": 1,
+      "shippingModeCode": "FLATRATE",
+      "lineItemIds": ["1510201204"],
+      "timeCreated": "2022-06-15T19:40:06.137Z",
+      "timeUpdated": "2022-06-15T19:40:06.453Z",
+      "attributes": ["CANCELLABLE"]
+    }
+  ],
+  "notShippedItems": [{ "lineItemId": "1510201204", "quantity": 1, "shippedQuantity": 0 }],
+  "payments": {
+    "paymentInstructions": [
+      {
+        "id": "436918050",
+        "walletId": "c32cf05e-7c1e-4270-8310-abd503e1fc9b",
+        "paymentMethod": {
+          "paymentReferenceId": "8caef5f9-47b4-4045-aa8f-2ebf5d9cead9",
+          "type": "CARD",
+          "card": {
+            "expirationMonth": "2",
+            "expirationYear": "2024",
+            "cardHolderName": "cypress_automation",
+            "type": "AMEX",
+            "accountNumber": "3411XXXXXXX1347"
+          }
+        },
+        "billingAddress": {
+          "fullName": "cypress_automation",
+          "addressLine1": "4 NORTHEASTERN BLVD",
+          "city": "SALEM",
+          "state": "NH",
+          "postcode": "03079-5916",
+          "country": "USA"
+        },
+        "amount": "52.94",
+        "state": "VALID",
+        "timeCreated": "2022-06-15T18:54:12.810Z",
+        "timeUpdated": "2022-06-15T19:40:06.137Z"
+      }
+    ]
+  },
+  "remoteIp": "128.136.192.27",
+  "businessChannel": "WEB",
+  "submitter": "CSR",
+  "submitterId": "81",
+  "submitterDetail": {
+    "id": "81",
+    "email": "YD.C4qXlO8@Xttdh.ZSt",
+    "fullName": "UgQVUC",
+    "status": "ACTIVE"
+  }
+}

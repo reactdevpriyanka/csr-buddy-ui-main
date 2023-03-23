@@ -1,0 +1,710 @@
+{
+    "id": "1225976751",
+    "customerId": "83040159",
+    "status": "DEPOSITED",
+    "totalProduct": {
+        "value": "16.99",
+        "currency": "USD"
+    },
+    "totalSalesTax": {
+        "value": "0.85",
+        "currency": "USD"
+    },
+    "totalShipping": {
+        "value": "4.95",
+        "currency": "USD"
+    },
+    "totalShippingTax": {
+        "value": "0.00",
+        "currency": "USD"
+    },
+    "totalAdjustment": {
+        "value": "-8.35",
+        "currency": "USD"
+    },
+    "totalBeforeTax": {
+        "value": "13.59",
+        "currency": "USD"
+    },
+    "total": {
+        "value": "14.44",
+        "currency": "USD"
+    },
+    "timePlaced": "2022-07-17T19:17:41.123Z",
+    "timeUpdated": "2022-07-18T18:05:08.050Z",
+    "lineItems": [
+        {
+            "id": "2020592062",
+            "externalId": "1312311435",
+            "status": "SHIPPED",
+            "product": {
+                "catalogEntryId": "51945",
+                "partNumber": "67004",
+                "name": "Arm & Hammer Litter Super Scoop Unscented Clumping Clay Cat Litter, 40-lb box",
+                "description": "Arm & Hammer Litter Super Scoop Unscented Clumping Clay Cat Litter, 40-lb box",
+                "thumbnail": "//image.chewy.com/is/image/catalog/67004_MAIN,1579640429"
+            },
+            "fulfillmentCenter": "AVP1",
+            "fulfillmentStatus": "SHIPPED",
+            "quantity": 1,
+            "totalProduct": {
+                "value": "16.99"
+            },
+            "unitPrice": {
+                "value": "16.99"
+            },
+            "bundleItem": false,
+            "can": false,
+            "food": false,
+            "shippingCharge": {
+                "value": "4.95"
+            },
+            "totalAdjustment": {
+                "value": "-8.35"
+            },
+            "salesTax": {
+                "value": "0.85"
+            },
+            "shippingTax": {
+                "value": "0.00"
+            },
+            "currency": "USD"
+        },
+        {
+            "id": "2020592060",
+            "product": {
+                "catalogEntryId": "221135",
+                "partNumber": "194504",
+                "name": "Fancy Feast Grilled Seafood Feast Variety Pack Canned Cat Food, 3-oz can, case of 30",
+                "description": "Fancy Feast Grilled Seafood Feast Variety Pack Canned Cat Food, 3-oz can, case of 30",
+                "thumbnail": "//image.chewy.com/is/image/catalog/194504_MAIN,1629408751"
+            },
+            "fulfillmentCenterType": "CHEWY",
+            "quantity": 1,
+            "totalProduct": {
+                "value": "24.24"
+            },
+            "unitPrice": {
+                "value": "24.24"
+            },
+            "bundleItem": false,
+            "shippingCharge": {
+                "value": "2.48"
+            },
+            "totalAdjustment": {
+                "value": "-7.33"
+            },
+            "salesTax": {
+                "value": "1.21"
+            },
+            "shippingTax": {
+                "value": "0.00"
+            },
+            "currency": "USD"
+        },
+        {
+            "id": "2020592059",
+            "product": {
+                "catalogEntryId": "104407",
+                "partNumber": "76533",
+                "name": "Fancy Feast Classic Seafood Feast Variety Pack Canned Cat Food, 3-oz, case of 12",
+                "description": "Fancy Feast Classic Seafood Feast Variety Pack Canned Cat Food, 3-oz, case of 12",
+                "thumbnail": "//image.chewy.com/is/image/catalog/76533_MAIN,1544814236"
+            },
+            "fulfillmentCenterType": "CHEWY",
+            "quantity": 1,
+            "totalProduct": {
+                "value": "9.96"
+            },
+            "unitPrice": {
+                "value": "9.96"
+            },
+            "bundleItem": false,
+            "shippingCharge": {
+                "value": "0.00"
+            },
+            "totalAdjustment": {
+                "value": "-1.99"
+            },
+            "salesTax": {
+                "value": "0.50"
+            },
+            "shippingTax": {
+                "value": "0.00"
+            },
+            "currency": "USD"
+        },
+        {
+            "id": "2020592063",
+            "product": {
+                "catalogEntryId": "103924",
+                "partNumber": "76047",
+                "name": "Fancy Feast Classic Seafood Feast Variety Pack Canned Cat Food, 3-oz, case of 24",
+                "description": "Fancy Feast Classic Seafood Feast Variety Pack Canned Cat Food, 3-oz, case of 24",
+                "thumbnail": "//image.chewy.com/is/image/catalog/76047_MAIN,1544814165"
+            },
+            "fulfillmentCenterType": "CHEWY",
+            "quantity": 1,
+            "totalProduct": {
+                "value": "19.92"
+            },
+            "unitPrice": {
+                "value": "19.92"
+            },
+            "bundleItem": false,
+            "shippingCharge": {
+                "value": "0.00"
+            },
+            "totalAdjustment": {
+                "value": "-3.98"
+            },
+            "salesTax": {
+                "value": "1.00"
+            },
+            "shippingTax": {
+                "value": "0.00"
+            },
+            "currency": "USD"
+        }
+    ],
+    "trackingData": {
+        "shippingStep": "DELIVERED",
+        "shippingStatus": "ON_TIME",
+        "chewyPromisedDeliveryDate": "2022-07-19",
+        "estimatedDeliveryDate": "2022-07-19"
+    },
+    "shippingAddress": {
+        "id": "1235307453",
+        "nickname": "400ed9eb-cc3d-4a20-b662-d63f502ac776",
+        "fullName": "Alex Poon",
+        "addressLine1": "103 SHERIDAN ST",
+        "city": "JAMAICA PLAIN",
+        "state": "MA",
+        "postcode": "02130-1857",
+        "country": "US",
+        "phone": "7039556657",
+        "primaryAddress": false,
+        "verified": false
+    },
+    "shipments": [
+        {
+            "id": "605132666",
+            "shippingModeCode": "FDXHD",
+            "trackingId": "577156611254",
+            "timeShipped": "2022-07-18T18:03:29.730Z",
+            "packageId": "626856063",
+            "trackingData": {
+                "shippingStep": "DELIVERED",
+                "shippingStatus": "ON_TIME",
+                "chewyPromisedDeliveryDate": "2022-07-19",
+                "estimatedDeliveryDate": "2022-07-19",
+                "trackingEvent": {
+                    "code": "DELIVERED",
+                    "date": "2022-07-19T16:20:00Z",
+                    "address": {
+                        "city": "JAMAICA PLAIN",
+                        "state": "MA",
+                        "country": "US",
+                        "primaryAddress": false,
+                        "verified": false
+                    },
+                    "description": "Your package has been delivered!"
+                },
+                "progressPercentage": 100,
+                "actualShipDateTime": "2022-07-18T18:04:23Z",
+                "actualDeliveryTime": "2022-07-19T16:20:00Z",
+                "packagesCountFromOrder": 1,
+                "currentPackageStatus": "DELIVERED",
+                "derivedDeliveryDate": "2022-07-19T00:00:00Z",
+                "displayEvents": [
+                    {
+                        "code": "ORDER_CREATED",
+                        "date": "2022-07-17T19:17:41Z"
+                    },
+                    {
+                        "code": "ORDER_RELEASED",
+                        "date": "2022-07-17T20:30:39Z"
+                    },
+                    {
+                        "code": "650",
+                        "date": "2022-07-18T16:22:11Z",
+                        "description": "PICK COMPLETE"
+                    },
+                    {
+                        "code": "820",
+                        "date": "2022-07-18T18:04:23Z",
+                        "description": "LOADED"
+                    },
+                    {
+                        "code": "ORDERED",
+                        "date": "2022-07-18T19:00:00Z",
+                        "address": {
+                            "primaryAddress": false,
+                            "verified": false
+                        },
+                        "description": "Your Chewy Order has shipped"
+                    },
+                    {
+                        "code": "840",
+                        "date": "2022-07-18T21:00:00Z",
+                        "description": "SHIPPED"
+                    },
+                    {
+                        "code": "ARRIVAL_SCAN",
+                        "date": "2022-07-19T03:28:00Z",
+                        "address": {
+                            "city": "WILLINGTON",
+                            "state": "CT",
+                            "country": "US",
+                            "primaryAddress": false,
+                            "verified": false
+                        },
+                        "description": "Package arrived at carrier facility"
+                    },
+                    {
+                        "code": "DEPARTURE_SCAN",
+                        "date": "2022-07-19T04:58:00Z",
+                        "address": {
+                            "city": "WILLINGTON",
+                            "state": "CT",
+                            "country": "US",
+                            "primaryAddress": false,
+                            "verified": false
+                        },
+                        "description": "Package departed carrier facility"
+                    },
+                    {
+                        "code": "ARRIVAL_SCAN",
+                        "date": "2022-07-19T10:04:00Z",
+                        "address": {
+                            "city": "QUINCY",
+                            "state": "MA",
+                            "country": "US",
+                            "primaryAddress": false,
+                            "verified": false
+                        },
+                        "description": "Package arrived at carrier facility"
+                    },
+                    {
+                        "code": "OUT_FOR_DELIVERY",
+                        "date": "2022-07-19T10:16:00Z",
+                        "address": {
+                            "city": "QUINCY",
+                            "state": "MA",
+                            "country": "US",
+                            "primaryAddress": false,
+                            "verified": false
+                        },
+                        "description": "Out for delivery to you"
+                    },
+                    {
+                        "code": "DELIVERED",
+                        "date": "2022-07-19T16:20:00Z",
+                        "address": {
+                            "city": "JAMAICA PLAIN",
+                            "state": "MA",
+                            "country": "US",
+                            "primaryAddress": false,
+                            "verified": false
+                        },
+                        "description": "Your package has been delivered!"
+                    }
+                ],
+                "fulfillmentCenter": "AVP1"
+            },
+            "carrier": "FDEG",
+            "carrierDescription": "Fedex Home Delivery",
+            "trackingUrl": "https://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=577156611254",
+            "fulfillmentCenterDetails": {
+                "id": "AVP1",
+                "type": "fulfillmentCenters",
+                "attributes": {
+                    "fulfillmentCenterId": "AVP1",
+                    "displayName": "AVP1",
+                    "fulfillmentCenterType": "CHEWY",
+                    "address": {
+                        "addressLine1": "600 New Commerce Blvd",
+                        "city": "Hanover Township",
+                        "state": "PA",
+                        "postcode": "18706",
+                        "country": "US",
+                        "phone": "800-672-4399",
+                        "primaryAddress": false,
+                        "email": "service@chewy.com",
+                        "verified": false
+                    },
+                    "returnAddress": {
+                        "addressLine1": "600 New Commerce Blvd",
+                        "city": "Hanover Township",
+                        "state": "PA",
+                        "postcode": "18706",
+                        "country": "US",
+                        "phone": "566-935-4844",
+                        "primaryAddress": false,
+                        "email": "service@chewy.com",
+                        "verified": false
+                    },
+                    "fcEnabled": true,
+                    "fulfillerId": "b85ddeec-e3ea-4247-bfc1-4e0cd200de0b"
+                }
+            },
+            "shipmentItems": [
+                {
+                    "lineItemId": "2020592062",
+                    "quantity": 1,
+                    "shippedQuantity": 0
+                }
+            ]
+        }
+    ],
+    "releases": [
+        {
+            "id": "544038207",
+            "status": "MANIFESTED",
+            "releaseNumber": 1,
+            "shippingModeCode": "FLATRATE",
+            "fulfillmentAck": "2022-07-17T20:34:03.878Z",
+            "fulfillmentCenter": "AVP1",
+            "fulfillmentCenterType": "CHEWY",
+            "captureDate": "2022-07-18T18:05:08.428Z",
+            "customerConfirm": "2022-07-18T18:05:08.025Z",
+            "lineItemIds": [
+                "2020592062"
+            ],
+            "shipmentIds": [
+                "605132666"
+            ],
+            "timeCreated": "2022-07-17T20:30:39.440Z",
+            "timeUpdated": "2022-07-18T18:05:07.967Z"
+        }
+    ],
+    "notReleasedLineItems": [
+        {
+            "id": "2020592060",
+            "product": {
+                "catalogEntryId": "221135",
+                "partNumber": "194504",
+                "name": "Fancy Feast Grilled Seafood Feast Variety Pack Canned Cat Food, 3-oz can, case of 30",
+                "description": "Fancy Feast Grilled Seafood Feast Variety Pack Canned Cat Food, 3-oz can, case of 30",
+                "thumbnail": "//image.chewy.com/is/image/catalog/194504_MAIN,1629408751"
+            },
+            "fulfillmentCenterType": "CHEWY",
+            "quantity": 1,
+            "totalProduct": {
+                "value": "24.24"
+            },
+            "unitPrice": {
+                "value": "24.24"
+            },
+            "bundleItem": false,
+            "shippingCharge": {
+                "value": "2.48"
+            },
+            "totalAdjustment": {
+                "value": "-7.33"
+            },
+            "salesTax": {
+                "value": "1.21"
+            },
+            "shippingTax": {
+                "value": "0.00"
+            },
+            "currency": "USD"
+        },
+        {
+            "id": "2020592059",
+            "product": {
+                "catalogEntryId": "104407",
+                "partNumber": "76533",
+                "name": "Fancy Feast Classic Seafood Feast Variety Pack Canned Cat Food, 3-oz, case of 12",
+                "description": "Fancy Feast Classic Seafood Feast Variety Pack Canned Cat Food, 3-oz, case of 12",
+                "thumbnail": "//image.chewy.com/is/image/catalog/76533_MAIN,1544814236"
+            },
+            "fulfillmentCenterType": "CHEWY",
+            "quantity": 1,
+            "totalProduct": {
+                "value": "9.96"
+            },
+            "unitPrice": {
+                "value": "9.96"
+            },
+            "bundleItem": false,
+            "shippingCharge": {
+                "value": "0.00"
+            },
+            "totalAdjustment": {
+                "value": "-1.99"
+            },
+            "salesTax": {
+                "value": "0.50"
+            },
+            "shippingTax": {
+                "value": "0.00"
+            },
+            "currency": "USD"
+        },
+        {
+            "id": "2020592063",
+            "product": {
+                "catalogEntryId": "103924",
+                "partNumber": "76047",
+                "name": "Fancy Feast Classic Seafood Feast Variety Pack Canned Cat Food, 3-oz, case of 24",
+                "description": "Fancy Feast Classic Seafood Feast Variety Pack Canned Cat Food, 3-oz, case of 24",
+                "thumbnail": "//image.chewy.com/is/image/catalog/76047_MAIN,1544814165"
+            },
+            "fulfillmentCenterType": "CHEWY",
+            "quantity": 1,
+            "totalProduct": {
+                "value": "19.92"
+            },
+            "unitPrice": {
+                "value": "19.92"
+            },
+            "bundleItem": false,
+            "shippingCharge": {
+                "value": "0.00"
+            },
+            "totalAdjustment": {
+                "value": "-3.98"
+            },
+            "salesTax": {
+                "value": "1.00"
+            },
+            "shippingTax": {
+                "value": "0.00"
+            },
+            "currency": "USD"
+        }
+    ],
+    "updatedItems": [
+        {
+            "lineItemId": "2020592060",
+            "oldQuantity": 1,
+            "oldDescription": "Fancy Feast Grilled Seafood Feast Variety Pack Canned Cat Food, 3-oz can, case of 30",
+            "timeUpdated": "2022-07-17T19:30:21.850Z"
+        },
+        {
+            "lineItemId": "2020592059",
+            "oldQuantity": 1,
+            "oldDescription": "Fancy Feast Classic Seafood Feast Variety Pack Canned Cat Food, 3-oz, case of 12",
+            "timeUpdated": "2022-07-17T19:24:48.553Z"
+        },
+        {
+            "lineItemId": "2020592063",
+            "oldQuantity": 1,
+            "oldDescription": "Fancy Feast Classic Seafood Feast Variety Pack Canned Cat Food, 3-oz, case of 24",
+            "timeUpdated": "2022-07-17T19:23:32.228Z"
+        }
+    ],
+    "canceledItems": [
+        {
+            "lineItemId": "2020592060",
+            "quantity": 1,
+            "timeUpdated": "2022-07-17T19:30:21.850Z"
+        },
+        {
+            "lineItemId": "2020592059",
+            "quantity": 1,
+            "timeUpdated": "2022-07-17T19:24:48.553Z"
+        },
+        {
+            "lineItemId": "2020592063",
+            "quantity": 1,
+            "timeUpdated": "2022-07-17T19:23:32.228Z"
+        }
+    ],
+    "returnItems": [
+        {
+            "returnId": "ff7f8613-837e-4ce2-a483-39008c997458",
+            "lineItemId": "2020592062",
+            "orderId": "1225976751",
+            "state": "PROCESSED",
+            "type": "REPLACEMENT",
+            "reasonCategory": "DAMAGED",
+            "reason": {
+                "primary": "DAMAGED",
+                "secondary": "BOX_AND_PRODUCT",
+                "tertiary": "WEATHER_BOX_OR_PRODUCT"
+            },
+            "timeCreated": "2022-07-21T01:14:08.202559Z",
+            "timeUpdated": "2022-07-21T01:14:08.672245Z",
+            "replacementOrderId": "1227303221",
+            "comment": "null",
+            "partNumber": "67004",
+            "quantity": 1,
+            "sendBack": false,
+            "giftCard": false
+        },
+        {
+            "returnId": "2d197ccb-7618-4b76-9b03-4cf751f6b5fe",
+            "lineItemId": "2020592062",
+            "orderId": "1225976751",
+            "state": "PROCESSED",
+            "type": "REPLACEMENT",
+            "reasonCategory": "DAMAGED",
+            "reason": {
+                "primary": "DAMAGED",
+                "secondary": "BOX_AND_PRODUCT",
+                "tertiary": "WEATHER_BOX_OR_PRODUCT"
+            },
+            "timeCreated": "2022-07-21T00:53:19.372097Z",
+            "timeUpdated": "2022-07-21T00:53:19.664998Z",
+            "replacementOrderId": "1227298762",
+            "comment": "N/A",
+            "partNumber": "67004",
+            "quantity": 1,
+            "sendBack": false,
+            "giftCard": false
+        }
+    ],
+    "payments": {
+        "paymentInstructions": [
+            {
+                "id": "598118025",
+                "walletId": "91620e0d-c8f4-4a2b-a9cd-ec8b78b9c915",
+                "paymentMethod": {
+                    "paymentReferenceId": "d3d9e2cd-cbbd-4a4e-bfba-3f33e4b1e99a",
+                    "type": "CARD",
+                    "card": {
+                        "expirationMonth": "9",
+                        "expirationYear": "2025",
+                        "cardHolderName": "Alex C. Poon",
+                        "type": "VISA",
+                        "accountNumber": "4147XXXXXXXX3918"
+                    }
+                },
+                "billingAddress": {
+                    "fullName": "Alex C. Poon",
+                    "addressLine1": "106 FULTON ST",
+                    "city": "BOSTON",
+                    "state": "MA",
+                    "postcode": "02109-1422",
+                    "country": "USA"
+                },
+                "amount": "14.44",
+                "state": "VALID",
+                "timeCreated": "2022-07-17T19:17:41.207Z",
+                "timeUpdated": "2022-07-17T20:30:39.440Z"
+            }
+        ]
+    },
+    "remoteIp": "2600:1000:b028:2ae1:cd9d:870e:5ea5:261e",
+    "businessChannel": "WEB",
+    "submitter": "CUSTOMER",
+    "submitterId": "83040159",
+    "submitterDetail": {
+        "id": "83040159",
+        "email": "alexchristopherpoon@gmail.com",
+        "fullName": "Alex Poon",
+        "status": "ACTIVE"
+    },
+    "returns": [
+        {
+            "id": "ff7f8613-837e-4ce2-a483-39008c997458",
+            "orderId": "1225976751",
+            "state": "PROCESSED",
+            "type": "REPLACEMENT",
+            "timeCreated": "2022-07-21T01:14:08.202559Z",
+            "timeUpdated": "2022-07-21T01:14:08.672245Z",
+            "timeProcessed": "2022-07-21T01:14:08.654625Z",
+            "replacementOrderId": "1227303221",
+            "totalCredit": 0,
+            "items": [
+                {
+                    "returnId": "ff7f8613-837e-4ce2-a483-39008c997458",
+                    "lineItemId": "2020592062",
+                    "orderId": "1225976751",
+                    "state": "PROCESSED",
+                    "type": "REPLACEMENT",
+                    "reasonCategory": "DAMAGED",
+                    "reason": {
+                        "primary": "DAMAGED",
+                        "secondary": "BOX_AND_PRODUCT",
+                        "tertiary": "WEATHER_BOX_OR_PRODUCT"
+                    },
+                    "timeCreated": "2022-07-21T01:14:08.202559Z",
+                    "timeUpdated": "2022-07-21T01:14:08.672245Z",
+                    "replacementOrderId": "1227303221",
+                    "comment": "null",
+                    "partNumber": "67004",
+                    "quantity": 1,
+                    "sendBack": false,
+                    "giftCard": false
+                }
+            ]
+        },
+        {
+            "id": "2d197ccb-7618-4b76-9b03-4cf751f6b5fe",
+            "orderId": "1225976751",
+            "state": "PROCESSED",
+            "type": "REPLACEMENT",
+            "timeCreated": "2022-07-21T00:53:19.372097Z",
+            "timeUpdated": "2022-07-21T00:53:19.664998Z",
+            "timeProcessed": "2022-07-21T00:53:19.648556Z",
+            "replacementOrderId": "1227298762",
+            "totalCredit": 0,
+            "items": [
+                {
+                    "returnId": "2d197ccb-7618-4b76-9b03-4cf751f6b5fe",
+                    "lineItemId": "2020592062",
+                    "orderId": "1225976751",
+                    "state": "PROCESSED",
+                    "type": "REPLACEMENT",
+                    "reasonCategory": "DAMAGED",
+                    "reason": {
+                        "primary": "DAMAGED",
+                        "secondary": "BOX_AND_PRODUCT",
+                        "tertiary": "WEATHER_BOX_OR_PRODUCT"
+                    },
+                    "timeCreated": "2022-07-21T00:53:19.372097Z",
+                    "timeUpdated": "2022-07-21T00:53:19.664998Z",
+                    "replacementOrderId": "1227298762",
+                    "comment": "N/A",
+                    "partNumber": "67004",
+                    "quantity": 1,
+                    "sendBack": false,
+                    "giftCard": false
+                }
+            ]
+        }
+    ],
+    "promotions": [
+        {
+            "name": "20% off for employees",
+            "amount": {
+                "value": "-3.40"
+            }
+        },
+        {
+            "amount": {
+                "value": "-4.95"
+            }
+        }
+    ],
+    "orderComments": [
+        {
+            "id": "130321737",
+            "text": "Canceled order item(s) with sku(s) 194504",
+            "timestamp": "2022-07-17T19:30:21.741Z",
+            "userId": "166371257"
+        },
+        {
+            "id": "130321182",
+            "text": "Canceled order item(s) with sku(s) 76533",
+            "timestamp": "2022-07-17T19:24:48.451Z",
+            "userId": "166371257"
+        },
+        {
+            "id": "130321184",
+            "text": "Applied automatic shipping adjustment of 0 after canceling item",
+            "timestamp": "2022-07-17T19:24:48.388Z",
+            "userId": "-1"
+        },
+        {
+            "id": "130321076",
+            "text": "Canceled order item(s) with sku(s) 76047",
+            "timestamp": "2022-07-17T19:23:32.076Z",
+            "userId": "166371257"
+        }
+    ]
+}

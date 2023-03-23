@@ -1,0 +1,838 @@
+{
+    "id": "1080835645",
+    "customerId": "881108374",
+    "status": "DEPOSITED",
+    "totalProduct": {
+        "value": "133.83",
+        "currency": "USD"
+    },
+    "totalSalesTax": {
+        "value": "13.52",
+        "currency": "USD"
+    },
+    "totalShipping": {
+        "value": "0.00",
+        "currency": "USD"
+    },
+    "totalShippingTax": {
+        "value": "0.00",
+        "currency": "USD"
+    },
+    "totalAdjustment": {
+        "value": "0.00",
+        "currency": "USD"
+    },
+    "totalBeforeTax": {
+        "value": "133.83",
+        "currency": "USD"
+    },
+    "total": {
+        "value": "147.35",
+        "currency": "USD"
+    },
+    "timePlaced": "2022-07-11T12:38:44.492Z",
+    "timeUpdated": "2022-07-11T13:13:59.895Z",
+    "blocks": [
+        {
+            "id": "29229448",
+            "reason": "RELEASE_CANCELED",
+            "resolved": true,
+            "timeBlocked": "2022-07-11T12:53:33.421Z",
+            "timeResolved": "2022-07-11T13:13:09.040Z"
+        },
+        {
+            "id": "29229456",
+            "reason": "FRAUDCHECK_FAILED",
+            "resolved": true,
+            "timeBlocked": "2022-07-11T13:05:01.917Z",
+            "timeResolved": "2022-07-11T13:13:07.327Z",
+            "comments": "Agent 81 overrode riskified decision."
+        }
+    ],
+    "lineItems": [
+        {
+            "id": "1512238341",
+            "externalId": "399395541",
+            "status": "SHIPPED",
+            "product": {
+                "catalogEntryId": "135802",
+                "partNumber": "108402",
+                "name": "Tylee's Human-Grade Pork Recipe Frozen Dog Food, 96-oz bag",
+                "description": "Tylee's Human-Grade Pork Recipe Frozen Dog Food, 96-oz bag",
+                "thumbnail": "//img.chewy.com/is/image/catalog/108402_MAIN,1619651018"
+            },
+            "fulfillmentCenter": "WFF2",
+            "fulfillmentStatus": "SHIPPED",
+            "quantity": 1,
+            "totalProduct": {
+                "value": "39.89"
+            },
+            "unitPrice": {
+                "value": "39.89"
+            },
+            "can": false,
+            "food": true,
+            "shippingCharge": {
+                "value": "0.00"
+            },
+            "totalAdjustment": {
+                "value": "0.00"
+            },
+            "salesTax": {
+                "value": "4.03"
+            },
+            "shippingTax": {
+                "value": "0.00"
+            },
+            "currency": "USD",
+            "tags": [
+                "FROZEN"
+            ],
+            "bundleItem": false
+        },
+        {
+            "id": "1512238342",
+            "externalId": "399395542",
+            "status": "SHIPPED",
+            "product": {
+                "catalogEntryId": "35535",
+                "partNumber": "50372",
+                "name": "Nummy Tum-Tum Pure Organic Pumpkin Canned Dog & Cat Food Supplement, 15-oz, case of 12",
+                "description": "Nummy Tum-Tum Pure Organic Pumpkin Canned Dog & Cat Food Supplement, 15-oz, case of 12",
+                "thumbnail": "//img.chewy.com/is/image/catalog/50372_MAIN,1649112703"
+            },
+            "fulfillmentCenter": "WFC2",
+            "fulfillmentStatus": "SHIPPED",
+            "quantity": 1,
+            "totalProduct": {
+                "value": "32.26"
+            },
+            "unitPrice": {
+                "value": "32.26"
+            },
+            "can": false,
+            "food": false,
+            "shippingCharge": {
+                "value": "0.00"
+            },
+            "totalAdjustment": {
+                "value": "0.00"
+            },
+            "salesTax": {
+                "value": "3.26"
+            },
+            "shippingTax": {
+                "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+        },
+        {
+            "id": "1512238343",
+            "externalId": "399395543",
+            "status": "SHIPPED",
+            "product": {
+                "catalogEntryId": "36520",
+                "partNumber": "51364",
+                "name": "Grandma Lucy's Organic Pumpkin Oven Baked Dog Treats, 14-oz bag",
+                "description": "Grandma Lucy's Organic Pumpkin Oven Baked Dog Treats, 14-oz bag",
+                "thumbnail": "//img.chewy.com/is/image/catalog/51364_MAIN,1587128543"
+            },
+            "fulfillmentCenter": "WFC2",
+            "fulfillmentStatus": "SHIPPED",
+            "quantity": 1,
+            "totalProduct": {
+                "value": "7.70"
+            },
+            "unitPrice": {
+                "value": "7.70"
+            },
+            "can": false,
+            "food": false,
+            "shippingCharge": {
+                "value": "0.00"
+            },
+            "totalAdjustment": {
+                "value": "0.00"
+            },
+            "salesTax": {
+                "value": "0.77"
+            },
+            "shippingTax": {
+                "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+        },
+        {
+            "id": "1512238344",
+            "externalId": "399395544",
+            "status": "SHIPPED",
+            "product": {
+                "catalogEntryId": "190527",
+                "partNumber": "163819",
+                "name": "PetHonesty 10-for-1 Chicken Flavored Soft Chews Multivitamin for Dogs, 90 count",
+                "description": "PetHonesty 10-for-1 Chicken Flavored Soft Chews Multivitamin for Dogs, 90 count",
+                "thumbnail": "//img.chewy.com/is/image/catalog/163819_MAIN,1633127876"
+            },
+            "fulfillmentCenter": "WFC2",
+            "fulfillmentStatus": "SHIPPED",
+            "quantity": 1,
+            "totalProduct": {
+                "value": "26.99"
+            },
+            "unitPrice": {
+                "value": "26.99"
+            },
+            "can": false,
+            "food": false,
+            "shippingCharge": {
+                "value": "0.00"
+            },
+            "totalAdjustment": {
+                "value": "0.00"
+            },
+            "salesTax": {
+                "value": "2.73"
+            },
+            "shippingTax": {
+                "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+        },
+        {
+            "id": "1512238345",
+            "externalId": "399395545",
+            "status": "SHIPPED",
+            "product": {
+                "catalogEntryId": "190535",
+                "partNumber": "163827",
+                "name": "PetHonesty Allergy Support Salmon Flavored Soft Chews Allergy Supplement for Dogs, 90 count",
+                "description": "PetHonesty Allergy Support Salmon Flavored Soft Chews Allergy Supplement for Dogs, 90 count",
+                "thumbnail": "//img.chewy.com/is/image/catalog/163827_MAIN,1633126299"
+            },
+            "fulfillmentCenter": "WFC2",
+            "fulfillmentStatus": "SHIPPED",
+            "quantity": 1,
+            "totalProduct": {
+                "value": "26.99"
+            },
+            "unitPrice": {
+                "value": "26.99"
+            },
+            "can": false,
+            "food": false,
+            "shippingCharge": {
+                "value": "0.00"
+            },
+            "totalAdjustment": {
+                "value": "0.00"
+            },
+            "salesTax": {
+                "value": "2.73"
+            },
+            "shippingTax": {
+                "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+        }
+    ],
+    "trackingData": {
+        "shippingStep": "PACKING_ITEMS",
+        "shippingStatus": "UNKNOWN"
+    },
+    "shippingAddress": {
+        "id": "338648287",
+        "nickname": "c60c6655-5649-47cf-ab5b-7f1e5d8f4547",
+        "fullName": "Shaggy Rogers",
+        "addressLine1": "12 100TH AVE NE",
+        "city": "BELLEVUE",
+        "state": "WA",
+        "postcode": "98004-5628",
+        "country": "US",
+        "phone": "5026198836",
+        "primaryAddress": false,
+        "verified": false
+    },
+    "shipments": [
+        {
+            "id": "432010101",
+            "shippingModeCode": "FLATRATE",
+            "timeShipped": "2022-07-11T00:00:00Z",
+            "trackingData": {
+                "shippingStep": "PACKING_ITEMS",
+                "shippingStatus": "UNKNOWN",
+                "progressPercentage": 20,
+                "packagesCountFromOrder": 1,
+                "displayEvents": [
+                    {
+                        "code": "ORDER_CREATED",
+                        "date": "2021-08-04T18:27:45Z"
+                    },
+                    {
+                        "code": "ORDER_RELEASED",
+                        "date": "2021-08-04T19:10:56Z"
+                    }
+                ]
+            },
+            "carrierDescription": "Flat-Rate Shipping",
+            "trackingUrl": "nullnull",
+            "fulfillmentCenterDetails": {
+                "id": "WFF2",
+                "type": "fulfillmentCenters",
+                "attributes": {
+                    "fulfillmentCenterId": "WFF2",
+                    "displayName": "WFF2",
+                    "fulfillmentCenterType": "FREEZER",
+                    "address": {
+                        "addressLine1": "385 Milan Drive",
+                        "city": "Sparks",
+                        "state": "NV",
+                        "postcode": "89434",
+                        "country": "US",
+                        "phone": "800-672-4399",
+                        "primaryAddress": false,
+                        "email": "service@chewy.com",
+                        "verified": false
+                    },
+                    "returnAddress": {
+                        "addressLine1": "385 Milan Drive",
+                        "city": "Sparks",
+                        "state": "NV",
+                        "postcode": "89434",
+                        "country": "US",
+                        "primaryAddress": false,
+                        "verified": false
+                    },
+                    "fcEnabled": true,
+                    "fulfillerId": "da295753-1507-4ea7-a0e6-967b949dda72"
+                }
+            },
+            "shipmentItems": [
+                {
+                    "lineItemId": "1512238341",
+                    "quantity": 1,
+                    "shippedQuantity": 0
+                }
+            ]
+        },
+        {
+            "id": "432010100",
+            "shippingModeCode": "FLATRATE",
+            "timeShipped": "2022-07-11T00:00:00Z",
+            "trackingData": {
+                "shippingStep": "PACKING_ITEMS",
+                "shippingStatus": "UNKNOWN",
+                "progressPercentage": 20,
+                "packagesCountFromOrder": 1,
+                "displayEvents": [
+                    {
+                        "code": "ORDER_CREATED",
+                        "date": "2021-08-04T18:27:45Z"
+                    },
+                    {
+                        "code": "ORDER_RELEASED",
+                        "date": "2021-08-04T19:10:56Z"
+                    }
+                ]
+            },
+            "carrierDescription": "Flat-Rate Shipping",
+            "trackingUrl": "nullnull",
+            "fulfillmentCenterDetails": {
+                "id": "WFC2",
+                "type": "fulfillmentCenters",
+                "attributes": {
+                    "fulfillmentCenterId": "WFC2",
+                    "displayName": "WFC2",
+                    "fulfillmentCenterType": "NORMAL",
+                    "address": {
+                        "addressLine1": "385 Milan Drive",
+                        "city": "Sparks",
+                        "state": "NV",
+                        "postcode": "89434",
+                        "country": "US",
+                        "phone": "800-672-4399",
+                        "primaryAddress": false,
+                        "email": "service@chewy.com",
+                        "verified": false
+                    },
+                    "returnAddress": {
+                        "addressLine1": "385 Milan Drive",
+                        "city": "Sparks",
+                        "state": "NV",
+                        "postcode": "89434",
+                        "country": "US",
+                        "primaryAddress": false,
+                        "verified": false
+                    },
+                    "fcEnabled": true,
+                    "fulfillerId": "da295753-1507-4ea7-a0e6-967b949dda72"
+                }
+            },
+            "shipmentItems": [
+                {
+                    "lineItemId": "1512238342",
+                    "quantity": 1,
+                    "shippedQuantity": 0
+                },
+                {
+                    "lineItemId": "1512238343",
+                    "quantity": 1,
+                    "shippedQuantity": 0
+                },
+                {
+                    "lineItemId": "1512238344",
+                    "quantity": 1,
+                    "shippedQuantity": 0
+                },
+                {
+                    "lineItemId": "1512238345",
+                    "quantity": 1,
+                    "shippedQuantity": 0
+                }
+            ]
+        }
+    ],
+    "releases": [
+        {
+            "id": "388724707",
+            "status": "MANIFESTED",
+            "releaseNumber": 1,
+            "shippingModeCode": "FLATRATE",
+            "lineItemIds": [
+                "1512238341"
+            ],
+            "shipmentIds": [
+                "432010101"
+            ],
+            "timeCreated": "2022-07-11T12:50:50.944Z",
+            "timeUpdated": "2022-07-11T13:14:00.697Z"
+        },
+        {
+            "id": "388724708",
+            "status": "CANCELED",
+            "releaseNumber": 2,
+            "timeCreated": "2022-07-11T12:50:50.944Z",
+            "timeUpdated": "2022-07-11T12:53:31.908Z",
+            "attributes": [
+                "CANCELLABLE"
+            ]
+        },
+        {
+            "id": "388724731",
+            "status": "MANIFESTED",
+            "releaseNumber": 3,
+            "shippingModeCode": "FLATRATE",
+            "lineItemIds": [
+                "1512238342",
+                "1512238343",
+                "1512238344",
+                "1512238345"
+            ],
+            "shipmentIds": [
+                "432010100"
+            ],
+            "timeCreated": "2022-07-11T13:13:19.997Z",
+            "timeUpdated": "2022-07-11T13:13:42.405Z"
+        }
+    ],
+    "releasesNotShippedItems": [
+        {
+            "id": "388724707",
+            "status": "MANIFESTED",
+            "releaseNumber": 1,
+            "shippingModeCode": "FLATRATE",
+            "lineItemIds": [
+                "1512238341"
+            ],
+            "shipmentIds": [
+                "432010101"
+            ],
+            "timeCreated": "2022-07-11T12:50:50.944Z",
+            "timeUpdated": "2022-07-11T13:14:00.697Z"
+        },
+        {
+            "id": "388724708",
+            "status": "CANCELED",
+            "releaseNumber": 2,
+            "timeCreated": "2022-07-11T12:50:50.944Z",
+            "timeUpdated": "2022-07-11T12:53:31.908Z",
+            "attributes": [
+                "CANCELLABLE"
+            ]
+        },
+        {
+            "id": "388724731",
+            "status": "MANIFESTED",
+            "releaseNumber": 3,
+            "shippingModeCode": "FLATRATE",
+            "lineItemIds": [
+                "1512238342",
+                "1512238343",
+                "1512238344",
+                "1512238345"
+            ],
+            "shipmentIds": [
+                "432010100"
+            ],
+            "timeCreated": "2022-07-11T13:13:19.997Z",
+            "timeUpdated": "2022-07-11T13:13:42.405Z"
+        }
+    ],
+    "returnItems": [
+        {
+            "returnId": "98f86be0-10ba-4d88-8da9-9dd991d98496",
+            "lineItemId": "1512238341",
+            "orderId": "1080835645",
+            "state": "PROCESSED",
+            "type": "PRODUCT_CONCESSION",
+            "reasonCategory": "DAMAGED",
+            "reason": {
+                "primary": "DAMAGED",
+                "secondary": "BOX_AND_PRODUCT",
+                "tertiary": "MELTED_OR_THAWED_BOX_OR_PRODUCT"
+            },
+            "timeCreated": "2022-07-11T15:01:14.828964Z",
+            "timeUpdated": "2022-07-12T01:02:43.763877Z",
+            "comment": "concession to replace thawed frozen food and melted multivitamins locally 1080835645",
+            "partNumber": "108402",
+            "totalCredit": 14.91,
+            "giftCard": false
+        },
+        {
+            "returnId": "98f86be0-10ba-4d88-8da9-9dd991d98496",
+            "lineItemId": "1512238344",
+            "orderId": "1080835645",
+            "state": "PROCESSED",
+            "type": "PRODUCT_CONCESSION",
+            "reasonCategory": "DAMAGED",
+            "reason": {
+                "primary": "DAMAGED",
+                "secondary": "BOX_AND_PRODUCT",
+                "tertiary": "MELTED_OR_THAWED_BOX_OR_PRODUCT"
+            },
+            "timeCreated": "2022-07-11T15:01:14.828964Z",
+            "timeUpdated": "2022-07-12T01:02:43.763877Z",
+            "comment": "concession to replace thawed frozen food and melted multivitamins locally 1080835645",
+            "partNumber": "163819",
+            "totalCredit": 10.09,
+            "giftCard": false
+        },
+        {
+            "returnId": "23b526aa-340c-431a-abbc-611db3902777",
+            "lineItemId": "1512238341",
+            "orderId": "1080835645",
+            "state": "FAILED",
+            "type": "REPLACEMENT",
+            "reasonCategory": "DAMAGED",
+            "reason": {
+                "primary": "DAMAGED",
+                "secondary": "BOX_AND_PRODUCT",
+                "tertiary": "MELTED_OR_THAWED_BOX_OR_PRODUCT"
+            },
+            "timeCreated": "2022-07-11T14:57:43.602991Z",
+            "timeUpdated": "2022-07-11T14:57:43.889912Z",
+            "comment": "CCI entire order melted & thawed//replaced order 1080835645",
+            "partNumber": "108402",
+            "quantity": 1,
+            "sendBack": true,
+            "giftCard": false
+        },
+        {
+            "returnId": "23b526aa-340c-431a-abbc-611db3902777",
+            "lineItemId": "1512238342",
+            "orderId": "1080835645",
+            "state": "FAILED",
+            "type": "REPLACEMENT",
+            "reasonCategory": "DAMAGED",
+            "reason": {
+                "primary": "DAMAGED",
+                "secondary": "BOX_AND_PRODUCT",
+                "tertiary": "MELTED_OR_THAWED_BOX_OR_PRODUCT"
+            },
+            "timeCreated": "2022-07-11T14:57:43.602991Z",
+            "timeUpdated": "2022-07-11T14:57:43.889912Z",
+            "comment": "CCI entire order melted & thawed//replaced order 1080835645",
+            "partNumber": "50372",
+            "quantity": 1,
+            "sendBack": true,
+            "giftCard": false
+        },
+        {
+            "returnId": "23b526aa-340c-431a-abbc-611db3902777",
+            "lineItemId": "1512238343",
+            "orderId": "1080835645",
+            "state": "FAILED",
+            "type": "REPLACEMENT",
+            "reasonCategory": "DAMAGED",
+            "reason": {
+                "primary": "DAMAGED",
+                "secondary": "BOX_AND_PRODUCT",
+                "tertiary": "MELTED_OR_THAWED_BOX_OR_PRODUCT"
+            },
+            "timeCreated": "2022-07-11T14:57:43.602991Z",
+            "timeUpdated": "2022-07-11T14:57:43.889912Z",
+            "comment": "CCI entire order melted & thawed//replaced order 1080835645",
+            "partNumber": "51364",
+            "quantity": 1,
+            "sendBack": true,
+            "giftCard": false
+        },
+        {
+            "returnId": "23b526aa-340c-431a-abbc-611db3902777",
+            "lineItemId": "1512238344",
+            "orderId": "1080835645",
+            "state": "FAILED",
+            "type": "REPLACEMENT",
+            "reasonCategory": "DAMAGED",
+            "reason": {
+                "primary": "DAMAGED",
+                "secondary": "BOX_AND_PRODUCT",
+                "tertiary": "MELTED_OR_THAWED_BOX_OR_PRODUCT"
+            },
+            "timeCreated": "2022-07-11T14:57:43.602991Z",
+            "timeUpdated": "2022-07-11T14:57:43.889912Z",
+            "comment": "CCI entire order melted & thawed//replaced order 1080835645",
+            "partNumber": "163819",
+            "quantity": 1,
+            "sendBack": true,
+            "giftCard": false
+        },
+        {
+            "returnId": "23b526aa-340c-431a-abbc-611db3902777",
+            "lineItemId": "1512238345",
+            "orderId": "1080835645",
+            "state": "FAILED",
+            "type": "REPLACEMENT",
+            "reasonCategory": "DAMAGED",
+            "reason": {
+                "primary": "DAMAGED",
+                "secondary": "BOX_AND_PRODUCT",
+                "tertiary": "MELTED_OR_THAWED_BOX_OR_PRODUCT"
+            },
+            "timeCreated": "2022-07-11T14:57:43.602991Z",
+            "timeUpdated": "2022-07-11T14:57:43.889912Z",
+            "comment": "CCI entire order melted & thawed//replaced order 1080835645",
+            "partNumber": "163827",
+            "quantity": 1,
+            "sendBack": true,
+            "giftCard": false
+        }
+    ],
+    "payments": {
+        "paymentInstructions": [
+            {
+                "id": "438172894",
+                "walletId": "c5b47528-2e9e-45e9-a456-c4d0774ddb95",
+                "paymentMethod": {
+                    "paymentReferenceId": "a8b12990-09e2-41b7-b160-97c2c706f4a0",
+                    "type": "CARD",
+                    "card": {
+                        "expirationMonth": "10",
+                        "expirationYear": "2025",
+                        "cardHolderName": "Shaggy Rogers",
+                        "type": "AMEX",
+                        "accountNumber": "3411XXXXXXX1347"
+                    }
+                },
+                "billingAddress": {
+                    "fullName": "Shaggy Rogers",
+                    "addressLine1": "0169 SW Ridge Dr",
+                    "city": "Portland",
+                    "state": "OR",
+                    "postcode": "97219-6556",
+                    "country": "USA"
+                },
+                "amount": "147.35",
+                "state": "VALID",
+                "timeCreated": "2022-07-11T12:38:45.811Z",
+                "timeUpdated": "2022-07-11T13:13:42.289Z"
+            }
+        ]
+    },
+    "remoteIp": "192.88.179.42",
+    "businessChannel": "WEB",
+    "submitter": "CUSTOMER",
+    "submitterId": "881108374",
+    "submitterDetail": {
+        "id": "881108374",
+        "email": "shaggyrogers@scoobydoo.com",
+        "fullName": "Shaggy",
+        "status": "ACTIVE"
+    },
+    "returns": [
+        {
+            "id": "98f86be0-10ba-4d88-8da9-9dd991d98496",
+            "orderId": "1080835645",
+            "state": "PROCESSED",
+            "type": "CONCESSION",
+            "timeCreated": "2022-07-11T15:01:14.828964Z",
+            "timeUpdated": "2022-07-12T01:02:43.763877Z",
+            "timeProcessed": "2022-07-12T01:02:43.300937Z",
+            "totalCredit": 25,
+            "payments": [
+                {
+                    "id": "ba1255dd-b853-4a94-8d65-0af57e89a5ea",
+                    "amount": 25,
+                    "creditedAmount": 25,
+                    "creditingAmount": 0,
+                    "paymentMethod": "AMEX",
+                    "state": "COMPLETE"
+                }
+            ],
+            "items": [
+                {
+                    "returnId": "98f86be0-10ba-4d88-8da9-9dd991d98496",
+                    "lineItemId": "1512238341",
+                    "orderId": "1080835645",
+                    "state": "PROCESSED",
+                    "type": "PRODUCT_CONCESSION",
+                    "reasonCategory": "DAMAGED",
+                    "reason": {
+                        "primary": "DAMAGED",
+                        "secondary": "BOX_AND_PRODUCT",
+                        "tertiary": "MELTED_OR_THAWED_BOX_OR_PRODUCT"
+                    },
+                    "timeCreated": "2022-07-11T15:01:14.828964Z",
+                    "timeUpdated": "2022-07-12T01:02:43.763877Z",
+                    "comment": "concession to replace thawed frozen food and melted multivitamins locally 1080835645",
+                    "partNumber": "108402",
+                    "totalCredit": 14.91,
+                    "giftCard": false
+                },
+                {
+                    "returnId": "98f86be0-10ba-4d88-8da9-9dd991d98496",
+                    "lineItemId": "1512238344",
+                    "orderId": "1080835645",
+                    "state": "PROCESSED",
+                    "type": "PRODUCT_CONCESSION",
+                    "reasonCategory": "DAMAGED",
+                    "reason": {
+                        "primary": "DAMAGED",
+                        "secondary": "BOX_AND_PRODUCT",
+                        "tertiary": "MELTED_OR_THAWED_BOX_OR_PRODUCT"
+                    },
+                    "timeCreated": "2022-07-11T15:01:14.828964Z",
+                    "timeUpdated": "2022-07-12T01:02:43.763877Z",
+                    "comment": "concession to replace thawed frozen food and melted multivitamins locally 1080835645",
+                    "partNumber": "163819",
+                    "totalCredit": 10.09,
+                    "giftCard": false
+                }
+            ]
+        },
+        {
+            "id": "23b526aa-340c-431a-abbc-611db3902777",
+            "orderId": "1080835645",
+            "state": "FAILED",
+            "type": "REPLACEMENT",
+            "timeCreated": "2022-07-11T14:57:43.602991Z",
+            "timeUpdated": "2022-07-11T14:57:43.889912Z",
+            "totalCredit": 0,
+            "items": [
+                {
+                    "returnId": "23b526aa-340c-431a-abbc-611db3902777",
+                    "lineItemId": "1512238341",
+                    "orderId": "1080835645",
+                    "state": "FAILED",
+                    "type": "REPLACEMENT",
+                    "reasonCategory": "DAMAGED",
+                    "reason": {
+                        "primary": "DAMAGED",
+                        "secondary": "BOX_AND_PRODUCT",
+                        "tertiary": "MELTED_OR_THAWED_BOX_OR_PRODUCT"
+                    },
+                    "timeCreated": "2022-07-11T14:57:43.602991Z",
+                    "timeUpdated": "2022-07-11T14:57:43.889912Z",
+                    "comment": "CCI entire order melted & thawed//replaced order 1080835645",
+                    "partNumber": "108402",
+                    "quantity": 1,
+                    "sendBack": true,
+                    "giftCard": false
+                },
+                {
+                    "returnId": "23b526aa-340c-431a-abbc-611db3902777",
+                    "lineItemId": "1512238342",
+                    "orderId": "1080835645",
+                    "state": "FAILED",
+                    "type": "REPLACEMENT",
+                    "reasonCategory": "DAMAGED",
+                    "reason": {
+                        "primary": "DAMAGED",
+                        "secondary": "BOX_AND_PRODUCT",
+                        "tertiary": "MELTED_OR_THAWED_BOX_OR_PRODUCT"
+                    },
+                    "timeCreated": "2022-07-11T14:57:43.602991Z",
+                    "timeUpdated": "2022-07-11T14:57:43.889912Z",
+                    "comment": "CCI entire order melted & thawed//replaced order 1080835645",
+                    "partNumber": "50372",
+                    "quantity": 1,
+                    "sendBack": true,
+                    "giftCard": false
+                },
+                {
+                    "returnId": "23b526aa-340c-431a-abbc-611db3902777",
+                    "lineItemId": "1512238343",
+                    "orderId": "1080835645",
+                    "state": "FAILED",
+                    "type": "REPLACEMENT",
+                    "reasonCategory": "DAMAGED",
+                    "reason": {
+                        "primary": "DAMAGED",
+                        "secondary": "BOX_AND_PRODUCT",
+                        "tertiary": "MELTED_OR_THAWED_BOX_OR_PRODUCT"
+                    },
+                    "timeCreated": "2022-07-11T14:57:43.602991Z",
+                    "timeUpdated": "2022-07-11T14:57:43.889912Z",
+                    "comment": "CCI entire order melted & thawed//replaced order 1080835645",
+                    "partNumber": "51364",
+                    "quantity": 1,
+                    "sendBack": true,
+                    "giftCard": false
+                },
+                {
+                    "returnId": "23b526aa-340c-431a-abbc-611db3902777",
+                    "lineItemId": "1512238344",
+                    "orderId": "1080835645",
+                    "state": "FAILED",
+                    "type": "REPLACEMENT",
+                    "reasonCategory": "DAMAGED",
+                    "reason": {
+                        "primary": "DAMAGED",
+                        "secondary": "BOX_AND_PRODUCT",
+                        "tertiary": "MELTED_OR_THAWED_BOX_OR_PRODUCT"
+                    },
+                    "timeCreated": "2022-07-11T14:57:43.602991Z",
+                    "timeUpdated": "2022-07-11T14:57:43.889912Z",
+                    "comment": "CCI entire order melted & thawed//replaced order 1080835645",
+                    "partNumber": "163819",
+                    "quantity": 1,
+                    "sendBack": true,
+                    "giftCard": false
+                },
+                {
+                    "returnId": "23b526aa-340c-431a-abbc-611db3902777",
+                    "lineItemId": "1512238345",
+                    "orderId": "1080835645",
+                    "state": "FAILED",
+                    "type": "REPLACEMENT",
+                    "reasonCategory": "DAMAGED",
+                    "reason": {
+                        "primary": "DAMAGED",
+                        "secondary": "BOX_AND_PRODUCT",
+                        "tertiary": "MELTED_OR_THAWED_BOX_OR_PRODUCT"
+                    },
+                    "timeCreated": "2022-07-11T14:57:43.602991Z",
+                    "timeUpdated": "2022-07-11T14:57:43.889912Z",
+                    "comment": "CCI entire order melted & thawed//replaced order 1080835645",
+                    "partNumber": "163827",
+                    "quantity": 1,
+                    "sendBack": true,
+                    "giftCard": false
+                }
+            ]
+        }
+    ]
+}

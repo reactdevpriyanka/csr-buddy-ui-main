@@ -1,0 +1,46 @@
+{
+  "context": {
+    "shippingAddress": {
+      "addressLine1": "4 NORTHEASTERN BLVD",
+      "city": "Salem",
+      "state": "NH",
+      "postcode": "03079-5916",
+      "firstName": "cypress_automation",
+      "lastName": "",
+      "fullName": "cypress_automation",
+      "country": "US"
+    }
+  },
+  "startNode": { "id": "2" },
+  "flow": {
+    "flowName": "show-address",
+    "inputData": ["addressLabel"],
+    "startNode": {
+      "id": "2",
+      "nodeType": "START_NODE",
+      "singularOutcomeId": "2"
+    },
+    "flowLinks": [
+      {
+        "outcomeId": "1",
+        "destinationNodeId": "2"
+      }
+    ],
+    "flowNodes": [
+      {
+        "id": "2",
+        "nodeType": "ADDRESS_LABEL",
+        "label": {
+          "value": "Shipping Address"
+        },
+        "subLabel": {
+          "messageBaseName": "CSRB2_RETURNS_SUMMARY_SHIPPING_ADDRESS_SUBLABEL",
+          "value": "You will have your delivery in 3-5 days"
+        },
+        "decisionInputAttribute": {
+          "contextVariableName": "shippingAddress"
+        }
+      }
+    ]
+  }
+}

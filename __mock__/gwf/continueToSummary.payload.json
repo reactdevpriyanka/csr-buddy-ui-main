@@ -1,0 +1,1088 @@
+{
+  "flow": {
+    "flowName": "returns-continueToSummary",
+    "startNode": {
+      "id": "174",
+      "singularOutcomeId": "174",
+      "nodeType": "START_NODE"
+    },
+    "flowLinks": [
+      {
+        "outcomeId": "182",
+        "destinationNodeId": "183"
+      },
+      {
+        "outcomeId": "193",
+        "destinationNodeId": "194"
+      },
+      {
+        "outcomeId": "194",
+        "destinationNodeId": "195"
+      },
+      {
+        "outcomeId": "185",
+        "destinationNodeId": "188"
+      },
+      {
+        "outcomeId": "195",
+        "destinationNodeId": "196"
+      },
+      {
+        "outcomeId": "189",
+        "destinationNodeId": "190"
+      },
+      {
+        "outcomeId": "196",
+        "destinationNodeId": "197"
+      },
+      {
+        "outcomeId": "174",
+        "destinationNodeId": "176"
+      },
+      {
+        "outcomeId": "179",
+        "destinationNodeId": "180"
+      },
+      {
+        "outcomeId": "199",
+        "destinationNodeId": "207"
+      },
+      {
+        "outcomeId": "205",
+        "destinationNodeId": "206"
+      },
+      {
+        "outcomeId": "216",
+        "destinationNodeId": "217"
+      },
+      {
+        "outcomeId": "190",
+        "destinationNodeId": "191"
+      },
+      {
+        "outcomeId": "206",
+        "destinationNodeId": "207"
+      },
+      {
+        "outcomeId": "217",
+        "destinationNodeId": "218"
+      },
+      {
+        "outcomeId": "191",
+        "destinationNodeId": "192"
+      },
+      {
+        "outcomeId": "180",
+        "destinationNodeId": "182"
+      },
+      {
+        "outcomeId": "192",
+        "destinationNodeId": "193"
+      },
+      {
+        "outcomeId": "213",
+        "destinationNodeId": "217"
+      },
+      {
+        "outcomeId": "203",
+        "destinationNodeId": "207"
+      },
+      {
+        "outcomeId": "209",
+        "destinationNodeId": "217"
+      },
+      {
+        "outcomeId": "215",
+        "destinationNodeId": "216"
+      },
+      {
+        "outcomeId": "187",
+        "destinationNodeId": "188"
+      },
+      {
+        "outcomeId": "176",
+        "destinationNodeId": "178"
+      },
+      {
+        "outcomeId": "188",
+        "destinationNodeId": "189"
+      },
+      {
+        "outcomeId": "211",
+        "destinationNodeId": "217"
+      },
+      {
+        "outcomeId": "178",
+        "destinationNodeId": "179"
+      },
+      {
+        "outcomeId": "201",
+        "destinationNodeId": "207"
+      }
+    ],
+    "flowNodes": [
+      {
+        "id": "178",
+        "alignment": {
+          "value": "VERTICAL"
+        },
+        "label": {
+          "value": "Sales Tax"
+        },
+        "visible": {
+          "value": true
+        },
+        "subLabel": {
+          "contextVariableName": "summaryDetails.salesTax"
+        },
+        "singularOutcomeId": "178",
+        "nodeType": "LABEL"
+      },
+      {
+        "id": "197",
+        "nodeType": "MULTIPLE_CHOICE",
+        "required": {
+          "value": true
+        },
+        "enabled": {
+          "value": true
+        },
+        "visible": {
+          "value": true
+        },
+        "questionContent": {
+          "value": "Delivery Complaint"
+        },
+        "decisionInputAttribute": "summaryDetails.deliveryComplaint",
+        "answerChoices": [
+          {
+            "label": {
+              "value": "Order damaged/open upon delivery"
+            },
+            "enabled": {
+              "value": true
+            },
+            "visible": {
+              "value": true
+            },
+            "value": "Damaged",
+            "outcomeId": "199"
+          },
+          {
+            "label": {
+              "value": "Package left in rain without a cover"
+            },
+            "enabled": {
+              "value": true
+            },
+            "visible": {
+              "value": true
+            },
+            "value": "LeftInRain",
+            "outcomeId": "201"
+          },
+          {
+            "label": {
+              "value": "Witnessed driver mishandling package"
+            },
+            "enabled": {
+              "value": true
+            },
+            "visible": {
+              "value": true
+            },
+            "value": "DriverMishandledPackage",
+            "outcomeId": "203"
+          },
+          {
+            "label": {
+              "value": "Other (Free text)"
+            },
+            "enabled": {
+              "value": true
+            },
+            "visible": {
+              "value": true
+            },
+            "value": "Other",
+            "outcomeId": "205"
+          }
+        ],
+        "outcomeChooserType": "MULTIPLE_CHOICE"
+      },
+      {
+        "id": "218",
+        "nextFlowName": "returns-submit",
+        "nodeType": "NEXT_CHAPTER_TRANSITION"
+      },
+      {
+        "id": "191",
+        "nodeType": "BOOLEAN",
+        "required": {
+          "value": true
+        },
+        "enabled": {
+          "contextVariableName": "summaryDetails.hasReturn"
+        },
+        "visible": {
+          "contextVariableName": "summaryDetails.hasReturn"
+        },
+        "decisionInputAttribute": "summaryDetails.fedexPickup",
+        "label": {
+          "value": "FedEx Pickup"
+        },
+        "singularOutcomeId": "191",
+        "outcomeChooserType": "SINGULAR"
+      },
+      {
+        "id": "207",
+        "nodeType": "MULTIPLE_CHOICE",
+        "required": {
+          "value": true
+        },
+        "enabled": {
+          "value": true
+        },
+        "visible": {
+          "value": true
+        },
+        "questionContent": {
+          "value": "Additional Shipping Instructions"
+        },
+        "decisionInputAttribute": "summaryDetails.shippingInstructions",
+        "answerChoices": [
+          {
+            "label": {
+              "value": "Bring to front door"
+            },
+            "enabled": {
+              "value": true
+            },
+            "visible": {
+              "value": true
+            },
+            "value": "FrontDoor",
+            "outcomeId": "209"
+          },
+          {
+            "label": {
+              "value": "Bring to back door"
+            },
+            "enabled": {
+              "value": true
+            },
+            "visible": {
+              "value": true
+            },
+            "value": "BackDoor",
+            "outcomeId": "211"
+          },
+          {
+            "label": {
+              "value": "Bring order to Apt door"
+            },
+            "enabled": {
+              "value": true
+            },
+            "visible": {
+              "value": true
+            },
+            "value": "AptDoor",
+            "outcomeId": "213"
+          },
+          {
+            "label": {
+              "value": "Other (Free text)"
+            },
+            "enabled": {
+              "value": true
+            },
+            "visible": {
+              "value": true
+            },
+            "value": "Other",
+            "outcomeId": "215"
+          }
+        ],
+        "outcomeChooserType": "MULTIPLE_CHOICE"
+      },
+      {
+        "id": "174",
+        "singularOutcomeId": "174",
+        "nodeType": "START_NODE"
+      },
+      {
+        "id": "193",
+        "nodeType": "INTEGER",
+        "required": {
+          "value": true
+        },
+        "enabled": {
+          "contextVariableName": "summaryDetails.hasReturn"
+        },
+        "visible": {
+          "contextVariableName": "summaryDetails.hasReturn"
+        },
+        "questionContent": {
+          "value": "Boxes Needed"
+        },
+        "decisionInputAttribute": "summaryDetails.quantityOfBoxes",
+        "placeHolder": {
+          "value": "Quantity of Boxes"
+        },
+        "invalidityMessage": {
+          "value": "A number between 0 and 6 is required."
+        },
+        "minimumValue": {
+          "value": 0
+        },
+        "maximumValue": {
+          "value": 6
+        },
+        "singularOutcomeId": "193",
+        "outcomeChooserType": "SINGULAR"
+      },
+      {
+        "id": "194",
+        "nodeType": "INTEGER",
+        "required": {
+          "value": true
+        },
+        "enabled": {
+          "contextVariableName": "summaryDetails.hasReturn"
+        },
+        "visible": {
+          "contextVariableName": "summaryDetails.hasReturn"
+        },
+        "questionContent": {
+          "value": "Labels Needed"
+        },
+        "decisionInputAttribute": "summaryDetails.quantityOfLabels",
+        "placeHolder": {
+          "value": "Quantity of Labels"
+        },
+        "invalidityMessage": {
+          "value": "A number between 1 and 6 is required."
+        },
+        "minimumValue": {
+          "value": 1
+        },
+        "maximumValue": {
+          "value": 6
+        },
+        "singularOutcomeId": "194",
+        "outcomeChooserType": "SINGULAR"
+      },
+      {
+        "id": "183",
+        "nodeType": "MULTIPLE_CHOICE",
+        "required": {
+          "value": true
+        },
+        "enabled": {
+          "contextVariableName": "summaryDetails.hasReturn"
+        },
+        "visible": {
+          "contextVariableName": "summaryDetails.hasReturn"
+        },
+        "questionContent": {
+          "value": "Verify the customer's email address {summaryDetails.emailAddress} can be used for receiving a return shipping label."
+        },
+        "decisionInputAttribute": "summaryDetails.useAnotherEmail",
+        "answerChoices": [
+          {
+            "label": {
+              "value": "Yes, use existing email address"
+            },
+            "enabled": {
+              "value": true
+            },
+            "visible": {
+              "value": true
+            },
+            "value": "false",
+            "outcomeId": "185"
+          },
+          {
+            "label": {
+              "value": "No, use another email address"
+            },
+            "enabled": {
+              "value": true
+            },
+            "visible": {
+              "value": true
+            },
+            "value": "true",
+            "outcomeId": "187"
+          }
+        ],
+        "outcomeChooserType": "MULTIPLE_CHOICE"
+      },
+      {
+        "id": "189",
+        "nodeType": "BOOLEAN",
+        "required": {
+          "value": true
+        },
+        "enabled": {
+          "contextVariableName": "summaryDetails.hasReturn"
+        },
+        "visible": {
+          "contextVariableName": "summaryDetails.hasReturn"
+        },
+        "decisionInputAttribute": "summaryDetails.additionalLabels",
+        "label": {
+          "value": "Additional Labels"
+        },
+        "singularOutcomeId": "189",
+        "outcomeChooserType": "SINGULAR"
+      },
+      {
+        "id": "206",
+        "nodeType": "TEXT",
+        "required": {
+          "value": true
+        },
+        "enabled": {
+          "value": true
+        },
+        "visible": {
+          "value": true
+        },
+        "decisionInputAttribute": "summaryDetails.deliveryComplaintText",
+        "label": {
+          "value": "Other Reason"
+        },
+        "placeHolder": {
+          "value": "Other Reason"
+        },
+        "singularOutcomeId": "206",
+        "outcomeChooserType": "SINGULAR"
+      },
+      {
+        "id": "182",
+        "nodeType": "ADDRESS",
+        "required": {
+          "value": false
+        },
+        "enabled": {
+          "value": false
+        },
+        "visible": {
+          "contextVariableName": "summaryDetails.hasReplacement"
+        },
+        "questionContent": {
+          "value": "Shipping Address"
+        },
+        "decisionInputAttribute": "summaryDetails.shippingAddress",
+        "singularOutcomeId": "182",
+        "outcomeChooserType": "SINGULAR"
+      },
+      {
+        "id": "188",
+        "nodeType": "EMAIL_ADDRESS",
+        "required": {
+          "value": true
+        },
+        "enabled": {
+          "contextVariableName": "summaryDetails.useAnotherEmail"
+        },
+        "visible": {
+          "contextVariableName": "summaryDetails.hasReturn"
+        },
+        "decisionInputAttribute": "summaryDetails.emailAddress",
+        "label": {
+          "value": "Email Address"
+        },
+        "singularOutcomeId": "188",
+        "outcomeChooserType": "SINGULAR"
+      },
+      {
+        "id": "196",
+        "nodeType": "DATE",
+        "required": {
+          "value": true
+        },
+        "enabled": {
+          "contextVariableName": "summaryDetails.hasReturn"
+        },
+        "visible": {
+          "contextVariableName": "summaryDetails.hasReturn"
+        },
+        "questionContent": {
+          "value": "Fedex Pickup Date"
+        },
+        "decisionInputAttribute": "summaryDetails.returnFedexPickupDate",
+        "label": {
+          "value": "Reminder: Fedex only picks up Monday Through Friday and cannot be scheduled for same-day"
+        },
+        "singularOutcomeId": "196",
+        "outcomeChooserType": "SINGULAR"
+      },
+      {
+        "id": "216",
+        "nodeType": "TEXT",
+        "required": {
+          "value": true
+        },
+        "enabled": {
+          "value": true
+        },
+        "visible": {
+          "value": true
+        },
+        "decisionInputAttribute": "summaryDetails.shippingInstructionsText",
+        "label": {
+          "value": "Other Instructions"
+        },
+        "placeHolder": {
+          "value": "Other Instructions"
+        },
+        "singularOutcomeId": "216",
+        "outcomeChooserType": "SINGULAR"
+      },
+      {
+        "id": "190",
+        "nodeType": "BOOLEAN",
+        "required": {
+          "value": true
+        },
+        "enabled": {
+          "contextVariableName": "summaryDetails.hasReturn"
+        },
+        "visible": {
+          "contextVariableName": "summaryDetails.hasReturn"
+        },
+        "decisionInputAttribute": "summaryDetails.snailMailLabels",
+        "label": {
+          "value": "Mailed Shipping Label (Snail Mail)"
+        },
+        "singularOutcomeId": "190",
+        "outcomeChooserType": "SINGULAR"
+      },
+      {
+        "id": "192",
+        "nodeType": "BOOLEAN",
+        "required": {
+          "value": true
+        },
+        "enabled": {
+          "contextVariableName": "summaryDetails.hasReturn"
+        },
+        "visible": {
+          "contextVariableName": "summaryDetails.hasReturn"
+        },
+        "decisionInputAttribute": "summaryDetails.sendBoxes",
+        "label": {
+          "value": "Send box(es) to customer"
+        },
+        "singularOutcomeId": "192",
+        "outcomeChooserType": "SINGULAR"
+      },
+      {
+        "id": "176",
+        "alignment": {
+          "value": "VERTICAL"
+        },
+        "label": {
+          "value": "Items Cost"
+        },
+        "visible": {
+          "value": true
+        },
+        "subLabel": {
+          "contextVariableName": "summaryDetails.itemsCost"
+        },
+        "questionContent": {
+          "value": "Review and Finalize"
+        },
+        "singularOutcomeId": "176",
+        "nodeType": "LABEL"
+      },
+      {
+        "id": "195",
+        "nodeType": "VARIABLE_OPTION",
+        "required": {
+          "value": true
+        },
+        "enabled": {
+          "contextVariableName": "summaryDetails.hasReturn"
+        },
+        "visible": {
+          "contextVariableName": "summaryDetails.hasReturn"
+        },
+        "questionContent": {
+          "value": "Mailing Address"
+        },
+        "decisionInputAttribute": "summaryDetails.returnMailingAddress",
+        "displayInputAttribute": "summaryDetails.returnMailingAddresses",
+        "valueInputAttribute": "summaryDetails.returnMailingAddressIds",
+        "singularOutcomeId": "195",
+        "outcomeChooserType": "SINGULAR"
+      },
+      {
+        "id": "179",
+        "alignment": {
+          "value": "VERTICAL"
+        },
+        "label": {
+          "value": "Shipping Cost"
+        },
+        "visible": {
+          "value": true
+        },
+        "subLabel": {
+          "contextVariableName": "summaryDetails.shippingCost"
+        },
+        "singularOutcomeId": "179",
+        "nodeType": "LABEL"
+      },
+      {
+        "id": "180",
+        "alignment": {
+          "value": "VERTICAL"
+        },
+        "label": {
+          "value": "Total Customer Refund"
+        },
+        "visible": {
+          "value": true
+        },
+        "subLabel": {
+          "contextVariableName": "summaryDetails.totalRefund"
+        },
+        "singularOutcomeId": "180",
+        "nodeType": "LABEL"
+      },
+      {
+        "id": "217",
+        "nodeType": "BUTTON",
+        "required": {
+          "value": true
+        },
+        "enabled": {
+          "value": true
+        },
+        "visible": {
+          "value": true
+        },
+        "label": {
+          "value": "Submit Issues"
+        },
+        "type": "CONTAINED",
+        "singularOutcomeId": "217",
+        "outcomeChooserType": "SINGULAR"
+      }
+    ],
+    "context": {}
+  },
+  "context": {
+    "totalBeforeTax": {
+      "value": "146.19"
+    },
+    "returnItems": [
+      {
+        "id": "1463237721",
+        "product": {
+          "catalogEntryId": "283251",
+          "partNumber": "256796",
+          "name": "MiceDirect Frozen Mice & Rat Feeders Small Mice Fuzzies Snake Food, 25 count",
+          "description": "MiceDirect Frozen Mice & Rat Feeders Small Mice Fuzzies Snake Food, 25 count",
+          "thumbnail": "//img.chewy.com/is/image/catalog/256796_MAIN,1602519383",
+          "attributes": [
+            "DROPSHIP"
+          ]
+        },
+        "fulfillmentCenter": "BAC1",
+        "quantity": 1,
+        "totalProduct": {
+          "value": "90.24",
+          "currency": "USD"
+        },
+        "unitPrice": {
+          "value": "90.24",
+          "currency": "USD"
+        },
+        "can": false,
+        "food": true,
+        "shippingCharge": {
+          "value": "0.00"
+        },
+        "totalAdjustment": {
+          "value": "0.00"
+        },
+        "salesTax": {
+          "value": "0.00"
+        },
+        "shippingTax": {
+          "value": "0.00"
+        },
+        "bundleItem": false
+      }
+    ],
+    "currentItemDetails": {
+      "wasBoxDamaged": false,
+      "boxDamage": "NON_SPECIFIC_DAMAGE",
+      "howManyHadIssues": 1,
+      "maxConcessionAmount": 90.24,
+      "productType": "OTHER",
+      "emailupdates": false,
+      "concessionTotal": "2.49"
+    },
+    "label.salesTax.value": "Sales Tax (0.00)",
+    "orderId": "1070009165",
+    "returnItemDetails": [
+      {
+        "wasBoxDamaged": false,
+        "boxDamage": "NON_SPECIFIC_DAMAGE",
+        "howManyHadIssues": 1,
+        "maxConcessionAmount": 90.24,
+        "concessionTotal": 2.49,
+        "productType": "OTHER",
+        "emailupdates": false
+      }
+    ],
+    "refundTotal": "   (90.24)",
+    "label.unitPrice.value": "Item Price (90.24)",
+    "label.none": " ",
+    "visible.currentItem.food": true,
+    "lineItems": [
+      {
+        "id": "1463237721",
+        "product": {
+          "catalogEntryId": "283251",
+          "partNumber": "256796",
+          "name": "MiceDirect Frozen Mice & Rat Feeders Small Mice Fuzzies Snake Food, 25 count",
+          "description": "MiceDirect Frozen Mice & Rat Feeders Small Mice Fuzzies Snake Food, 25 count",
+          "thumbnail": "//img.chewy.com/is/image/catalog/256796_MAIN,1602519383",
+          "attributes": [
+            "DROPSHIP"
+          ]
+        },
+        "fulfillmentCenter": "BAC1",
+        "quantity": 1,
+        "totalProduct": {
+          "value": "90.24"
+        },
+        "unitPrice": {
+          "value": "90.24"
+        },
+        "can": false,
+        "food": true,
+        "shippingCharge": {
+          "value": "0.00"
+        },
+        "totalAdjustment": {
+          "value": "0.00"
+        },
+        "salesTax": {
+          "value": "0.00"
+        },
+        "shippingTax": {
+          "value": "0.00"
+        },
+        "currency": "USD",
+        "bundleItem": false
+      },
+      {
+        "id": "1463237720",
+        "product": {
+          "catalogEntryId": "179844",
+          "partNumber": "153066",
+          "name": "GoTags Personalized Anodized Aluminum ID Tag, Bone, Pink, Regular",
+          "description": "GoTags Personalized Anodized Aluminum ID Tag, Bone, Pink, Regular",
+          "thumbnail": "//img.chewy.com/is/image/catalog/153066_MAIN,1619702585",
+          "attributes": [
+            "DROPSHIP"
+          ]
+        },
+        "fulfillmentCenter": "GTG1",
+        "quantity": 1,
+        "totalProduct": {
+          "value": "5.95"
+        },
+        "unitPrice": {
+          "value": "5.95"
+        },
+        "shippingCharge": {
+          "value": "0.00"
+        },
+        "totalAdjustment": {
+          "value": "0.00"
+        },
+        "salesTax": {
+          "value": "0.00"
+        },
+        "shippingTax": {
+          "value": "0.00"
+        },
+        "currency": "USD",
+        "bundleItem": false
+      },
+      {
+        "id": "1463237719",
+        "product": {
+          "catalogEntryId": "288419",
+          "partNumber": "261978",
+          "name": "Chewy eGift Card, Congrats New Bestie Cat, $50",
+          "description": "Chewy eGift Card, Congrats New Bestie Cat, $50",
+          "thumbnail": "//img.chewy.com/is/image/catalog/261978_MAIN,1605885411",
+          "attributes": [
+            "ELECTRONIC_DELIVERY",
+            "GIFT_CARD"
+          ]
+        },
+        "fulfillmentCenter": "DGC1",
+        "quantity": 1,
+        "totalProduct": {
+          "value": "50.00"
+        },
+        "unitPrice": {
+          "value": "50.00"
+        },
+        "shippingCharge": {
+          "value": "0.00"
+        },
+        "totalAdjustment": {
+          "value": "0.00"
+        },
+        "salesTax": {
+          "value": "0.00"
+        },
+        "shippingTax": {
+          "value": "0.00"
+        },
+        "currency": "USD",
+        "bundleItem": false
+      }
+    ],
+    "total": {
+      "value": "146.19"
+    },
+    "recommended.product.c": "none",
+    "recommended.product.b": "none",
+    "continue": true,
+    "timeUpdated": "2021-07-23T17:34:06.686Z",
+    "label.replacement": " ",
+    "customerId": "148808550",
+    "id": "1070009165",
+    "timePlaced": "2021-07-23T17:15:05.662Z",
+    "currentItemDetails.emailupdates": true,
+    "totalSalesTax": {
+      "value": "0.00"
+    },
+    "whatKindOfIssue": "productsOrderedIssue",
+    "currentItemDetails.recommendation": "currentItem0",
+    "totalProduct": {
+      "value": "146.19"
+    },
+    "summaryDetails": {
+      "itemsCost": 2.49,
+      "salesTax": 0,
+      "shippingCost": 0,
+      "totalRefund": 2.49,
+      "hasRefund": true,
+      "emailAddress": "myemail@google.com",
+      "shippingAddress": {
+        "addressLine1": "2310 Chatam Ave SW",
+        "city": "Decatur",
+        "state": "AL",
+        "postcode": "35603"
+      }
+    },
+    "suzzieOrderUrl": "https://cs-platform.csbb.qat.chewy.com/orders/1070009165/summary",
+    "whatsWrong": "DAMAGED",
+    "shipments": [
+      {
+        "id": "418803194",
+        "shippingModeCode": "FLATRATE",
+        "trackingId": "1234",
+        "timeShipped": "2021-07-23T00:00:00Z",
+        "trackingData": {
+          "shippingStep": "ORDER_PLACED",
+          "shippingStatus": "PENDING",
+          "chewyPromisedDeliveryDate": "2021-07-23"
+        },
+        "carrierDescription": "Flat-Rate Shipping",
+        "shippingAddress": {
+          "id": "72575571",
+          "nickname": "152e31b9-25ce-43bf-be8d-4c8265a92814",
+          "fullName": "Joe Q Tester",
+          "addressLine1": "1 Northeastern Blvd",
+          "city": "Bedford",
+          "state": "NH",
+          "postcode": "03109-1234",
+          "country": "US",
+          "primaryAddress": false
+        },
+        "fulfillmentCenterDetails": {
+          "id": "BAC1",
+          "type": "fulfillmentCenters",
+          "attributes": {
+            "fulfillmentCenterId": "BAC1",
+            "displayName": "Biggers And Callaham LLC",
+            "fulfillmentCenterType": "DROPSHIP",
+            "address": {
+              "addressLine1": "651 Tom Bell Road",
+              "city": "Cleveland",
+              "state": "GA",
+              "postcode": "30528",
+              "country": "US",
+              "primaryAddress": false
+            },
+            "fcEnabled": true,
+            "fulfillerId": "815d6e43-867d-4171-88f8-3fbc6c95d40f"
+          }
+        },
+        "shipmentItems": [
+          {
+            "lineItemId": "1463237721",
+            "quantity": 1,
+            "shippedQuantity": 0
+          }
+        ]
+      }
+    ],
+    "label.refund": "(Recommended)",
+    "label.concession": " ",
+    "trackingData": {
+      "shippingStep": "ORDER_PLACED",
+      "shippingStatus": "PENDING",
+      "chewyPromisedDeliveryDate": "2021-07-23",
+      "estimatedDeliveryDate": "2021-07-23"
+    },
+    "totalShippingTax": {
+      "value": "0.00"
+    },
+    "shippingAddressList": [
+      {
+        "label": {
+          "value": "1 Northeastern Blvd, Bedford NH 03109-1234"
+        },
+        "enabled": {
+          "value": true
+        },
+        "visible": {
+          "value": true
+        },
+        "value": "215578210"
+      }
+    ],
+    "logonId": "autouser210723171437112@Testchewy.com",
+    "currentItemDetails.additionalconcession": 0,
+    "shippingAddress": {
+      "id": "72575571",
+      "nickname": "152e31b9-25ce-43bf-be8d-4c8265a92814",
+      "fullName": "Joe Q Tester",
+      "addressLine1": "1 Northeastern Blvd",
+      "city": "Bedford",
+      "state": "NH",
+      "postcode": "03109-1234",
+      "country": "US",
+      "primaryAddress": false
+    },
+    "label.send": "(Recommended)",
+    "notShippedItems": [
+      {
+        "lineItemId": "1463237720",
+        "quantity": 1,
+        "shippedQuantity": 0
+      },
+      {
+        "lineItemId": "1463237719",
+        "quantity": 1,
+        "shippedQuantity": 0
+      }
+    ],
+    "returns": {
+      "items": {
+        "1463237721": {
+          "partNumber": "256796",
+          "refundQuantityExisting": 0,
+          "refundQuantityRemaining": 1,
+          "replacementQuantityExisting": 0,
+          "replacementQuantityRemaining": 1,
+          "concessionAmountExisting": {
+            "value": "0"
+          },
+          "concessionAmountRemaining": {
+            "value": "90.24"
+          },
+          "shelterDonationQualified": true
+        }
+      },
+      "shippingConcessionExisting": {
+        "value": "0"
+      },
+      "shippingConcessionRemaining": {
+        "value": "0.00"
+      }
+    },
+    "totalAdjustment": {
+      "value": "0.00"
+    },
+    "currentItem": {
+      "id": "1463237721",
+      "product": {
+        "catalogEntryId": "283251",
+        "partNumber": "256796",
+        "name": "MiceDirect Frozen Mice & Rat Feeders Small Mice Fuzzies Snake Food, 25 count",
+        "description": "MiceDirect Frozen Mice & Rat Feeders Small Mice Fuzzies Snake Food, 25 count",
+        "thumbnail": "//img.chewy.com/is/image/catalog/256796_MAIN,1602519383",
+        "attributes": [
+          "DROPSHIP"
+        ]
+      },
+      "fulfillmentCenter": "BAC1",
+      "quantity": 1,
+      "totalProduct": {
+        "value": "90.24",
+        "currency": "USD"
+      },
+      "unitPrice": {
+        "value": "90.24",
+        "currency": "USD"
+      },
+      "can": false,
+      "food": true,
+      "shippingCharge": {
+        "value": "0.00"
+      },
+      "totalAdjustment": {
+        "value": "0.00"
+      },
+      "salesTax": {
+        "value": "0.00"
+      },
+      "shippingTax": {
+        "value": "0.00"
+      },
+      "bundleItem": false
+    },
+    "status": "RELEASED",
+    "label.shippingCost.value": "Shipping Cost (0.00)",
+    "customer": {
+      "customerFullName": "Auto User210723171437112",
+      "id": 148808550,
+      "registrationDate": "2021-07-23 13:14:37",
+      "email": "autouser210723171437112@Testchewy.com",
+      "addresses": [
+        {
+          "id": "215578210",
+          "kyriosId": "215578210",
+          "nickname": "152e31b9-25ce-43bf-be8d-4c8265a92814",
+          "fullName": "Joe Q Tester",
+          "addressLine1": "1 Northeastern Blvd",
+          "city": "Bedford",
+          "state": "NH",
+          "postcode": "03109-1234",
+          "country": "US",
+          "phone": "6035361212",
+          "primaryAddress": false
+        }
+      ],
+      "fraud": false
+    }
+  }
+}

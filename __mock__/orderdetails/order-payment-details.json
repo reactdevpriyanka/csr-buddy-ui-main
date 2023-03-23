@@ -1,0 +1,488 @@
+{
+  "hasDisputes": false,
+  "orderBalance": 59.0,
+  "orderPaymentStatus": "DEPOSITED",
+  "paymentDetailList": [
+    {
+      "instructionId": "737060275",
+      "paymentReferenceId": "2482feea-9b68-4d72-a621-93d356630db89",
+      "orderId": "530507238",
+      "paymentMethod": {
+        "type": "SERVICE",
+        "service": {
+          "type": "SOME_UNKNOWN_SERVICE"
+        }
+      },
+      "paymentAmount": {
+        "approved": 59.9,
+        "approving": 0,
+        "credited": 0,
+        "crediting": 0,
+        "deposited": 59.9,
+        "depositing": 0,
+        "balance": 0,
+        "max": 59.9
+      },
+      "paymentState": "VALID",
+      "timeCreated": "2022-08-03T23:08:43.754Z",
+      "timeUpdated": "2022-08-04T06:20:55.179Z",
+      "payments": [
+        {
+          "paymentId": "479b5412-e9d3-4c2c-9604-5fdcfabd80cb",
+          "instructionId": "737060275",
+          "avsCode": "UNKNOWN",
+          "paymentAmount": {
+            "approved": 59.9,
+            "approving": 0,
+            "credited": 0,
+            "crediting": 0,
+            "deposited": 59.9,
+            "depositing": 0,
+            "requested": 59.9
+          },
+          "paymentType": "APPROVE",
+          "paymentStatus": "EXPIRED",
+          "timeCreated": "2022-08-03T23:08:42.415996Z",
+          "timeUpdated": "2022-08-04T04:20:05.028044Z",
+          "timeExpired": "2022-08-10T23:08:42.903244Z",
+          "transactions": [
+            {
+              "id": "22558119-797a-4f6e-9457-567e20abcb79",
+              "avsCode": "UNKNOWN",
+              "type": "DEPOSIT",
+              "status": "SUCCESS",
+              "responseStatus": "100",
+              "responseMessage": "Approved",
+              "amount": 59.9,
+              "timeCreated": "2022-08-04T04:03:30.328114Z",
+              "timeUpdated": "2022-08-04T04:20:05.028078Z"
+            },
+            {
+              "id": "0c073bc4-6998-4ac0-8bbd-9ea697892175",
+              "avsCode": "UNKNOWN",
+              "type": "APPROVE",
+              "status": "SUCCESS",
+              "responseStatus": "100",
+              "responseMessage": "Approved",
+              "amount": 59.9,
+              "timeCreated": "2022-08-03T23:08:42.425400Z",
+              "timeUpdated": "2022-08-03T23:08:42.904769Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "instructionId": "737060275",
+      "paymentReferenceId": "2482feea-9b68-4d72-a621-93d356630db8",
+      "orderId": "530507238",
+      "paymentMethod": {
+        "type": "SERVICE",
+        "service": {
+          "type": "APPLE_PAY"
+        }
+      },
+      "paymentAmount": {
+        "approved": 59.9,
+        "approving": 0,
+        "credited": 0,
+        "crediting": 0,
+        "deposited": 59.9,
+        "depositing": 0,
+        "balance": 0,
+        "max": 59.9
+      },
+      "paymentState": "VALID",
+      "timeCreated": "2022-08-03T23:08:43.754Z",
+      "timeUpdated": "2022-08-04T06:20:55.179Z",
+      "payments": [
+        {
+          "paymentId": "479b5412-e9d3-4c2c-9604-5fdcfabd80cb",
+          "instructionId": "737060275",
+          "avsCode": "UNKNOWN",
+          "paymentAmount": {
+            "approved": 59.9,
+            "approving": 0,
+            "credited": 0,
+            "crediting": 0,
+            "deposited": 59.9,
+            "depositing": 0,
+            "requested": 59.9
+          },
+          "paymentType": "APPROVE",
+          "paymentStatus": "EXPIRED",
+          "timeCreated": "2022-08-03T23:08:42.415996Z",
+          "timeUpdated": "2022-08-04T04:20:05.028044Z",
+          "timeExpired": "2022-08-10T23:08:42.903244Z",
+          "transactions": [
+            {
+              "id": "22558119-797a-4f6e-9457-567e20abcb79",
+              "avsCode": "UNKNOWN",
+              "type": "DEPOSIT",
+              "status": "SUCCESS",
+              "responseStatus": "100",
+              "responseMessage": "Approved",
+              "amount": 59.9,
+              "timeCreated": "2022-08-04T04:03:30.328114Z",
+              "timeUpdated": "2022-08-04T04:20:05.028078Z"
+            },
+            {
+              "id": "0c073bc4-6998-4ac0-8bbd-9ea697892175",
+              "avsCode": "UNKNOWN",
+              "type": "APPROVE",
+              "status": "SUCCESS",
+              "responseStatus": "100",
+              "responseMessage": "Approved",
+              "amount": 59.9,
+              "timeCreated": "2022-08-03T23:08:42.425400Z",
+              "timeUpdated": "2022-08-03T23:08:42.904769Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "instructionId": "18175970",
+      "paymentReferenceId": "2e47cc85-dede-44b0-aa79-5ba8971a8c22",
+      "orderId": "18069332",
+      "paymentMethod": {
+        "type": "SERVICE",
+        "service": {
+          "type": "GOOGLE_PAY"
+        }
+      },
+      "paymentAmount": {
+        "approved": 83,
+        "approving": 0,
+        "credited": 0,
+        "crediting": 0,
+        "deposited": 83,
+        "depositing": 0,
+        "balance": 0,
+        "max": 83
+      },
+      "paymentState": "VALID",
+      "timeCreated": "2023-02-15T18:07:33.898Z",
+      "timeUpdated": "2023-02-15T18:24:13.325Z",
+      "payments": [
+        {
+          "paymentId": "4b1c1655-dfc1-4b0f-b606-f56daed960d3",
+          "instructionId": "18175970",
+          "avsCode": "UNKNOWN",
+          "paymentAmount": {
+            "approved": 83,
+            "approving": 0,
+            "credited": 0,
+            "crediting": 0,
+            "deposited": 83,
+            "depositing": 0,
+            "requested": 83
+          },
+          "paymentType": "APPROVE",
+          "paymentStatus": "SUCCESS",
+          "timeCreated": "2023-02-15T18:07:32.766799Z",
+          "timeUpdated": "2023-02-15T18:24:07.898439Z",
+          "timeExpired": "2023-03-17T18:07:33Z",
+          "transactions": [
+            {
+              "id": "0238b1a6-13c1-4031-baec-cbd27ec235c4",
+              "avsCode": "UNKNOWN",
+              "type": "DEPOSIT",
+              "status": "SUCCESS",
+              "amount": 83,
+              "timeCreated": "2023-02-15T18:20:35.139081Z",
+              "timeUpdated": "2023-02-15T18:24:07.884902Z"
+            },
+            {
+              "id": "919d6d8a-094e-4591-a789-dacca4ae21be",
+              "avsCode": "UNKNOWN",
+              "type": "APPROVE",
+              "status": "SUCCESS",
+              "responseStatus": "1000",
+              "responseMessage": "Approved",
+              "amount": 83,
+              "timeCreated": "2023-02-15T18:07:32.795630Z",
+              "timeUpdated": "2023-02-15T18:07:33.345380Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "instructionId": "18155535",
+      "paymentReferenceId": "ae412285-2b94-442a-abd1-b7da3340a49f",
+      "orderId": "18050902",
+      "paymentMethod": {
+        "type": "SERVICE",
+        "service": {
+          "type": "ACCOUNT_BALANCE"
+        }
+      },
+      "paymentAmount": {
+        "approved": 75,
+        "approving": 0,
+        "credited": 0,
+        "crediting": 0,
+        "deposited": 75,
+        "depositing": 0,
+        "balance": 0,
+        "max": 75
+      },
+      "paymentState": "VALID",
+      "timeCreated": "2023-02-08T18:03:39.493Z",
+      "timeUpdated": "2023-02-09T20:23:13.663Z",
+      "payments": [
+        {
+          "paymentId": "a823deff-15e6-44c4-aae8-4a14501f4d8e",
+          "instructionId": "18155535",
+          "avsCode": "UNKNOWN",
+          "paymentAmount": {
+            "approved": 75,
+            "approving": 0,
+            "credited": 0,
+            "crediting": 0,
+            "deposited": 75,
+            "depositing": 0,
+            "requested": 75
+          },
+          "paymentType": "APPROVE",
+          "paymentStatus": "SUCCESS",
+          "timeCreated": "2023-02-08T18:03:36.819105Z",
+          "timeUpdated": "2023-02-09T18:34:20.161404Z",
+          "timeExpired": "2023-03-09T18:03:38.624893Z",
+          "transactions": [
+            {
+              "id": "9629807f-0bb0-4d9a-b723-13beda1d39fd",
+              "avsCode": "UNKNOWN",
+              "type": "APPROVE",
+              "status": "SUCCESS",
+              "responseStatus": "OK",
+              "amount": 75,
+              "timeCreated": "2023-02-08T18:03:36.887896Z",
+              "timeUpdated": "2023-02-08T18:03:38.626531Z"
+            },
+            {
+              "id": "ddb872ed-650a-4d4a-9ba2-0196b24c9550",
+              "avsCode": "UNKNOWN",
+              "type": "DEPOSIT",
+              "status": "SUCCESS",
+              "responseStatus": "OK",
+              "amount": 75,
+              "timeCreated": "2023-02-09T18:34:19.536061Z",
+              "timeUpdated": "2023-02-09T18:34:20.090072Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "instructionId": "192904021",
+      "paymentReferenceId": "d4310d20-311a-41c6-8513-97601fc8d5ca",
+      "orderId": "175099966",
+      "paymentMethod": {
+        "type": "SERVICE",
+        "service": {
+          "type": "PAYPAL",
+          "email": "ChewyDev42@test.com"
+        }
+      },
+      "paymentAmount": {
+        "approved": 431.02,
+        "approving": 0,
+        "credited": 0,
+        "crediting": 0,
+        "deposited": 0,
+        "depositing": 0,
+        "balance": 0,
+        "max": 431.02
+      },
+      "paymentState": "VALID",
+      "timeCreated": "2023-02-15T18:47:38.916Z",
+      "timeUpdated": "2023-02-15T19:00:48.674Z",
+      "payments": [
+        {
+          "paymentId": "bb27c6d1-5eca-4ff2-8008-944774840a97",
+          "instructionId": "192904021",
+          "avsCode": "UNKNOWN",
+          "paymentAmount": {
+            "approved": 431.02,
+            "approving": 0,
+            "credited": 0,
+            "crediting": 0,
+            "deposited": 0,
+            "depositing": 0,
+            "requested": 431.02
+          },
+          "paymentType": "APPROVE",
+          "paymentStatus": "SUCCESS",
+          "timeCreated": "2023-02-15T18:47:35.995907Z",
+          "timeUpdated": "2023-02-15T18:47:38.422222Z",
+          "timeExpired": "2023-03-16T18:47:38.350983Z",
+          "transactions": [
+            {
+              "id": "a7d26f7a-f606-47df-b13e-0746ed8dc9a9",
+              "avsCode": "UNKNOWN",
+              "type": "APPROVE",
+              "status": "SUCCESS",
+              "responseStatus": "1000",
+              "responseMessage": "Approved",
+              "amount": 431.02,
+              "timeCreated": "2023-02-15T18:47:36.033886Z",
+              "timeUpdated": "2023-02-15T18:47:38.355632Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "instructionId": "713714896",
+      "paymentReferenceId": "fce3cb4b-7f39-4669-951e-55907091ecba",
+      "orderId": "518404104",
+      "paymentMethod": {
+        "type": "CREDIT_CARD",
+        "creditCard": {
+          "cardType": "VISA",
+          "cardholderName": "Alex C. Poon",
+          "cardNumber": "4147XXXXXXXX3918",
+          "expireMonth": "9",
+          "expireYear": "2025",
+          "billingAddress": {
+            "addressLine1": "106 FULTON ST",
+            "city": "BOSTON",
+            "country": "USA",
+            "fullName": "Alex C. Poon",
+            "id": "1221300967",
+            "phone": "7039556657",
+            "postcode": "02109-1422",
+            "state": "MA"
+          }
+        }
+      },
+      "paymentAmount": {
+        "approved": 33.63,
+        "approving": 0,
+        "credited": 0,
+        "crediting": 0,
+        "deposited": 33.63,
+        "depositing": 0,
+        "balance": 0,
+        "max": 33.63
+      },
+      "paymentState": "VALID",
+      "timeCreated": "2022-07-05T03:51:29.619Z",
+      "timeUpdated": "2022-07-05T12:44:25.331Z",
+      "payments": [
+        {
+          "paymentId": "4e158f7c-dd5c-4aaf-8640-d14339a8f187",
+          "instructionId": "713714896",
+          "avsCode": "NAME_MATCH",
+          "paymentAmount": {
+            "approved": 33.63,
+            "approving": 0,
+            "credited": 0,
+            "crediting": 0,
+            "deposited": 33.63,
+            "depositing": 0,
+            "requested": 33.63
+          },
+          "paymentType": "APPROVE",
+          "paymentStatus": "EXPIRED",
+          "timeCreated": "2022-07-05T03:51:27.867500Z",
+          "timeUpdated": "2022-07-05T12:23:19.456319Z",
+          "timeExpired": "2022-07-12T03:51:28.369254Z",
+          "transactions": [
+            {
+              "id": "f449e8e2-f504-4252-8f07-371cf3b0c7f5",
+              "avsCode": "NAME_MATCH",
+              "type": "APPROVE",
+              "status": "SUCCESS",
+              "responseStatus": "100",
+              "responseMessage": "Approved",
+              "amount": 33.63,
+              "timeCreated": "2022-07-05T03:51:27.879513Z",
+              "timeUpdated": "2022-07-05T03:51:28.377207Z"
+            },
+            {
+              "id": "ec62d85a-0965-46cc-a2fd-6a0d4ec1f7a8",
+              "avsCode": "NAME_MATCH",
+              "type": "DEPOSIT",
+              "status": "SUCCESS",
+              "responseStatus": "100",
+              "responseMessage": "Approved",
+              "amount": 33.63,
+              "timeCreated": "2022-07-05T12:03:44.783788Z",
+              "timeUpdated": "2022-07-05T12:23:19.456358Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "instructionId": "713714897",
+      "paymentReferenceId": "4b6eade7-696a-4049-ad27-c3eaaaf670f3",
+      "orderId": "518404104",
+      "paymentMethod": {
+        "type": "GIFT_CARD",
+        "giftCard": {
+          "cardNumber": "6211XXXXXXXX8103"
+        }
+      },
+      "paymentAmount": {
+        "approved": 8.63,
+        "approving": 0,
+        "credited": 0,
+        "crediting": 0,
+        "deposited": 8.63,
+        "depositing": 0,
+        "balance": 0,
+        "max": 8.63
+      },
+      "paymentState": "VALID",
+      "timeCreated": "2022-07-05T03:51:29.483Z",
+      "timeUpdated": "2022-07-05T12:44:25.327Z",
+      "payments": [
+        {
+          "paymentId": "7a4ebfd5-cfbc-4691-841f-7e6d6603642a",
+          "instructionId": "713714897",
+          "avsCode": "UNKNOWN",
+          "paymentAmount": {
+            "approved": 8.63,
+            "approving": 0,
+            "credited": 0,
+            "crediting": 0,
+            "deposited": 8.63,
+            "depositing": 0,
+            "requested": 8.63
+          },
+          "paymentType": "APPROVE",
+          "paymentStatus": "EXPIRED",
+          "timeCreated": "2022-07-05T03:51:27.230819Z",
+          "timeUpdated": "2022-07-05T09:11:29.950112Z",
+          "timeExpired": "2022-08-03T03:51:27.604473Z",
+          "transactions": [
+            {
+              "id": "2d2c2eb7-157e-45cf-896a-894c5e6b1560",
+              "avsCode": "UNKNOWN",
+              "type": "APPROVE",
+              "status": "SUCCESS",
+              "responseStatus": "OK",
+              "amount": 8.63,
+              "timeCreated": "2022-07-05T03:51:27.231022Z",
+              "timeUpdated": "2022-07-05T03:51:27.604636Z"
+            },
+            {
+              "id": "8bb37e97-eafa-45c5-a33a-9130a1c3871e",
+              "avsCode": "UNKNOWN",
+              "type": "DEPOSIT",
+              "status": "SUCCESS",
+              "responseStatus": "OK",
+              "amount": 8.63,
+              "timeCreated": "2022-07-05T09:11:29.711535Z",
+              "timeUpdated": "2022-07-05T09:11:29.950038Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

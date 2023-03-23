@@ -1,0 +1,52 @@
+{
+    "id": "800017986",
+    "parentOrderId": "800017986",
+    "status": "CANCELED",
+    "name": "Autoship #4",
+    "totalProduct": {
+        "value": "52.99"
+    },
+    "blocked": false,
+    "paymentMethods": [{
+        "type": "CARD",
+        "card": {
+            "expirationMonth": "3",
+            "expirationYear": "2020",
+            "cardHolderName": "John Doe",
+            "type": "AMEX",
+            "accountNumber": "341134XXXXXX1347"
+        }
+    }],
+    "fulfillmentFrequency": 3,
+    "fulfillmentFrequencyUom": "WEEK",
+    "shippingAddress": {
+        "id": "216884736",
+        "fullName": "Collin Test",
+        "addressLine1": "343 Congress St",
+        "addressLine2": "Apt 3b",
+        "city": "Boston",
+        "state": "MA",
+        "postcode": "02210-1232",
+        "country": "US",
+        "primaryAddress": false
+    },
+    "lastShipmentDate": "2021-11-03T17:44:21.331Z",
+    "cancelDate": "2022-01-26T21:15:46.041Z",
+    "items": [{
+        "product": {
+            "catalogEntryId": "32041",
+            "partNumber": "46861",
+            "name": "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 30-lb bag",
+            "thumbnail": "//img.chewy.com/is/image/catalog/46861_MAIN,1628730083"
+        },
+        "quantity": 1,
+        "totalProduct": {
+            "value": "52.99"
+        },
+        "unitPrice": {
+            "value": "52.99"
+        },
+        "bundleItem": false
+    }]
+}
+

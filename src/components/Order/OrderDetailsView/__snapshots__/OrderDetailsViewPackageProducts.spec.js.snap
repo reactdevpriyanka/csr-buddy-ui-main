@@ -1,0 +1,604 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderDetailsViewPackageProducts /> it should render children 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-1o4yg1q-MuiPaper-root"
+        data-testid="orderDetailsViewPackageProductsContainer"
+      >
+        <div
+          class="MuiTableContainer-root css-rorn0c-MuiTableContainer-root"
+        >
+          <table
+            aria-label="sticky table"
+            class="MuiTable-root MuiTable-stickyHeader css-12vjeh8-MuiTable-root"
+          >
+            <tbody
+              class="MuiTableBody-root css-apqrd9-MuiTableBody-root"
+            >
+              <tr
+                class="MuiTableRow-root css-1q1u3t4-MuiTableRow-root"
+                role="checkbox"
+                tabindex="-1"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+                  style="min-width: 75px; max-width: 75px;"
+                >
+                  <a
+                    aria-label="ITEM #114674"
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineNone MuiTypography-colorPrimary"
+                    data-testid="product:catalogEntryId:link:114674"
+                    href="http://www-tst.chewy.com/app/dp/114674"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    <figure
+                      class="makeStyles-figure-6"
+                      data-testid="product:thumbnail"
+                    >
+                      <div
+                        class="makeStyles-container-7"
+                      >
+                        <img
+                          alt=""
+                          class="makeStyles-thumbnail-22"
+                          src="https://img.chewy.com/is/image/catalog/86899_MAIN._SS250_.jpg"
+                        />
+                      </div>
+                    </figure>
+                  </a>
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+                  style="min-width: 500px; max-width: 500px; padding: 0px 16px 0px 16px;"
+                >
+                  <div
+                    class="makeStyles-description-8"
+                  >
+                    <a
+                      aria-label="ITEM #114674"
+                      class="MuiTypography-root MuiLink-root MuiLink-underlineNone MuiTypography-colorPrimary"
+                      data-testid="product:catalogEntryId:link:114674"
+                      href="http://www-tst.chewy.com/app/dp/114674"
+                      rel="noopener"
+                      target="_blank"
+                    >
+                      <span
+                        class="makeStyles-partNumber-9"
+                        data-testid="product:catalogEntryId:114674"
+                      >
+                        ITEM #86899
+                      </span>
+                    </a>
+                    <a
+                      aria-label="ITEM #114674"
+                      class="MuiTypography-root MuiLink-root MuiLink-underlineNone MuiTypography-colorPrimary"
+                      data-testid="product:catalogEntryId:link:114674"
+                      href="http://www-tst.chewy.com/app/dp/114674"
+                      rel="noopener"
+                      target="_blank"
+                    >
+                      <span>
+                        Bones & Chews Made in USA Roasted Marrow Bone 6" Dog Treat
+                      </span>
+                    </a>
+                    <div
+                      class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-spacing-xs-0.5 css-1neqpi-MuiGrid-root"
+                    >
+                      <span>
+                        <div
+                          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-0.1 makeStyles-quantityPanel-19 css-1cu0x8w-MuiGrid-root"
+                        >
+                          <span
+                            class="makeStyles-quantityOrdered-26"
+                          >
+                            Qty Ordered
+                            : 
+                            5
+                          </span>
+                        </div>
+                      </span>
+                    </div>
+                  </div>
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-1yhpg23-MuiTableCell-root"
+                  style="min-width: 175px; max-width: 175px; padding: 0px 16px 0px 16px;"
+                >
+                  <div
+                    class="makeStyles-root-32"
+                  >
+                    <div
+                      class="makeStyles-selector-33"
+                    >
+                      <button
+                        class=""
+                        data-testid="gwf:multi-item-quantity-minus"
+                      />
+                      <span
+                        class="makeStyles-quantity-36"
+                      >
+                        5
+                      </span>
+                      <button
+                        class="disabled"
+                        data-testid="gwf:multi-item-quantity-plus"
+                      />
+                    </div>
+                  </div>
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+                  style="min-width: 100px; padding: 50px 16px 16px 16px;"
+                >
+                  <div
+                    class="makeStyles-tableComponent-41"
+                  >
+                    <span
+                      class="makeStyles-label-38"
+                    >
+                      Status
+                    </span>
+                    <span
+                      class="makeStyles-text-39"
+                      data-testid="orderDetailsViewPackageProductsStatus"
+                      style="color: rgb(0, 107, 43);"
+                    >
+                      <div
+                        class="makeStyles-itemStatus-43"
+                      >
+                         
+                        <span>
+                          SHIPPED
+                        </span>
+                         
+                        
+                      </div>
+                      <br />
+                    </span>
+                  </div>
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+                  style="min-width: 100px; max-width: 100px; padding: 0px 16px 0px 16px;"
+                >
+                  <div
+                    class="makeStyles-tableComponent-41"
+                  >
+                    <span
+                      class="makeStyles-label-38"
+                    >
+                      Unit $
+                    </span>
+                    <span
+                      class="makeStyles-text-39"
+                    >
+                      $5.47
+                       
+                      <br />
+                    </span>
+                  </div>
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-177gid-MuiTableCell-root"
+                  style="min-width: 100px; max-width: 100px; padding: 0px 16px 0px 16px;"
+                >
+                  <div
+                    class="makeStyles-tableComponent-41"
+                  >
+                    <span
+                      class="makeStyles-label-38"
+                    >
+                      Discount
+                    </span>
+                    <span
+                      class="makeStyles-text-39"
+                    >
+                      $0.00
+                       
+                      <br />
+                    </span>
+                  </div>
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-177gid-MuiTableCell-root"
+                  style="min-width: 100px; max-width: 100px; padding: 0px 16px 0px 16px;"
+                >
+                  <div
+                    class="makeStyles-tableComponent-41"
+                  >
+                    <span
+                      class="makeStyles-label-38"
+                    >
+                      Total
+                    </span>
+                    <span
+                      class="makeStyles-text-39"
+                    >
+                      $27.35
+                       
+                      <br />
+                    </span>
+                  </div>
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-177gid-MuiTableCell-root"
+                  style="min-width: 60px; max-width: 60px; padding: 0px 16px 0px 16px;"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiIconButton-root"
+                    data-testid="remove-item-trash-icon"
+                    tabindex="0"
+                    type="button"
+                    variant="outlined"
+                  >
+                    <span
+                      class="MuiIconButton-label"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-trashIcon-12 css-i4bv87-MuiSvgIcon-root"
+                        data-testid="DeleteOutlineSharpIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M6 21h12V7H6v14zM8 9h8v10H8V9zm7.5-5-1-1h-5l-1 1H5v2h14V4h-3.5z"
+                        />
+                      </svg>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div
+            class="makeStyles-packagesFooter-17"
+          >
+            <span
+              class="makeStyles-label-14"
+            >
+              Package 1 total   
+            </span>
+            <span
+              class="makeStyles-text-15"
+            >
+              $NaN
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-1o4yg1q-MuiPaper-root"
+      data-testid="orderDetailsViewPackageProductsContainer"
+    >
+      <div
+        class="MuiTableContainer-root css-rorn0c-MuiTableContainer-root"
+      >
+        <table
+          aria-label="sticky table"
+          class="MuiTable-root MuiTable-stickyHeader css-12vjeh8-MuiTable-root"
+        >
+          <tbody
+            class="MuiTableBody-root css-apqrd9-MuiTableBody-root"
+          >
+            <tr
+              class="MuiTableRow-root css-1q1u3t4-MuiTableRow-root"
+              role="checkbox"
+              tabindex="-1"
+            >
+              <td
+                class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+                style="min-width: 75px; max-width: 75px;"
+              >
+                <a
+                  aria-label="ITEM #114674"
+                  class="MuiTypography-root MuiLink-root MuiLink-underlineNone MuiTypography-colorPrimary"
+                  data-testid="product:catalogEntryId:link:114674"
+                  href="http://www-tst.chewy.com/app/dp/114674"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  <figure
+                    class="makeStyles-figure-6"
+                    data-testid="product:thumbnail"
+                  >
+                    <div
+                      class="makeStyles-container-7"
+                    >
+                      <img
+                        alt=""
+                        class="makeStyles-thumbnail-22"
+                        src="https://img.chewy.com/is/image/catalog/86899_MAIN._SS250_.jpg"
+                      />
+                    </div>
+                  </figure>
+                </a>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+                style="min-width: 500px; max-width: 500px; padding: 0px 16px 0px 16px;"
+              >
+                <div
+                  class="makeStyles-description-8"
+                >
+                  <a
+                    aria-label="ITEM #114674"
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineNone MuiTypography-colorPrimary"
+                    data-testid="product:catalogEntryId:link:114674"
+                    href="http://www-tst.chewy.com/app/dp/114674"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    <span
+                      class="makeStyles-partNumber-9"
+                      data-testid="product:catalogEntryId:114674"
+                    >
+                      ITEM #86899
+                    </span>
+                  </a>
+                  <a
+                    aria-label="ITEM #114674"
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineNone MuiTypography-colorPrimary"
+                    data-testid="product:catalogEntryId:link:114674"
+                    href="http://www-tst.chewy.com/app/dp/114674"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    <span>
+                      Bones & Chews Made in USA Roasted Marrow Bone 6" Dog Treat
+                    </span>
+                  </a>
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-spacing-xs-0.5 css-1neqpi-MuiGrid-root"
+                  >
+                    <span>
+                      <div
+                        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-0.1 makeStyles-quantityPanel-19 css-1cu0x8w-MuiGrid-root"
+                      >
+                        <span
+                          class="makeStyles-quantityOrdered-26"
+                        >
+                          Qty Ordered
+                          : 
+                          5
+                        </span>
+                      </div>
+                    </span>
+                  </div>
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-1yhpg23-MuiTableCell-root"
+                style="min-width: 175px; max-width: 175px; padding: 0px 16px 0px 16px;"
+              >
+                <div
+                  class="makeStyles-root-32"
+                >
+                  <div
+                    class="makeStyles-selector-33"
+                  >
+                    <button
+                      class=""
+                      data-testid="gwf:multi-item-quantity-minus"
+                    />
+                    <span
+                      class="makeStyles-quantity-36"
+                    >
+                      5
+                    </span>
+                    <button
+                      class="disabled"
+                      data-testid="gwf:multi-item-quantity-plus"
+                    />
+                  </div>
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+                style="min-width: 100px; padding: 50px 16px 16px 16px;"
+              >
+                <div
+                  class="makeStyles-tableComponent-41"
+                >
+                  <span
+                    class="makeStyles-label-38"
+                  >
+                    Status
+                  </span>
+                  <span
+                    class="makeStyles-text-39"
+                    data-testid="orderDetailsViewPackageProductsStatus"
+                    style="color: rgb(0, 107, 43);"
+                  >
+                    <div
+                      class="makeStyles-itemStatus-43"
+                    >
+                       
+                      <span>
+                        SHIPPED
+                      </span>
+                       
+                      
+                    </div>
+                    <br />
+                  </span>
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+                style="min-width: 100px; max-width: 100px; padding: 0px 16px 0px 16px;"
+              >
+                <div
+                  class="makeStyles-tableComponent-41"
+                >
+                  <span
+                    class="makeStyles-label-38"
+                  >
+                    Unit $
+                  </span>
+                  <span
+                    class="makeStyles-text-39"
+                  >
+                    $5.47
+                     
+                    <br />
+                  </span>
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-177gid-MuiTableCell-root"
+                style="min-width: 100px; max-width: 100px; padding: 0px 16px 0px 16px;"
+              >
+                <div
+                  class="makeStyles-tableComponent-41"
+                >
+                  <span
+                    class="makeStyles-label-38"
+                  >
+                    Discount
+                  </span>
+                  <span
+                    class="makeStyles-text-39"
+                  >
+                    $0.00
+                     
+                    <br />
+                  </span>
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-177gid-MuiTableCell-root"
+                style="min-width: 100px; max-width: 100px; padding: 0px 16px 0px 16px;"
+              >
+                <div
+                  class="makeStyles-tableComponent-41"
+                >
+                  <span
+                    class="makeStyles-label-38"
+                  >
+                    Total
+                  </span>
+                  <span
+                    class="makeStyles-text-39"
+                  >
+                    $27.35
+                     
+                    <br />
+                  </span>
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-177gid-MuiTableCell-root"
+                style="min-width: 60px; max-width: 60px; padding: 0px 16px 0px 16px;"
+              >
+                <button
+                  class="MuiButtonBase-root MuiIconButton-root"
+                  data-testid="remove-item-trash-icon"
+                  tabindex="0"
+                  type="button"
+                  variant="outlined"
+                >
+                  <span
+                    class="MuiIconButton-label"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-trashIcon-12 css-i4bv87-MuiSvgIcon-root"
+                      data-testid="DeleteOutlineSharpIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M6 21h12V7H6v14zM8 9h8v10H8V9zm7.5-5-1-1h-5l-1 1H5v2h14V4h-3.5z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div
+          class="makeStyles-packagesFooter-17"
+        >
+          <span
+            class="makeStyles-label-14"
+          >
+            Package 1 total   
+          </span>
+          <span
+            class="makeStyles-text-15"
+          >
+            $NaN
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

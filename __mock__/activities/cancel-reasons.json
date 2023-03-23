@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "code": "NON",
+    "description": "No longer needed",
+    "is_customer": false,
+    "is_support": true
+  },
+  {
+    "id": 2,
+    "code": "SCH",
+    "description": "Difficult to schedule",
+    "is_customer": true,
+    "is_support": true
+  },
+  {
+    "id": 3,
+    "code": "DIS",
+    "description": "Dissatisfied with service",
+    "is_customer": false,
+    "is_support": true
+  }
+]

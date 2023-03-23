@@ -1,0 +1,21 @@
+{
+  "petProfileTitle": "Add a Pet",
+  "generalInfoTitle": "General Information",
+  "petName": "Max",
+  "weight": "1",
+  "petMedicationTitle":"Any Medication?",
+  "petAllergiesTitle": "Any Medication Allergies?",
+  "petHealthTitle":"Any Health Conditions?",
+  "petFoodAllergiesTitle":"Any Food Allergies?",
+  "petType": "Small Pet",
+  "petBreed": "Chinchilla",
+  "petGender": "Male",
+  "petMedication": "Antirobe",
+  "petAllergy": "Beta Blockers",
+  "petHealth": "Lactating",
+  "petFoodAllergy": "Lamb",
+  "addMedicationLinkText": "+ Add a medication",
+  "addAllergiesLinkText": "+ Add a medication allergy",
+  "addHealthConditionLinkText": "+ Add a health condition",
+  "addFoodAllergiesLinkText": "+ Add a food allergy"
+}

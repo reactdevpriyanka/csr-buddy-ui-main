@@ -1,0 +1,23 @@
+{
+    "data": {
+    "type": "getEmployeeAccountResponse",
+    "id": "TGM54TRNRNAHDJNR4ZZ5OVMNHM",
+    "attributes": {
+        "accountId": "fc3c47f8-cd8c-4fad-b084-84936e89029c",
+        "userId": 148824357,
+        "loginId": "nbobbins",
+        "accountType": "EMPLOYEE",
+        "registerType": "S",
+        "enabled": true,
+        "fullName": "Nessa Bobbins",
+        "email": "nbobbins@chewy.net",
+        "passwordExpired": false,
+        "passwordCreated": "2022-09-22T18:14:52.585Z",
+        "passwordRetries": 0,
+        "lastSession": "2022-09-21T15:51:21.952Z",
+        "accountCreated": "2022-09-19T17:34:45.861Z",
+        "accountLastUpdated": "2022-09-21T15:51:21.952Z",
+        "roles": ["CSR_VET_DIET", "ITOC_ADMINISTRATOR", "IAM_ADMINISTRATOR", "PRACTICE_HUB_CLINIC_OUTREACH", "CUSTOMER_SERVICE_REPRESENTATIVE"]
+    }
+  }
+}

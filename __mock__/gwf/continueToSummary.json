@@ -1,0 +1,307 @@
+{
+  "totalBeforeTax": {
+    "value": "146.19"
+  },
+  "currentItemDetails": {
+    "wasBoxDamaged": false,
+    "boxDamage": "NON_SPECIFIC_DAMAGE",
+    "howManyHadIssues": 1,
+    "maxConcessionAmount": 90.24,
+    "productType": "OTHER",
+    "emailupdates": false,
+    "concessionTotal": "2.49"
+  },
+  "label.salesTax.value": "Sales Tax (0.00)",
+  "orderId": "1070009165",
+  "refundTotal": "   (90.24)",
+  "label.unitPrice.value": "Item Price (90.24)",
+  "label.none": " ",
+  "visible.currentItem.food": true,
+  "lineItems": [
+    {
+      "id": "1463237721",
+      "product": {
+        "catalogEntryId": "283251",
+        "partNumber": "256796",
+        "name": "MiceDirect Frozen Mice & Rat Feeders Small Mice Fuzzies Snake Food, 25 count",
+        "description": "MiceDirect Frozen Mice & Rat Feeders Small Mice Fuzzies Snake Food, 25 count",
+        "thumbnail": "//img.chewy.com/is/image/catalog/256796_MAIN,1602519383",
+        "attributes": [
+          "DROPSHIP"
+        ]
+      },
+      "fulfillmentCenter": "BAC1",
+      "quantity": 1,
+      "totalProduct": {
+        "value": "90.24"
+      },
+      "unitPrice": {
+        "value": "90.24"
+      },
+      "can": false,
+      "food": true,
+      "shippingCharge": {
+        "value": "0.00"
+      },
+      "totalAdjustment": {
+        "value": "0.00"
+      },
+      "salesTax": {
+        "value": "0.00"
+      },
+      "shippingTax": {
+        "value": "0.00"
+      },
+      "currency": "USD",
+      "bundleItem": false
+    },
+    {
+      "id": "1463237720",
+      "product": {
+        "catalogEntryId": "179844",
+        "partNumber": "153066",
+        "name": "GoTags Personalized Anodized Aluminum ID Tag, Bone, Pink, Regular",
+        "description": "GoTags Personalized Anodized Aluminum ID Tag, Bone, Pink, Regular",
+        "thumbnail": "//img.chewy.com/is/image/catalog/153066_MAIN,1619702585",
+        "attributes": [
+          "DROPSHIP"
+        ]
+      },
+      "fulfillmentCenter": "GTG1",
+      "quantity": 1,
+      "totalProduct": {
+        "value": "5.95"
+      },
+      "unitPrice": {
+        "value": "5.95"
+      },
+      "shippingCharge": {
+        "value": "0.00"
+      },
+      "totalAdjustment": {
+        "value": "0.00"
+      },
+      "salesTax": {
+        "value": "0.00"
+      },
+      "shippingTax": {
+        "value": "0.00"
+      },
+      "currency": "USD",
+      "bundleItem": false
+    },
+    {
+      "id": "1463237719",
+      "product": {
+        "catalogEntryId": "288419",
+        "partNumber": "261978",
+        "name": "Chewy eGift Card, Congrats New Bestie Cat, $50",
+        "description": "Chewy eGift Card, Congrats New Bestie Cat, $50",
+        "thumbnail": "//img.chewy.com/is/image/catalog/261978_MAIN,1605885411",
+        "attributes": [
+          "ELECTRONIC_DELIVERY",
+          "GIFT_CARD"
+        ]
+      },
+      "fulfillmentCenter": "DGC1",
+      "quantity": 1,
+      "totalProduct": {
+        "value": "50.00"
+      },
+      "unitPrice": {
+        "value": "50.00"
+      },
+      "shippingCharge": {
+        "value": "0.00"
+      },
+      "totalAdjustment": {
+        "value": "0.00"
+      },
+      "salesTax": {
+        "value": "0.00"
+      },
+      "shippingTax": {
+        "value": "0.00"
+      },
+      "currency": "USD",
+      "bundleItem": false
+    }
+  ],
+  "total": {
+    "value": "146.19"
+  },
+  "recommended.product.c": "none",
+  "recommended.product.b": "none",
+  "continue": true,
+  "timeUpdated": "2021-07-23T17:34:06.686Z",
+  "label.replacement": " ",
+  "customerId": "148808550",
+  "id": "1070009165",
+  "timePlaced": "2021-07-23T17:15:05.662Z",
+  "currentItemDetails.emailupdates": true,
+  "totalSalesTax": {
+    "value": "0.00"
+  },
+  "whatKindOfIssue": "productsOrderedIssue",
+  "currentItemDetails.recommendation": "currentItem0",
+  "totalProduct": {
+    "value": "146.19"
+  },
+  "suzzieOrderUrl": "https://cs-platform.csbb.qat.chewy.com/orders/1070009165/summary",
+  "whatsWrong": "DAMAGED",
+  "shipments": [
+    {
+      "id": "418803194",
+      "shippingModeCode": "FLATRATE",
+      "trackingId": "1234",
+      "timeShipped": "2021-07-23T00:00:00Z",
+      "trackingData": {
+        "shippingStep": "ORDER_PLACED",
+        "shippingStatus": "PENDING",
+        "chewyPromisedDeliveryDate": "2021-07-23"
+      },
+      "carrierDescription": "Flat-Rate Shipping",
+      "shippingAddress": {
+        "id": "72575571",
+        "nickname": "152e31b9-25ce-43bf-be8d-4c8265a92814",
+        "fullName": "Joe Q Tester",
+        "addressLine1": "1 Northeastern Blvd",
+        "city": "Bedford",
+        "state": "NH",
+        "postcode": "03109-1234",
+        "country": "US",
+        "primaryAddress": false
+      },
+      "fulfillmentCenterDetails": {
+        "id": "BAC1",
+        "type": "fulfillmentCenters",
+        "attributes": {
+          "fulfillmentCenterId": "BAC1",
+          "displayName": "Biggers And Callaham LLC",
+          "fulfillmentCenterType": "DROPSHIP",
+          "address": {
+            "addressLine1": "651 Tom Bell Road",
+            "city": "Cleveland",
+            "state": "GA",
+            "postcode": "30528",
+            "country": "US",
+            "primaryAddress": false
+          },
+          "fcEnabled": true,
+          "fulfillerId": "815d6e43-867d-4171-88f8-3fbc6c95d40f"
+        }
+      },
+      "shipmentItems": [
+        {
+          "lineItemId": "1463237721",
+          "quantity": 1,
+          "shippedQuantity": 0
+        }
+      ]
+    }
+  ],
+  "label.refund": "(Recommended)",
+  "label.concession": " ",
+  "trackingData": {
+    "shippingStep": "ORDER_PLACED",
+    "shippingStatus": "PENDING",
+    "chewyPromisedDeliveryDate": "2021-07-23",
+    "estimatedDeliveryDate": "2021-07-23"
+  },
+  "totalShippingTax": {
+    "value": "0.00"
+  },
+  "logonId": "autouser210723171437112@Testchewy.com",
+  "currentItemDetails.additionalconcession": 0,
+  "shippingAddress": {
+    "id": "72575571",
+    "nickname": "152e31b9-25ce-43bf-be8d-4c8265a92814",
+    "fullName": "Joe Q Tester",
+    "addressLine1": "1 Northeastern Blvd",
+    "city": "Bedford",
+    "state": "NH",
+    "postcode": "03109-1234",
+    "country": "US",
+    "primaryAddress": false
+  },
+  "label.send": "(Recommended)",
+  "notShippedItems": [
+    {
+      "lineItemId": "1463237720",
+      "quantity": 1,
+      "shippedQuantity": 0
+    },
+    {
+      "lineItemId": "1463237719",
+      "quantity": 1,
+      "shippedQuantity": 0
+    }
+  ],
+  "returns": {
+    "items": {
+      "1463237721": {
+        "partNumber": "256796",
+        "refundQuantityExisting": 0,
+        "refundQuantityRemaining": 1,
+        "replacementQuantityExisting": 0,
+        "replacementQuantityRemaining": 1,
+        "concessionAmountExisting": {
+          "value": "0"
+        },
+        "concessionAmountRemaining": {
+          "value": "90.24"
+        },
+        "shelterDonationQualified": true
+      }
+    },
+    "shippingConcessionExisting": {
+      "value": "0"
+    },
+    "shippingConcessionRemaining": {
+      "value": "0.00"
+    }
+  },
+  "totalAdjustment": {
+    "value": "0.00"
+  },
+  "currentItem": {
+    "id": "1463237721",
+    "product": {
+      "catalogEntryId": "283251",
+      "partNumber": "256796",
+      "name": "MiceDirect Frozen Mice & Rat Feeders Small Mice Fuzzies Snake Food, 25 count",
+      "description": "MiceDirect Frozen Mice & Rat Feeders Small Mice Fuzzies Snake Food, 25 count",
+      "thumbnail": "//img.chewy.com/is/image/catalog/256796_MAIN,1602519383",
+      "attributes": [
+        "DROPSHIP"
+      ]
+    },
+    "fulfillmentCenter": "BAC1",
+    "quantity": 1,
+    "totalProduct": {
+      "value": "90.24",
+      "currency": "USD"
+    },
+    "unitPrice": {
+      "value": "90.24",
+      "currency": "USD"
+    },
+    "can": false,
+    "food": true,
+    "shippingCharge": {
+      "value": "0.00"
+    },
+    "totalAdjustment": {
+      "value": "0.00"
+    },
+    "salesTax": {
+      "value": "0.00"
+    },
+    "shippingTax": {
+      "value": "0.00"
+    },
+    "bundleItem": false
+  },
+  "status": "RELEASED",
+  "label.shippingCost.value": "Shipping Cost (0.00)"
+}

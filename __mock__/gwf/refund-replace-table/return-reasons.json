@@ -1,0 +1,326 @@
+[
+  {
+    "primary": "OTHER"
+  },
+  {
+    "primary": "UNAUTHORIZED_PURCHASE"
+  },
+  {
+    "primary": "AUTOSHIP_SCHEDULING_MISTAKE",
+    "secondary": "TOO_MUCH_PRODUCT"
+  },
+  {
+    "primary": "AUTOSHIP_SCHEDULING_MISTAKE",
+    "secondary": "UNAWARE_RECURRING_ORDER"
+  },
+  {
+    "primary": "AUTOSHIP_SCHEDULING_MISTAKE",
+    "secondary": "WRONG_NFD_OR_FREQUENCY"
+  },
+  {
+    "primary": "FULFILLMENT",
+    "secondary": "FLOOR_DENIAL"
+  },
+  {
+    "primary": "FULFILLMENT",
+    "secondary": "ITEM_MISSING_FROM_SHIPMENT"
+  },
+  {
+    "primary": "PRODUCT_DEFECTS",
+    "secondary": "INFESTED"
+  },
+  {
+    "primary": "PRODUCT_DEFECTS",
+    "secondary": "PAST_EXPIRATION"
+  },
+  {
+    "primary": "PRODUCT_DEFECTS",
+    "secondary": "RECALL"
+  },
+  {
+    "primary": "SHIPPING_ISSUES",
+    "secondary": "LATE_ARRIVAL"
+  },
+  {
+    "primary": "SHIPPING_ISSUES",
+    "secondary": "LOST_BY_SHIPPER"
+  },
+  {
+    "primary": "SHIPPING_ISSUES",
+    "secondary": "SHIPPED_TO_WRONG_ADDRESS"
+  },
+  {
+    "primary": "SHIPPING_ISSUES",
+    "secondary": "TRACKING_STATES_DELIVERED"
+  },
+  {
+    "primary": "DAMAGED",
+    "secondary": "BOX_AND_PRODUCT",
+    "tertiary": "CARRIER_REPORTED_DAMAGE"
+  },
+  {
+    "primary": "DAMAGED",
+    "secondary": "BOX_AND_PRODUCT",
+    "tertiary": "DENTED_BOX_OR_PRODUCT"
+  },
+  {
+    "primary": "DAMAGED",
+    "secondary": "BOX_AND_PRODUCT",
+    "tertiary": "BROKEN_OR_SMASHED_BOX_OR_PRODUCT"
+  },
+  {
+    "primary": "DAMAGED",
+    "secondary": "BOX_AND_PRODUCT",
+    "tertiary": "MELTED_OR_THAWED_BOX_OR_PRODUCT"
+  },
+  {
+    "primary": "DAMAGED",
+    "secondary": "BOX_AND_PRODUCT",
+    "tertiary": "NON_SPECIFIC_DAMAGE"
+  },
+  {
+    "primary": "DAMAGED",
+    "secondary": "BOX_AND_PRODUCT",
+    "tertiary": "RIPPED_OR_TORN_BOX_OR_PRODUCT"
+  },
+  {
+    "primary": "DAMAGED",
+    "secondary": "BOX_AND_PRODUCT",
+    "tertiary": "SPILLED_OR_LEAKING_BOX_OR_PRODUCT"
+  },
+  {
+    "primary": "DAMAGED",
+    "secondary": "BOX_AND_PRODUCT",
+    "tertiary": "TAPE_ISSUE"
+  },
+  {
+    "primary": "DAMAGED",
+    "secondary": "BOX_AND_PRODUCT",
+    "tertiary": "WEATHER_BOX_OR_PRODUCT"
+  },
+  {
+    "primary": "DAMAGED",
+    "secondary": "PRODUCT_ONLY",
+    "tertiary": "DENTED_PRODUCT"
+  },
+  {
+    "primary": "DAMAGED",
+    "secondary": "PRODUCT_ONLY",
+    "tertiary": "BROKEN_OR_SMASHED_PRODUCT"
+  },
+  {
+    "primary": "DAMAGED",
+    "secondary": "BOX_AND_PRODUCT",
+    "tertiary": "MELTED_OR_THAWED_PRODUCT"
+  },
+  {
+    "primary": "DAMAGED",
+    "secondary": "PRODUCT_ONLY",
+    "tertiary": "RIPPED_OR_TORN_PRODUCT"
+  },
+  {
+    "primary": "DAMAGED",
+    "secondary": "PRODUCT_ONLY",
+    "tertiary": "SPILLED_OR_LEAKING_PRODUCT"
+  },
+  {
+    "primary": "DAMAGED",
+    "secondary": "PRODUCT_ONLY",
+    "tertiary": "WEATHER_PRODUCT"
+  },
+  {
+    "primary": "DOES_NOT_WANT",
+    "secondary": "CUSTOMER_OR_PET_PREFERENCE",
+    "tertiary": "FOUND_BETTER_PRICE"
+  },
+  {
+    "primary": "DOES_NOT_WANT",
+    "secondary": "CUSTOMER_OR_PET_PREFERENCE",
+    "tertiary": "MADE_PET_SICK"
+  },
+  {
+    "primary": "DOES_NOT_WANT",
+    "secondary": "CUSTOMER_OR_PET_PREFERENCE",
+    "tertiary": "PET_DESTROYED_ITEM"
+  },
+  {
+    "primary": "DOES_NOT_WANT",
+    "secondary": "CUSTOMER_OR_PET_PREFERENCE",
+    "tertiary": "PET_DIET_CHANGED"
+  },
+  {
+    "primary": "DOES_NOT_WANT",
+    "secondary": "CUSTOMER_OR_PET_PREFERENCE",
+    "tertiary": "PET_PASSED"
+  },
+  {
+    "primary": "DOES_NOT_WANT",
+    "secondary": "CUSTOMER_OR_PET_PREFERENCE",
+    "tertiary": "PET_OR_CUSTOMER_DOESNT_LIKE"
+  },
+  {
+    "primary": "DOES_NOT_WANT",
+    "secondary": "CUSTOMER_OR_PET_PREFERENCE",
+    "tertiary": "UNSATISFIED_WITH_QUALITY"
+  },
+  {
+    "primary": "DOES_NOT_WANT",
+    "secondary": "ITEM_NOT_AS_DESCRIBED",
+    "tertiary": "WRONG_DESCRIPTION"
+  },
+  {
+    "primary": "DOES_NOT_WANT",
+    "secondary": "ITEM_NOT_AS_DESCRIBED",
+    "tertiary": "WRONG_DIMENSIONS"
+  },
+  {
+    "primary": "DOES_NOT_WANT",
+    "secondary": "ITEM_NOT_AS_DESCRIBED",
+    "tertiary": "WRONG_IMAGE"
+  },
+  {
+    "primary": "DOES_NOT_WANT",
+    "secondary": "ORDERED_WRONG_ITEM",
+    "tertiary": "ORDERED_WRONG_COLOR"
+  },
+  {
+    "primary": "DOES_NOT_WANT",
+    "secondary": "ORDERED_WRONG_ITEM",
+    "tertiary": "ORDERED_WRONG_FORMULA"
+  },
+  {
+    "primary": "DOES_NOT_WANT",
+    "secondary": "ORDERED_WRONG_ITEM",
+    "tertiary": "ORDERED_WRONG_PRODUCT"
+  },
+  {
+    "primary": "DOES_NOT_WANT",
+    "secondary": "ORDERED_WRONG_ITEM",
+    "tertiary": "ORDERED_WRONG_QUANTITY"
+  },
+  {
+    "primary": "DOES_NOT_WANT",
+    "secondary": "ORDERED_WRONG_ITEM",
+    "tertiary": "ORDERED_WRONG_SIZE"
+  },
+  {
+    "primary": "FULFILLMENT",
+    "secondary": "SHIPPED_WRONG_ITEM",
+    "tertiary": "FULFILLMENT_WRONG_COLOR"
+  },
+  {
+    "primary": "FULFILLMENT",
+    "secondary": "SHIPPED_WRONG_ITEM",
+    "tertiary": "FULFILLMENT_WRONG_FORMULA"
+  },
+  {
+    "primary": "FULFILLMENT",
+    "secondary": "SHIPPED_WRONG_ITEM",
+    "tertiary": "FULFILLMENT_WRONG_PRODUCT"
+  },
+  {
+    "primary": "FULFILLMENT",
+    "secondary": "SHIPPED_WRONG_ITEM",
+    "tertiary": "FULFILLMENT_WRONG_QUANTITY"
+  },
+  {
+    "primary": "FULFILLMENT",
+    "secondary": "SHIPPED_WRONG_ITEM",
+    "tertiary": "FULFILLMENT_WRONG_SIZE"
+  },
+  {
+    "primary": "PRODUCT_DEFECTS",
+    "secondary": "DEFECTIVE",
+    "tertiary": "COLOR_TEXTURE_OR_ODOR_DISCREPANCIES"
+  },
+  {
+    "primary": "PRODUCT_DEFECTS",
+    "secondary": "DEFECTIVE",
+    "tertiary": "DOES_NOT_FUNCTION_AS_INTENDED"
+  },
+  {
+    "primary": "PRODUCT_DEFECTS",
+    "secondary": "DEFECTIVE",
+    "tertiary": "FOREIGN_MATERIAL"
+  },
+  {
+    "primary": "PRODUCT_DEFECTS",
+    "secondary": "DEFECTIVE",
+    "tertiary": "INJURY_OR_ILLNESS"
+  },
+  {
+    "primary": "PRODUCT_DEFECTS",
+    "secondary": "DEFECTIVE",
+    "tertiary": "MISSING_PARTS"
+  },
+  {
+    "primary": "PRODUCT_DEFECTS",
+    "secondary": "DEFECTIVE",
+    "tertiary": "MOLD"
+  },
+  {
+    "primary": "SHIPPING_ISSUES",
+    "secondary": "UNDELIVERABLE",
+    "tertiary": "FAILED_DELIVERY_ATTEMPTS"
+  },
+  {
+    "primary": "SHIPPING_ISSUES",
+    "secondary": "UNDELIVERABLE",
+    "tertiary": "INSUFFICIENT_ADDRESS"
+  },
+  {
+    "primary": "SHIPPING_ISSUES",
+    "secondary": "UNDELIVERABLE",
+    "tertiary": "REFUSED"
+  },
+  {
+    "primary": "SHIPPING_ISSUES",
+    "secondary": "UNDELIVERABLE",
+    "tertiary": "UNKNOWN"
+  },
+  {
+    "primary": "VETERINARIAN_APPOINTMENT_NOT_COMPLETED",
+    "secondary": "TECHNICAL_ISSUE",
+    "tertiary": "VIDEO_USED_CHAT"
+  },
+  {
+    "primary": "VETERINARIAN_APPOINTMENT_NOT_COMPLETED",
+    "secondary": "TECHNICAL_ISSUE",
+    "tertiary": "VIDEO_USED_AUDIO"
+  },
+  {
+    "primary": "VETERINARIAN_APPOINTMENT_NOT_COMPLETED",
+    "secondary": "TECHNICAL_ISSUE",
+    "tertiary": "TECHNICAL_OTHER"
+  },
+  {
+    "primary": "VETERINARIAN_APPOINTMENT_NOT_COMPLETED",
+    "secondary": "NOT_COVERED",
+    "tertiary": "SPECIES"
+  },
+  {
+    "primary": "VETERINARIAN_APPOINTMENT_NOT_COMPLETED",
+    "secondary": "NOT_COVERED",
+    "tertiary": "RX_WANTED"
+  },
+  {
+    "primary": "VETERINARIAN_APPOINTMENT_NOT_COMPLETED",
+    "secondary": "NOT_COVERED",
+    "tertiary": "DIAGNOSIS_WANTED"
+  },
+  {
+    "primary": "VETERINARIAN_APPOINTMENT_NOT_COMPLETED",
+    "secondary": "NOT_COVERED",
+    "tertiary": "CS_TRANSFER"
+  },
+  {
+    "primary": "VETERINARIAN_APPOINTMENT_NOT_COMPLETED",
+    "secondary": "COMPASSION",
+    "tertiary": "EMERGENCY_ROOM"
+  },
+  {
+    "primary": "VETERINARIAN_APPOINTMENT_NOT_COMPLETED",
+    "secondary": "COMPASSION",
+    "tertiary": "COMPASSION_OTHER"
+  }
+]

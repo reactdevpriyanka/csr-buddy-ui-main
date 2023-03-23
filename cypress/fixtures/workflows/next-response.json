@@ -1,0 +1,25 @@
+{
+  "context": {},
+  "startNode": { "id": "3" },
+  "flow": {
+    "flowName": "anyFlowName",
+    "startNode": {
+      "id": "3",
+      "nodeType": "START_NODE",
+      "singularOutcome": "3"
+    },
+    "flowLinks": [
+      {
+        "outcomeId": "3",
+        "destinationNodeId": "4"
+      }
+    ],
+    "flowNodes": [
+      {
+        "id": "4",
+        "nodeType": "LABEL",
+        "label": "Flow complete"
+      }
+    ]
+  }
+}

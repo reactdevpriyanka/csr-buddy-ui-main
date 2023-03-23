@@ -1,0 +1,922 @@
+{
+  "id": "1243509195",
+  "customerId": "268500256",
+  "status": "DEPOSITED",
+  "totalProduct": {
+      "value": "350.47",
+      "currency": "USD"
+  },
+  "totalSalesTax": {
+      "value": "2.33",
+      "currency": "USD"
+  },
+  "totalShipping": {
+      "value": "0.00",
+      "currency": "USD"
+  },
+  "totalShippingTax": {
+      "value": "0.00",
+      "currency": "USD"
+  },
+  "totalAdjustment": {
+      "value": "-22.62",
+      "currency": "USD"
+  },
+  "totalBeforeTax": {
+      "value": "327.85",
+      "currency": "USD"
+  },
+  "total": {
+      "value": "330.18",
+      "currency": "USD"
+  },
+  "timePlaced": "2022-08-31T22:04:19.012Z",
+  "timeUpdated": "2022-09-06T22:31:37.362Z",
+  "lineItems": [
+      {
+          "id": "2060002457",
+          "externalId": "1352246172",
+          "status": "SHIPPED",
+          "product": {
+              "catalogEntryId": "323921",
+              "partNumber": "297579",
+              "name": "Bones & Chews Made in USA Cheese & Bacon Flavored Filled Beef Trachea Dog Treats, 2 count",
+              "description": "Bones & Chews Made in USA Cheese & Bacon Flavored Filled Beef Trachea Dog Treats, 2 count",
+              "thumbnail": "//image.chewy.com/is/image/catalog/297579_MAIN,1622470355"
+          },
+          "fulfillmentCenter": "MCO1",
+          "fulfillmentStatus": "SHIPPED",
+          "quantity": 2,
+          "totalProduct": {
+              "value": "10.50"
+          },
+          "unitPrice": {
+              "value": "5.25"
+          },
+          "bundleItem": false,
+          "can": false,
+          "food": false,
+          "shippingCharge": {
+              "value": "0.00"
+          },
+          "totalAdjustment": {
+              "value": "-2.62"
+          },
+          "salesTax": {
+              "value": "0.55"
+          },
+          "shippingTax": {
+              "value": "0.00"
+          },
+          "currency": "USD"
+      },
+      {
+          "id": "2060002472",
+          "externalId": "1352246175",
+          "status": "SHIPPED",
+          "product": {
+              "catalogEntryId": "181831",
+              "partNumber": "155067",
+              "name": "OurPets Durapet Premium Rubber-Bonded Stainless Steel Bowl, Small, 2.25 cup",
+              "description": "OurPets Durapet Premium Rubber-Bonded Stainless Steel Bowl, Small, 2.25 cup",
+              "thumbnail": "//image.chewy.com/is/image/catalog/155067_MAIN,1638835389"
+          },
+          "fulfillmentCenter": "MCO1",
+          "fulfillmentStatus": "SHIPPED",
+          "quantity": 3,
+          "totalProduct": {
+              "value": "25.47"
+          },
+          "unitPrice": {
+              "value": "8.49"
+          },
+          "bundleItem": false,
+          "can": false,
+          "food": false,
+          "shippingCharge": {
+              "value": "0.00"
+          },
+          "totalAdjustment": {
+              "value": "0.00"
+          },
+          "salesTax": {
+              "value": "1.78"
+          },
+          "shippingTax": {
+              "value": "0.00"
+          },
+          "currency": "USD"
+      },
+      {
+          "id": "2060002467",
+          "externalId": "1352246174",
+          "status": "SHIPPED",
+          "product": {
+              "catalogEntryId": "251347",
+              "partNumber": "224819",
+              "name": "Simparica Trio Chewable Tablet for Dogs, 11.1-22.0 lbs, (Caramel Box), 6 Chewable Tablets (6-mos. supply)",
+              "description": "Simparica Trio Chewable Tablet for Dogs, 11.1-22.0 lbs, (Caramel Box), 6 Chewable Tablets (6-mos. supply)",
+              "thumbnail": "//image.chewy.com/is/image/catalog/224819_MAIN,1583503095",
+              "attributes": [
+                  "PHARMACEUTICAL"
+              ],
+              "personalizationAttributeMap": {
+                  "ClinicId": "13811",
+                  "VetProfileId": "100834161",
+                  "ContactVet": "true",
+                  "PetProfileId": "101951992"
+              }
+          },
+          "fulfillmentCenter": "SDF4",
+          "fulfillmentStatus": "SHIPPED",
+          "quantity": 1,
+          "totalProduct": {
+              "value": "150.97"
+          },
+          "unitPrice": {
+              "value": "150.97"
+          },
+          "bundleItem": false,
+          "can": false,
+          "food": false,
+          "shippingCharge": {
+              "value": "0.00"
+          },
+          "totalAdjustment": {
+              "value": "-9.60"
+          },
+          "salesTax": {
+              "value": "0.00"
+          },
+          "shippingTax": {
+              "value": "0.00"
+          },
+          "currency": "USD",
+          "vetContactInfo": {
+              "clinicId": "13811",
+              "clinicName": "New Life Veterinary Hospital",
+              "vetProfileId": "100834161",
+              "contactVet": "true",
+              "petProfileId": "101951992",
+              "petName": "Annie Alderman"
+          },
+          "tags": [
+              "PHARMACY"
+          ]
+      },
+      {
+          "id": "2060002473",
+          "externalId": "1352246176",
+          "status": "SHIPPED",
+          "product": {
+              "catalogEntryId": "251349",
+              "partNumber": "224821",
+              "name": "Simparica Trio Chewable Tablet for Dogs, 22.1-44.0 lbs, (Teal Box), 6 Chewable Tablets (6-mos. supply)",
+              "description": "Simparica Trio Chewable Tablet for Dogs, 22.1-44.0 lbs, (Teal Box), 6 Chewable Tablets (6-mos. supply)",
+              "thumbnail": "//image.chewy.com/is/image/catalog/224821_MAIN,1583503082",
+              "attributes": [
+                  "PHARMACEUTICAL"
+              ],
+              "personalizationAttributeMap": {
+                  "ClinicId": "13811",
+                  "VetProfileId": "100834161",
+                  "ContactVet": "true",
+                  "PetProfileId": "101447843"
+              }
+          },
+          "fulfillmentCenter": "SDF4",
+          "fulfillmentStatus": "SHIPPED",
+          "quantity": 1,
+          "totalProduct": {
+              "value": "163.53"
+          },
+          "unitPrice": {
+              "value": "163.53"
+          },
+          "bundleItem": false,
+          "can": false,
+          "food": false,
+          "shippingCharge": {
+              "value": "0.00"
+          },
+          "totalAdjustment": {
+              "value": "-10.40"
+          },
+          "salesTax": {
+              "value": "0.00"
+          },
+          "shippingTax": {
+              "value": "0.00"
+          },
+          "currency": "USD",
+          "vetContactInfo": {
+              "clinicId": "13811",
+              "clinicName": "New Life Veterinary Hospital",
+              "vetProfileId": "100834161",
+              "contactVet": "true",
+              "petProfileId": "101447843",
+              "petName": "Lucy Alderman"
+          },
+          "tags": [
+              "PHARMACY"
+          ]
+      },
+      {
+          "id": "2060002460",
+          "product": {
+              "catalogEntryId": "251349",
+              "partNumber": "224821",
+              "name": "Simparica Trio Chewable Tablet for Dogs, 22.1-44.0 lbs, (Teal Box), 6 Chewable Tablets (6-mos. supply)",
+              "description": "Simparica Trio Chewable Tablet for Dogs, 22.1-44.0 lbs, (Teal Box), 6 Chewable Tablets (6-mos. supply)",
+              "thumbnail": "//image.chewy.com/is/image/catalog/224821_MAIN,1583503082",
+              "attributes": [
+                  "PHARMACEUTICAL"
+              ],
+              "personalizationAttributeMap": {
+                  "ClinicId": "13811",
+                  "ContactVet": "true",
+                  "PetProfileId": "101952142"
+              }
+          },
+          "fulfillmentCenter": "SDF4",
+          "fulfillmentCenterType": "CHEWY",
+          "quantity": 1,
+          "totalProduct": {
+              "value": "163.53"
+          },
+          "unitPrice": {
+              "value": "163.53"
+          },
+          "bundleItem": false,
+          "shippingCharge": {
+              "value": "0.00"
+          },
+          "totalAdjustment": {
+              "value": "-6.84"
+          },
+          "salesTax": {
+              "value": "0.00"
+          },
+          "shippingTax": {
+              "value": "0.00"
+          },
+          "currency": "USD",
+          "vetContactInfo": {
+              "clinicId": "13811",
+              "contactVet": "true",
+              "petProfileId": "101952142"
+          }
+      }
+  ],
+  "subscriptionInfos": [
+      {
+          "subscriptionId": "808299491",
+          "parentOrderId": "808299491"
+      }
+  ],
+  "trackingData": {
+      "shippingStep": "DELIVERED",
+      "shippingStatus": "NONE",
+      "chewyPromisedDeliveryDate": "2022-09-03",
+      "estimatedDeliveryDate": "2022-09-03"
+  },
+  "shippingAddress": {
+      "id": "1285125283",
+      "nickname": "08116603-cf51-4c79-afcd-a5256d6d44cc",
+      "fullName": "Jennifer Alderman",
+      "addressLine1": "7933 Kaitlin Circle",
+      "city": "Lakeland",
+      "state": "FL",
+      "postcode": "33810-5143",
+      "country": "US",
+      "phone": "4402280956",
+      "primaryAddress": false,
+      "verified": false
+  },
+  "orderAttributes": [
+      "PRESCRIPTION",
+      "AUTOSHIP"
+  ],
+  "shipments": [
+      {
+          "id": "624760851",
+          "shippingModeCode": "FDXHD",
+          "trackingId": "606240799580",
+          "timeShipped": "2022-09-01T04:33:17.623Z",
+          "packageId": "646243628",
+          "trackingData": {
+              "shippingStep": "DELIVERED",
+              "shippingStatus": "ON_TIME",
+              "chewyPromisedDeliveryDate": "2022-09-03",
+              "estimatedDeliveryDate": "2022-09-02",
+              "trackingEvent": {
+                  "code": "DELIVERED",
+                  "date": "2022-09-02T17:34:00Z",
+                  "address": {
+                      "city": "Lakeland",
+                      "state": "FL",
+                      "country": "US",
+                      "primaryAddress": false,
+                      "verified": false
+                  },
+                  "description": "Your package has been delivered!"
+              },
+              "progressPercentage": 100,
+              "actualShipDateTime": "2022-09-01T04:34:17Z",
+              "actualDeliveryTime": "2022-09-02T17:34:00Z",
+              "packagesCountFromOrder": 2,
+              "currentPackageStatus": "DELIVERED",
+              "derivedDeliveryDate": "2022-09-02T00:00:00Z",
+              "displayEvents": [
+                  {
+                      "code": "ORDER_ITEM_BLOCKED",
+                      "date": "2022-08-31T22:04:19Z"
+                  },
+                  {
+                      "code": "ORDER_RELEASED",
+                      "date": "2022-08-31T23:11:24Z"
+                  },
+                  {
+                      "code": "650",
+                      "date": "2022-09-01T03:39:55Z",
+                      "description": "PICK COMPLETE"
+                  },
+                  {
+                      "code": "820",
+                      "date": "2022-09-01T04:34:17Z",
+                      "description": "LOADED"
+                  },
+                  {
+                      "code": "ORDERED",
+                      "date": "2022-09-01T05:00:00Z",
+                      "address": {
+                          "primaryAddress": false,
+                          "verified": false
+                      },
+                      "description": "Your Chewy Order has shipped"
+                  },
+                  {
+                      "code": "840",
+                      "date": "2022-09-02T01:00:00Z",
+                      "description": "SHIPPED"
+                  },
+                  {
+                      "code": "ARRIVAL_SCAN",
+                      "date": "2022-09-02T08:09:00Z",
+                      "address": {
+                          "city": "DAVENPORT",
+                          "state": "FL",
+                          "country": "US",
+                          "primaryAddress": false,
+                          "verified": false
+                      },
+                      "description": "Package arrived at carrier facility"
+                  },
+                  {
+                      "code": "ARRIVAL_SCAN",
+                      "date": "2022-09-02T08:12:00Z",
+                      "address": {
+                          "city": "DAVENPORT",
+                          "state": "FL",
+                          "country": "US",
+                          "primaryAddress": false,
+                          "verified": false
+                      },
+                      "description": "Package arrived at carrier facility"
+                  },
+                  {
+                      "code": "OUT_FOR_DELIVERY",
+                      "date": "2022-09-02T08:24:00Z",
+                      "address": {
+                          "city": "DAVENPORT",
+                          "state": "FL",
+                          "country": "US",
+                          "primaryAddress": false,
+                          "verified": false
+                      },
+                      "description": "Out for delivery to you"
+                  },
+                  {
+                      "code": "DELIVERED",
+                      "date": "2022-09-02T17:34:00Z",
+                      "address": {
+                          "city": "Lakeland",
+                          "state": "FL",
+                          "country": "US",
+                          "primaryAddress": false,
+                          "verified": false
+                      },
+                      "description": "Your package has been delivered!"
+                  },
+                  {
+                      "code": "ORDER_RELEASED",
+                      "date": "2022-09-06T19:16:46Z"
+                  }
+              ],
+              "fulfillmentCenter": "MCO1"
+          },
+          "carrier": "FDEG",
+          "carrierDescription": "Fedex Home Delivery",
+          "trackingUrl": "https://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=606240799580",
+          "fulfillmentCenterDetails": {
+              "id": "MCO1",
+              "type": "fulfillmentCenters",
+              "attributes": {
+                  "fulfillmentCenterId": "MCO1",
+                  "displayName": "MCO1",
+                  "fulfillmentCenterType": "CHEWY",
+                  "address": {
+                      "addressLine1": "3380 NE 35th Avenue Road",
+                      "city": "Ocala",
+                      "state": "FL",
+                      "postcode": "34475",
+                      "country": "US",
+                      "phone": "800-672-4399",
+                      "primaryAddress": false,
+                      "email": "service@chewy.com",
+                      "verified": false
+                  },
+                  "returnAddress": {
+                      "addressLine1": "3380 NE 35th Avenue Road",
+                      "city": "Ocala",
+                      "state": "FL",
+                      "postcode": "34475",
+                      "country": "US",
+                      "primaryAddress": false,
+                      "verified": false
+                  },
+                  "fcEnabled": true,
+                  "fulfillerId": "b85ddeec-e3ea-4247-bfc1-4e0cd200de0b"
+              }
+          },
+          "shipmentItems": [
+              {
+                  "lineItemId": "2060002457",
+                  "quantity": 2,
+                  "shippedQuantity": 0
+              },
+              {
+                  "lineItemId": "2060002472",
+                  "quantity": 3,
+                  "shippedQuantity": 0
+              }
+          ]
+      },
+      {
+          "id": "626957251",
+          "shippingModeCode": "FDXHD",
+          "trackingId": "538553661025",
+          "timeShipped": "2022-09-06T22:30:19.420Z",
+          "packageId": "648715566",
+          "trackingData": {
+              "shippingStep": "DELIVERED",
+              "shippingStatus": "VERY_LATE",
+              "chewyPromisedDeliveryDate": "2022-09-03",
+              "estimatedDeliveryDate": "2022-09-09",
+              "trackingEvent": {
+                  "code": "DELIVERED",
+                  "date": "2022-09-08T19:03:00Z",
+                  "address": {
+                      "city": "LAKELAND",
+                      "state": "FL",
+                      "country": "US",
+                      "primaryAddress": false,
+                      "verified": false
+                  },
+                  "description": "Your package has been delivered!"
+              },
+              "progressPercentage": 100,
+              "actualShipDateTime": "2022-09-06T22:31:19Z",
+              "actualDeliveryTime": "2022-09-08T19:03:00Z",
+              "packagesCountFromOrder": 2,
+              "currentPackageStatus": "DELIVERED",
+              "derivedDeliveryDate": "2022-09-08T00:00:00Z",
+              "displayEvents": [
+                  {
+                      "code": "ORDER_ITEM_BLOCKED",
+                      "date": "2022-08-31T22:04:19Z"
+                  },
+                  {
+                      "code": "ORDER_RELEASED",
+                      "date": "2022-08-31T23:11:24Z"
+                  },
+                  {
+                      "code": "ORDER_RELEASED",
+                      "date": "2022-09-06T19:16:46Z"
+                  },
+                  {
+                      "code": "650",
+                      "date": "2022-09-06T22:12:35Z",
+                      "description": "PICK COMPLETE"
+                  },
+                  {
+                      "code": "820",
+                      "date": "2022-09-06T22:31:19Z",
+                      "description": "LOADED"
+                  },
+                  {
+                      "code": "ORDERED",
+                      "date": "2022-09-06T23:03:00Z",
+                      "address": {
+                          "primaryAddress": false,
+                          "verified": false
+                      },
+                      "description": "Your Chewy Order has shipped"
+                  },
+                  {
+                      "code": "ARRIVAL_SCAN",
+                      "date": "2022-09-06T23:51:00Z",
+                      "address": {
+                          "city": "LOUISVILLE",
+                          "state": "KY",
+                          "country": "US",
+                          "primaryAddress": false,
+                          "verified": false
+                      },
+                      "description": "Package arrived at carrier facility"
+                  },
+                  {
+                      "code": "IN_TRANSIT",
+                      "date": "2022-09-07T04:05:00Z",
+                      "address": {
+                          "city": "LOUISVILLE",
+                          "state": "KY",
+                          "country": "US",
+                          "primaryAddress": false,
+                          "verified": false
+                      },
+                      "description": "Your package is in transit"
+                  },
+                  {
+                      "code": "IN_TRANSIT",
+                      "date": "2022-09-07T16:32:00Z",
+                      "address": {
+                          "city": "KENNESAW",
+                          "state": "GA",
+                          "country": "US",
+                          "primaryAddress": false,
+                          "verified": false
+                      },
+                      "description": "Your package is in transit"
+                  },
+                  {
+                      "code": "840",
+                      "date": "2022-09-07T22:00:00Z",
+                      "description": "SHIPPED"
+                  },
+                  {
+                      "code": "ARRIVAL_SCAN",
+                      "date": "2022-09-08T04:31:00Z",
+                      "address": {
+                          "city": "OCALA",
+                          "state": "FL",
+                          "country": "US",
+                          "primaryAddress": false,
+                          "verified": false
+                      },
+                      "description": "Package arrived at carrier facility"
+                  },
+                  {
+                      "code": "DEPARTURE_SCAN",
+                      "date": "2022-09-08T07:22:00Z",
+                      "address": {
+                          "city": "OCALA",
+                          "state": "FL",
+                          "country": "US",
+                          "primaryAddress": false,
+                          "verified": false
+                      },
+                      "description": "Package departed carrier facility"
+                  },
+                  {
+                      "code": "ARRIVAL_SCAN",
+                      "date": "2022-09-08T09:57:00Z",
+                      "address": {
+                          "city": "DAVENPORT",
+                          "state": "FL",
+                          "country": "US",
+                          "primaryAddress": false,
+                          "verified": false
+                      },
+                      "description": "Package arrived at carrier facility"
+                  },
+                  {
+                      "code": "ARRIVAL_SCAN",
+                      "date": "2022-09-08T10:07:00Z",
+                      "address": {
+                          "city": "DAVENPORT",
+                          "state": "FL",
+                          "country": "US",
+                          "primaryAddress": false,
+                          "verified": false
+                      },
+                      "description": "Package arrived at carrier facility"
+                  },
+                  {
+                      "code": "OUT_FOR_DELIVERY",
+                      "date": "2022-09-08T10:13:00Z",
+                      "address": {
+                          "city": "DAVENPORT",
+                          "state": "FL",
+                          "country": "US",
+                          "primaryAddress": false,
+                          "verified": false
+                      },
+                      "description": "Out for delivery to you"
+                  },
+                  {
+                      "code": "DELIVERED",
+                      "date": "2022-09-08T19:03:00Z",
+                      "address": {
+                          "city": "LAKELAND",
+                          "state": "FL",
+                          "country": "US",
+                          "primaryAddress": false,
+                          "verified": false
+                      },
+                      "description": "Your package has been delivered!"
+                  }
+              ],
+              "fulfillmentCenter": "SDF4"
+          },
+          "carrier": "FDEG",
+          "carrierDescription": "Fedex Home Delivery",
+          "trackingUrl": "https://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=538553661025",
+          "fulfillmentCenterDetails": {
+              "id": "SDF4",
+              "type": "fulfillmentCenters",
+              "attributes": {
+                  "fulfillmentCenterId": "SDF4",
+                  "displayName": "Chewy Pharmacy - SDF4",
+                  "fulfillmentCenterType": "CHEWY",
+                  "address": {
+                      "addressLine1": "11403 Bluegrass Parkway, Suite 650",
+                      "city": "Jeffersontown",
+                      "state": "KY",
+                      "postcode": "40299",
+                      "country": "US",
+                      "phone": "866-253-0274",
+                      "primaryAddress": false,
+                      "verified": false
+                  },
+                  "returnAddress": {
+                      "addressLine1": "11403 Bluegrass Parkway",
+                      "city": "Jeffersontown",
+                      "state": "KY",
+                      "postcode": "40299",
+                      "country": "US",
+                      "primaryAddress": false,
+                      "verified": false
+                  },
+                  "fcEnabled": true,
+                  "fulfillerId": "b85ddeec-e3ea-4247-bfc1-4e0cd200de0b"
+              }
+          },
+          "shipmentItems": [
+              {
+                  "lineItemId": "2060002467",
+                  "quantity": 1,
+                  "shippedQuantity": 0
+              },
+              {
+                  "lineItemId": "2060002473",
+                  "quantity": 1,
+                  "shippedQuantity": 0
+              }
+          ]
+      }
+  ],
+  "releases": [
+      {
+          "id": "562948343",
+          "status": "MANIFESTED",
+          "releaseNumber": 1,
+          "shippingModeCode": "FLATRATE",
+          "fulfillmentAck": "2022-08-31T23:15:41.405Z",
+          "fulfillmentCenter": "MCO1",
+          "fulfillmentCenterType": "CHEWY",
+          "captureDate": "2022-09-01T04:35:17.916Z",
+          "customerConfirm": "2022-09-01T04:35:17.785Z",
+          "lineItemIds": [
+              "2060002457",
+              "2060002472"
+          ],
+          "shipmentIds": [
+              "624760851"
+          ],
+          "timeCreated": "2022-08-31T23:11:24.262Z",
+          "timeUpdated": "2022-09-01T04:35:17.785Z"
+      },
+      {
+          "id": "562948344",
+          "status": "MANIFESTED",
+          "releaseNumber": 2,
+          "shippingModeCode": "FLATRATE",
+          "fulfillmentAck": "2022-09-06T19:16:45.828Z",
+          "fulfillmentCenter": "SDF4",
+          "fulfillmentCenterType": "CHEWY",
+          "captureDate": "2022-09-06T22:31:37.439Z",
+          "customerConfirm": "2022-09-06T22:31:37.331Z",
+          "lineItemIds": [
+              "2060002467",
+              "2060002473"
+          ],
+          "shipmentIds": [
+              "626957251"
+          ],
+          "timeCreated": "2022-08-31T23:11:24.262Z",
+          "timeUpdated": "2022-09-06T22:31:37.222Z"
+      }
+  ],
+  "notReleasedLineItems": [
+      {
+          "id": "2060002460",
+          "product": {
+              "catalogEntryId": "251349",
+              "partNumber": "224821",
+              "name": "Simparica Trio Chewable Tablet for Dogs, 22.1-44.0 lbs, (Teal Box), 6 Chewable Tablets (6-mos. supply)",
+              "description": "Simparica Trio Chewable Tablet for Dogs, 22.1-44.0 lbs, (Teal Box), 6 Chewable Tablets (6-mos. supply)",
+              "thumbnail": "//image.chewy.com/is/image/catalog/224821_MAIN,1583503082",
+              "attributes": [
+                  "PHARMACEUTICAL"
+              ],
+              "personalizationAttributeMap": {
+                  "ClinicId": "13811",
+                  "ContactVet": "true",
+                  "PetProfileId": "101952142"
+              }
+          },
+          "fulfillmentCenter": "SDF4",
+          "fulfillmentCenterType": "CHEWY",
+          "quantity": 1,
+          "totalProduct": {
+              "value": "163.53"
+          },
+          "unitPrice": {
+              "value": "163.53"
+          },
+          "bundleItem": false,
+          "shippingCharge": {
+              "value": "0.00"
+          },
+          "totalAdjustment": {
+              "value": "-6.84"
+          },
+          "salesTax": {
+              "value": "0.00"
+          },
+          "shippingTax": {
+              "value": "0.00"
+          },
+          "currency": "USD",
+          "vetContactInfo": {
+              "clinicId": "13811",
+              "contactVet": "true",
+              "petProfileId": "101952142"
+          }
+      }
+  ],
+  "updatedItems": [
+      {
+          "lineItemId": "2060002460",
+          "oldQuantity": 1,
+          "oldDescription": "Simparica Trio Chewable Tablet for Dogs, 22.1-44.0 lbs, (Teal Box), 6 Chewable Tablets (6-mos. supply)",
+          "timeUpdated": "2022-09-06T19:16:46.803Z"
+      }
+  ],
+  "canceledItems": [
+      {
+          "lineItemId": "2060002460",
+          "quantity": 1,
+          "timeUpdated": "2022-09-06T19:16:46.803Z"
+      }
+  ],
+  "returnItems": [
+      {
+          "returnId": "513f0ee7-d6fd-49ff-a351-3c4462c27d5b",
+          "lineItemId": "2060002472",
+          "orderId": "1243509195",
+          "state": "PROCESSED",
+          "type": "REFUND",
+          "reasonCategory": "ORDERED_WRONG_ITEM",
+          "reason": {
+              "primary": "DOES_NOT_WANT",
+              "secondary": "ORDERED_WRONG_ITEM",
+              "tertiary": "ORDERED_WRONG_SIZE"
+          },
+          "timeCreated": "2022-09-02T19:22:28.905695Z",
+          "timeUpdated": "2022-09-09T11:32:19.177198Z",
+          "comment": "null",
+          "partNumber": "155067",
+          "quantity": 3,
+          "totalCredit": 27.25,
+          "sendBack": false,
+          "shelterDonation": false,
+          "shelterDonationReason": "NO",
+          "giftCard": false
+      }
+  ],
+  "payments": {
+      "paymentInstructions": [
+          {
+              "id": "616367007",
+              "walletId": "593b2ef4-f28b-4773-9253-1e01113a5a4f",
+              "paymentMethod": {
+                  "paymentReferenceId": "08087d82-4be4-41e4-acf2-70138488625e",
+                  "type": "CARD",
+                  "card": {
+                      "type": "ApplePay",
+                      "accountNumber": "*******************"
+                  }
+              },
+              "billingAddress": {},
+              "amount": "330.18",
+              "state": "VALID",
+              "timeCreated": "2022-08-31T22:04:19.193Z",
+              "timeUpdated": "2022-09-06T19:16:46.689Z"
+          }
+      ]
+  },
+  "remoteIp": "2603:9000:ae02:3e94:8540:4de2:7c2f:1307",
+  "businessChannel": "IOS",
+  "submitter": "CUSTOMER",
+  "submitterId": "268500256",
+  "submitterDetail": {
+      "id": "268500256",
+      "email": "jenann2267@icloud.com",
+      "fullName": "Jennifer Alderman / J. Dezendorf",
+      "status": "ACTIVE"
+  },
+  "returns": [
+      {
+          "id": "513f0ee7-d6fd-49ff-a351-3c4462c27d5b",
+          "orderId": "1243509195",
+          "state": "PROCESSED",
+          "type": "REFUND",
+          "timeCreated": "2022-09-02T19:22:28.905695Z",
+          "timeUpdated": "2022-09-09T11:32:19.177198Z",
+          "timeProcessed": "2022-09-09T11:32:18.836028Z",
+          "totalCredit": 27.25,
+          "payments": [
+              {
+                  "id": "2b7f9733-5ef6-4dd5-9acd-40f092714600",
+                  "paymentReferenceId": "2b7f9733-5ef6-4dd5-9acd-40f092714600",
+                  "amount": 27.25,
+                  "creditedAmount": 27.25,
+                  "creditingAmount": 0,
+                  "paymentMethod": "ApplePay",
+                  "state": "COMPLETE"
+              }
+          ],
+          "items": [
+              {
+                  "returnId": "513f0ee7-d6fd-49ff-a351-3c4462c27d5b",
+                  "lineItemId": "2060002472",
+                  "orderId": "1243509195",
+                  "state": "PROCESSED",
+                  "type": "REFUND",
+                  "reasonCategory": "ORDERED_WRONG_ITEM",
+                  "reason": {
+                      "primary": "DOES_NOT_WANT",
+                      "secondary": "ORDERED_WRONG_ITEM",
+                      "tertiary": "ORDERED_WRONG_SIZE"
+                  },
+                  "timeCreated": "2022-09-02T19:22:28.905695Z",
+                  "timeUpdated": "2022-09-09T11:32:19.177198Z",
+                  "comment": "null",
+                  "partNumber": "155067",
+                  "quantity": 3,
+                  "totalCredit": 27.25,
+                  "sendBack": false,
+                  "shelterDonation": false,
+                  "shelterDonationReason": "NO",
+                  "giftCard": false
+              }
+          ]
+      }
+  ],
+  "promotions": [
+      {
+          "code": "TREATSBYCHEWY22",
+          "name": " (2022-04) PB Dog Indulgent & Natural/ Long-Lasting Treats B1G1 50% Off",
+          "amount": {
+              "value": "-2.62"
+          }
+      },
+      {
+          "code": "20OFFAUTOSHIP",
+          "name": "First Autoship Order Discount",
+          "amount": {
+              "value": "-20.00"
+          }
+      }
+  ],
+  "orderComments": [
+      {
+          "id": "137717108",
+          "text": "The following pharmacy items were removed because they were rejected by the pharmacy system. sku=224821 qty=1",
+          "timestamp": "2022-09-06T19:16:46.732Z",
+          "userId": "-1"
+      }
+  ]
+}

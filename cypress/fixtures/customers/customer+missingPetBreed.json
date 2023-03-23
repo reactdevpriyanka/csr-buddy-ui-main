@@ -1,0 +1,42 @@
+{
+  "customerFullName": "Jonathon Pemberton",
+  "id": 148817669,
+  "registrationDate": "2021-07-31 18:36:11",
+  "email": "jpemberton1+csrb31@chewy.com",
+  "addresses": [
+    {
+      "id": "215591204",
+      "kyriosId": "215591204",
+      "nickname": "4fe43ec9-8b38-4105-ac8d-1550779a1e47",
+      "fullName": "Jonathon Pemberton",
+      "addressLine1": "2310 CHATAM AVE SW",
+      "city": "DECATUR",
+      "state": "AL",
+      "postcode": "35603-1816",
+      "country": "US",
+      "phone": "2563185901",
+      "verificationStatus": "PAYPAL_VERIFIED",
+      "primaryAddress": false
+    }
+  ],
+  "pets": [
+    {
+      "id": "82245466",
+      "name": "Bodhi",
+      "weight": 52,
+      "gender": "MALE",
+      "breedType": "Dog",
+      "birthday": "2018-12-09T00:00:00Z",
+      "adopted": false,
+      "avatarUrl": "https://dotcms-ui.chewy.com/images/pet-profile/avatars/avatar_dog_11_husky.png",
+      "medications": ["None"],
+      "medicationAllergies": ["None"],
+      "existingMedicalConditions": ["None"],
+      "status": "ACTIVE",
+      "timeCreated": "2021-08-17 18:26:56",
+      "timeUpdated": "2021-08-17 18:27:03"
+    }
+  ],
+  "fraud": false,
+  "fraudSourceSystem": "CHEWY"
+}

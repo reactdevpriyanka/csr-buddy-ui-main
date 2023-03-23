@@ -1,0 +1,565 @@
+{
+    "type": "ORDER_RELEASE_SHIPPED",
+    "createdAt": "2022-12-01T14:19:47.959Z",
+    "data": {
+        "order": {
+            "id": "1785291502",
+            "customerId": "272404254",
+            "status": "DEPOSITED",
+            "totalProduct": {
+                "value": "22.06",
+                "currency": "USD"
+            },
+            "totalSalesTax": {
+                "value": "1.33",
+                "currency": "USD"
+            },
+            "totalShipping": {
+                "value": "4.95",
+                "currency": "USD"
+            },
+            "totalShippingTax": {
+                "value": "0.00",
+                "currency": "USD"
+            },
+            "totalAdjustment": {
+                "value": "0.00",
+                "currency": "USD"
+            },
+            "totalBeforeTax": {
+                "value": "27.01",
+                "currency": "USD"
+            },
+            "total": {
+                "value": "28.34",
+                "currency": "USD"
+            },
+            "timePlaced": "2022-12-01T13:30:20.183Z",
+            "timeUpdated": "2022-12-01T14:19:47.959Z",
+            "blocks": [
+                {
+                    "id": "36614519",
+                    "reason": "RELEASE_CANCELED",
+                    "resolved": true,
+                    "resolvable": true,
+                    "timeBlocked": "2022-12-01T13:44:27.663Z",
+                    "timeResolved": "2022-12-01T14:18:30.619Z"
+                },
+                {
+                    "id": "36614565",
+                    "reason": "FRAUDCHECK_FAILED",
+                    "resolved": true,
+                    "resolvable": true,
+                    "timeBlocked": "2022-12-01T13:45:00.407Z",
+                    "timeResolved": "2022-12-01T14:18:29.535Z",
+                    "comments": "Agent 81 overrode riskified decision."
+                }
+            ],
+            "lineItems": [
+                {
+                    "id": "2158338054",
+                    "externalId": "423664728",
+                    "status": "DEPOSITED",
+                    "product": {
+                        "catalogEntryId": "128392",
+                        "partNumber": "100868",
+                        "name": "ZuPreem FruitBlend Flavor with Natural Flavors Daily Medium Bird Food, 2-lb bag",
+                        "description": "ZuPreem FruitBlend Flavor with Natural Flavors Daily Medium Bird Food, 2-lb bag",
+                        "thumbnail": "//image.chewy.com/is/catalog/100868_MAIN,1474468743"
+                    },
+                    "inventoryStatus": "RELEASED",
+                    "fulfillmentCenter": "WFC2",
+                    "fulfillmentStatus": "SHIPPED",
+                    "quantity": 1,
+                    "totalProduct": {
+                        "value": "11.19"
+                    },
+                    "unitPrice": {
+                        "value": "11.19"
+                    },
+                    "timeCreated": "2022-12-01T13:30:20.183Z",
+                    "timeUpdated": "2022-12-01T18:28:43.251Z",
+                    "timeReleased": "2022-12-01T13:43:19.825Z",
+                    "timeShipped": "2022-12-01T00:00:00Z",
+                    "bundleItem": false,
+                    "can": false,
+                    "food": true,
+                    "shippingCharge": {
+                        "value": "2.48"
+                    },
+                    "totalAdjustment": {
+                        "value": "0.00"
+                    },
+                    "salesTax": {
+                        "value": "0.67"
+                    },
+                    "shippingTax": {
+                        "value": "0.00"
+                    },
+                    "currency": "USD"
+                },
+                {
+                    "id": "2158338055",
+                    "externalId": "423664729",
+                    "status": "DEPOSITED",
+                    "product": {
+                        "catalogEntryId": "152067",
+                        "partNumber": "124948",
+                        "name": "Living World Spray Millet, 17.5-oz",
+                        "description": "Living World Spray Millet, 17.5-oz",
+                        "thumbnail": "//image.chewy.com/is/image/catalog/124948_MAIN,1495567017"
+                    },
+                    "inventoryStatus": "RELEASED",
+                    "fulfillmentCenter": "DAY1",
+                    "fulfillmentStatus": "SHIPPED",
+                    "quantity": 1,
+                    "totalProduct": {
+                        "value": "10.87"
+                    },
+                    "unitPrice": {
+                        "value": "10.87"
+                    },
+                    "timeCreated": "2022-12-01T13:30:20.183Z",
+                    "timeUpdated": "2022-12-01T18:28:43.251Z",
+                    "timeReleased": "2022-12-01T14:19:00.759Z",
+                    "timeShipped": "2022-12-01T00:00:00Z",
+                    "bundleItem": false,
+                    "can": false,
+                    "food": false,
+                    "shippingCharge": {
+                        "value": "2.47"
+                    },
+                    "totalAdjustment": {
+                        "value": "0.00"
+                    },
+                    "salesTax": {
+                        "value": "0.66"
+                    },
+                    "shippingTax": {
+                        "value": "0.00"
+                    },
+                    "currency": "USD"
+                }
+            ],
+            "trackingData": {
+                "shippingStep": "IN_TRANSIT",
+                "shippingStatus": "NONE",
+                "chewyPromisedDeliveryDate": "2022-12-02",
+                "estimatedDeliveryDate": "2022-12-02"
+            },
+            "shippingAddress": {
+                "id": "354697757",
+                "nickname": "164356e7-a853-49b2-a0f5-281bc9bd6040",
+                "fullName": "myAcc",
+                "addressLine1": "10 W MAIN ST",
+                "addressLine2": "suite 11",
+                "city": "BURKITTSVILLE",
+                "state": "MD",
+                "postcode": "21718-9208",
+                "country": "US",
+                "phone": "6176171111",
+                "primaryAddress": false,
+                "verified": false
+            },
+            "shipments": [
+                {
+                    "id": "432017915",
+                    "shippingModeCode": "FLATRATE",
+                    "trackingId": "570424629313",
+                    "timeShipped": "2022-12-01T00:00:00Z",
+                    "packageId": "675669586",
+                    "trackingData": {
+                        "shippingStep": "DELIVERED",
+                        "shippingStatus": "VERY_LATE",
+                        "chewyPromisedDeliveryDate": "2022-12-02",
+                        "estimatedDeliveryDate": "2022-12-09",
+                        "trackingEvent": {
+                            "eventCode": "DELIVERED",
+                            "date": "2022-12-28T20:50:06Z",
+                            "address": {
+                                "city": "Rocky River",
+                                "state": "OH",
+                                "country": "US",
+                                "primaryAddress": false,
+                                "verified": false
+                            },
+                            "description": "Your package has been delivered!"
+                        },
+                        "progressPercentage": 100,
+                        "actualDeliveryTime": "2022-12-28T20:50:06Z",
+                        "packagesCountFromOrder": 2,
+                        "currentPackageStatus": "DELIVERED",
+                        "derivedDeliveryDate": "2022-12-31",
+                        "displayEvents": [
+                            {
+                                "eventCode": "ORDER_CREATED",
+                                "date": "2022-12-01T13:30:20Z"
+                            },
+                            {
+                                "eventCode": "ORDER_RELEASED",
+                                "date": "2022-12-01T13:43:20Z"
+                            },
+                            {
+                                "eventCode": "ORDER_RELEASED",
+                                "date": "2022-12-01T14:19:01Z"
+                            },
+                            {
+                                "eventCode": "ORDERED",
+                                "date": "2022-12-01T20:28:00Z",
+                                "address": {
+                                    "city": "Rocky River",
+                                    "state": "OH",
+                                    "country": "US",
+                                    "primaryAddress": false,
+                                    "verified": false
+                                },
+                                "description": "Your Chewy Order has shipped"
+                            },
+                            {
+                                "eventCode": "ARRIVAL_SCAN",
+                                "date": "2022-12-01T20:40:00Z",
+                                "address": {
+                                    "city": "Rocky River",
+                                    "state": "OH",
+                                    "country": "US",
+                                    "primaryAddress": false,
+                                    "verified": false
+                                },
+                                "description": "Package arrived at carrier facility"
+                            },
+                            {
+                                "eventCode": "DEPARTURE_SCAN",
+                                "date": "2022-12-07T21:10:53Z",
+                                "address": {
+                                    "city": "Rocky River",
+                                    "state": "OH",
+                                    "country": "US",
+                                    "primaryAddress": false,
+                                    "verified": false
+                                },
+                                "description": "Package departed carrier facility"
+                            },
+                            {
+                                "eventCode": "IN_TRANSIT",
+                                "date": "2022-12-07T21:11:19Z",
+                                "address": {
+                                    "city": "Rocky River",
+                                    "state": "OH",
+                                    "country": "US",
+                                    "primaryAddress": false,
+                                    "verified": false
+                                },
+                                "description": "Your package is in transit"
+                            },
+                            {
+                                "eventCode": "DELIVERED",
+                                "date": "2022-12-28T20:50:06Z",
+                                "address": {
+                                    "city": "Rocky River",
+                                    "state": "OH",
+                                    "country": "US",
+                                    "primaryAddress": false,
+                                    "verified": false
+                                },
+                                "description": "Your package has been delivered!"
+                            }
+                        ],
+                        "fulfillmentCenter": "RNO1"
+                    },
+                    "carrierDescription": "Flat-Rate Shipping",
+                    "trackingUrl": "null570424629313",
+                    "fulfillmentCenterDetails": {
+                        "id": "WFC2",
+                        "type": "fulfillmentCenters",
+                        "attributes": {
+                            "fulfillmentCenterId": "WFC2",
+                            "displayName": "WFC2",
+                            "fulfillmentCenterType": "CHEWY",
+                            "address": {
+                                "addressLine1": "385 Milan Drive",
+                                "city": "Sparks",
+                                "state": "NV",
+                                "postcode": "89434",
+                                "country": "US",
+                                "phone": "800-672-4399",
+                                "primaryAddress": false,
+                                "email": "service@chewy.com",
+                                "verified": false
+                            },
+                            "returnAddress": {
+                                "addressLine1": "385 Milan Drive",
+                                "city": "Sparks",
+                                "state": "NV",
+                                "postcode": "89434",
+                                "country": "US",
+                                "primaryAddress": false,
+                                "verified": false
+                            },
+                            "fcEnabled": true,
+                            "fulfillerId": "da295753-1507-4ea7-a0e6-967b949dda72"
+                        }
+                    },
+                    "shipmentItems": [
+                        {
+                            "lineItemId": "2158338054",
+                            "quantity": 1,
+                            "shippedQuantity": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "432017916",
+                    "shippingModeCode": "FLATRATE",
+                    "trackingId": "92748903029593500000000000",
+                    "timeShipped": "2022-12-01T00:00:00Z",
+                    "packageId": "422375908",
+                    "trackingData": {
+                        "shippingStep": "IN_TRANSIT",
+                        "shippingStatus": "ON_TIME",
+                        "chewyPromisedDeliveryDate": "2022-12-02",
+                        "estimatedDeliveryDate": "2022-12-02",
+                        "trackingEvent": {
+                            "eventCode": "IN_TRANSIT",
+                            "date": "2022-12-08T22:45:12Z",
+                            "address": {
+                                "city": "Rocky River",
+                                "state": "OH",
+                                "country": "US",
+                                "primaryAddress": false,
+                                "verified": false
+                            },
+                            "description": "Your package is in transit"
+                        },
+                        "progressPercentage": 60,
+                        "actualShipDateTime": "2022-12-01T19:19:00Z",
+                        "packagesCountFromOrder": 2,
+                        "currentPackageStatus": "LOST",
+                        "derivedDeliveryDate": "2021-10-14",
+                        "displayEvents": [
+                            {
+                                "eventCode": "ORDER_CREATED",
+                                "date": "2022-12-01T13:30:20Z"
+                            },
+                            {
+                                "eventCode": "ORDER_RELEASED",
+                                "date": "2022-12-01T13:43:20Z"
+                            },
+                            {
+                                "eventCode": "ORDER_RELEASED",
+                                "date": "2022-12-01T14:19:01Z"
+                            },
+                            {
+                                "eventCode": "650",
+                                "date": "2022-12-01T18:58:00Z",
+                                "description": "PICK_COMPLETE"
+                            },
+                            {
+                                "eventCode": "650",
+                                "date": "2022-12-01T18:59:00Z",
+                                "description": "PICK_COMPLETE"
+                            },
+                            {
+                                "eventCode": "820",
+                                "date": "2022-12-01T19:18:00Z",
+                                "description": "LOADED"
+                            },
+                            {
+                                "eventCode": "820",
+                                "date": "2022-12-01T19:19:00Z",
+                                "description": "LOADED"
+                            },
+                            {
+                                "eventCode": "ORDERED",
+                                "date": "2022-12-01T20:23:20Z",
+                                "address": {
+                                    "city": "Rocky River",
+                                    "state": "OH",
+                                    "country": "US",
+                                    "primaryAddress": false,
+                                    "verified": false
+                                },
+                                "description": "Your Chewy Order has shipped"
+                            },
+                            {
+                                "eventCode": "ARRIVAL_SCAN",
+                                "date": "2022-12-01T20:40:00Z",
+                                "address": {
+                                    "city": "Rocky River",
+                                    "state": "OH",
+                                    "country": "US",
+                                    "primaryAddress": false,
+                                    "verified": false
+                                },
+                                "description": "Package arrived at carrier facility"
+                            },
+                            {
+                                "eventCode": "DEPARTURE_SCAN",
+                                "date": "2022-12-08T22:44:39Z",
+                                "address": {
+                                    "city": "Rocky River",
+                                    "state": "OH",
+                                    "country": "US",
+                                    "primaryAddress": false,
+                                    "verified": false
+                                },
+                                "description": "Package departed carrier facility"
+                            },
+                            {
+                                "eventCode": "IN_TRANSIT",
+                                "date": "2022-12-08T22:45:12Z",
+                                "address": {
+                                    "city": "Rocky River",
+                                    "state": "OH",
+                                    "country": "US",
+                                    "primaryAddress": false,
+                                    "verified": false
+                                },
+                                "description": "Your package is in transit"
+                            }
+                        ],
+                        "fulfillmentCenter": "RNO1"
+                    },
+                    "carrierDescription": "Flat-Rate Shipping",
+                    "trackingUrl": "null92748903029593500000000000",
+                    "fulfillmentCenterDetails": {
+                        "id": "DAY1",
+                        "type": "fulfillmentCenters",
+                        "attributes": {
+                            "fulfillmentCenterId": "DAY1",
+                            "displayName": "DAY1",
+                            "fulfillmentCenterType": "CHEWY",
+                            "address": {
+                                "addressLine1": "3280 Lightner Road",
+                                "city": "Vandalia",
+                                "state": "OH",
+                                "postcode": "45377",
+                                "country": "US",
+                                "phone": "800-672-4399",
+                                "primaryAddress": false,
+                                "verified": false
+                            },
+                            "returnAddress": {
+                                "addressLine1": "3280 Lightner Road",
+                                "city": "Vandalia",
+                                "state": "OH",
+                                "postcode": "45377",
+                                "country": "US",
+                                "primaryAddress": false,
+                                "verified": false
+                            },
+                            "fcEnabled": true,
+                            "fulfillerId": "da295753-1507-4ea7-a0e6-967b949dda72"
+                        }
+                    },
+                    "shipmentItems": [
+                        {
+                            "lineItemId": "2158338055",
+                            "quantity": 1,
+                            "shippedQuantity": 0
+                        }
+                    ]
+                }
+            ],
+            "releases": [
+                {
+                    "id": "169696819",
+                    "status": "MANIFESTED",
+                    "releaseNumber": 1,
+                    "shippingModeCode": "FLATRATE",
+                    "fulfillmentAck": "2022-12-01T13:44:27.434Z",
+                    "fulfillmentCenter": "WFC2",
+                    "fulfillmentCenterType": "CHEWY",
+                    "captureDate": "2022-12-01T14:19:35.580Z",
+                    "customerConfirm": "2022-12-01T14:19:35.403Z",
+                    "lineItemIds": [
+                        "2158338054"
+                    ],
+                    "shipmentIds": [
+                        "432017915"
+                    ],
+                    "timeCreated": "2022-12-01T13:43:19.825Z",
+                    "timeUpdated": "2022-12-01T14:19:35.591Z"
+                },
+                {
+                    "id": "169696820",
+                    "status": "CANCELED",
+                    "releaseNumber": 2,
+                    "timeCreated": "2022-12-01T13:43:19.825Z",
+                    "timeUpdated": "2022-12-01T13:44:27.548Z",
+                    "attributes": [
+                        "CANCELLABLE"
+                    ]
+                },
+                {
+                    "id": "169696823",
+                    "status": "MANIFESTED",
+                    "releaseNumber": 3,
+                    "shippingModeCode": "FLATRATE",
+                    "fulfillmentCenter": "DAY1",
+                    "fulfillmentCenterType": "CHEWY",
+                    "captureDate": "2022-12-01T14:19:48.019Z",
+                    "customerConfirm": "2022-12-01T14:19:47.895Z",
+                    "lineItemIds": [
+                        "2158338055"
+                    ],
+                    "shipmentIds": [
+                        "432017916"
+                    ],
+                    "timeCreated": "2022-12-01T14:19:00.759Z",
+                    "timeUpdated": "2022-12-01T14:19:48.029Z"
+                }
+            ],
+            "payments": {
+                "paymentInstructions": [
+                    {
+                        "id": "443230869",
+                        "walletId": "00bcf053-31f9-45ef-9435-7f822131c4d9",
+                        "paymentMethod": {
+                            "paymentReferenceId": "ead910c7-0d53-4ace-bd50-f78d9968b23a",
+                            "type": "CARD",
+                            "card": {
+                                "expirationMonth": "1",
+                                "expirationYear": "2023",
+                                "cardHolderName": "2221000000000009a",
+                                "type": "MASTERCARD",
+                                "accountNumber": "2221009tPnc7r-u0009"
+                            }
+                        },
+                        "billingAddress": {
+                            "fullName": "2221000000000009a",
+                            "addressLine1": "10 W MAIN ST",
+                            "addressLine2": "suite 11",
+                            "city": "BURKITTSVILLE",
+                            "state": "MD",
+                            "postcode": "21718-9208",
+                            "country": "USA"
+                        },
+                        "amount": "28.34",
+                        "state": "VALID",
+                        "timeCreated": "2022-12-01T13:30:20.335Z",
+                        "timeUpdated": "2022-12-01T14:19:35.580Z"
+                    }
+                ]
+            },
+            "remoteIp": "192.88.179.42",
+            "businessChannel": "WEB",
+            "submitter": "CUSTOMER",
+            "submitterId": "272404254",
+            "submitterDetail": {
+                "id": "272404254",
+                "email": "MyAccount@example.com",
+                "fullName": "My Account",
+                "status": "ACTIVE"
+            },
+            "orderComments": [
+                {
+                    "id": "50658638",
+                    "text": "Fulfillment center rejected release 1785291502-2 with part number 124948 (Rejected - out of stock)",
+                    "timestamp": "2022-12-01T13:44:27.299Z",
+                    "userId": "-1"
+                }
+            ],
+            "releasedItemCount": 2
+        }
+    }
+}

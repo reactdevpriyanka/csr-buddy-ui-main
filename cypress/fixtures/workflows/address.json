@@ -1,0 +1,41 @@
+{
+  "context": {},
+  "startNode": { "id": "73" },
+  "flow": {
+    "flowName": "show-address",
+    "startNode": {
+      "id": "73",
+      "nodeType": "START_NODE",
+      "singularOutcomeId": "73"
+    },
+    "flowLinks": [
+      {
+        "outcomeId": "72",
+        "destinationNodeId": "73"
+      }
+    ],
+    "flowNodes": [
+      {
+        "id": "73",
+        "nodeType": "ADDRESS",
+        "required": {
+          "value": true
+        },
+        "enabled": {
+          "value": true
+        },
+        "visible": {
+          "value": true
+        },
+        "choices": [
+          {
+            "addressLine1": "4 NORTHEASTERN BLVD",
+            "city": "Salem",
+            "state": "NH",
+            "postcode": "03079-5916"
+          }
+        ]
+      }
+    ]
+  }
+}

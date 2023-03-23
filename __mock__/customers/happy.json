@@ -1,0 +1,63 @@
+{
+  "customerFullName": "Edward Norton",
+  "id": 148817172,
+  "registrationDate": "2021-07-30 10:41:35",
+  "email": "enorton@chewy.net",
+  "status": "ACTIVE",
+  "addresses": [
+    {
+      "id": "215590545",
+      "kyriosId": "215590545",
+      "nickname": "9e8bbfbd-f56d-487c-a4e6-e3b6d18c49c7",
+      "fullName": "Auto User01",
+      "addressLine1": "4 W STARDUST RD",
+      "city": "CLOVERDALE",
+      "state": "IN",
+      "postcode": "46120-8699",
+      "country": "US",
+      "phone": "1234567890",
+      "verificationStatus": "PAYPAL_VERIFIED",
+      "primaryAddress": true
+    },
+    {
+      "id": "215590553",
+      "kyriosId": "215590553",
+      "nickname": "321d39d5-0b54-438f-b36e-03eb88918c70",
+      "fullName": "Auto User02",
+      "addressLine1": "5 COUNTRY EST",
+      "city": "ALGONA",
+      "state": "IA",
+      "postcode": "50511-7242",
+      "country": "US",
+      "phone": "1234567890",
+      "primaryAddress": false
+    }
+  ],
+  "pets": [
+    {
+      "id": "82245466",
+      "name": "Bodhi",
+      "weight": 52,
+      "gender": "MALE",
+      "breedType": "Dog",
+      "breed": "Siberian Husky",
+      "birthday": "2018-12-09T00:00:00Z",
+      "adopted": false,
+      "avatarUrl": "https://dotcms-ui.chewy.com/images/pet-profile/avatars/avatar_dog_11_husky.png",
+      "medications": [
+        "None"
+      ],
+      "medicationAllergies": [
+        "None"
+      ],
+      "existingMedicalConditions": [
+        "None"
+      ],
+      "status": "ACTIVE",
+      "timeCreated": "2021-08-17 18:26:56",
+      "timeUpdated": "2021-08-17 18:27:03"
+    }
+  ],
+  "fraud": false,
+  "fraudSourceSystem": "CHEWY"
+}

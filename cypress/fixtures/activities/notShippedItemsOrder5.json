@@ -1,0 +1,868 @@
+{
+    "id": "1267327547",
+    "customerId": "880167074",
+    "status": "READY_TO_RELEASE",
+    "totalProduct": {
+        "value": "284.54",
+        "currency": "USD"
+    },
+    "totalSalesTax": {
+        "value": "19.56",
+        "currency": "USD"
+    },
+    "totalShipping": {
+        "value": "0.00",
+        "currency": "USD"
+    },
+    "totalShippingTax": {
+        "value": "0.00",
+        "currency": "USD"
+    },
+    "totalAdjustment": {
+        "value": "-43.39",
+        "currency": "USD"
+    },
+    "totalBeforeTax": {
+        "value": "241.15",
+        "currency": "USD"
+    },
+    "total": {
+        "value": "260.71",
+        "currency": "USD"
+    },
+    "timePlaced": "2022-10-27T03:54:52.404Z",
+    "timeUpdated": "2022-10-27T13:22:33.516Z",
+    "lineItems": [
+        {
+            "id": "2109653213",
+            "externalId": "1402673756",
+            "status": "SHIPPED",
+            "product": {
+                "catalogEntryId": "246898",
+                "partNumber": "220349",
+                "name": "STAR WARS THE MANDALORIAN GROGU \"Left Unsupervised\" Dog & Cat T-Shirt, XX-Large",
+                "description": "STAR WARS THE MANDALORIAN GROGU \"Left Unsupervised\" Dog & Cat T-Shirt, XX-Large",
+                "thumbnail": "//image.chewy.com/is/image/catalog/220349_MAIN,1646180965"
+            },
+            "fulfillmentCenter": "MCI1",
+            "fulfillmentStatus": "SHIPPED",
+            "quantity": 1,
+            "totalProduct": {
+                "value": "11.52"
+            },
+            "unitPrice": {
+                "value": "11.52"
+            },
+            "bundleItem": false,
+            "can": false,
+            "food": false,
+            "shippingCharge": {
+                "value": "0.00"
+            },
+            "totalAdjustment": {
+                "value": "-0.46"
+            },
+            "salesTax": {
+                "value": "0.89"
+            },
+            "shippingTax": {
+                "value": "0.00"
+            },
+            "currency": "USD"
+        },
+        {
+            "id": "2109653218",
+            "externalId": "1402673761",
+            "status": "SHIPPED",
+            "product": {
+                "catalogEntryId": "241989",
+                "partNumber": "215422",
+                "name": "Frisco Lion Mane Dog & Cat Costume, X-Large",
+                "description": "Frisco Lion Mane Dog & Cat Costume, X-Large",
+                "thumbnail": "//image.chewy.com/is/image/catalog/215422_MAIN,1594656982"
+            },
+            "fulfillmentCenter": "MCI1",
+            "fulfillmentStatus": "SHIPPED",
+            "quantity": 1,
+            "totalProduct": {
+                "value": "12.99"
+            },
+            "unitPrice": {
+                "value": "12.99"
+            },
+            "bundleItem": false,
+            "can": false,
+            "food": false,
+            "shippingCharge": {
+                "value": "0.00"
+            },
+            "totalAdjustment": {
+                "value": "-0.52"
+            },
+            "salesTax": {
+                "value": "1.00"
+            },
+            "shippingTax": {
+                "value": "0.00"
+            },
+            "currency": "USD",
+            "tags": [
+                "OUT_OF_STOCK"
+            ]
+        },
+        {
+            "id": "2109653219",
+            "externalId": "1402673762",
+            "status": "SHIPPED",
+            "product": {
+                "catalogEntryId": "297801",
+                "partNumber": "271378",
+                "name": "Vetnique Labs Oticbliss Ear Wipes Advanced Cleaning, Soothing, & Medicated Dog & Cat Ear Wipes, 100 count",
+                "description": "Vetnique Labs Oticbliss Ear Wipes Advanced Cleaning, Soothing, & Medicated Dog & Cat Ear Wipes, 100 count",
+                "thumbnail": "//image.chewy.com/is/image/catalog/271378_MAIN,1651854084"
+            },
+            "fulfillmentCenter": "MCI1",
+            "fulfillmentStatus": "SHIPPED",
+            "quantity": 1,
+            "totalProduct": {
+                "value": "13.99"
+            },
+            "unitPrice": {
+                "value": "13.99"
+            },
+            "bundleItem": false,
+            "can": false,
+            "food": false,
+            "shippingCharge": {
+                "value": "0.00"
+            },
+            "totalAdjustment": {
+                "value": "-0.56"
+            },
+            "salesTax": {
+                "value": "1.07"
+            },
+            "shippingTax": {
+                "value": "0.00"
+            },
+            "currency": "USD"
+        },
+        {
+            "id": "2109653214",
+            "externalId": "1402673757",
+            "status": "SHIPPED",
+            "product": {
+                "catalogEntryId": "246844",
+                "partNumber": "220295",
+                "name": "STAR WARS DARTH VADER \"Dark Lord of the Sith\" Dog & Cat Hoodie, XX-Large",
+                "description": "STAR WARS DARTH VADER \"Dark Lord of the Sith\" Dog & Cat Hoodie, XX-Large",
+                "thumbnail": "//image.chewy.com/is/image/catalog/220295_MAIN,1646179750"
+            },
+            "fulfillmentCenter": "AVP2",
+            "fulfillmentStatus": "SHIPPED",
+            "quantity": 1,
+            "totalProduct": {
+                "value": "10.13"
+            },
+            "unitPrice": {
+                "value": "10.13"
+            },
+            "bundleItem": false,
+            "can": false,
+            "food": false,
+            "shippingCharge": {
+                "value": "0.00"
+            },
+            "totalAdjustment": {
+                "value": "-0.40"
+            },
+            "salesTax": {
+                "value": "0.78"
+            },
+            "shippingTax": {
+                "value": "0.00"
+            },
+            "currency": "USD"
+        },
+        {
+            "id": "2109653220",
+            "externalId": "1402673763",
+            "status": "RELEASED",
+            "product": {
+                "catalogEntryId": "251351",
+                "partNumber": "224823",
+                "name": "Simparica Trio Chewable Tablet for Dogs, 44.1-88 lbs, (Green Box), 6 Chewable Tablets (6-mos. supply)",
+                "description": "Simparica Trio Chewable Tablet for Dogs, 44.1-88 lbs, (Green Box), 6 Chewable Tablets (6-mos. supply)",
+                "thumbnail": "//image.chewy.com/is/image/catalog/224823_MAIN,1583503097",
+                "attributes": [
+                    "PHARMACEUTICAL"
+                ],
+                "personalizationAttributeMap": {
+                    "ClinicId": "26250",
+                    "ContactVet": "true",
+                    "PetProfileId": "93772924"
+                }
+            },
+            "fulfillmentCenter": "SDF4",
+            "fulfillmentCenterType": "CHEWY",
+            "fulfillmentStatus": "RELEASED",
+            "quantity": 1,
+            "totalProduct": {
+                "value": "168.41"
+            },
+            "unitPrice": {
+                "value": "168.41"
+            },
+            "bundleItem": false,
+            "shippingCharge": {
+                "value": "0.00"
+            },
+            "totalAdjustment": {
+                "value": "-14.76"
+            },
+            "salesTax": {
+                "value": "12.56"
+            },
+            "shippingTax": {
+                "value": "0.00"
+            },
+            "currency": "USD",
+            "vetContactInfo": {
+                "clinicId": "26250",
+                "clinicName": "GALLERIA ANIMAL CLINIC",
+                "contactVet": "true",
+                "petProfileId": "93772924",
+                "petName": "Charlie Jo"
+            },
+            "tags": [
+                "PHARMACY"
+            ]
+        },
+        {
+            "id": "2109653217",
+            "externalId": "1402673760",
+            "status": "RELEASED",
+            "product": {
+                "catalogEntryId": "310472",
+                "partNumber": "284097",
+                "name": "Littlearth NCAA Stretch Dog & Cat Jersey, Michigan State Spartans, X-Large",
+                "description": "Littlearth NCAA Stretch Dog & Cat Jersey, Michigan State Spartans, X-Large",
+                "thumbnail": "//image.chewy.com/is/image/catalog/284097_MAIN,1619541728",
+                "attributes": [
+                    "DROPSHIP"
+                ]
+            },
+            "fulfillmentCenter": "LEP1",
+            "fulfillmentCenterType": "DROPSHIP",
+            "fulfillmentStatus": "RELEASED",
+            "quantity": 1,
+            "totalProduct": {
+                "value": "18.11"
+            },
+            "unitPrice": {
+                "value": "18.11"
+            },
+            "minDeliveryDate": "2022-10-29T13:00:00.214Z",
+            "maxDeliveryDate": "2022-11-02T13:00:00.214Z",
+            "bundleItem": false,
+            "shippingCharge": {
+                "value": "0.00"
+            },
+            "totalAdjustment": {
+                "value": "-0.72"
+            },
+            "salesTax": {
+                "value": "1.39"
+            },
+            "shippingTax": {
+                "value": "0.00"
+            },
+            "currency": "USD",
+            "tags": [
+                "DROPSHIP"
+            ]
+        },
+        {
+            "id": "2109653216",
+            "externalId": "1402673759",
+            "status": "RELEASED",
+            "product": {
+                "catalogEntryId": "310480",
+                "partNumber": "284105",
+                "name": "Littlearth NCAA Stretch Dog & Cat Jersey, Ohio State Buckeyes, X-Large",
+                "description": "Littlearth NCAA Stretch Dog & Cat Jersey, Ohio State Buckeyes, X-Large",
+                "thumbnail": "//image.chewy.com/is/image/catalog/284105_MAIN,1619492837",
+                "attributes": [
+                    "DROPSHIP"
+                ]
+            },
+            "fulfillmentCenter": "LEP1",
+            "fulfillmentCenterType": "DROPSHIP",
+            "fulfillmentStatus": "RELEASED",
+            "quantity": 1,
+            "totalProduct": {
+                "value": "24.39"
+            },
+            "unitPrice": {
+                "value": "24.39"
+            },
+            "minDeliveryDate": "2022-10-29T13:00:00.146Z",
+            "maxDeliveryDate": "2022-11-02T13:00:00.146Z",
+            "bundleItem": false,
+            "shippingCharge": {
+                "value": "0.00"
+            },
+            "totalAdjustment": {
+                "value": "-0.97"
+            },
+            "salesTax": {
+                "value": "1.87"
+            },
+            "shippingTax": {
+                "value": "0.00"
+            },
+            "currency": "USD",
+            "tags": [
+                "DROPSHIP"
+            ]
+        },
+        {
+            "id": "2109653215",
+            "externalId": "1402673758",
+            "status": "READY_TO_RELEASE",
+            "product": {
+                "catalogEntryId": "285808",
+                "partNumber": "259362",
+                "name": "Chewy Promotional $25 eGift Card, Included Free With an Item in Your Order",
+                "description": "Chewy Promotional $25 eGift Card, Included Free With an Item in Your Order",
+                "thumbnail": "//image.chewy.com/is/image/catalog/244308_MAIN,1598623567",
+                "attributes": [
+                    "ELECTRONIC_DELIVERY",
+                    "GIFT_CARD"
+                ],
+                "personalizationAttributeMap": {
+                    "Message": "Enjoy your Chewy eGift Card!",
+                    "SenderName": "Chewy",
+                    "RecipientEmail": "brentrohrer@gmail.com"
+                }
+            },
+            "fulfillmentCenter": "DGC1",
+            "fulfillmentCenterType": "CHEWY",
+            "fulfillmentStatus": "NOT_RELEASED",
+            "quantity": 1,
+            "totalProduct": {
+                "value": "25.00"
+            },
+            "unitPrice": {
+                "value": "25.00"
+            },
+            "bundleItem": false,
+            "shippingCharge": {
+                "value": "0.00"
+            },
+            "totalAdjustment": {
+                "value": "-25.00"
+            },
+            "salesTax": {
+                "value": "0.00"
+            },
+            "shippingTax": {
+                "value": "0.00"
+            },
+            "currency": "USD",
+            "lineItemAttributes": [
+                "CANCELLABLE"
+            ],
+            "tags": [
+                "PERSONALIZED",
+                "PROMOTION"
+            ]
+        }
+    ],
+    "subscriptionInfos": [
+        {
+            "subscriptionId": "809189874",
+            "parentOrderId": "809189874"
+        }
+    ],
+    "trackingData": {
+        "shippingStep": "IN_TRANSIT",
+        "shippingStatus": "ON_TIME",
+        "chewyPromisedDeliveryDate": "2022-10-29",
+        "estimatedDeliveryDate": "2022-10-29"
+    },
+    "shippingAddress": {
+        "id": "1347213945",
+        "nickname": "4f92b811-3b97-4de6-b506-b9e7c1da4970",
+        "fullName": "Brent Rohrer",
+        "addressLine1": "908 CHACE LAKE PKWY",
+        "city": "BIRMINGHAM",
+        "state": "AL",
+        "postcode": "35244-3039",
+        "country": "US",
+        "phone": "2563422040",
+        "primaryAddress": false,
+        "verified": false
+    },
+    "orderAttributes": [
+        "AUTOSHIP",
+        "PRESCRIPTION",
+        "EDITABLE"
+    ],
+    "shipments": [
+        {
+            "id": "650234441",
+            "shippingModeCode": "FDXHD",
+            "trackingId": "614822595584",
+            "timeShipped": "2022-10-27T13:07:36.110Z",
+            "packageId": "671022369",
+            "trackingData": {
+                "shippingStep": "IN_TRANSIT",
+                "shippingStatus": "ON_TIME",
+                "chewyPromisedDeliveryDate": "2022-10-29",
+                "estimatedDeliveryDate": "2022-10-29",
+                "trackingEvent": {
+                    "code": "ORDERED",
+                    "date": "2022-10-27T13:25:00Z",
+                    "address": {
+                        "primaryAddress": false,
+                        "verified": false
+                    },
+                    "description": "Your Chewy Order has shipped"
+                },
+                "progressPercentage": 40,
+                "actualShipDateTime": "2022-10-27T12:13:25Z",
+                "packagesCountFromOrder": 4,
+                "currentPackageStatus": "ON_TIME_AT_CARRIER",
+                "derivedDeliveryDate": "2022-10-29T00:00:00Z",
+                "displayEvents": [
+                    {
+                        "code": "ORDER_ITEM_BLOCKED",
+                        "date": "2022-10-27T03:54:52Z"
+                    },
+                    {
+                        "code": "ORDER_RELEASED",
+                        "date": "2022-10-27T09:00:37Z"
+                    },
+                    {
+                        "code": "820",
+                        "date": "2022-10-27T12:13:25Z",
+                        "description": "LOADED"
+                    },
+                    {
+                        "code": "650",
+                        "date": "2022-10-27T12:58:49Z",
+                        "description": "PICK COMPLETE"
+                    },
+                    {
+                        "code": "ORDERED",
+                        "date": "2022-10-27T13:25:00Z",
+                        "address": {
+                            "primaryAddress": false,
+                            "verified": false
+                        },
+                        "description": "Your Chewy Order has shipped"
+                    }
+                ],
+                "fulfillmentCenter": "MCI1"
+            },
+            "carrier": "FDEG",
+            "carrierDescription": "Fedex Home Delivery",
+            "trackingUrl": "https://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=614822595584",
+            "fulfillmentCenterDetails": {
+                "id": "MCI1",
+                "type": "fulfillmentCenters",
+                "attributes": {
+                    "fulfillmentCenterId": "MCI1",
+                    "displayName": "MCI1",
+                    "fulfillmentCenterType": "CHEWY",
+                    "address": {
+                        "addressLine1": "15999 South Outer Road",
+                        "city": "Belton",
+                        "state": "MO",
+                        "postcode": "64012",
+                        "country": "US",
+                        "primaryAddress": false,
+                        "verified": false
+                    },
+                    "returnAddress": {
+                        "primaryAddress": false,
+                        "verified": false
+                    },
+                    "fcEnabled": true,
+                    "fulfillerId": "b85ddeec-e3ea-4247-bfc1-4e0cd200de0b"
+                }
+            },
+            "shipmentItems": [
+                {
+                    "lineItemId": "2109653213",
+                    "quantity": 1,
+                    "shippedQuantity": 0
+                },
+                {
+                    "lineItemId": "2109653218",
+                    "quantity": 1,
+                    "shippedQuantity": 0
+                },
+                {
+                    "lineItemId": "2109653219",
+                    "quantity": 1,
+                    "shippedQuantity": 0
+                }
+            ]
+        },
+        {
+            "id": "650239848",
+            "shippingModeCode": "FDXHD",
+            "trackingId": "615172623720",
+            "timeShipped": "2022-10-27T13:21:00.643Z",
+            "packageId": "671022323",
+            "trackingData": {
+                "shippingStep": "IN_TRANSIT",
+                "shippingStatus": "ON_TIME",
+                "chewyPromisedDeliveryDate": "2022-10-29",
+                "estimatedDeliveryDate": "2022-10-29",
+                "trackingEvent": {
+                    "code": "ORDERED",
+                    "date": "2022-10-27T13:47:00Z",
+                    "address": {
+                        "primaryAddress": false,
+                        "verified": false
+                    },
+                    "description": "Your Chewy Order has shipped"
+                },
+                "progressPercentage": 40,
+                "actualShipDateTime": "2022-10-27T13:21:29Z",
+                "packagesCountFromOrder": 4,
+                "currentPackageStatus": "ON_TIME_AT_CARRIER",
+                "derivedDeliveryDate": "2022-10-29T00:00:00Z",
+                "displayEvents": [
+                    {
+                        "code": "ORDER_ITEM_BLOCKED",
+                        "date": "2022-10-27T03:54:52Z"
+                    },
+                    {
+                        "code": "ORDER_RELEASED",
+                        "date": "2022-10-27T09:00:37Z"
+                    },
+                    {
+                        "code": "650",
+                        "date": "2022-10-27T13:10:08Z",
+                        "description": "PICK COMPLETE"
+                    },
+                    {
+                        "code": "820",
+                        "date": "2022-10-27T13:21:29Z",
+                        "description": "LOADED"
+                    },
+                    {
+                        "code": "ORDERED",
+                        "date": "2022-10-27T13:47:00Z",
+                        "address": {
+                            "primaryAddress": false,
+                            "verified": false
+                        },
+                        "description": "Your Chewy Order has shipped"
+                    }
+                ],
+                "fulfillmentCenter": "AVP2"
+            },
+            "carrier": "FDEG",
+            "carrierDescription": "Fedex Home Delivery",
+            "trackingUrl": "https://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=615172623720",
+            "fulfillmentCenterDetails": {
+                "id": "AVP2",
+                "type": "fulfillmentCenters",
+                "attributes": {
+                    "fulfillmentCenterId": "AVP2",
+                    "displayName": "AVP2",
+                    "fulfillmentCenterType": "CHEWY",
+                    "address": {
+                        "addressLine1": "37 Archbald Heights Rd",
+                        "city": "Jessup",
+                        "state": "PA",
+                        "postcode": "18434",
+                        "country": "US",
+                        "primaryAddress": false,
+                        "verified": false
+                    },
+                    "returnAddress": {
+                        "addressLine1": "37 Archbald Heights Rd",
+                        "city": "Jessup",
+                        "state": "PA",
+                        "postcode": "18434",
+                        "country": "US",
+                        "primaryAddress": false,
+                        "verified": false
+                    },
+                    "fcEnabled": true,
+                    "fulfillerId": "b85ddeec-e3ea-4247-bfc1-4e0cd200de0b"
+                }
+            },
+            "shipmentItems": [
+                {
+                    "lineItemId": "2109653214",
+                    "quantity": 1,
+                    "shippedQuantity": 0
+                }
+            ]
+        }
+    ],
+    "releases": [
+        {
+            "id": "587304170",
+            "status": "MANIFESTED",
+            "releaseNumber": 1,
+            "shippingModeCode": "FLATRATE",
+            "fulfillmentAck": "2022-10-27T09:05:02.710Z",
+            "fulfillmentCenter": "MCI1",
+            "fulfillmentCenterType": "CHEWY",
+            "captureDate": "2022-10-27T13:09:35.130Z",
+            "customerConfirm": "2022-10-27T13:09:34.501Z",
+            "lineItemIds": [
+                "2109653213",
+                "2109653218",
+                "2109653219"
+            ],
+            "shipmentIds": [
+                "650234441"
+            ],
+            "timeCreated": "2022-10-27T09:00:36.917Z",
+            "timeUpdated": "2022-10-27T13:09:34.501Z"
+        },
+        {
+            "id": "587304171",
+            "status": "MANIFESTED",
+            "releaseNumber": 2,
+            "shippingModeCode": "FLATRATE",
+            "fulfillmentAck": "2022-10-27T09:04:31.442Z",
+            "fulfillmentCenter": "AVP2",
+            "fulfillmentCenterType": "CHEWY",
+            "customerConfirm": "2022-10-27T13:22:33.336Z",
+            "lineItemIds": [
+                "2109653214"
+            ],
+            "shipmentIds": [
+                "650239848"
+            ],
+            "timeCreated": "2022-10-27T09:00:36.917Z",
+            "timeUpdated": "2022-10-27T13:22:33.336Z"
+        },
+        {
+            "id": "587304172",
+            "status": "PRINTED",
+            "releaseNumber": 3,
+            "shippingModeCode": "FDXHD",
+            "fulfillmentAck": "2022-10-27T13:07:52.163Z",
+            "fulfillmentCenter": "LEP1",
+            "fulfillmentCenterType": "DROPSHIP",
+            "lineItemIds": [
+                "2109653216",
+                "2109653217"
+            ],
+            "timeCreated": "2022-10-27T09:00:36.917Z",
+            "timeUpdated": "2022-10-27T09:00:37.263Z",
+            "attributes": [
+                "CANCELLABLE"
+            ]
+        },
+        {
+            "id": "587304173",
+            "status": "PRINTED",
+            "releaseNumber": 4,
+            "shippingModeCode": "FLATRATE",
+            "fulfillmentCenter": "SDF4",
+            "fulfillmentCenterType": "CHEWY",
+            "lineItemIds": [
+                "2109653220"
+            ],
+            "timeCreated": "2022-10-27T09:00:36.917Z",
+            "timeUpdated": "2022-10-27T09:00:37.527Z",
+            "attributes": [
+                "CANCELLABLE"
+            ]
+        }
+    ],
+    "releasesNotShippedItems": [
+        {
+            "id": "587304172",
+            "status": "PRINTED",
+            "releaseNumber": 3,
+            "shippingModeCode": "FDXHD",
+            "fulfillmentAck": "2022-10-27T13:07:52.163Z",
+            "fulfillmentCenter": "LEP1",
+            "fulfillmentCenterType": "DROPSHIP",
+            "lineItemIds": [
+                "2109653216",
+                "2109653217"
+            ],
+            "timeCreated": "2022-10-27T09:00:36.917Z",
+            "timeUpdated": "2022-10-27T09:00:37.263Z",
+            "attributes": [
+                "CANCELLABLE"
+            ]
+        },
+        {
+            "id": "587304173",
+            "status": "PRINTED",
+            "releaseNumber": 4,
+            "shippingModeCode": "FLATRATE",
+            "fulfillmentCenter": "SDF4",
+            "fulfillmentCenterType": "CHEWY",
+            "lineItemIds": [
+                "2109653220"
+            ],
+            "timeCreated": "2022-10-27T09:00:36.917Z",
+            "timeUpdated": "2022-10-27T09:00:37.527Z",
+            "attributes": [
+                "CANCELLABLE"
+            ]
+        }
+    ],
+    "notReleasedLineItems": [
+        {
+            "id": "2109653215",
+            "externalId": "1402673758",
+            "status": "READY_TO_RELEASE",
+            "product": {
+                "catalogEntryId": "285808",
+                "partNumber": "259362",
+                "name": "Chewy Promotional $25 eGift Card, Included Free With an Item in Your Order",
+                "description": "Chewy Promotional $25 eGift Card, Included Free With an Item in Your Order",
+                "thumbnail": "//image.chewy.com/is/image/catalog/244308_MAIN,1598623567",
+                "attributes": [
+                    "ELECTRONIC_DELIVERY",
+                    "GIFT_CARD"
+                ],
+                "personalizationAttributeMap": {
+                    "Message": "Enjoy your Chewy eGift Card!",
+                    "SenderName": "Chewy",
+                    "RecipientEmail": "brentrohrer@gmail.com"
+                }
+            },
+            "fulfillmentCenter": "DGC1",
+            "fulfillmentCenterType": "CHEWY",
+            "fulfillmentStatus": "NOT_RELEASED",
+            "quantity": 1,
+            "totalProduct": {
+                "value": "25.00"
+            },
+            "unitPrice": {
+                "value": "25.00"
+            },
+            "bundleItem": false,
+            "shippingCharge": {
+                "value": "0.00"
+            },
+            "totalAdjustment": {
+                "value": "-25.00"
+            },
+            "salesTax": {
+                "value": "0.00"
+            },
+            "shippingTax": {
+                "value": "0.00"
+            },
+            "currency": "USD",
+            "lineItemAttributes": [
+                "CANCELLABLE"
+            ],
+            "tags": [
+                "PERSONALIZED",
+                "PROMOTION"
+            ]
+        }
+    ],
+    "notShippedItems": [
+        {
+            "lineItemId": "2109653220",
+            "quantity": 1,
+            "shippedQuantity": 0
+        },
+        {
+            "lineItemId": "2109653217",
+            "quantity": 1,
+            "shippedQuantity": 0
+        },
+        {
+            "lineItemId": "2109653216",
+            "quantity": 1,
+            "shippedQuantity": 0
+        },
+        {
+            "lineItemId": "2109653215",
+            "quantity": 1,
+            "shippedQuantity": 0
+        }
+    ],
+    "payments": {
+        "paymentInstructions": [
+            {
+                "id": "639242681",
+                "walletId": "df39a60c-9115-44aa-a593-c0fd08891214",
+                "paymentMethod": {
+                    "paymentReferenceId": "849ab201-542f-4998-8d81-c5e39391f023",
+                    "type": "CARD",
+                    "card": {
+                        "expirationMonth": "12",
+                        "expirationYear": "2025",
+                        "cardHolderName": "Brent A Rohrer",
+                        "type": "VISA",
+                        "accountNumber": "4355XXXXXXXX3001"
+                    }
+                },
+                "billingAddress": {
+                    "fullName": "Brent A Rohrer",
+                    "addressLine1": "908 CHACE LAKE PKWY",
+                    "city": "BIRMINGHAM",
+                    "state": "AL",
+                    "postcode": "35244-3039",
+                    "country": "USA"
+                },
+                "amount": "260.71",
+                "state": "VALID",
+                "timeCreated": "2022-10-27T08:41:13.607Z",
+                "timeUpdated": "2022-10-27T13:09:35.130Z"
+            }
+        ]
+    },
+    "remoteIp": "2607:fb90:1bd7:4818:25ca:bb1e:e113:b9c0",
+    "businessChannel": "ANDROID",
+    "submitter": "CUSTOMER",
+    "submitterId": "880167074",
+    "submitterDetail": {
+        "id": "880167074",
+        "email": "brentrohrer@gmail.com",
+        "fullName": "Brent Rohrer",
+        "status": "ACTIVE"
+    },
+    "promotions": [
+        {
+            "code": "MEOW22",
+            "name": "(2022-10) 2022 National Cat Day Spend $80 Get a $25 Gift Card ",
+            "amount": {
+                "value": "-25.00"
+            }
+        },
+        {
+            "code": "AUTOSHIPNSAVE",
+            "name": "Autoship & Save - 5% off eligible brands",
+            "amount": {
+                "value": "-8.42"
+            }
+        },
+        {
+            "amount": {
+                "value": "-9.97"
+            }
+        }
+    ],
+    "orderComments": [
+        {
+            "id": "143213742",
+            "text": "Applied automatic adjustment of -9.97 due to order total increase after routing decision",
+            "timestamp": "2022-10-27T08:53:48.108Z",
+            "userId": "-1"
+        }
+    ]
+}

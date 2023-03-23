@@ -1,0 +1,99 @@
+#!/bin/env groovy
+testCustomers = [
+  'prd': [], // TODO: Get test customers set up
+  'stg': ['alpha': 162318096, 'beta': 162318096, 'stable': 162318096],
+  'qat': [], // TODO: Get test customers set up
+  'dev': [], // TODO: Get test customers set up
+]
+
+/**
+ * Get the test customer ID used for the Cypress testing suite.
+ *
+ * @param  {String}  environment     Environment under test
+ * @param  {String}  subEnvironment  Sub-environment under test
+ * @return {String}
+ */
+String getTestCustomerId(String environment, String subEnvironment) {
+  return testCustomers[environment][subEnvironment]
+}
+
+String getAdminUserName(String environment, String subEnvironment) {
+  return 'admin' // TODO get this into a secret
+}
+
+String getAdminPassword(String environment, String subEnvironment) {
+  return 'new123pass' // TODO get this into a secret
+}
+
+profiles = ['alpha': 'DEV - CSRBuddy - Admin']
+
+String getAgentProfile(String subEnvironment) {
+  return profiles[subEnvironment]
+}
+
+pipeline {
+  agent {
+    node {
+      label 'camacho'
+      }   
+  }
+  tools {
+    nodejs 'nodejs-14.15.1'
+  }
+  environment {
+    HUSKY = 0
+    CI = 'true'
+    ECR_REPO = '278833423079.dkr.ecr.us-east-1.amazonaws.com/csbb/csr-buddy-ui'
+    ARTIFACTORY_USER_NAME = credentials('artifactory-username')
+    ARTIFACTORY_API_KEY = credentials('artifactory-password')
+    CYPRESS_NUM_TESTS_KEPT_IN_MEMORY = '10'
+    CYPRESS_DEFAULT_COMMAND_TIMEOUT = '200000'
+    CYPRESS_DEFAULT_TASK_TIMEOUT = '80000'
+    CYPRESS_DEFAULT_EXEC_TIMEOUT = '80000'
+    CYPRESS_DEFAULT_PAGE_LOAD_TIMEOUT = '200000'
+    CYPRESS_VIDEO = 'true'
+    CYPRESS_SCREENSHOT_ON_RUN_FAILURE = 'true'
+    CYPRESS_VIDEO_UPLOAD_ON_PASSES = 'true'
+  }
+  stages {
+    stage('Initialize Workflow Scripts') {
+      steps {
+        script {
+          env.CYPRESS_TEST_CUSTOMER_ID = getTestCustomerId(env.ENVIRONMENT, env.SUB_ENVIRONMENT)
+          env.CYPRESS_ADMIN_USERNAME = getAdminUserName(env.ENVIRONMENT, env.SUB_ENVIRONMENT)
+          env.CYPRESS_ADMIN_PASSWORD = getAdminPassword(env.ENVIRONMENT, env.SUB_ENVIRONMENT)
+          env.CYPRESS_AGENT_PROFILE = getAgentProfile(env.SUB_ENVIRONMENT)
+          // TODO: need this?
+          // sh(script: 'printenv | sort', label: "Print environment variables")
+        }
+      }
+    }
+    stage('Install') {
+      environment {
+        CYPRESS_DOWNLOAD_MIRROR = "https://${env.ARTIFACTORY_USER_NAME}:${env.ARTIFACTORY_API_KEY}@chewyinc.jfrog.io/artifactory/cypress-download"
+        CYPRESS_CACHE_FOLDER = '/var/lib/jenkins/.cache/Cypress'
+      }
+      steps {
+        configFileProvider([configFile(fileId: 'npmrc-default', targetLocation: './.npmrc')]) {
+          withCredentials([usernamePassword(credentialsId: 'jenkins-github-userpass', passwordVariable: 'GRGIT_PASS', usernameVariable: 'GRGIT_USER')]) {
+            sh 'yarn install --frozen-lockfile'
+          }
+        }
+      }
+    }
+    stage('E2E Test') {
+      steps {
+        sh "yarn cy:parallel:${env.ENVIRONMENT}"
+        sh "yarn report:merge"
+        sh "yarn report:generate"
+      }
+    } 
+  }
+  post {
+    always {
+      archiveArtifacts(artifacts: 'cypress/videos/**/*', allowEmptyArchive: true, fingerprint: true)
+      archiveArtifacts(artifacts: 'cypress/screenshots/**/*', allowEmptyArchive: true, fingerprint: true)
+      junit 'cypress-coverage/*.xml'
+    }
+  }
+}

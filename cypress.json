@@ -1,0 +1,17 @@
+{
+  "baseUrl": "http://localhost:8080/",
+  "screenshotOnRunFailure": false,
+  "video": false,
+  "videoUploadOnPasses": false,
+  "numTestsKeptInMemory": 0,
+  "projectId": "889v71",
+  "chromeWebSecurity": false,
+  "reporter": "junit",
+  "retries": {
+    "runMode": 3,
+    "openMode": 0
+  },
+  "reporterOptions": {
+    "mochaFile": "cypress-coverage/cypress-[hash].xml"
+  }
+}

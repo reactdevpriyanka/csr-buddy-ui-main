@@ -1,0 +1,237 @@
+{
+  "name": "returnItemDetails",
+  "title": "Choose Item(s)",
+  "singularOutcome": "fixIssue-start11",
+  "depth": 2,
+  "id": "fixIssue-start8",
+  "required": true,
+  "disabled": false,
+  "isFormValid": true,
+  "returnType": "REPLACEMENT",
+  "tableItems": [
+    {
+      "id": "1503398745",
+      "externalId": "390962107",
+      "status": "SHIPPED",
+      "product": {
+        "catalogEntryId": "226306",
+        "partNumber": "199677",
+        "name": "Chewy eGift Card, Chewy Pet Lovers, $50",
+        "description": "Chewy eGift Card, Chewy Pet Lovers, $50",
+        "thumbnail": "//img.chewy.com/is/image/catalog/199677_MAIN,1574176673",
+        "attributes": [
+          "ELECTRONIC_DELIVERY",
+          "GIFT_CARD"
+        ],
+        "personalizationAttributeMap": {
+          "Message": "Enjoy your Chewy eGift Card!",
+          "RecipientEmail": "randomtestuser@chewy.com"
+        },
+        "maskAccountList": [
+          "777727XXXXXXXX9961"
+        ]
+      },
+      "inventoryStatus": "RELEASED",
+      "fulfillmentCenter": "DGC1",
+      "fulfillmentStatus": "SHIPPED",
+      "quantity": 1,
+      "totalProduct": {
+        "value": "50.00",
+        "currency": "USD"
+      },
+      "unitPrice": {
+        "value": "50.00",
+        "currency": "USD"
+      },
+      "timeCreated": "2022-02-03T21:41:22.151Z",
+      "timeUpdated": "2022-02-03T21:43:41.034Z",
+      "timeReleased": "2022-02-03T21:43:13.496Z",
+      "timeShipped": "2022-02-03T21:43:29.924Z",
+      "bundleItem": false,
+      "can": false,
+      "food": false,
+      "shippingCharge": {
+        "value": "0.00"
+      },
+      "totalAdjustment": {
+        "value": "0.00"
+      },
+      "salesTax": {
+        "value": "0.00"
+      },
+      "shippingTax": {
+        "value": "0.00"
+      },
+      "totalProductCost": {
+        "value": "50.00"
+      },
+      "tags": [
+        "PERSONALIZED"
+      ],
+      "returns": {
+        "partNumber": "199677",
+        "returnServiceItemId": "e038c875-3975-4e83-bb65-9abb37307953",
+        "refundQuantityExisting": 0,
+        "refundQuantityRemaining": 1,
+        "replacementQuantityExisting": 0,
+        "replacementQuantityRemaining": 1,
+        "shouldReceiveEligible": false,
+        "orderLineItemId": "390962107",
+        "maskedAccountNumber": "777727XXXXXXXX9961"
+      },
+      "isGiftCard": true,
+      "isFrozen": false,
+      "remainingQuantity": 1,
+      "key": "777727XXXXXXXX9961"
+    },
+    {
+      "id": "1503398744",
+      "externalId": "390962106",
+      "status": "SHIPPED",
+      "product": {
+        "catalogEntryId": "226308",
+        "partNumber": "199679",
+        "name": "Chewy eGift Card, Chewy Pet Lovers, $100",
+        "description": "Chewy eGift Card, Chewy Pet Lovers, $100",
+        "thumbnail": "//img.chewy.com/is/image/catalog/199679_MAIN,1574176675",
+        "attributes": [
+          "ELECTRONIC_DELIVERY",
+          "GIFT_CARD"
+        ],
+        "personalizationAttributeMap": {
+          "Message": "Enjoy your Chewy eGift Card!",
+          "RecipientEmail": "randomtestuser@chewy.com"
+        },
+        "maskAccountList": [
+          "777727XXXXXXXX2163"
+        ]
+      },
+      "inventoryStatus": "RELEASED",
+      "fulfillmentCenter": "DGC1",
+      "fulfillmentStatus": "SHIPPED",
+      "quantity": 1,
+      "totalProduct": {
+        "value": "100.00",
+        "currency": "USD"
+      },
+      "unitPrice": {
+        "value": "100.00",
+        "currency": "USD"
+      },
+      "timeCreated": "2022-02-03T21:41:22.151Z",
+      "timeUpdated": "2022-02-03T21:43:41.034Z",
+      "timeReleased": "2022-02-03T21:43:13.496Z",
+      "timeShipped": "2022-02-03T21:43:29.924Z",
+      "bundleItem": false,
+      "can": false,
+      "food": false,
+      "shippingCharge": {
+        "value": "0.00"
+      },
+      "totalAdjustment": {
+        "value": "0.00"
+      },
+      "salesTax": {
+        "value": "0.00"
+      },
+      "shippingTax": {
+        "value": "0.00"
+      },
+      "totalProductCost": {
+        "value": "100.00"
+      },
+      "tags": [
+        "PERSONALIZED"
+      ],
+      "returns": {
+        "partNumber": "199679",
+        "returnServiceItemId": "ed2c3a5e-f5bd-44be-a389-5b42d677fad4",
+        "refundQuantityExisting": 0,
+        "refundQuantityRemaining": 1,
+        "replacementQuantityExisting": 0,
+        "replacementQuantityRemaining": 1,
+        "shouldReceiveEligible": false,
+        "orderLineItemId": "390962106",
+        "maskedAccountNumber": "777727XXXXXXXX2163"
+      },
+      "isGiftCard": true,
+      "isFrozen": false,
+      "remainingQuantity": 1,
+      "key": "777727XXXXXXXX2163"
+    }
+  ],
+  "stateFromHistory": {
+    "allSelected": false,
+    "allResponses": {
+      "returnReason": null,
+      "returnReasonComplete": false,
+      "comment": "",
+      "sendItemBack": false,
+      "donateToShelter": false
+    },
+    "errorMessage": "",
+    "items": {
+      "777727XXXXXXXX9961": {
+        "externalId": "390962107",
+        "product": {
+          "catalogEntryId": "226306",
+          "partNumber": "199677",
+          "name": "Chewy eGift Card, Chewy Pet Lovers, $50",
+          "description": "Chewy eGift Card, Chewy Pet Lovers, $50",
+          "thumbnail": "//img.chewy.com/is/image/catalog/199677_MAIN,1574176673",
+          "attributes": [
+            "ELECTRONIC_DELIVERY",
+            "GIFT_CARD"
+          ],
+          "personalizationAttributeMap": {
+            "Message": "Enjoy your Chewy eGift Card!",
+            "RecipientEmail": "randomtestuser@chewy.com"
+          },
+          "maskAccountList": [
+            "777727XXXXXXXX9961"
+          ]
+        },
+        "isGiftCard": true,
+        "isFrozen": false,
+        "sendItemBack": false,
+        "donateToShelter": false,
+        "shouldReceiveEligible": false,
+        "shelterDonationQualified": false,
+        "returnQuantity": 1,
+        "returnReason": {
+          "primary": "OTHER"
+        },
+        "returnReasonComplete": true,
+        "newRecipientEmail": "enatelson@chewy.com",
+        "comment": ""
+      },
+      "777727XXXXXXXX2163": {
+        "externalId": "390962106",
+        "product": {
+          "catalogEntryId": "226308",
+          "partNumber": "199679",
+          "name": "Chewy eGift Card, Chewy Pet Lovers, $100",
+          "description": "Chewy eGift Card, Chewy Pet Lovers, $100",
+          "thumbnail": "//img.chewy.com/is/image/catalog/199679_MAIN,1574176675",
+          "attributes": [
+            "ELECTRONIC_DELIVERY",
+            "GIFT_CARD"
+          ],
+          "personalizationAttributeMap": {
+            "Message": "Enjoy your Chewy eGift Card!",
+            "RecipientEmail": "randomtestuser@chewy.com"
+          },
+          "maskAccountList": [
+            "777727XXXXXXXX2163"
+          ]
+        },
+        "isGiftCard": true,
+        "isFrozen": false,
+        "sendItemBack": false,
+        "donateToShelter": false,
+        "shouldReceiveEligible": false,
+        "shelterDonationQualified": false
+      }
+    }
+  }
+}

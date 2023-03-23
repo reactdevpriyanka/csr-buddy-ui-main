@@ -1,0 +1,197 @@
+[
+  {
+    "id": 86905740,
+    "submitterId": "2",
+    "adopted": false,
+    "adoptionDate": "2021-05-20 00:00:00",
+    "birthday": "2020-04-23 00:00:00",
+    "birthdayEstimated": false,
+    "type": {
+      "id": 1,
+      "name": "Dog"
+    },
+    "name": "PetOne",
+    "weight": 12,
+    "gender": "FMLE",
+    "breed": {
+      "id": 370,
+      "name": "Belgian Tervuren",
+      "type": {
+        "id": 1,
+        "name": "Dog"
+      }
+    },
+    "breeds": [
+      {
+        "id": 370,
+        "name": "Belgian Tervuren",
+        "type": {
+          "id": 1,
+          "name": "Dog"
+        }
+      }
+    ],
+    "sizeType": "L",
+    "status": "ACTIVE",
+    "timeCreated": "2022-10-28 15:14:00",
+    "timeUpdated": "2022-10-28 15:14:00",
+    "weightInPounds": 12,
+    "petInsurancePolicies": [
+      {
+        "policyVendor": "Trupanion",
+        "policyId": "P003040",
+        "policyStatus": "Active",
+        "productType": "Insurance",
+        "productName": "Essential Plus Accident & Illness",
+        "total": 131.32
+      }
+    ],
+    "petInsuranceTotal": 131.32
+  },
+  {
+    "id": 86905741,
+    "submitterId": "2",
+    "adopted": false,
+    "adoptionDate": "2022-10-04 00:00:00",
+    "birthday": "2022-06-03 00:00:00",
+    "birthdayEstimated": false,
+    "type": {
+      "id": 2,
+      "name": "Cat"
+    },
+    "name": "PetTwo",
+    "weight": 13,
+    "gender": "MALE",
+    "breed": {
+      "id": 588,
+      "name": "American- Bobtail",
+      "type": {
+        "id": 2,
+        "name": "Cat"
+      }
+    },
+    "breeds": [
+      {
+        "id": 588,
+        "name": "American- Bobtail",
+        "type": {
+          "id": 2,
+          "name": "Cat"
+        }
+      }
+    ],
+    "status": "ACTIVE",
+    "timeCreated": "2022-10-28 15:15:54",
+    "timeUpdated": "2022-10-28 15:15:54",
+    "weightInPounds": 13,
+    "petInsurancePolicies": [
+      {
+        "policyVendor": "Trupanion",
+        "policyId": "P003041",
+        "policyStatus": "Active",
+        "productType": "Insurance",
+        "productName": "Accident Only",
+        "total": 7.18
+      }
+    ],
+    "petInsuranceTotal": 7.18
+  },
+  {
+    "id": 86905743,
+    "submitterId": "2",
+    "adopted": false,
+    "adoptionDate": "2019-06-12 00:00:00",
+    "birthday": "2017-04-03 00:00:00",
+    "birthdayEstimated": false,
+    "type": {
+      "id": 1,
+      "name": "Dog"
+    },
+    "name": "PetThree",
+    "weight": 12,
+    "gender": "FMLE",
+    "breed": {
+      "id": 381,
+      "name": "Bouvier des Flandres",
+      "type": {
+        "id": 1,
+        "name": "Dog"
+      }
+    },
+    "breeds": [
+      {
+        "id": 381,
+        "name": "Bouvier des Flandres",
+        "type": {
+          "id": 1,
+          "name": "Dog"
+        }
+      }
+    ],
+    "sizeType": "L",
+    "status": "ACTIVE",
+    "timeCreated": "2022-10-28 15:17:41",
+    "timeUpdated": "2022-10-28 15:17:41",
+    "weightInPounds": 12,
+    "petInsurancePolicies": [
+      {
+        "policyVendor": "Trupanion",
+        "policyId": "P003042",
+        "policyStatus": "Active",
+        "productType": "Wellness",
+        "productName": "Wellness",
+        "total": 20
+      }
+    ],
+    "petInsuranceTotal": 20
+  },
+  {
+    "id": 86905745,
+    "submitterId": "2",
+    "adopted": false,
+    "adoptionDate": "2022-06-20 00:00:00",
+    "birthday": "2021-05-03 00:00:00",
+    "birthdayEstimated": false,
+    "type": {
+      "id": 1,
+      "name": "Dog"
+    },
+    "name": "PetFour",
+    "weight": 21,
+    "gender": "FMLE",
+    "breed": {
+      "id": 355,
+      "name": "Miniature American Eskimo",
+      "type": {
+        "id": 1,
+        "name": "Dog"
+      }
+    },
+    "breeds": [
+      {
+        "id": 355,
+        "name": "Miniature American Eskimo",
+        "type": {
+          "id": 1,
+          "name": "Dog"
+        }
+      }
+    ],
+    "sizeType": "SM",
+    "status": "ACTIVE",
+    "timeCreated": "2022-10-28 15:18:58",
+    "timeUpdated": "2022-10-28 15:18:58",
+    "weightInPounds": 21,
+    "petInsurancePolicies": [
+      {
+        "policyVendor": "Trupanion",
+        "policyId": "P003043",
+        "policyStatus": "Active",
+        "productType": "Insurance",
+        "productName": "Complete Accident & Illness",
+        "total": 75.67
+      }
+    ],
+    "petInsuranceTotal": 75.67
+  }
+]

@@ -1,0 +1,107 @@
+{
+  "name": "returnItemDetails",
+  "title": "Choose Item(s)",
+  "singularOutcome": "fixIssue-start11",
+  "depth": 2,
+  "id": "fixIssue-start8",
+  "required": true,
+  "disabled": false,
+  "isFormValid": false,
+  "returnType": "REFUND",
+  "tableItems": [
+    {
+      "id": "1512325250",
+      "externalId": "399537212",
+      "status": "SHIPPED",
+      "product": {
+        "catalogEntryId": "34576",
+        "partNumber": "49394",
+        "name": "Zuke's Mini Naturals Chicken Recipe Training Dog Treats, 6-oz bag",
+        "description": "Zuke's Mini Naturals Chicken Recipe Training Dog Treats, 6-oz bag",
+        "thumbnail": "//image.chewy.com/is/image/catalog/49394_MAIN,1647903696"
+      },
+      "inventoryStatus": "RELEASED",
+      "fulfillmentCenter": "MCO1",
+      "fulfillmentStatus": "SHIPPED",
+      "quantity": 1,
+      "totalProduct": {
+        "value": "14.95",
+        "currency": "USD"
+      },
+      "unitPrice": {
+        "value": "0.00",
+        "currency": "USD"
+      },
+      "timeCreated": "2022-07-27T15:49:06.426Z",
+      "timeUpdated": "2022-11-21T17:57:39.367Z",
+      "timeReleased": "2022-07-27T16:00:53.017Z",
+      "timeShipped": "2022-11-21T00:00:00Z",
+      "bundleItem": false,
+      "can": false,
+      "food": false,
+      "shippingCharge": {
+        "value": "0.00"
+      },
+      "totalAdjustment": {
+        "value": "0.00"
+      },
+      "salesTax": {
+        "value": "0.00"
+      },
+      "shippingTax": {
+        "value": "0.00"
+      },
+      "totalProductCost": {
+        "value": "14.95"
+      },
+      "returns": {
+        "partNumber": "49394",
+        "returnServiceItemId": "399537212",
+        "refundQuantityExisting": 0,
+        "refundQuantityRemaining": 0,
+        "replacementQuantityExisting": 1,
+        "replacementQuantityRemaining": 1,
+        "concessionAmountExisting": {
+          "value": "0"
+        },
+        "concessionAmountRemaining": {
+          "value": "0"
+        },
+        "availability": {
+          "backorderable": true,
+          "quantityAvailable": 12338680
+        },
+        "shelterDonationQualified": true,
+        "shouldReceiveEligible": true,
+        "shouldSendItemBack": false
+      },
+      "isGiftCard": false,
+      "isFrozen": false,
+      "remainingQuantity": 1,
+      "key": "399537212"
+    }
+  ],
+  "stateFromHistory": {
+    "allSelected": false,
+    "allResponses": {},
+    "errorMessage": "Select a quantity to continue",
+    "items": {
+      "399537212": {
+        "externalId": "399537212",
+        "product": {
+          "catalogEntryId": "34576",
+          "partNumber": "49394",
+          "name": "Zuke's Mini Naturals Chicken Recipe Training Dog Treats, 6-oz bag",
+          "description": "Zuke's Mini Naturals Chicken Recipe Training Dog Treats, 6-oz bag",
+          "thumbnail": "//image.chewy.com/is/image/catalog/49394_MAIN,1647903696"
+        },
+        "isGiftCard": false,
+        "isFrozen": false,
+        "sendItemBack": false,
+        "donateToShelter": false,
+        "shouldReceiveEligible": true,
+        "shelterDonationQualified": true
+      }
+    }
+  }
+}

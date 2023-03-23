@@ -1,0 +1,17 @@
+[
+  {
+    "name":"AUTOSHIP",
+    "displayName":"Autoship",
+    "description":"Customer has tried autoship within the past 364 days"
+  },
+  {
+    "name":"RX_ORDER",
+    "displayName":"Rx",
+    "description":"Customer has made a pharmacy order within the past 364 days"
+  },
+  {
+    "name": "VET_DIET",
+    "displayName": "VetDiet",
+    "description": "Customer has placed a vet diet order in the last 364 days"
+  }
+]

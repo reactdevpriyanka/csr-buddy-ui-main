@@ -1,0 +1,206 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderDetailsShippingAddress /> it should render children 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="makeStyles-root-1"
+        data-testid="orderDetailsShippingAddress"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiCard-root makeStyles-parentCard-9 css-xg2nla-MuiPaper-root-MuiCard-root"
+        >
+          <div
+            class="makeStyles-title-4"
+          >
+             
+            Recipient
+             
+          </div>
+           
+          <br />
+          <div
+            class="makeStyles-content-3"
+          >
+            <div
+              class="makeStyles-title2-5"
+            >
+              Recipient
+              <div>
+                <span
+                  class="makeStyles-text-2"
+                  data-testid="customer-shippingAddress-name"
+                >
+                  Erica Deleoz
+                </span>
+                <br />
+              </div>
+            </div>
+            <hr
+              class="makeStyles-hr-8"
+            />
+            <div
+              class="makeStyles-shippingAddress-10"
+            >
+              <span
+                class="makeStyles-shippingTitle2-6"
+              >
+                Shipping Address:
+              </span>
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-7 MuiTypography-colorPrimary"
+                data-testid="orderDetailsShippingAddress:update"
+              >
+                Update
+              </a>
+              <br />
+              1950 N STEMMONS FWY
+              <br />
+              STE 3000
+              <br />
+              DALLAS
+              , 
+              TX
+              , 
+              75207-3203
+              ,
+               
+              US
+              <br />
+              P: 
+              480-524-7058
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="makeStyles-root-1"
+      data-testid="orderDetailsShippingAddress"
+    >
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiCard-root makeStyles-parentCard-9 css-xg2nla-MuiPaper-root-MuiCard-root"
+      >
+        <div
+          class="makeStyles-title-4"
+        >
+           
+          Recipient
+           
+        </div>
+         
+        <br />
+        <div
+          class="makeStyles-content-3"
+        >
+          <div
+            class="makeStyles-title2-5"
+          >
+            Recipient
+            <div>
+              <span
+                class="makeStyles-text-2"
+                data-testid="customer-shippingAddress-name"
+              >
+                Erica Deleoz
+              </span>
+              <br />
+            </div>
+          </div>
+          <hr
+            class="makeStyles-hr-8"
+          />
+          <div
+            class="makeStyles-shippingAddress-10"
+          >
+            <span
+              class="makeStyles-shippingTitle2-6"
+            >
+              Shipping Address:
+            </span>
+            <a
+              class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-7 MuiTypography-colorPrimary"
+              data-testid="orderDetailsShippingAddress:update"
+            >
+              Update
+            </a>
+            <br />
+            1950 N STEMMONS FWY
+            <br />
+            STE 3000
+            <br />
+            DALLAS
+            , 
+            TX
+            , 
+            75207-3203
+            ,
+             
+            US
+            <br />
+            P: 
+            480-524-7058
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

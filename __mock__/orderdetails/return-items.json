@@ -1,0 +1,80 @@
+[
+    {
+      "returnId": "51ce4128-778b-4cc2-a1fa-ab409c2a6ca0",
+      "lineItemId": "1512678830",
+      "orderId": "1084119780",
+      "state": "PROCESSED",
+      "type": "REFUND",
+      "reasonCategory": "DEFECTIVE",
+      "reason": {
+        "primary": "PRODUCT_DEFECTS",
+        "secondary": "PAST_EXPIRATION"
+      },
+      "timeCreated": "2022-09-13T19:19:49.355653Z",
+      "timeUpdated": "2022-09-14T00:32:26.531393Z",
+      "comment": "null",
+      "partNumber": "149837",
+      "quantity": 1,
+      "totalCredit": 21.12,
+      "sendBack": false,
+      "shelterDonation": false,
+      "shelterDonationReason": "NO",
+      "giftCard": false
+    },
+    {
+      "returnId": "yoooooo-778b-4cc2-a1fa-ab409c2a6ca0",
+      "lineItemId": "1512678830",
+      "orderId": "1084119780",
+      "state": "PROCESSED",
+      "type": "REFUND",
+      "reasonCategory": "DEFECTIVE",
+      "reason": {
+        "primary": "PRODUCT_DEFECTS",
+        "secondary": "PAST_EXPIRATION"
+      },
+      "timeCreated": "2022-09-13T19:19:49.355653Z",
+      "timeUpdated": "2022-09-14T00:32:26.531393Z",
+      "comment": "null",
+      "partNumber": "149837",
+      "quantity": 2,
+      "totalCredit": 42.25,
+      "sendBack": false,
+      "shelterDonation": false,
+      "shelterDonationReason": "NO",
+      "giftCard": false
+    },
+    {
+      "returnId": "6ce13067-fa78-45ba-a820-ec7ea273c567",
+      "lineItemId": "1512678830",
+      "orderId": "1084119780",
+      "state": "PROCESSED",
+      "type": "PRODUCT_CONCESSION",
+      "reasonCategory": "OTHER",
+      "reason": {
+        "primary": "OTHER"
+      },
+      "timeCreated": "2022-09-23T14:31:11.003092Z",
+      "timeUpdated": "2022-09-23T16:32:55.779725Z",
+      "comment": "null",
+      "partNumber": "149837",
+      "totalCredit": 42.24,
+      "giftCard": false
+    },
+    {
+      "returnId": "6ce13067-fa78-45ba-a820-ec7ea273c567",
+      "lineItemId": "1512678830",
+      "orderId": "1084119780",
+      "state": "PROCESSED",
+      "type": "PRODUCT_CONCESSION",
+      "reasonCategory": "OTHER",
+      "reason": {
+        "primary": "OTHER"
+      },
+      "timeCreated": "2022-09-23T14:31:11.003092Z",
+      "timeUpdated": "2022-09-23T16:32:55.779725Z",
+      "comment": "null",
+      "partNumber": "149837",
+      "totalCredit": 21.12,
+      "giftCard": false
+    }
+]

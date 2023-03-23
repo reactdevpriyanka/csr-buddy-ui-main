@@ -1,0 +1,51 @@
+{
+    "id": "428381880",
+    "shippingModeCode": "FLATRATE",
+    "trackingId": "4434324452545",
+    "timeShipped": "2021-08-11T00:00:00Z",
+    "trackingData": {
+      "shippingStep": "IN_TRANSIT",
+      "shippingStatus": "ON_TIME",
+      "chewyPromisedDeliveryDate": "2021-07-06",
+      "estimatedDeliveryDate": "2021-07-06",
+      "progressPercentage": 20,
+      "packagesCountFromOrder": 0,
+      "displayEvents": [
+        {
+          "code": "ORDER_CREATED",
+          "date": "2021-07-04T13:35:38Z"
+        }
+      ]
+    },
+    "carrierDescription": "Flat-Rate Shipping",
+    "trackingUrl": "null4434324452545",
+    "fulfillmentCenterDetails": {
+      "id": "CFC1",
+      "type": "fulfillmentCenters",
+      "attributes": {
+        "fulfillmentCenterId": "CFC1",
+        "displayName": "CFC1",
+        "fulfillmentCenterType": "NORMAL",
+        "address": {
+          "addressLine1": "1974 Innovation Blvd",
+          "city": "Clayton",
+          "state": "IN",
+          "postcode": "46118",
+          "country": "US",
+          "phone": "800-672-4399",
+          "primaryAddress": false,
+          "email": "service@chewy.com",
+          "verified": false
+        },
+        "fcEnabled": true,
+        "fulfillerId": "da295753-1507-4ea7-a0e6-967b949dda72"
+      }
+    },
+    "shipmentItems": [
+      {
+        "lineItemId": "1493892740",
+        "quantity": 4,
+        "shippedQuantity": 0
+      }
+    ]
+  }

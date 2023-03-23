@@ -1,0 +1,35 @@
+[
+  {
+    "label":"Customer Initiated"
+  },
+  {
+    "label": "Customer Request"
+  },
+  {
+    "label": "Duplicate Order"
+  },
+  {
+    "label": "Fraud"
+  },
+  {
+    "label": "Gift Card Limit"
+  },
+  {
+    "label": "Inventory Issue"
+  },
+  {
+    "label": "No Response"
+  },
+  {
+    "label": "Other"
+  },
+  {
+    "label": "Payment Issue"
+  },
+  {
+    "label": "Prescription Issue"
+  },
+  {
+    "label": "Reseller"
+  }
+]

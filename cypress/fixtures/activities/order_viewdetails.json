@@ -1,0 +1,140 @@
+{
+  "id": "1077753946",
+  "customerId": "162318096",
+  "status": "DEPOSITED",
+  "totalProduct": { "value": "19.99" },
+  "totalSalesTax": { "value": "0.00" },
+  "totalShipping": { "value": "0.00", "currency": "USD" },
+  "totalShippingTax": { "value": "0.00" },
+  "totalAdjustment": { "value": "0.00" },
+  "totalBeforeTax": { "value": "19.99" },
+  "total": { "value": "19.99" },
+  "timePlaced": "2022-06-13T14:30:11.651Z",
+  "timeUpdated": "2022-06-13T22:32:33.905Z",
+  "lineItems": [
+    {
+      "id": "1508724339",
+      "externalId": "396210555",
+      "status": "SHIPPED",
+      "product": {
+        "catalogEntryId": "331463",
+        "partNumber": "305142",
+        "name": "Connect with a Vet Video Call, 1 session",
+        "description": "Connect with a Vet Video Call, 1 session",
+        "thumbnail": "//img.chewy.com/is/image/catalog/305142_MAIN,1633085818",
+        "attributes": ["ELECTRONIC_DELIVERY"],
+        "personalizationAttributeMap": {
+          "AppointmentEndTime": "2022-06-13T22:50:00Z",
+          "AppointmentReason": "skin",
+          "AppointmentTimeZone": "America/New_York",
+          "AppointmentType": "VIDEO_CONSULT",
+          "AppointmentId": "8439",
+          "PetName": "Teststg",
+          "PetProfileId": "83671420"
+        }
+      },
+      "fulfillmentCenter": "STK1",
+      "fulfillmentStatus": "SHIPPED",
+      "quantity": 1,
+      "totalProduct": { "value": "19.99" },
+      "unitPrice": { "value": "19.99" },
+      "can": false,
+      "food": false,
+      "shippingCharge": { "value": "0.00" },
+      "totalAdjustment": { "value": "0.00" },
+      "salesTax": { "value": "0.00" },
+      "shippingTax": { "value": "0.00" },
+      "currency": "USD",
+      "tags": ["PERSONALIZED"],
+      "bundleItem": false
+    }
+  ],
+  "trackingData": { "shippingStep": "DELIVERED", "shippingStatus": "ON_TIME" },
+  "shippingAddress": {
+    "id": "333942550",
+    "nickname": "fecafebe-4e6c-4968-9e4e-ec3bc8625374",
+    "fullName": "rutuja",
+    "addressLine1": "4 NORTHEASTERN BLVD",
+    "city": "SALEM",
+    "state": "NH",
+    "postcode": "03079-5916",
+    "country": "US",
+    "phone": "8484953894",
+    "primaryAddress": false,
+    "verified": false
+  },
+  "shipments": [
+    {
+      "id": "428879872",
+      "shippingModeCode": "ELECTRONIC",
+      "timeShipped": "2022-06-13T22:32:01.842Z",
+      "packageId": "6f134375-7dc8-4f78-ac0f-bf3310411c8c",
+      "trackingData": { "shippingStep": "DELIVERED", "shippingStatus": "ON_TIME" },
+      "carrierDescription": "Electronic Delivery",
+      "trackingUrl": "nullnull",
+      "fulfillmentCenterDetails": {
+        "id": "STK1",
+        "type": "fulfillmentCenters",
+        "attributes": {
+          "fulfillmentCenterId": "STK1",
+          "displayName": "STK1",
+          "fulfillmentCenterType": "DIGITAL",
+          "address": {
+            "addressLine1": "1855 Griffin Rd",
+            "city": "Dania Beach",
+            "state": "FL",
+            "postcode": "33004",
+            "country": "US",
+            "phone": "8008294933",
+            "primaryAddress": false,
+            "verified": false
+          },
+          "returnAddress": { "primaryAddress": false, "verified": false },
+          "fcEnabled": true,
+          "fulfillerId": "da295753-1507-4ea7-a0e6-967b949dda72"
+        }
+      },
+      "shipmentItems": [{ "lineItemId": "1508724339", "quantity": 1, "shippedQuantity": 0 }]
+    }
+  ],
+  "releases": [
+    {
+      "id": "387150849",
+      "status": "MANIFESTED",
+      "releaseNumber": 1,
+      "shippingModeCode": "ELECTRONIC",
+      "lineItemIds": ["1508724339"],
+      "shipmentIds": ["428879872"],
+      "timeCreated": "2022-06-13T15:10:04.627Z",
+      "timeUpdated": "2022-06-13T22:32:33.817Z"
+    }
+  ],
+  "payments": {
+    "paymentInstructions": [
+      {
+        "id": "436179133",
+        "walletId": "505b05db-81bb-4589-9871-e6a24d7c4707",
+        "paymentMethod": {
+          "paymentReferenceId": "c3719b45-f6c6-4ca0-b9d2-1ee4b41793de",
+          "type": "SERVICE",
+          "service": { "serviceName": "PayPal", "accountEmail": "dash@board.com" }
+        },
+        "billingAddress": {},
+        "amount": "19.99",
+        "state": "VALID",
+        "timeCreated": "2022-06-13T14:30:12.541Z",
+        "timeUpdated": "2022-06-13T15:10:04.627Z"
+      }
+    ]
+  },
+  "remoteIp": "128.136.192.27",
+  "businessChannel": "WEB",
+  "submitter": "CUSTOMER",
+  "submitterId": "255762944",
+  "submitterDetail": {
+    "id": "255762944",
+    "email": "rkokate@chewy.com",
+    "fullName": "rutuja",
+    "status": "ACTIVE"
+  }
+}

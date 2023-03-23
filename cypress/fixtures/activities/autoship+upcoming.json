@@ -1,0 +1,33 @@
+{
+  "id": "26504175",
+  "parentOrderId": "444096454",
+  "fulfillmentFrequency": 4,
+  "fulfillmentFrequencyUom": "WEEK",
+  "nextFulfillmentDate": "2021-05-11T04:00:00Z",
+  "memberId": "136177885",
+  "status": "ACTIVE",
+  "name": "Autoship #1",
+  "totalProduct": "35.77",
+  "blocked": false,
+  "shippingAddress": {
+    "addressId": "206615687"
+  },
+  "promotions": [],
+  "items": [
+    {
+      "itemid": "1491404385",
+      "catalogEntryId": "35506",
+      "sku": "50343",
+      "quantity": 1,
+      "totalProduct": "35.77",
+      "unitPrice": "35.77",
+      "name": "Greenies Large Dental Dog Treats, 24 count",
+      "thumbnail": "//img.chewy.com/is/image/catalog/50343_MAIN,1578496377",
+      "rxRequired": false,
+      "pharma": false,
+      "compound": false
+    }
+  ],
+  "lastUpdated": "2021-05-08T09:00:53.236Z",
+  "eventSpecificData": {}
+}

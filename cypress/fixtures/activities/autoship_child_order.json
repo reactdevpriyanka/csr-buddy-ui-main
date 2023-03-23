@@ -1,0 +1,101 @@
+[
+  {
+    "id": "800040386",
+    "parentOrderId": "1078597664",
+    "status": "ACTIVE",
+    "name": "Autoship #1",
+    "totalProduct": {
+      "value": "54.50",
+      "currency": "USD"
+    },
+    "totalSalesTax": {
+      "value": "0.00",
+      "currency": "USD"
+    },
+    "totalShipping": {
+      "value": "0.00",
+      "currency": "USD"
+    },
+    "totalShippingTax": {
+      "value": "0.00",
+      "currency": "USD"
+    },
+    "totalAdjustment": {
+      "value": "-2.72",
+      "currency": "USD"
+    },
+    "totalBeforeTax": {
+      "value": "51.78",
+      "currency": "USD"
+    },
+    "total": {
+      "value": "51.78",
+      "currency": "USD"
+    },
+    "totalTax": {
+      "value": "0.00",
+      "currency": "USD"
+    },
+    "blocked": false,
+    "paymentMethods": [
+      {
+        "type": "CARD",
+        "card": {
+          "expirationMonth": "2",
+          "expirationYear": "2022",
+          "cardHolderName": "cypress_automation",
+          "type": "AMEX",
+          "accountNumber": "341134XXXXXX1347"
+        }
+      }
+    ],
+    "nextFulfillmentDate": "2022-07-01T18:39:29.898Z",
+    "fulfillmentFrequency": 5,
+    "fulfillmentFrequencyUom": "WEEK",
+    "shippingAddress": {
+      "id": "218386582",
+      "fullName": "cypress_automation",
+      "addressLine1": "4 NORTHEASTERN BLVD",
+      "city": "SALEM",
+      "state": "NH",
+      "postcode": "03079-5916",
+      "country": "US",
+      "primaryAddress": false,
+      "verified": false
+    },
+    "lastShipmentDate": "2022-05-27T18:39:29.900Z",
+    "timePlaced": "2021-12-07T15:24:04.269Z",
+    "items": [
+      {
+        "itemId": "404512",
+        "product": {
+          "catalogEntryId": "32041",
+          "partNumber": "46861",
+          "name": "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 30-lb bag",
+          "thumbnail": "//img.chewy.com/is/image/catalog/46861_MAIN,1636150597"
+        },
+        "quantity": 1,
+        "totalProduct": {
+          "value": "54.50"
+        },
+        "unitPrice": {
+          "value": "54.50"
+        },
+        "totalDiscountAdjustment": {
+          "value": "-2.72",
+          "currency": "USD"
+        },
+        "bundleItem": false
+      }
+    ],
+    "promotions": [
+      {
+        "code": "AUTOSHIPNSAVE",
+        "name": "Autoship & Save - 5% off",
+        "amount": {
+          "value": "-2.72"
+        }
+      }
+    ]
+  }
+]

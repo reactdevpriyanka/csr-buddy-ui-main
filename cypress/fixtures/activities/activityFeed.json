@@ -1,0 +1,46 @@
+{
+  "trackPackage": "Track Package",
+  "reportIssue": "Report an Issue",
+  "autoship": {
+    "upcomingAutoship": "Upcoming Shipment for Autoship #3"
+  },
+  "order": {
+    "placedAt": "Placed  2/15/2022 at 12:03 a.m.",
+    "orderDetails": "Order Details",
+    "statusText": "Delivered",
+    "orderTitle": "Order# 1074633078",
+    "location": "DANIA BEACH, FL",
+    "nextShipment": "Next shipment on",
+    "lastShipment": "Last shipment on",
+    "orderBlockMessage": "Order Block  - Multiple Orders",
+    "seeDetails": "See Details",
+    "itemName": "Purina Pro Plan Adult Sensitive Skin & Stomach Salmon & Rice Formula Dry Dog Food",
+    "qty": "Qty 1",
+    "price": "$2.84",
+    "blockedOrder": "Blocked on 1/13/2022 at 3:57 p.m.",
+    "manageOrder": "Manage Order",
+    "manageAutoship": "Manage Autoship",
+    "shipments": ["Shipment 1 of 2", "Shipment 2 of 2"],
+    "items": [
+      {
+        "name": "Purina Pro Plan Adult Sensitive Skin & Stomach Salmon & Rice Formula Dry Dog Food",
+        "qty": "Qty 1",
+        "price": "$2.84"
+      }
+    ]
+  },
+  "customerSideBar": {
+    "customerName": "cypress_automation",
+    "createddate": "Customer Since 2021",
+    "customerOrderData": "Orders In Last 12 Months",
+    "petAge": "1",
+    "petName": "Akira",
+    "petBreed": "German Shepherd",
+    "services": "Chewy Services",
+    "upcomingEvents": "Upcoming Events",
+    "noUpcomingEvents": "No upcoming events"
+  },
+  "snackMessage": {
+    "success": "Order sent for fulfillment!"
+  }
+}

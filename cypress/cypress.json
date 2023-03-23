@@ -1,0 +1,14 @@
+{
+  "screenshotOnRunFailure": false,
+  "video": false,
+  "videoUploadOnPasses": false,
+  "pluginsFile": false,
+  "supportFile": "support/index.js",
+  "integrationFolder": "regression",
+  "fixturesFolder": "fixtures",
+  "env": {
+    "ADMIN_USERNAME": "admin",
+    "ADMIN_PASSWORD": "new123pass",
+    "TEST_CUSTOMER_ID": "154492684"
+  }
+}

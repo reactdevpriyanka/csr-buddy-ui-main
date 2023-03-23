@@ -1,0 +1,80 @@
+[
+  {
+      "id": 0,
+      "externalOrderId": 1070051333,
+      "memberId": 154492684,
+      "legacyId": 0,
+      "status": "READY_TO_RELEASE",
+      "timePlaced": "2021-09-28T04:01:35.922Z",
+      "timeUpdated": "2021-09-30T17:56:54.057Z",
+      "lineItems": [
+          {
+              "id": 381321355,
+              "legacyId": 1493957172,
+              "quantity": 1,
+              "promisedShippingTime": "2021-09-29T04:03:07Z",
+              "product": {
+                  "catalogEntryId": "32040",
+                  "partNumber": "46860",
+                  "name": "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 15-lb bag"
+              }
+          }
+      ],
+      "total": {
+          "value": "31.33",
+          "currency": "USD"
+      },
+      "blocked": true,
+      "blocks": [
+          {
+              "id": "3163957",
+              "legacyId": "23218297",
+              "reason": "RELEASE_CANCELED",
+              "timeBlocked": "2021-09-28T04:12:57.979Z",
+              "resolved": false,
+              "comments": "Rejected by fulfillment center - Rejected - out of stock"
+          }
+      ],
+      "businessChannel": "AUTOSHIP",
+      "submitter": "SYSTEM"
+  },
+  {
+      "id": 0,
+      "externalOrderId": 1070048468,
+      "memberId": 154492684,
+      "legacyId": 0,
+      "status": "READY_TO_RELEASE",
+      "timePlaced": "2021-09-15T16:37:48.116Z",
+      "timeUpdated": "2021-09-15T16:42:07.378Z",
+      "lineItems": [
+          {
+              "id": 381294440,
+              "legacyId": 1493947395,
+              "quantity": 2,
+              "promisedShippingTime": "2021-09-15T22:30:00.495Z",
+              "product": {
+                  "catalogEntryId": "32040",
+                  "partNumber": "46860",
+                  "name": "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 15-lb bag"
+              }
+          }
+      ],
+      "total": {
+          "value": "62.66",
+          "currency": "USD"
+      },
+      "blocked": true,
+      "blocks": [
+          {
+              "id": "3158947",
+              "legacyId": "23213885",
+              "reason": "RELEASE_CANCELED",
+              "timeBlocked": "2021-09-15T16:42:07.398Z",
+              "resolved": false,
+              "comments": "Rejected by fulfillment center - Rejected - out of stock"
+          }
+      ],
+      "businessChannel": "WEB",
+      "submitter": "CSR"
+  }
+]

@@ -1,0 +1,94 @@
+{
+  "flow": {
+    "flowName": "smallConcessions_start",
+    "subheading": "Concession",
+    "startNode": {
+      "id": "62",
+      "nodeType": "START_NODE",
+      "singularOutcomeId": "62"
+    },
+    "flowLinks": [
+      {
+        "outcomeId": "64",
+        "destinationNodeId": "65"
+      },
+      {
+        "outcomeId": "63",
+        "destinationNodeId": "64"
+      },
+      {
+        "outcomeId": "62",
+        "destinationNodeId": "63"
+      }
+    ],
+    "flowNodes": [
+      {
+        "id": "65",
+        "nextFlowName": "smallConcessions_submit",
+        "nodeType": "NEXT_FLOW_TRANSITION"
+      },
+      {
+        "id": "63",
+        "nodeType": "FLOAT",
+        "required": {
+          "value": true
+        },
+        "enabled": {
+          "value": true
+        },
+        "visible": {
+          "value": true
+        },
+        "questionContent": {
+          "value": "Concession Amount:"
+        },
+        "decisionInputAttribute": "concessionAmount",
+        "label": {
+          "value": "Concession Amount:"
+        },
+        "placeHolder": {
+          "value": "0.00"
+        },
+        "invalidityMessage": {
+          "value": "A number between 0.01 and {currentItem.totalProduct} is required."
+        },
+        "minimumValue": {
+          "value": 0.01
+        },
+        "maximumValue": {
+          "contextVariableName": "currentItem.totalProduct"
+        },
+        "precision": {
+          "value": 2
+        },
+        "singularOutcomeId": "63",
+        "outcomeChooserType": "SINGULAR"
+      },
+      {
+        "id": "64",
+        "nodeType": "BUTTON",
+        "required": {
+          "value": true
+        },
+        "enabled": {
+          "value": true
+        },
+        "visible": {
+          "value": true
+        },
+        "displayString": {
+          "value": "Submit"
+        },
+        "name": "submit",
+        "type": "CONTAINED",
+        "singularOutcomeId": "64",
+        "outcomeChooserType": "SINGULAR"
+      },
+      {
+        "id": "62",
+        "nodeType": "START_NODE",
+        "singularOutcomeId": "62"
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+[
+  { "primary": "OTHER" },
+  {
+    "primary": "DAMAGED",
+    "secondary": "BOX_AND_PRODUCT",
+    "tertiary": "CARRIER_REPORTED_DAMAGE"
+  },
+  {
+    "primary": "DAMAGED",
+    "secondary": "BOX_AND_PRODUCT",
+    "tertiary": "DENTED_BOX_OR_PRODUCT"
+  },
+  {
+    "primary": "DAMAGED",
+    "secondary": "BOX_AND_PRODUCT",
+    "tertiary": "BROKEN_OR_SMASHED_BOX_OR_PRODUCT"
+  },
+  {
+    "primary": "DAMAGED",
+    "secondary": "BOX_AND_PRODUCT",
+    "tertiary": "MELTED_OR_THAWED_BOX_OR_PRODUCT"
+  },
+  {
+    "primary": "DAMAGED",
+    "secondary": "BOX_AND_PRODUCT",
+    "tertiary": "NON_SPECIFIC_DAMAGE"
+  },
+  {
+    "primary": "DAMAGED",
+    "secondary": "BOX_AND_PRODUCT",
+    "tertiary": "RIPPED_OR_TORN_BOX_OR_PRODUCT"
+  }
+]

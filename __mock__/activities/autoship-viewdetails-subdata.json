@@ -1,0 +1,101 @@
+{
+    "id": "851114645",
+    "parentOrderId": "851114645",
+    "status": "ACTIVE",
+    "name": "Autoship #5",
+    "totalProduct": {
+        "value": "60.98",
+        "currency": "USD"
+    },
+    "totalSalesTax": {
+        "value": "0.00",
+        "currency": "USD"
+    },
+    "totalShipping": {
+        "value": "0.00",
+        "currency": "USD"
+    },
+    "totalShippingTax": {
+        "value": "0.00",
+        "currency": "USD"
+    },
+    "totalAdjustment": {
+        "value": "-3.05",
+        "currency": "USD"
+    },
+    "totalBeforeTax": {
+        "value": "57.93",
+        "currency": "USD"
+    },
+    "total": {
+        "value": "57.93",
+        "currency": "USD"
+    },
+    "totalTax": {
+        "value": "0.00",
+        "currency": "USD"
+    },
+    "blocked": false,
+    "paymentMethods": [
+        {
+            "type": "CARD",
+            "card": {
+                "expirationMonth": "2",
+                "expirationYear": "2024",
+                "cardHolderName": "cypress_automation",
+                "type": "AMEX",
+                "accountNumber": "341134XXXXXX1347"
+            }
+        }
+    ],
+    "nextFulfillmentDate": "2023-03-15T00:00:00Z",
+    "fulfillmentFrequency": 5,
+    "fulfillmentFrequencyUom": "WEEK",
+    "shippingAddress": {
+        "id": "218386582",
+        "fullName": "cypress_automation",
+        "addressLine1": "4 NORTHEASTERN BLVD",
+        "city": "SALEM",
+        "state": "NH",
+        "postcode": "03079-5916",
+        "country": "US",
+        "primaryAddress": false,
+        "verified": false
+    },
+    "lastShipmentDate": "2023-02-06T05:54:47.857Z",
+    "lastOrderId": "0",
+    "lastOrderStatus": "CANCELED",
+    "timePlaced": "2022-06-15T18:54:07.671Z",
+    "items": [
+        {
+            "itemId": "400000257584",
+            "product": {
+                "catalogEntryId": "32041",
+                "partNumber": "46861",
+                "name": "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 30-lb bag",
+                "thumbnail": "//image.chewy.com/is/image/catalog/46861_MAIN,1636150598"
+            },
+            "quantity": 1,
+            "totalProduct": {
+                "value": "60.98"
+            },
+            "unitPrice": {
+                "value": "60.98"
+            },
+            "totalDiscountAdjustment": {
+                "value": "-3.05",
+                "currency": "USD"
+            },
+            "bundleItem": false
+        }
+    ],
+    "promotions": [
+        {
+            "code": "AUTOSHIPNSAVE",
+            "name": "Autoship & Save - 5% off",
+            "amount": {
+                "value": "-3.05"
+            }
+        }
+    ]
+}

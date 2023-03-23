@@ -1,0 +1,99 @@
+{
+    "id": "48d53a2c-dd16-4508-9cda-e4563301f70f",
+    "orderId": "1075125968",
+    "state": "PROCESSED",
+    "type": "CONCESSION",
+    "submitterLogonId": "sgerike@chewy.com",
+    "submitterName": "Scott Gerike",
+    "timeCreated": "2022-04-19T20:17:09.750715Z",
+    "timeUpdated": "2022-04-19T21:08:37.974574Z",
+    "timeProcessed": "2022-04-19T21:08:36.803252Z",
+    "totalCredit": 12.8600,
+    "payments": [
+        {
+            "id": "cf53a1a9-b67a-412b-90bd-fcc76f1ae086",
+            "amount": 12.8600,
+            "creditedAmount": 12.8600,
+            "creditingAmount": 0.0000,
+            "paymentMethod": "PayPal",
+            "state": "COMPLETE"
+        }
+    ],
+    "labels": [
+        {
+            "id": "12345",
+            "trackingNumber": "794611229090",
+            "destinationCode": "DAY1",
+            "received": false,
+            "content": "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",
+            "timeCreated": "2022-02-21T20:32:21.583184Z"
+        }
+    ],
+    "credits": [
+        {
+            "id": "258cf565-57f9-4b30-a0cd-abe080f35706",
+            "timeCreated": "2022-02-17T16:06:30.464355Z",
+            "amount": 45.9900,
+            "creditedAmount": 0.0000,
+            "creditingAmount": 45.9900,
+            "paymentMethod": "GIFTCARD",
+            "state": "PENDING"
+        }
+    ],
+    "replacementOrders": [
+        {
+            "orderId": "1075125968",
+            "timeCreated": "2022-04-19T20:17:09.750715Z",
+            "timeUpdated": "2022-04-19T21:08:37.974574Z",
+            "state": "C"
+        }
+    ],
+    "items": [
+        {
+            "returnId": "48d53a2c-dd16-4508-9cda-e4563301f70f",
+            "lineItemId": "1504464331",
+            "orderId": "1075125968",
+            "state": "PROCESSED",
+            "type": "REFUND",
+            "reasonCategory": "OTHER",
+            "reason": {
+                "primary": "OTHER"
+            },
+            "timeCreated": "2022-04-19T20:17:09.750715Z",
+            "timeUpdated": "2022-04-19T21:08:37.974574Z",
+            "comment": "This is a shorter comment",
+            "partNumber": "213826",
+            "productName": "Frisco Plush Squeaking Taco Dog Toy",
+            "quantity": 1,
+            "totalCredit": 6.4200,
+            "sendBack": "YES",
+            "shelterDonation": true,
+            "shelterDonationReason": "NO",
+            "giftCard": false
+        },
+        {
+            "returnId": "48d53a2c-dd16-4508-9cda-e4563301f70f",
+            "lineItemId": "1504464333",
+            "orderId": "1075125968",
+            "state": "PROCESSED",
+            "type": "REFUND",
+            "reasonCategory": "DEFECTIVE",
+            "reason": {
+                "primary": "PRODUCT_DEFECTS",
+                "secondary": "DEFECTIVE",
+                "tertiary": "DOES_NOT_FUNCTION_AS_INTENDED"
+            },
+            "timeCreated": "2022-04-19T20:17:09.750715Z",
+            "timeUpdated": "2022-04-19T21:08:37.974574Z",
+            "comment": "This is a very long commentttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+            "partNumber": "53235",
+            "productName": "Chuckit! Ultra Rubber Ball Tough Dog Toy, Medium, 2 pack",
+            "quantity": 1,
+            "totalCredit": 6.4400,
+            "sendBack": "YES",
+            "shelterDonation": true,
+            "shelterDonationReason": "NO",
+            "giftCard": false
+        }
+    ]
+}

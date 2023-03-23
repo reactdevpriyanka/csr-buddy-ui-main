@@ -1,0 +1,466 @@
+{
+  "flow": {
+    "flowName": "fixIssue-start",
+    "startNode": {
+      "id": "72",
+      "nodeType": "START_NODE",
+      "singularOutcomeId": "72"
+    },
+    "flowLinks": [
+      {
+        "outcomeId": "89",
+        "destinationNodeId": "95"
+      },
+      {
+        "outcomeId": "85",
+        "destinationNodeId": "94"
+      },
+      {
+        "outcomeId": "93",
+        "destinationNodeId": "95"
+      },
+      {
+        "outcomeId": "82",
+        "destinationNodeId": "83"
+      },
+      {
+        "outcomeId": "77",
+        "destinationNodeId": "95"
+      },
+      {
+        "outcomeId": "81",
+        "destinationNodeId": "95"
+      },
+      {
+        "outcomeId": "79",
+        "destinationNodeId": "95"
+      },
+      {
+        "outcomeId": "87",
+        "destinationNodeId": "95"
+      },
+      {
+        "outcomeId": "95",
+        "destinationNodeId": "96"
+      },
+      {
+        "outcomeId": "75",
+        "destinationNodeId": "82"
+      },
+      {
+        "outcomeId": "91",
+        "destinationNodeId": "95"
+      },
+      {
+        "outcomeId": "72",
+        "destinationNodeId": "73"
+      }
+    ],
+    "flowNodes": [
+      {
+        "id": "94",
+        "nextFlowName": "returns-itemDamaged",
+        "nodeType": "NEXT_FLOW_TRANSITION"
+      },
+      {
+        "id": "96",
+        "url": {
+          "contextVariableName": "suzzieOrderUrl"
+        },
+        "nodeType": "EXTERNAL_LINK"
+      },
+      {
+        "id": "83",
+        "nodeType": "MULTIPLE_CHOICE",
+        "required": {
+          "value": true
+        },
+        "enabled": {
+          "value": true
+        },
+        "visible": {
+          "value": true
+        },
+        "questionContent": {
+          "value": "What’s wrong?"
+        },
+        "decisionInputAttribute": "currentItemDetails.whatsWrong",
+        "answerChoices": [
+          {
+            "label": {
+              "value": "Damaged"
+            },
+            "enabled": {
+              "value": true
+            },
+            "visible": {
+              "value": true
+            },
+            "value": "DAMAGED",
+            "outcomeId": "85"
+          },
+          {
+            "label": {
+              "value": "Defective"
+            },
+            "enabled": {
+              "value": true
+            },
+            "visible": {
+              "value": true
+            },
+            "value": "DEFECTIVE",
+            "outcomeId": "87"
+          },
+          {
+            "label": {
+              "value": "Does Not Want"
+            },
+            "enabled": {
+              "value": true
+            },
+            "visible": {
+              "value": true
+            },
+            "value": "DOES_NOT_WANT",
+            "outcomeId": "89"
+          },
+          {
+            "label": {
+              "value": "Ordered Wrong Item"
+            },
+            "enabled": {
+              "value": true
+            },
+            "visible": {
+              "value": true
+            },
+            "value": "ORDERED_WRONG_ITEM",
+            "outcomeId": "91"
+          },
+          {
+            "label": {
+              "value": "Received Wrong Item"
+            },
+            "enabled": {
+              "value": true
+            },
+            "visible": {
+              "value": true
+            },
+            "value": "SHIPPED_WRONG_ITEM",
+            "outcomeId": "93"
+          }
+        ],
+        "outcomeChooserType": "MULTIPLE_CHOICE"
+      },
+      {
+        "id": "72",
+        "nodeType": "START_NODE",
+        "singularOutcomeId": "72"
+      },
+      {
+        "id": "95",
+        "nodeType": "BUTTON",
+        "required": {
+          "value": true
+        },
+        "enabled": {
+          "value": true
+        },
+        "visible": {
+          "value": true
+        },
+        "label": {
+          "value": "Fix in Backoffice"
+        },
+        "type": "CONTAINED",
+        "singularOutcomeId": "95",
+        "outcomeChooserType": "SINGULAR"
+      },
+      {
+        "id": "73",
+        "nodeType": "MULTIPLE_CHOICE_CARDS",
+        "required": {
+          "value": true
+        },
+        "enabled": {
+          "value": true
+        },
+        "visible": {
+          "value": true
+        },
+        "questionContent": {
+          "value": "What kind of issue is it?"
+        },
+        "decisionInputAttribute": "whatKindOfIssue",
+        "answerChoices": [
+          {
+            "label": {
+              "value": "Issues with Products Ordered"
+            },
+            "subLabel": {
+              "value": "Damaged, Defective, Wrong Item Ordered, Wrong Item Shipped, Missing Items, or Other Related Issue with Ordered Items."
+            },
+            "enabled": {
+              "value": true
+            },
+            "visible": {
+              "value": true
+            },
+            "value": "productsOrderedIssue",
+            "outcomeId": "75"
+          },
+          {
+            "label": {
+              "value": "Issues with Delivery/Shipping"
+            },
+            "subLabel": {
+              "value": "Duplicate Charges, Pending Holds, Unknown Charge, Refund Status, Issue with a Giftcard, or Other Payment Concern."
+            },
+            "enabled": {
+              "value": true
+            },
+            "visible": {
+              "value": true
+            },
+            "value": "deliveryShippingIssue",
+            "outcomeId": "77"
+          },
+          {
+            "label": {
+              "value": "Issues with Payments"
+            },
+            "subLabel": {
+              "value": "Shipper Issue, Undeliverable, Delay in Shipping, Lost in Transit, or Other Shipping Related Issue."
+            },
+            "enabled": {
+              "value": true
+            },
+            "visible": {
+              "value": true
+            },
+            "value": "paymentIssue",
+            "outcomeId": "79"
+          },
+          {
+            "label": {
+              "value": "Issue with Fraudulent Activity"
+            },
+            "subLabel": {
+              "value": "Non-Authorized Purchase on Chewy Account, Customer is Calling in to Report Unauthorized Order."
+            },
+            "enabled": {
+              "value": true
+            },
+            "visible": {
+              "value": true
+            },
+            "value": "fraudulentActivityIssue",
+            "outcomeId": "81"
+          }
+        ],
+        "submitLabel": {
+          "value": "Continue"
+        },
+        "outcomeChooserType": "MULTIPLE_CHOICE"
+      },
+      {
+        "id": "82",
+        "nodeType": "ITEM_OPTION",
+        "required": {
+          "value": true
+        },
+        "enabled": {
+          "value": true
+        },
+        "visible": {
+          "value": true
+        },
+        "decisionInputAttribute": "currentItem",
+        "itemChoices": {
+          "contextVariableName": "lineItems"
+        },
+        "shipmentChoices": {
+          "contextVariableName": "shipments"
+        },
+        "notShippedItemChoices": {
+          "contextVariableName": "notShippedItems"
+        },
+        "orientation": "VERTICAL",
+        "singularOutcomeId": "82",
+        "outcomeChooserType": "SINGULAR"
+      }
+    ],
+    "context": {}
+  },
+  "context": {
+    "totalBeforeTax": {
+      "value": "21.88"
+    },
+    "totalSalesTax": {
+      "value": "1.27"
+    },
+    "orderId": "1008437832",
+    "blocks": [
+      {
+        "id": "20174604",
+        "reason": "MULTIPLE_ORDERS",
+        "resolved": true,
+        "timeBlocked": "2021-05-28T16:10:04.822Z",
+        "timeResolved": "2021-05-28T16:10:20.445Z"
+      }
+    ],
+    "subscriptionInfos": [
+      {
+        "subscriptionId": "800000288",
+        "parentOrderId": "800000288"
+      }
+    ],
+    "orderAttributes": ["AUTOSHIP"],
+    "totalProduct": {
+      "value": "17.82"
+    },
+    "suzzieOrderUrl": "https://cs-platform.csbb.dev.chewy.com/orders/1008437832/summary",
+    "shipments": [
+      {
+        "id": "343375988",
+        "shippingModeCode": "FLATRATE",
+        "trackingId": "1111111111",
+        "timeShipped": "2021-05-28T00:00:00Z",
+        "trackingData": {
+          "shippingStep": "IN_TRANSIT",
+          "shippingStatus": "ON_TIME",
+          "chewyPromisedDeliveryDate": "2021-07-21",
+          "estimatedDeliveryDate": "2020-12-04",
+          "progressPercentage": 0,
+          "packagesCountFromOrder": 1,
+          "displayEvents": [
+            {
+              "code": "ORDER_CREATED",
+              "date": "2020-12-01T20:27:43Z"
+            },
+            {
+              "code": "ORDER_RELEASED",
+              "date": "2020-12-01T21:01:02Z"
+            }
+          ]
+        },
+        "carrierDescription": "Flat-Rate Shipping",
+        "shipmentItems": [
+          {
+            "lineItemId": "1302542095",
+            "quantity": 1,
+            "shippedQuantity": 0
+          },
+          {
+            "lineItemId": "1302542096",
+            "quantity": 1,
+            "shippedQuantity": 0
+          }
+        ]
+      }
+    ],
+    "trackingData": {
+      "shippingStep": "IN_TRANSIT",
+      "shippingStatus": "ON_TIME",
+      "chewyPromisedDeliveryDate": "2021-07-21",
+      "estimatedDeliveryDate": "2021-07-21"
+    },
+    "lineItems": [
+      {
+        "id": "1302542095",
+        "product": {
+          "catalogEntryId": "127505",
+          "partNumber": "99964",
+          "name": "Meow Mix Original Choice Dry Cat Food, 3.15-lb bag",
+          "description": "Meow Mix Original Choice Dry Cat Food, 3.15-lb bag",
+          "thumbnail": "//img.chewy.com/is/catalog/99964_MAIN,1462999355"
+        },
+        "quantity": 1,
+        "totalProduct": {
+          "value": "3.99"
+        },
+        "unitPrice": {
+          "value": "3.99"
+        },
+        "can": false,
+        "food": true,
+        "bundleItem": false
+      },
+      {
+        "id": "1302542096",
+        "product": {
+          "catalogEntryId": "34245",
+          "partNumber": "49064",
+          "name": "Taste of the Wild High Prairie Grain-Free Dry Dog Food, 5-lb bag",
+          "description": "Taste of the Wild High Prairie Grain-Free Dry Dog Food, 5-lb bag",
+          "thumbnail": "//img.chewy.com/is/image/catalog/49064_MAIN,1601335570"
+        },
+        "quantity": 1,
+        "totalProduct": {
+          "value": "13.83"
+        },
+        "unitPrice": {
+          "value": "13.83"
+        },
+        "can": false,
+        "food": true,
+        "bundleItem": false
+      }
+    ],
+    "totalShippingTax": {
+      "value": "0.36"
+    },
+    "total": {
+      "value": "23.51"
+    },
+    "logonId": "sgerike+dev1@chewy.com",
+    "timeUpdated": "2021-05-28T16:10:56.415Z",
+    "customerId": "127782408",
+    "returns": {
+      "items": {
+        "1302542095": {
+          "partNumber": "99964",
+          "refundQuantityExisting": 0,
+          "refundQuantityRemaining": 1,
+          "replacementQuantityExisting": 0,
+          "replacementQuantityRemaining": 1,
+          "concessionAmountExisting": {
+            "value": "0"
+          },
+          "concessionAmountRemaining": {
+            "value": "4.09"
+          },
+          "shelterDonationQualified": true
+        },
+        "1302542096": {
+          "partNumber": "49064",
+          "refundQuantityExisting": 0,
+          "refundQuantityRemaining": 1,
+          "replacementQuantityExisting": 0,
+          "replacementQuantityRemaining": 1,
+          "concessionAmountExisting": {
+            "value": "0"
+          },
+          "concessionAmountRemaining": {
+            "value": "14.11"
+          },
+          "shelterDonationQualified": true
+        }
+      },
+      "shippingConcessionExisting": {
+        "value": "0"
+      },
+      "shippingConcessionRemaining": {
+        "value": "5.31"
+      }
+    },
+    "id": "1008437832",
+    "totalAdjustment": {
+      "value": "-0.89"
+    },
+    "timePlaced": "2021-05-28T16:10:01.573Z",
+    "status": "SHIPPED"
+  }
+}

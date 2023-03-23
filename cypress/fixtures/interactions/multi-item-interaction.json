@@ -1,0 +1,115 @@
+[{
+  "incidentId": "220318-114948",
+  "createdAt": "2022-03-18T15:30:46-04:00",
+  "contactChannel": "Phone Inbound",
+  "contactReason": "Found Better Price",
+  "agentName": "Eddie Van Halen",
+  "disposition": "No Action Needed",
+  "specialNote": "This is a test",
+  "appeasements": [
+    {
+      "appeasementId": "1139995982",
+      "type": "RETURNS",
+      "description": "Hill's Science Diet Kitten Healthy Development Chicken Recipe Dry Cat Food, 7-lb bag",
+      "actions": [
+        {
+          "actionId": "4a7684df-ff02-4f71-8a01-f782175f1726",
+          "actionType": "REFUND",
+          "state": "CANCELED",
+          "type": "REFUND"
+        }
+      ],
+      "details": {
+        "secondary": "FLOOR_DENIAL",
+        "itemId": "48927",
+        "selectAll": false,
+        "cardType": "VISA",
+        "totalRefunded": 0,
+        "accountNumber": "4737XXXXXXXX4633",
+        "returnType": "REFUND",
+        "returnAmount": "21.22",
+        "primary": "FULFILLMENT",
+        "quantityOfBoxesChecked": true,
+        "snailMailLabels": true,
+        "fedexPickup": true
+      }
+    },
+    {
+      "appeasementId": "1173638747",
+      "type": "RETURNS",
+      "description": "shipping",
+      "actions": [
+        {
+          "actionId": "ec53c4f2-c054-4c52-b08a-08b481f9e81f",
+          "actionType": "CONCESSION",
+          "state": "PROCESSED",
+          "type": "SHIPPING_CONCESSION"
+        }
+      ],
+      "details": {
+        "secondary": "BOX_AND_PRODUCT",
+        "productConcession": 0,
+        "tertiary": "BROKEN_OR_SMASHED_BOX_OR_PRODUCT",
+        "cardType": "VISA",
+        "shippingConcession": 0.01,
+        "accountNumber": "4147XXXXXXXX2931",
+        "returnType": "CONCESSION",
+        "returnAmount": "0",
+        "primary": "DAMAGED",
+        "quantityOfBoxesChecked": true,
+        "snailMailLabels": true,
+        "fedexPickup": true,
+        "shippingInstructions": "FrontDoor",
+        "deliveryComplaint": "Damaged"
+      }
+    },
+    {
+      "appeasementId": "1173638747",
+      "type": "RETURNS",
+      "actions": [
+        {
+          "actionId": "ec53c4f2-c054-4c52-b08a-08b481f9e81f",
+          "actionType": "CONCESSION",
+          "state": "PROCESSED",
+          "type": "SHIPPING_CONCESSION"
+        }
+      ],
+      "details": {
+        "secondary": "BOX_AND_PRODUCT",
+        "productConcession": 0,
+        "tertiary": "BROKEN_OR_SMASHED_BOX_OR_PRODUCT",
+        "cardType": "VISA",
+        "comment": "null",
+        "shippingConcession": 0.01,
+        "accountNumber": "4147XXXXXXXX2931",
+        "returnType": "CONCESSION",
+        "returnAmount": "0.01",
+        "primary": "DAMAGED"
+      }
+    },
+    {
+      "appeasementId": "1140082298",
+      "type": "RETURNS",
+      "description": "Temptations Tasty Chicken Flavor Cat Treats, 30-oz tub",
+      "actions": [
+        {
+          "actionId": "0bc3b8a9-f47b-47de-aa7d-69d044b886d4",
+          "actionType": "REFUND",
+          "state": "CANCELED",
+          "type": "REFUND"
+        }
+      ],
+      "details": {
+        "cardType": "VISA",
+        "accountNumber": "438864beDSQN5l-6450",
+        "itemId": "106568",
+        "selectAll": false,
+        "comment": "Did not want",
+        "totalRefunded": 0,
+        "returnType": "REFUND",
+        "returnAmount": "12.94",
+        "primary": "UNAUTHORIZED_PURCHASE"
+      }
+    }
+  ]
+}]

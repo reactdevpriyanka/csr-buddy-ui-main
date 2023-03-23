@@ -1,0 +1,295 @@
+{
+    "id": "1782078828",
+    "customerId": "267345285",
+    "status": "RELEASED",
+    "totalProduct": {
+        "value": "29.91",
+        "currency": "USD"
+    },
+    "totalSalesTax": {
+        "value": "2.03",
+        "currency": "USD"
+    },
+    "totalShipping": {
+        "value": "4.95",
+        "currency": "USD"
+    },
+    "totalShippingTax": {
+        "value": "0.32",
+        "currency": "USD"
+    },
+    "totalAdjustment": {
+        "value": "-4.75",
+        "currency": "USD"
+    },
+    "orderFees": [
+        {
+            "amount": {
+                "value": "0.27",
+                "currency": "USD"
+            },
+            "type": "RDF_CO"
+        }
+    ],
+    "totalBeforeTax": {
+        "value": "30.11",
+        "currency": "USD"
+    },
+    "total": {
+        "value": "32.41",
+        "currency": "USD"
+    },
+    "timePlaced": "2022-10-26T21:40:53.072Z",
+    "timeUpdated": "2022-10-26T22:00:05.527Z",
+    "lineItems": [
+        {
+            "id": "2147846585",
+            "externalId": "404888410",
+            "status": "SHIPPED",
+            "product": {
+                "catalogEntryId": "188522",
+                "partNumber": "161807",
+                "name": "Frisco Colorful Springs Cat Toy, 10-Pack",
+                "description": "Frisco Colorful Springs Cat Toy, 10-Pack",
+                "thumbnail": "//image.chewy.com/is/image/catalog/161807_MAIN,1565795955"
+            },
+            "fulfillmentCenter": "AVP2",
+            "fulfillmentStatus": "SHIPPED",
+            "quantity": 3,
+            "totalProduct": {
+                "value": "14.25"
+            },
+            "unitPrice": {
+                "value": "4.75"
+            },
+            "bundleItem": false,
+            "can": false,
+            "food": false,
+            "shippingCharge": {
+                "value": "2.48"
+            },
+            "totalAdjustment": {
+                "value": "-4.75"
+            },
+            "salesTax": {
+                "value": "0.65"
+            },
+            "shippingTax": {
+                "value": "0.16"
+            },
+            "currency": "USD"
+        },
+        {
+            "id": "2147846586",
+            "externalId": "404888411",
+            "status": "RELEASED",
+            "product": {
+                "catalogEntryId": "38371",
+                "partNumber": "53235",
+                "name": "Chuckit! Ultra Rubber Ball Tough Dog Toy, Medium, 2 pack",
+                "description": "Chuckit! Ultra Rubber Ball Tough Dog Toy, Medium, 2 pack",
+                "thumbnail": "//image.chewy.com/is/image/catalog/53235_MAIN,1658683388"
+            },
+            "fulfillmentCenter": "DFW1",
+            "fulfillmentCenterType": "CHEWY",
+            "fulfillmentStatus": "RELEASED",
+            "quantity": 3,
+            "totalProduct": {
+                "value": "15.66"
+            },
+            "unitPrice": {
+                "value": "5.22"
+            },
+            "bundleItem": false,
+            "shippingCharge": {
+                "value": "2.47"
+            },
+            "totalAdjustment": {
+                "value": "0.00"
+            },
+            "salesTax": {
+                "value": "1.06"
+            },
+            "shippingTax": {
+                "value": "0.16"
+            },
+            "currency": "USD"
+        }
+    ],
+    "trackingData": {
+        "shippingStep": "PACKING_ITEMS",
+        "shippingStatus": "UNKNOWN"
+    },
+    "shippingAddress": {
+        "id": "347202161",
+        "nickname": "0158d359-26f2-460f-88e4-7bed9e7cdf19",
+        "fullName": "doug colorado",
+        "addressLine1": "6767 S VINE ST",
+        "city": "LITTLETON",
+        "state": "CO",
+        "postcode": "80122-3171",
+        "country": "US",
+        "phone": "6513369938",
+        "primaryAddress": false,
+        "verified": false
+    },
+    "shipments": [
+        {
+            "id": "432016117",
+            "shippingModeCode": "FLATRATE",
+            "timeShipped": "2022-10-26T00:00:00Z",
+            "trackingData": {
+                "shippingStep": "PACKING_ITEMS",
+                "shippingStatus": "UNKNOWN"
+            },
+            "carrierDescription": "Flat-Rate Shipping",
+            "trackingUrl": "nullnull",
+            "fulfillmentCenterDetails": {
+                "id": "AVP2",
+                "type": "fulfillmentCenters",
+                "attributes": {
+                    "fulfillmentCenterId": "AVP2",
+                    "displayName": "AVP2",
+                    "fulfillmentCenterType": "CHEWY",
+                    "address": {
+                        "addressLine1": "37 Archbald Heights Rd",
+                        "city": "Jessup",
+                        "state": "PA",
+                        "postcode": "18434",
+                        "country": "US",
+                        "primaryAddress": false,
+                        "verified": false
+                    },
+                    "returnAddress": {
+                        "addressLine1": "37 Archbald Heights Rd",
+                        "city": "Jessup",
+                        "state": "PA",
+                        "postcode": "18434",
+                        "country": "US",
+                        "primaryAddress": false,
+                        "verified": false
+                    },
+                    "fcEnabled": true,
+                    "fulfillerId": "da295753-1507-4ea7-a0e6-967b949dda72"
+                }
+            },
+            "shipmentItems": [
+                {
+                    "lineItemId": "2147846585",
+                    "quantity": 3,
+                    "shippedQuantity": 0
+                }
+            ]
+        }
+    ],
+    "releases": [
+        {
+            "id": "169250921",
+            "status": "MANIFESTED",
+            "releaseNumber": 1,
+            "shippingModeCode": "FLATRATE",
+            "fulfillmentCenter": "AVP2",
+            "fulfillmentCenterType": "CHEWY",
+            "captureDate": "2022-10-26T22:00:05.624Z",
+            "customerConfirm": "2022-10-26T22:00:05.466Z",
+            "lineItemIds": [
+                "2147846585"
+            ],
+            "shipmentIds": [
+                "432016117"
+            ],
+            "timeCreated": "2022-10-26T21:59:06.651Z",
+            "timeUpdated": "2022-10-26T22:00:05.636Z"
+        },
+        {
+            "id": "169250922",
+            "status": "PRINTED",
+            "releaseNumber": 2,
+            "shippingModeCode": "FLATRATE",
+            "fulfillmentCenter": "DFW1",
+            "fulfillmentCenterType": "CHEWY",
+            "lineItemIds": [
+                "2147846586"
+            ],
+            "timeCreated": "2022-10-26T21:59:06.651Z",
+            "timeUpdated": "2022-10-26T21:59:06.939Z",
+            "attributes": [
+                "CANCELLABLE"
+            ]
+        }
+    ],
+    "releasesNotShippedItems": [
+        {
+            "id": "169250922",
+            "status": "PRINTED",
+            "releaseNumber": 2,
+            "shippingModeCode": "FLATRATE",
+            "fulfillmentCenter": "DFW1",
+            "fulfillmentCenterType": "CHEWY",
+            "lineItemIds": [
+                "2147846586"
+            ],
+            "timeCreated": "2022-10-26T21:59:06.651Z",
+            "timeUpdated": "2022-10-26T21:59:06.939Z",
+            "attributes": [
+                "CANCELLABLE"
+            ]
+        }
+    ],
+    "notShippedItems": [
+        {
+            "lineItemId": "2147846586",
+            "quantity": 3,
+            "shippedQuantity": 0
+        }
+    ],
+    "payments": {
+        "paymentInstructions": [
+            {
+                "id": "440784390",
+                "walletId": "63794a2c-9f20-4539-bb94-43892b83277b",
+                "paymentMethod": {
+                    "paymentReferenceId": "8f205488-b5b1-4500-97a5-17f513662d86",
+                    "type": "CARD",
+                    "card": {
+                        "expirationMonth": "4",
+                        "expirationYear": "2026",
+                        "cardHolderName": "doug colorado",
+                        "type": "VISA",
+                        "accountNumber": "4112XXXXXXXX4113"
+                    }
+                },
+                "billingAddress": {
+                    "fullName": "doug colorado",
+                    "addressLine1": "Northeastern BLVD",
+                    "city": "nashua",
+                    "state": "NH",
+                    "postcode": "03062",
+                    "country": "USA"
+                },
+                "amount": "32.41",
+                "state": "VALID",
+                "timeCreated": "2022-10-26T21:40:53.321Z",
+                "timeUpdated": "2022-10-26T21:59:06.651Z"
+            }
+        ]
+    },
+    "remoteIp": "192.88.179.42",
+    "businessChannel": "WEB",
+    "submitter": "CUSTOMER",
+    "submitterId": "267345285",
+    "submitterDetail": {
+        "id": "267345285",
+        "email": "dougcolorado@gmail.com",
+        "fullName": "doug colorado",
+        "status": "ACTIVE"
+    },
+    "promotions": [
+        {
+            "name": "(2022-11) Shop Early & Save B3G1",
+            "amount": {
+                "value": "-4.75"
+            }
+        }
+    ]
+}

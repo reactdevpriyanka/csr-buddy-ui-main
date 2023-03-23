@@ -1,0 +1,61 @@
+{
+  "lineItems": [
+    {
+      "id": "1463195548",
+      "product": {
+        "catalogEntryId": "160947",
+        "partNumber": "133937",
+        "name": "American Journey Minced Poultry in Gravy Variety Pack Grain-Free Canned Cat Food, 3-oz, case of 24",
+        "description": "American Journey Minced Poultry in Gravy Variety Pack Grain-Free Canned Cat Food, 3-oz, case of 24",
+        "thumbnail": "//img.chewy.com/is/image/catalog/133937_MAIN,1607099533",
+        "quantity": 0,
+        "totalProduct": "114.95",
+        "shippingCharge": "0.00",
+        "totalAdjustment": "-5.75",
+        "salesTax": "8.05",
+        "shippingTax": "0.00",
+        "rxRequired": false,
+        "pharma": false,
+        "dropShip": false,
+        "compound": false,
+        "discontinued": false,
+        "giftCard": false,
+        "electronicDelivery": false
+      },
+      "quantity": "5",
+      "totalProduct": {
+        "value": "114.95"
+      },
+      "unitPrice": {
+        "value": "22.99"
+      },
+      "can": true,
+      "food": true,
+      "canCount": 24,
+      "bundleItem": false
+    }
+  ],
+  "orderId": "1070000102",
+  "customerId": "148787746",
+  "suzzieOrderUrl": "https://cs-platform.csbb.qat.chewy.com/orders/1070000102/summary",
+  "shipments": [
+    {
+      "id": "418803120",
+      "shippingModeCode": "FLATRATE",
+      "trackingId": "1111111111",
+      "timeShipped": "2021-06-23T00:00:00Z",
+      "trackingData": {
+        "shippingStep": "ORDER_PLACED",
+        "shippingStatus": "UNKNOWN",
+        "chewyPromisedDeliveryDate": "2021-06-24"
+      },
+      "shipmentItems": [
+        {
+          "lineItemId": "1463195548",
+          "quantity": 5,
+          "shippedQuantity": 0
+        }
+      ]
+    }
+  ]
+}

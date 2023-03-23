@@ -1,0 +1,31 @@
+version: '3.9'
+
+services:
+  gateway:
+    image: 278833423079.dkr.ecr.us-east-1.amazonaws.com/csbb/csrb-gateway:0.103.0
+    environment:
+      SPRING_PROFILES_ACTIVE: $ENVIRONMENT
+      SPRING_REDIS_CLUSTER_NODES: $REDIS_HOST
+      csrb_gateway_route_csrbStableTierbApi_BaseUrl: $TIERB_BASE_URL
+      csrb_gateway_route_csrbBlueTierbApi_BaseUrl: $TIERB_BASE_URL
+      csrb_gateway_route_csrbGreenTierbApi_BaseUrl: $TIERB_BASE_URL
+      CSRB_GATEWAY_ROUTE_CSRBSTABLEAPPSERVERSETTINGS_BASEURL: http://host.docker.internal:3000
+      CSRB_GATEWAY_ROUTE_CSRBALPHAAPPSERVERSETTINGS_BASEURL: http://host.docker.internal:3000
+      CSRB_GATEWAY_ROUTE_CSRBBETAAPPSERVERSETTINGS_BASEURL: http://host.docker.internal:3000
+      csrb_configuration_athena_gatewayPropsPath: $ATHENA_GATEWAY_PATH
+      csrb_configuration_athena_baseUri: $ATHENA_BASE_URI
+      CSRB_CONFIGURATION_CONTENTSECURITYPOLICYSOURCES: https://chewy--tst3.custhelp.com, https://csrb-gateway.csbb.qat.chewy.com/, https://cs-platform.csbb.qat.chewy.com/, https://cs-platform.csbb.prd.chewy.com/, https://chewy-stage-policy.aqvision.dev/, https://chewy-policy.aqvision.pet/
+      spring_security_oauth2_client_provider_chewy-auth-service_issuer-uri: $OAUTH_ISSUER_URI
+      LOGGING_LEVEL_ORG_SPRINGFRAMEWORK_CLOUD_GATEWAY_FILTER_GATEWAYMETRICSFILTER: ERROR
+      CSRB_GATEWAY_ROUTE_ORDERSERVICEAPI_BASEURL: $ORDER_SERVICE_BASE_URI
+      CLIENT_SECRET: $OAUTH_SECRET
+      U2S_CLIENT_SECRET: $OAUTH_U2S_SECRET
+      LOGGING_LEVEL_ORG_SPRINGFRAMEWORK: ERROR
+      LOGGING_LEVEL_COM_CHEWY_CSRB_GATEWAY: INFO
+      LOGGING_LEVEL_REACTOR_NETTY_HTTP_CLIENT_HTTPCLIENT: INFO
+      SHORT_REGION: use2
+      csrb_configuration_athena-on: "false"
+      CART_API_KEY: ""
+      spring_security_oauth2_client_provider_chewy-account-service_issuer-uri: https://account.use1.plat.qat.chewy.com
+    ports:
+      - "${CSRB_GATEWAY_PORT:-8080}:8080"

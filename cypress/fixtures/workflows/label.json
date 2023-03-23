@@ -1,0 +1,29 @@
+{
+  "context": {},
+  "startNode": { "id": "1" },
+  "flow": {
+    "flowName": "show-label",
+    "startNode": {
+      "id": "1",
+      "nodeType": "START_NODE",
+      "singularOutcomeId": "1"
+    },
+    "flowLinks": [
+      {
+        "outcomeId": "11",
+        "destinationNodeId": "1"
+      }
+    ],
+    "flowNodes": [
+      {
+        "id": "1",
+        "nodeType": "LABEL",
+        "label": "Label text",
+        "subLabel": "the spice must flow",
+        "visible": {
+          "value": true
+        }
+      }
+    ]
+  }
+}

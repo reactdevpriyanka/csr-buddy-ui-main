@@ -1,0 +1,33 @@
+{
+  "context": {},
+  "startNode": { "id": "73" },
+  "flow": {
+    "flowName": "show-text",
+    "startNode": {
+      "id": "73",
+      "nodeType": "START_NODE",
+      "singularOutcome": "73"
+    },
+    "flowLinks": [
+      {
+        "outcomeId": "72",
+        "destinationNodeId": "73"
+      }
+    ],
+    "flowNodes": [
+      {
+        "id": "73",
+        "nodeType": "TEXT",
+        "required": {
+          "value": true
+        },
+        "enabled": {
+          "value": true
+        },
+        "visible": {
+          "value": true
+        }
+      }
+    ]
+  }
+}

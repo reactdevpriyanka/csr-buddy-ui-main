@@ -1,0 +1,9 @@
+FROM cypress/included:7.1.0
+WORKDIR ./
+COPY package.json .
+
+# Add wait-for-it script
+COPY wait-for-it.sh wait-for-it.sh 
+RUN chmod +x wait-for-it.sh
+
+RUN npm install

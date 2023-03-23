@@ -1,0 +1,61 @@
+{
+  "orderId": "1500016463",
+  "timePlaced": "2021-05-06T22:01:33.499Z",
+  "totalProduct": "66.79",
+  "totalSalesTax": "4.17",
+  "totalShippingCharge": "0.00",
+  "totalShippingTax": "0.00",
+  "totalAdjustment": "0.00",
+  "totalBeforeTax": "66.79",
+  "total": "70.96",
+  "currency": "USD",
+  "status": "C",
+  "orderItems": [
+    {
+      "id": "1492426312",
+      "quantity": 1,
+      "totalProduct": "16.79",
+      "unitPrice": "16.79",
+      "catalogEntryId": "105875",
+      "partNumber": "78033",
+      "name": "Tidy Cats Instant Action Scented Clumping Clay Cat Litter, 35-lb pail",
+      "description": "Tidy Cats Instant Action Scented Clumping Clay Cat Litter, 35-lb pail",
+      "fullImage": "//img.chewy.com/is/image/catalog/78033_MAIN,1604962614",
+      "rxRequired": false,
+      "pharma": false,
+      "dropShip": false,
+      "compound": false,
+      "discontinued": false,
+      "giftCard": false,
+      "electronicDelivery": false
+    },
+    {
+      "id": "1492426313",
+      "quantity": 1,
+      "totalProduct": "50.00",
+      "unitPrice": "50.00",
+      "catalogEntryId": "127421",
+      "partNumber": "99879",
+      "name": "9 Lives Daily Essentials with Chicken, Beef & Salmon Flavor Dry Cat Food, 20-lb bag",
+      "description": "9 Lives Daily Essentials with Chicken, Beef & Salmon Flavor Dry Cat Food, 20-lb bag",
+      "fullImage": "//img.chewy.com/is/image/catalog/99879_MAIN,1507318479",
+      "rxRequired": false,
+      "pharma": false,
+      "dropShip": false,
+      "compound": false,
+      "discontinued": false,
+      "giftCard": false,
+      "electronicDelivery": false
+    }
+  ],
+  "blocks": [
+    {
+      "id": "21128674",
+      "reason": "MULTIPLE_ORDERS",
+      "resolved": true,
+      "timeBlocked": "2021-05-06T22:01:34.443Z",
+      "timeResolved": "2021-05-06T22:02:53.478Z"
+    }
+  ],
+  "subscriptionInfos": []
+}

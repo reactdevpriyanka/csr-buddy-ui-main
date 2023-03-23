@@ -1,0 +1,329 @@
+[
+  {
+    "id": "887f39d4-082c-4123-85af-8514fdfc64b7",
+    "type": "PURCHASED",
+    "purchaser": {
+      "id": 159062687,
+      "isEnabled": false,
+      "addresses": [
+        {
+          "id": 202222984,
+          "nickname": "mdroche4@gmail.com",
+          "fullName": "Madison Roche",
+          "email1": "mdroche4@gmail.com",
+          "memberId": "127365925",
+          "status": "P",
+          "type": "P",
+          "primaryAddress": false,
+          "selfAddress": true,
+          "phoneOptOut": false,
+          "isVerified": false,
+          "timeCreated": "2020-12-10 22:36:22"
+        }
+      ]
+    },
+    "redeemer": {
+      "id": 159062687,
+      "isEnabled": false,
+      "addresses": [
+        {
+          "id": 202222984,
+          "nickname": "mdroche4@gmail.com",
+          "fullName": "Redeemer Roche",
+          "email1": "mdroche4@gmail.com",
+          "memberId": "127365925",
+          "status": "P",
+          "type": "P",
+          "primaryAddress": false,
+          "selfAddress": true,
+          "phoneOptOut": false,
+          "isVerified": false,
+          "timeCreated": "2020-12-10 22:36:22"
+        }
+      ]
+    },
+    "status": "INACTIVE",
+    "availableBalance": {
+      "value": "100.0",
+      "currency": "USD"
+    },
+    "totalAmount": {
+      "value": "100.0",
+      "currency": "USD"
+    },
+    "maskedAccountNumber": "777727XXXXXXXX7370",
+    "recipientEmail": "testemail@chewy.com",
+    "message": "This is chewy gift card",
+    "order": {
+      "id": 160688056,
+      "externalOrderId": 1074646408,
+      "memberId": 159062687,
+      "legacyId": 0,
+      "status": "DEPOSITED",
+      "timePlaced": "2022-02-03T21:09:11.782Z",
+      "fulfillmentReleases": [
+        {
+          "lineItemIds": [
+            390962103
+          ],
+          "id": 163355348,
+          "legacyId": 385014724,
+          "status": "MANIFESTED",
+          "shipments": [
+            {
+              "id": 558397508,
+              "packageId": "887f39d4-082c-4123-85af-8514fdfc64b7",
+              "shipmentItems": [
+                {
+                  "id": 558397608,
+                  "lineItemId": 390962103,
+                  "legacyId": 875341669,
+                  "quantity": 0
+                }
+              ]
+            },
+            {
+              "id": 558397509,
+              "packageId": "88056221-d411-458a-a5fb-38cfe8ee314f",
+              "shipmentItems": [
+                {
+                  "id": 558397609,
+                  "lineItemId": 390962103,
+                  "legacyId": 875341670,
+                  "quantity": 0
+                }
+              ]
+            },
+            {
+              "id": 558397510,
+              "packageId": "a9decab3-350d-4876-8a4c-40bc98482304",
+              "shipmentItems": [
+                {
+                  "id": 558397610,
+                  "lineItemId": 390962103,
+                  "legacyId": 875341671,
+                  "quantity": 0
+                }
+              ]
+            }
+          ],
+          "releaseNumber": 0
+        }
+      ],
+      "lineItems": [
+        {
+          "id": 390962103,
+          "legacyId": 0,
+          "quantity": 3,
+          "product": {
+            "attributes": [
+              "ELECTRONIC_DELIVERY",
+              "GIFT_CARD"
+            ]
+          },
+          "personalizationAttributes": {
+            "Message": "This is chewy gift card",
+            "RecipientEmail": "testemail@chewy.com"
+          }
+        }
+      ],
+      "blocked": false
+    }
+  },
+  {
+    "id": "88056221-d411-458a-a5fb-38cfe8ee314f",
+    "type": "PURCHASED",
+    "purchaser": {
+      "id": 159062687,
+      "isEnabled": false,
+      "fullName": "tester"
+    },
+    "redeemer": {
+      "id": 159062687,
+      "isEnabled": false,
+      "fullName": "redeemer tester"
+    },
+    "status": "INACTIVE",
+    "availableBalance": {
+      "value": "0.0",
+      "currency": "USD"
+    },
+    "totalAmount": {
+      "value": "100.0",
+      "currency": "USD"
+    },
+    "maskedAccountNumber": "777727XXXXXXXX7470",
+    "recipientEmail": "testemail@chewy.com",
+    "message": "This is chewy gift card",
+    "order": {
+      "id": 160688056,
+      "externalOrderId": 1074646408,
+      "memberId": 159062687,
+      "legacyId": 0,
+      "status": "DEPOSITED",
+      "timePlaced": "2022-02-03T21:09:11.782Z",
+      "fulfillmentReleases": [
+        {
+          "lineItemIds": [
+            390962103
+          ],
+          "id": 163355348,
+          "legacyId": 385014724,
+          "status": "MANIFESTED",
+          "shipments": [
+            {
+              "id": 558397508,
+              "packageId": "887f39d4-082c-4123-85af-8514fdfc64b7",
+              "shipmentItems": [
+                {
+                  "id": 558397608,
+                  "lineItemId": 390962103,
+                  "legacyId": 875341669,
+                  "quantity": 0
+                }
+              ]
+            },
+            {
+              "id": 558397509,
+              "packageId": "88056221-d411-458a-a5fb-38cfe8ee314f",
+              "shipmentItems": [
+                {
+                  "id": 558397609,
+                  "lineItemId": 390962103,
+                  "legacyId": 875341670,
+                  "quantity": 0
+                }
+              ]
+            },
+            {
+              "id": 558397510,
+              "packageId": "a9decab3-350d-4876-8a4c-40bc98482304",
+              "shipmentItems": [
+                {
+                  "id": 558397610,
+                  "lineItemId": 390962103,
+                  "legacyId": 875341671,
+                  "quantity": 0
+                }
+              ]
+            }
+          ],
+          "releaseNumber": 0
+        }
+      ],
+      "lineItems": [
+        {
+          "id": 390962103,
+          "legacyId": 0,
+          "quantity": 3,
+          "product": {
+            "attributes": [
+              "ELECTRONIC_DELIVERY",
+              "GIFT_CARD"
+            ]
+          },
+          "personalizationAttributes": {
+            "Message": "This is chewy gift card",
+            "RecipientEmail": "testemail@chewy.com"
+          }
+        }
+      ],
+      "blocked": false
+    }
+  },
+  {
+    "id": "a9decab3-350d-4876-8a4c-40bc98482304",
+    "type": "PURCHASED",
+    "purchaser": {
+      "id": 159062687,
+      "isEnabled": false
+    },
+    "status": "INACTIVE",
+    "availableBalance": {
+      "value": "100.0",
+      "currency": "USD"
+    },
+    "totalAmount": {
+      "value": "100.0",
+      "currency": "USD"
+    },
+    "maskedAccountNumber": "777727XXXXXXXX2011",
+    "recipientEmail": "testemail@chewy.com",
+    "message": "This is chewy gift card",
+    "order": {
+      "id": 160688056,
+      "externalOrderId": 1074646408,
+      "memberId": 159062687,
+      "legacyId": 0,
+      "status": "DEPOSITED",
+      "timePlaced": "2022-02-03T21:09:11.782Z",
+      "fulfillmentReleases": [
+        {
+          "lineItemIds": [
+            390962103
+          ],
+          "id": 163355348,
+          "legacyId": 385014724,
+          "status": "MANIFESTED",
+          "shipments": [
+            {
+              "id": 558397508,
+              "packageId": "887f39d4-082c-4123-85af-8514fdfc64b7",
+              "shipmentItems": [
+                {
+                  "id": 558397608,
+                  "lineItemId": 390962103,
+                  "legacyId": 875341669,
+                  "quantity": 0
+                }
+              ]
+            },
+            {
+              "id": 558397509,
+              "packageId": "88056221-d411-458a-a5fb-38cfe8ee314f",
+              "shipmentItems": [
+                {
+                  "id": 558397609,
+                  "lineItemId": 390962103,
+                  "legacyId": 875341670,
+                  "quantity": 0
+                }
+              ]
+            },
+            {
+              "id": 558397510,
+              "packageId": "a9decab3-350d-4876-8a4c-40bc98482304",
+              "shipmentItems": [
+                {
+                  "id": 558397610,
+                  "lineItemId": 390962103,
+                  "legacyId": 875341671,
+                  "quantity": 0
+                }
+              ]
+            }
+          ],
+          "releaseNumber": 0
+        }
+      ],
+      "lineItems": [
+        {
+          "id": 390962103,
+          "legacyId": 0,
+          "quantity": 3,
+          "product": {
+            "attributes": [
+              "ELECTRONIC_DELIVERY",
+              "GIFT_CARD"
+            ]
+          },
+          "personalizationAttributes": {
+            "Message": "This is chewy gift card",
+            "RecipientEmail": "testemail@chewy.com"
+          }
+        }
+      ],
+      "blocked": false
+    }
+  }
+]

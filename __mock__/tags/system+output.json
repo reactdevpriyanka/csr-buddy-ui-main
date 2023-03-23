@@ -1,0 +1,37 @@
+{
+  "SUSPECTED_FRAUD": {
+    "name": "SUSPECTED_FRAUD",
+    "description": "Extra customer validation required",
+    "sourceSystem": "KYRIOS",
+    "updatable": true,
+    "displayName": "Suspected Fraud"
+  },
+  "HEARING_IMPAIRED": {
+    "name": "HEARING_IMPAIRED",
+    "description": "Please speak slowly and clearly for the customer",
+    "sourceSystem": "KYRIOS",
+    "updatable": true,
+    "displayName": "Hearing Impaired"
+  },
+  "RETURNS_ABUSER": {
+    "name": "RETURNS_ABUSER",
+    "description": "Customer should send items back to receive refund/replacement",
+    "sourceSystem": "KYRIOS",
+    "updatable": true,
+    "displayName": "Returns Abuse"
+  },
+  "DISCOUNT_ABUSER": {
+    "name": "DISCOUNT_ABUSER",
+    "description": "Do not apply manual coupons or manual discount adjustments/concessions",
+    "sourceSystem": "KYRIOS",
+    "updatable": true,
+    "displayName": "Discount Abuse"
+  },
+  "WEIGHT_LIMIT": {
+    "name": "WEIGHT_LIMIT",
+    "description": "Be aware the customer cannot lift packages over the given amount",
+    "sourceSystem": "KYRIOS",
+    "updatable": true,
+    "displayName": "Weight Limit"
+  }
+}

@@ -1,0 +1,212 @@
+[
+  {
+    "incidentId": "220606-000851",
+    "createdAt": "2022-06-06T12:36:16-04:00",
+    "contactChannel": "Phone Inbound",
+    "contactReason": "Spam",
+    "agentName": "Test Agent",
+    "disposition": "No Action Needed",
+    "appeasements": [
+      {
+        "appeasementId": "1074738801",
+        "type": "AUSTOSHIP_RESCHEDULED",
+        "description": "Modified Autoship",
+        "details": {
+          "currentVal": {
+            "fulfillment_frequency": 4,
+            "fulfillment_uom": "WEEK",
+            "fulfillment_next_date": "2022-06-01T16:05:09.805Z",
+            "name": "AS Autoship"
+          },
+          "prevVal": {}
+        }
+      },
+      {
+        "appeasementId": "1074738802",
+        "type": "AUTOSHIP_TRIGGERED",
+        "description": "Modified Autoship",
+        "details": {
+          "currentVal": {
+            "shipNow": "true",
+            "name": "AS Autoship"
+          },
+          "prevVal": {}
+        }
+      },
+      {
+        "appeasementId": "1074738803",
+        "type": "AUTOSHIP_SKIPPED",
+        "description": "Modified Autoship",
+        "details": {
+          "currentVal": {
+            "skip": "true",
+            "name": "AS Autoship"
+          },
+          "prevVal": {}
+        }
+      },
+      {
+        "appeasementId": "1074738804",
+        "type": "AUTOSHIP_FREQUENCY_UPDATED",
+        "description": "Modified Autoship",
+        "details": {
+          "currentVal": {
+            "fulfillment_frequency": 4,
+            "fulfillment_uom": "WEEK",
+            "name": "AS Autoship"
+          },
+          "prevVal": {}
+        }
+      },
+      {
+        "appeasementId": "1074738805",
+        "type": "AUTOSHIP_CANCELLED",
+        "description": "Modified Autoship",
+        "details": {
+          "currentVal": {
+            "name": "AS Autoship",
+            "subscriptionId": "800018510",
+            "cancel_reason": "ETC",
+            "cancel_comment": "Subscription was canceled due to undefined"
+          },
+          "prevVal": {}
+        }
+      },
+      {
+        "appeasementId": "1074738806",
+        "type": "AUTOSHIP_NOTIFICATION_RESENT",
+        "description": "MODIFIED_AUTOSHIP",
+        "details": {
+          "currentVal": {
+            "name": "AS Autoship",
+            "eventType": "NOTIFICATION",
+            "customerId": "157307902",
+            "subscriptionId": "800018510",
+            "notificationType": "AUTOSHIP_CREATED"
+          },
+          "prevVal": {}
+        }
+      },
+      {
+        "appeasementId": "1074738801",
+        "type": "AUTOSHIP_NOTIFICATION_RESENT",
+        "description": "MODIFIED_AUTOSHIP",
+        "details": {
+          "currentVal": {
+            "name": "AS Autoship",
+            "eventType": "NOTIFICATION",
+            "customerId": "157307902",
+            "subscriptionId": "800018510",
+            "notificationType": "AUTOSHIP_CREATED"
+          },
+          "prevVal": {}
+        }
+      }
+    ]
+  },
+  {
+    "incidentId": "220606-000861",
+    "createdAt": "2022-06-06T12:36:16-04:00",
+    "contactChannel": "Phone Inbound",
+    "contactReason": "Spam",
+    "agentName": "Test Agent",
+    "disposition": "No Action Needed",
+    "appeasements": [
+      {
+        "appeasementId": "1074738811",
+        "type": "AUSTOSHIP_RESCHEDULED",
+        "description": "Modified Autoship",
+        "details": {
+          "currentVal": {
+            "fulfillment_frequency": 4,
+            "fulfillment_uom": "WEEK",
+            "fulfillment_next_date": "2022-06-01T16:05:09.805Z",
+            "name": "AS Autoship"
+          },
+          "prevVal": {}
+        }
+      },
+      {
+        "appeasementId": "1074738812",
+        "type": "AUTOSHIP_TRIGGERED",
+        "description": "Modified Autoship",
+        "details": {
+          "currentVal": {
+            "shipNow": "true",
+            "name": "AS Autoship"
+          },
+          "prevVal": {}
+        }
+      },
+      {
+        "appeasementId": "1074738813",
+        "type": "AUTOSHIP_SKIPPED",
+        "description": "Modified Autoship",
+        "details": {
+          "currentVal": {
+            "skip": "true",
+            "name": "AS Autoship"
+          },
+          "prevVal": {}
+        }
+      },
+      {
+        "appeasementId": "1074738814",
+        "type": "AUTOSHIP_FREQUENCY_UPDATED",
+        "description": "Modified Autoship",
+        "details": {
+          "currentVal": {
+            "fulfillment_frequency": 4,
+            "fulfillment_uom": "WEEK",
+            "name": "AS Autoship"
+          },
+          "prevVal": {}
+        }
+      },
+      {
+        "appeasementId": "1074738815",
+        "type": "AUTOSHIP_CANCELLED",
+        "description": "Modified Autoship",
+        "details": {
+          "currentVal": {
+            "name": "AS Autoship",
+            "subscriptionId": "800018510",
+            "cancel_reason": "ETC",
+            "cancel_comment": "Subscription was canceled due to undefined"
+          },
+          "prevVal": {}
+        }
+      },
+      {
+        "appeasementId": "1074738816",
+        "type": "AUTOSHIP_NOTIFICATION_RESENT",
+        "description": "MODIFIED_AUTOSHIP",
+        "details": {
+          "currentVal": {
+            "name": "AS Autoship",
+            "eventType": "NOTIFICATION",
+            "customerId": "157307902",
+            "subscriptionId": "800018510",
+            "notificationType": "AUTOSHIP_CREATED"
+          },
+          "prevVal": {}
+        }
+      },
+      {
+        "appeasementId": "1074738811",
+        "type": "AUTOSHIP_NOTIFICATION_RESENT",
+        "description": "MODIFIED_AUTOSHIP",
+        "details": {
+          "currentVal": {
+            "name": "AS Autoship",
+            "eventType": "NOTIFICATION",
+            "customerId": "157307902",
+            "subscriptionId": "800018510",
+            "notificationType": "AUTOSHIP_CREATED"
+          },
+          "prevVal": {}
+        }
+      }
+    ]
+  }
+]

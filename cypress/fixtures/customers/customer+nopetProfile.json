@@ -1,0 +1,24 @@
+{
+  "customerFullName": "cypress_automation",
+  "id": 162318096,
+  "registrationDate": "2021-07-31 18:36:11",
+  "email": "cypress_automation@chewy.com",
+  "addresses": [
+    {
+      "id": "215591204",
+      "kyriosId": "215591204",
+      "nickname": "4fe43ec9-8b38-4105-ac8d-1550779a1e47",
+      "fullName": "cypress_automation",
+      "addressLine1": "4 NORTHEASTERN BLVD",
+      "city": "Salem",
+      "state": "NH",
+      "postcode": "03079-5916",
+      "country": "US",
+      "phone": "2222222222",
+      "verificationStatus": "PAYPAL_VERIFIED",
+      "primaryAddress": false
+    }
+  ],
+  "fraud": false,
+  "fraudSourceSystem": "CHEWY"
+}

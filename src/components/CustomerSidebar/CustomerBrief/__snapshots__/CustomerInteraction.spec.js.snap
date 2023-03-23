@@ -1,0 +1,328 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CustomerInteraction /> it should render children 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="makeStyles-root-1"
+        data-testid="customer-interaction"
+      >
+        <section
+          class="makeStyles-header-3"
+          data-testid="customer-tags-header-title"
+        >
+          <h2
+            class="MuiTypography-root makeStyles-heading-4 MuiTypography-h2"
+            data-testid="customer-tags-header-title"
+          >
+            Customer Tags
+          </h2>
+          <span
+            aria-label="create tag"
+            class="MuiTypography-root MuiTypography-text MuiLink-root MuiLink-underlineHover makeStyles-link-7 css-1ifudzl-MuiTypography-root-MuiLink-root"
+            data-testid="edit-customer-tags"
+          >
+            Edit
+          </span>
+        </section>
+        <section
+          class="makeStyles-root-2"
+          data-testid="customer-sidebar:tags"
+        />
+        <hr
+          class="MuiDivider-root makeStyles-divider-11"
+        />
+        <div
+          data-testid="loader"
+        >
+          <div
+            class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+            role="progressbar"
+            style="width: 40px; height: 40px;"
+          >
+            <svg
+              class="MuiCircularProgress-svg"
+              viewBox="22 22 44 44"
+            >
+              <circle
+                class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+                cx="44"
+                cy="44"
+                fill="none"
+                r="20.2"
+                stroke-width="3.6"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+          data-testid="loader"
+          role="progressbar"
+          style="width: 40px; height: 40px;"
+        >
+          <svg
+            class="MuiCircularProgress-svg"
+            viewBox="22 22 44 44"
+          >
+            <circle
+              class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+              cx="44"
+              cy="44"
+              fill="none"
+              r="20.2"
+              stroke-width="3.6"
+            />
+          </svg>
+        </div>
+        <div
+          class="makeStyles-root-29"
+        >
+          <hr
+            class="MuiDivider-root makeStyles-divider-35"
+          />
+          <h3
+            class="makeStyles-title-30"
+          >
+            Chewy Services
+          </h3>
+          <div
+            class="MuiBox-root MuiBox-root-36 makeStyles-box-32"
+          >
+            <div
+              class="makeStyles-tooltipContainer-31"
+            >
+              <div
+                class="makeStyles-disabled-33"
+                data-testid="disabledIcon"
+              />
+            </div>
+            <div
+              class="makeStyles-tooltipContainer-31"
+            >
+              <div
+                class="makeStyles-disabled-33"
+                data-testid="disabledIcon"
+              />
+            </div>
+            <div
+              class="makeStyles-tooltipContainer-31"
+            >
+              <div
+                class="makeStyles-disabled-33"
+                data-testid="disabledIcon"
+              />
+            </div>
+          </div>
+          <hr
+            class="MuiDivider-root makeStyles-divider-35"
+          />
+        </div>
+        <div
+          class="makeStyles-root-37"
+        >
+          <h3
+            class="makeStyles-title-38"
+          >
+            Upcoming Events
+          </h3>
+          <ul
+            class="makeStyles-list-39"
+          >
+            <li>
+              No upcoming events
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="makeStyles-root-1"
+      data-testid="customer-interaction"
+    >
+      <section
+        class="makeStyles-header-3"
+        data-testid="customer-tags-header-title"
+      >
+        <h2
+          class="MuiTypography-root makeStyles-heading-4 MuiTypography-h2"
+          data-testid="customer-tags-header-title"
+        >
+          Customer Tags
+        </h2>
+        <span
+          aria-label="create tag"
+          class="MuiTypography-root MuiTypography-text MuiLink-root MuiLink-underlineHover makeStyles-link-7 css-1ifudzl-MuiTypography-root-MuiLink-root"
+          data-testid="edit-customer-tags"
+        >
+          Edit
+        </span>
+      </section>
+      <section
+        class="makeStyles-root-2"
+        data-testid="customer-sidebar:tags"
+      />
+      <hr
+        class="MuiDivider-root makeStyles-divider-11"
+      />
+      <div
+        data-testid="loader"
+      >
+        <div
+          class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+          role="progressbar"
+          style="width: 40px; height: 40px;"
+        >
+          <svg
+            class="MuiCircularProgress-svg"
+            viewBox="22 22 44 44"
+          >
+            <circle
+              class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+              cx="44"
+              cy="44"
+              fill="none"
+              r="20.2"
+              stroke-width="3.6"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+        data-testid="loader"
+        role="progressbar"
+        style="width: 40px; height: 40px;"
+      >
+        <svg
+          class="MuiCircularProgress-svg"
+          viewBox="22 22 44 44"
+        >
+          <circle
+            class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+            cx="44"
+            cy="44"
+            fill="none"
+            r="20.2"
+            stroke-width="3.6"
+          />
+        </svg>
+      </div>
+      <div
+        class="makeStyles-root-29"
+      >
+        <hr
+          class="MuiDivider-root makeStyles-divider-35"
+        />
+        <h3
+          class="makeStyles-title-30"
+        >
+          Chewy Services
+        </h3>
+        <div
+          class="MuiBox-root MuiBox-root-36 makeStyles-box-32"
+        >
+          <div
+            class="makeStyles-tooltipContainer-31"
+          >
+            <div
+              class="makeStyles-disabled-33"
+              data-testid="disabledIcon"
+            />
+          </div>
+          <div
+            class="makeStyles-tooltipContainer-31"
+          >
+            <div
+              class="makeStyles-disabled-33"
+              data-testid="disabledIcon"
+            />
+          </div>
+          <div
+            class="makeStyles-tooltipContainer-31"
+          >
+            <div
+              class="makeStyles-disabled-33"
+              data-testid="disabledIcon"
+            />
+          </div>
+        </div>
+        <hr
+          class="MuiDivider-root makeStyles-divider-35"
+        />
+      </div>
+      <div
+        class="makeStyles-root-37"
+      >
+        <h3
+          class="makeStyles-title-38"
+        >
+          Upcoming Events
+        </h3>
+        <ul
+          class="makeStyles-list-39"
+        >
+          <li>
+            No upcoming events
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

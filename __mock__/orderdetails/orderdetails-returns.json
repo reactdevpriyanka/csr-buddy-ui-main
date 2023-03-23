@@ -1,0 +1,373 @@
+{
+    "itemMap": {
+        "1493892739": {
+            "id": "1493892739",
+            "externalId": "381242920",
+            "status": "SHIPPED",
+            "product": {
+                "catalogEntryId": "32041",
+                "partNumber": "46861",
+                "name": "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 30-lb bag",
+                "description": "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 30-lb bag",
+                "thumbnail": "//img.chewy.com/is/image/catalog/46861_MAIN,1562596335"
+            },
+            "fulfillmentCenter": "DAY1",
+            "fulfillmentStatus": "SHIPPED",
+            "quantity": 5,
+            "totalProduct": {
+                "value": "274.90"
+            },
+            "unitPrice": {
+                "value": "54.98"
+            },
+            "can": false,
+            "food": true,
+            "shippingCharge": {
+                "value": "0.00"
+            },
+            "totalAdjustment": {
+                "value": "0.00"
+            },
+            "salesTax": {
+                "value": "19.59"
+            },
+            "shippingTax": {
+                "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+        },
+        "1493892740": {
+            "id": "1493892740",
+            "externalId": "381242921",
+            "status": "SHIPPED",
+            "product": {
+                "catalogEntryId": "141457",
+                "partNumber": "114176",
+                "name": "Pedigree Choice Cuts in Gravy Country Stew Canned Dog Food, 13.2-oz, case of 12",
+                "description": "Pedigree Choice Cuts in Gravy Country Stew Canned Dog Food, 13.2-oz, case of 12",
+                "thumbnail": "//img.chewy.com/is/image/catalog/114176_MAIN,1607711829"
+            },
+            "fulfillmentCenter": "CFC1",
+            "fulfillmentStatus": "SHIPPED",
+            "quantity": 4,
+            "totalProduct": {
+                "value": "47.04"
+            },
+            "unitPrice": {
+                "value": "11.76"
+            },
+            "can": true,
+            "food": true,
+            "canCount": 12,
+            "shippingCharge": {
+                "value": "0.00"
+            },
+            "totalAdjustment": {
+                "value": "0.00"
+            },
+            "salesTax": {
+                "value": "3.35"
+            },
+            "shippingTax": {
+                "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+        },
+        "1493892741": {
+            "id": "1493892741",
+            "externalId": "381242922",
+            "status": "SHIPPED",
+            "product": {
+                "catalogEntryId": "38509",
+                "partNumber": "53376",
+                "name": "KONG Squeezz Ball Dog Toy, Color Varies, Medium",
+                "description": "KONG Squeezz Ball Dog Toy, Color Varies, Medium",
+                "thumbnail": "//img.chewy.com/is/image/catalog/53376_MAIN,1524496315"
+            },
+            "fulfillmentCenter": "WFC2",
+            "fulfillmentStatus": "SHIPPED",
+            "quantity": 5,
+            "totalProduct": {
+                "value": "11.95"
+            },
+            "unitPrice": {
+                "value": "2.39"
+            },
+            "can": false,
+            "food": false,
+            "shippingCharge": {
+                "value": "0.00"
+            },
+            "totalAdjustment": {
+                "value": "0.00"
+            },
+            "salesTax": {
+                "value": "0.85"
+            },
+            "shippingTax": {
+                "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+        },
+        "1493892742": {
+            "id": "1493892742",
+            "externalId": "381242923",
+            "status": "SHIPPED",
+            "product": {
+                "catalogEntryId": "47739",
+                "partNumber": "62769",
+                "name": "KONG Cozie Marvin the Moose Plush Dog Toy, Medium",
+                "description": "KONG Cozie Marvin the Moose Plush Dog Toy, Medium",
+                "thumbnail": "//img.chewy.com/is/image/catalog/62769_MAIN,1588626359"
+            },
+            "fulfillmentCenter": "AVP1",
+            "fulfillmentStatus": "SHIPPED",
+            "quantity": 5,
+            "totalProduct": {
+                "value": "24.95"
+            },
+            "unitPrice": {
+                "value": "4.99"
+            },
+            "can": false,
+            "food": false,
+            "shippingCharge": {
+                "value": "0.00"
+            },
+            "totalAdjustment": {
+                "value": "0.00"
+            },
+            "salesTax": {
+                "value": "1.78"
+            },
+            "shippingTax": {
+                "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+        }
+    },
+
+    "returns": [
+        {
+            "id": "9d77052f-d6de-46de-84b5-1ff24c505eba",
+            "orderId": "1070023700",
+            "state": "RECEIVE_WAIT",
+            "type": "REFUND",
+            "timeCreated": "2022-06-14T13:35:07.877720Z",
+            "timeUpdated": "2022-06-14T13:35:09.149120Z",
+            "totalCredit": 25.2,
+            "items": [
+                {
+                    "returnId": "9d77052f-d6de-46de-84b5-1ff24c505eba",
+                    "lineItemId": "1493892740",
+                    "orderId": "1070023700",
+                    "state": "RECEIVE_WAIT",
+                    "type": "REFUND",
+                    "reasonCategory": "OTHER",
+                    "reason": {
+                        "primary": "OTHER"
+                    },
+                    "timeCreated": "2022-06-14T13:35:07.877720Z",
+                    "timeUpdated": "2022-06-14T13:35:09.149120Z",
+                    "comment": "Seems to need this",
+                    "partNumber": "114176",
+                    "quantity": 2,
+                    "totalCredit": 25.2,
+                    "sendBack": true,
+                    "shelterDonation": true,
+                    "shelterDonationReason": "FRIEND_DONATION",
+                    "giftCard": false
+                }
+            ]
+        },
+        {
+            "id": "196482d7-7c4f-4f11-b5fb-621ab2dd9d75",
+            "orderId": "1070023700",
+            "state": "RECEIVE_WAIT",
+            "type": "REPLACEMENT",
+            "timeCreated": "2021-09-16T22:04:16.645454Z",
+            "timeUpdated": "2021-10-07T07:18:04.967162Z",
+            "totalCredit": 0,
+            "items": [
+                {
+                    "returnId": "196482d7-7c4f-4f11-b5fb-621ab2dd9d75",
+                    "lineItemId": "1493892742",
+                    "orderId": "1070023700",
+                    "state": "RECEIVE_WAIT",
+                    "type": "REPLACEMENT",
+                    "reasonCategory": "DOES_NOT_WANT",
+                    "reason": {
+                        "primary": "DOES_NOT_WANT",
+                        "secondary": "CUSTOMER_OR_PET_PREFERENCE",
+                        "tertiary": "PET_OR_CUSTOMER_DOESNT_LIKE"
+                    },
+                    "timeCreated": "2021-09-16T22:04:16.645454Z",
+                    "timeUpdated": "2021-10-07T07:18:04.967162Z",
+                    "comment": "CCI because pet didn’t like product",
+                    "partNumber": "62769",
+                    "quantity": 5,
+                    "sendBack": true,
+                    "giftCard": false
+                }
+            ]
+        },
+        {
+            "id": "bbe71e74-bd4b-45b2-abac-c74fc9221ffd",
+            "orderId": "1070023700",
+            "state": "PAY_WAIT",
+            "type": "CONCESSION",
+            "timeCreated": "2021-08-13T18:12:53.824948Z",
+            "timeUpdated": "2021-08-13T18:12:54.127578Z",
+            "totalCredit": 94.49,
+            "items": [
+                {
+                    "returnId": "bbe71e74-bd4b-45b2-abac-c74fc9221ffd",
+                    "lineItemId": "1493892739",
+                    "orderId": "1070023700",
+                    "state": "PAY_WAIT",
+                    "type": "PRODUCT_CONCESSION",
+                    "reasonCategory": "DAMAGED",
+                    "reason": {
+                        "primary": "DAMAGED",
+                        "secondary": "BOX_AND_PRODUCT",
+                        "tertiary": "SPILLED_OR_LEAKING_BOX_OR_PRODUCT"
+                    },
+                    "timeCreated": "2021-08-13T18:12:53.824948Z",
+                    "timeUpdated": "2021-08-13T18:12:54.127578Z",
+                    "comment": "Created with CSRBuddy",
+                    "partNumber": "46861",
+                    "totalCredit": 94.49,
+                    "giftCard": false
+                }
+            ]
+        },
+        {
+            "id": "2579a57d-2a03-49a5-af54-91dd48897dbe",
+            "orderId": "1070023700",
+            "state": "FAILED",
+            "type": "REFUND",
+            "timeCreated": "2021-08-12T21:50:45.785394Z",
+            "timeUpdated": "2022-02-24T07:17:48.087567Z",
+            "totalCredit": 0,
+            "items": [
+                {
+                    "returnId": "2579a57d-2a03-49a5-af54-91dd48897dbe",
+                    "lineItemId": "1493892740",
+                    "orderId": "1070023700",
+                    "state": "FAILED",
+                    "type": "REFUND",
+                    "reasonCategory": "DAMAGED",
+                    "reason": {
+                        "primary": "DAMAGED",
+                        "secondary": "BOX_AND_PRODUCT",
+                        "tertiary": "SPILLED_OR_LEAKING_BOX_OR_PRODUCT"
+                    },
+                    "timeCreated": "2021-08-12T21:50:45.785394Z",
+                    "timeUpdated": "2022-02-24T07:17:48.087567Z",
+                    "comment": "Created from CSRBuddy",
+                    "partNumber": "114176",
+                    "quantity": 1,
+                    "sendBack": false,
+                    "shelterDonation": true,
+                    "shelterDonationReason": "NO",
+                    "giftCard": false
+                }
+            ]
+        },
+        {
+            "id": "135452cc-0cde-4093-8289-c61f1635ba52",
+            "orderId": "1070023700",
+            "state": "PAY_WAIT",
+            "type": "CONCESSION",
+            "timeCreated": "2021-08-12T18:31:19.912525Z",
+            "timeUpdated": "2021-08-12T18:31:20.269995Z",
+            "totalCredit": 100,
+            "items": [
+                {
+                    "returnId": "135452cc-0cde-4093-8289-c61f1635ba52",
+                    "lineItemId": "1493892739",
+                    "orderId": "1070023700",
+                    "state": "PAY_WAIT",
+                    "type": "PRODUCT_CONCESSION",
+                    "reasonCategory": "DAMAGED",
+                    "reason": {
+                        "primary": "DAMAGED",
+                        "secondary": "PRODUCT_ONLY",
+                        "tertiary": "RIPPED_OR_TORN_PRODUCT"
+                    },
+                    "timeCreated": "2021-08-12T18:31:19.912525Z",
+                    "timeUpdated": "2021-08-12T18:31:20.269995Z",
+                    "comment": "Created with CSRBuddy",
+                    "partNumber": "46861",
+                    "totalCredit": 100,
+                    "giftCard": false
+                }
+            ]
+        },
+        {
+            "id": "fb3525fe-a244-477e-baa7-8c9db0a3d9f0",
+            "orderId": "1070023700",
+            "state": "PAY_WAIT",
+            "type": "CONCESSION",
+            "timeCreated": "2021-08-12T18:19:27.534041Z",
+            "timeUpdated": "2021-08-12T18:19:28.155539Z",
+            "totalCredit": 100,
+            "items": [
+                {
+                    "returnId": "fb3525fe-a244-477e-baa7-8c9db0a3d9f0",
+                    "lineItemId": "1493892739",
+                    "orderId": "1070023700",
+                    "state": "PAY_WAIT",
+                    "type": "PRODUCT_CONCESSION",
+                    "reasonCategory": "DAMAGED",
+                    "reason": {
+                        "primary": "DAMAGED",
+                        "secondary": "BOX_AND_PRODUCT",
+                        "tertiary": "WEATHER_BOX_OR_PRODUCT"
+                    },
+                    "timeCreated": "2021-08-12T18:19:27.534041Z",
+                    "timeUpdated": "2021-08-12T18:19:28.155539Z",
+                    "comment": "Created with CSRBuddy",
+                    "partNumber": "46861",
+                    "totalCredit": 100,
+                    "giftCard": false
+                }
+            ]
+        },
+        {
+            "id": "200be35f-cf92-45da-a329-59e6d019cc94",
+            "orderId": "1070023700",
+            "state": "PAY_WAIT",
+            "type": "REPLACEMENT",
+            "timeCreated": "2021-08-11T18:04:08.283976Z",
+            "timeUpdated": "2021-08-11T18:04:08.679227Z",
+            "totalCredit": 0,
+            "items": [
+                {
+                    "returnId": "200be35f-cf92-45da-a329-59e6d019cc94",
+                    "lineItemId": "1493892741",
+                    "orderId": "1070023700",
+                    "state": "PAY_WAIT",
+                    "type": "REPLACEMENT",
+                    "reasonCategory": "DAMAGED",
+                    "reason": {
+                        "primary": "DAMAGED",
+                        "secondary": "BOX_AND_PRODUCT",
+                        "tertiary": "SPILLED_OR_LEAKING_BOX_OR_PRODUCT"
+                    },
+                    "timeCreated": "2021-08-11T18:04:08.283976Z",
+                    "timeUpdated": "2021-08-11T18:04:08.679227Z",
+                    "comment": "Created from CSRBuddy",
+                    "partNumber": "53376",
+                    "quantity": 1,
+                    "sendBack": false,
+                    "giftCard": false
+                }
+            ]
+        }
+    ]
+}

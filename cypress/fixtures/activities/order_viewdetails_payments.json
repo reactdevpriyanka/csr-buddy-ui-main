@@ -1,0 +1,76 @@
+{
+    "paymentDetailList": [
+        {
+            "instructionId": "681644394",
+            "paymentReferenceId": "2990074d-665f-4835-9be1-f8714ad6d813",
+            "orderId": "1203812530",
+            "paymentMethod": {
+                "type": "SERVICE",
+                "service": {
+                    "type": "APPLE_PAY"
+                }
+            },
+            "paymentAmount": {
+                "approved": 169.59,
+                "approving": 0,
+                "credited": 0,
+                "crediting": 0,
+                "deposited": 169.59,
+                "depositing": 0,
+                "balance": 0,
+                "max": 169.59
+            },
+            "paymentState": "VALID",
+            "timeCreated": "2022-05-24T02:27:00.578Z",
+            "timeUpdated": "2022-05-28T00:07:46.432Z",
+            "payments": [
+                {
+                    "paymentId": "caba69b1-2740-4808-9640-195753e3c017",
+                    "instructionId": "681644394",
+                    "avsCode": "UNKNOWN",
+                    "paymentAmount": {
+                        "approved": 169.59,
+                        "approving": 0,
+                        "credited": 0,
+                        "crediting": 0,
+                        "deposited": 169.59,
+                        "depositing": 0,
+                        "requested": 169.59
+                    },
+                    "paymentType": "APPROVE",
+                    "paymentStatus": "EXPIRED",
+                    "timeCreated": "2022-05-24T02:26:58.430516Z",
+                    "timeUpdated": "2022-05-27T23:26:12.450931Z",
+                    "timeExpired": "2022-05-31T02:26:59.501618Z",
+                    "transactions": [
+                        {
+                            "id": "0511c297-1798-4e8a-9a48-25c333d6bd67",
+                            "avsCode": "UNKNOWN",
+                            "type": "APPROVE",
+                            "status": "SUCCESS",
+                            "responseStatus": "100",
+                            "responseMessage": "Approved",
+                            "amount": 169.59,
+                            "timeCreated": "2022-05-24T02:26:58.510868Z",
+                            "timeUpdated": "2022-05-24T02:26:59.527136Z"
+                        },
+                        {
+                            "id": "2b975156-8855-47dd-9068-a6548ca12c8a",
+                            "avsCode": "UNKNOWN",
+                            "type": "DEPOSIT",
+                            "status": "SUCCESS",
+                            "responseStatus": "100",
+                            "responseMessage": "Approved",
+                            "amount": 169.59,
+                            "timeCreated": "2022-05-27T20:10:31.034051Z",
+                            "timeUpdated": "2022-05-27T23:26:12.450958Z"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "orderPaymentStatus": "DEPOSITED",
+    "orderBalance": 0,
+    "hasDisputes": false
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "activityTimestamp": "2022-06-15T21:38:34.737Z",
+    "activityType": "ORDER_FRAUD_APPROVED",
+    "activitySource": "OMS",
+    "activityId": "1078597664",
+    "activityCategory": "ORDER",
+    "customerId": "162318096",
+    "sourceEventId": "1492053292"
+  }
+]

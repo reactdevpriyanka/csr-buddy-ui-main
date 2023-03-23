@@ -1,0 +1,24 @@
+{
+  "customerFullName": "Nessa Bobbins",
+  "id": 148824357,
+  "registrationDate": "2021-10-20 09:19:21",
+  "email": "nbobbins@chewy.net",
+  "addresses": [
+    {
+      "id": "215589273",
+      "kyriosId": "215589273",
+      "nickname": "7ad81a06-4f5d-46cd-8091-ec567acffb52",
+      "fullName": "Nessa Bobbins",
+      "addressLine1": "550 COLUMBUS PKWY",
+      "city": "HOLLYWOOD",
+      "state": "FL",
+      "postcode": "33021-6225",
+      "country": "US",
+      "phone": "5554563320",
+      "verificationStatus": "PAYPAL_VERIFIED",
+      "primaryAddress": true
+    }
+  ],
+  "fraud": false,
+  "fraudSourceSystem": "CHEWY"
+}

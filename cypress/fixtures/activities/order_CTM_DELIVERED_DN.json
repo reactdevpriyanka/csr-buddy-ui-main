@@ -1,0 +1,251 @@
+{
+  "id": "1278400266",
+  "customerId": "153992703",
+  "status": "DEPOSITED",
+  "totalProduct": {
+    "value": "24.03",
+    "currency": "USD"
+  },
+  "totalSalesTax": {
+    "value": "1.37",
+    "currency": "USD"
+  },
+  "totalShipping": {
+    "value": "4.95",
+    "currency": "USD"
+  },
+  "totalShippingTax": {
+    "value": "0.00",
+    "currency": "USD"
+  },
+  "totalAdjustment": {
+    "value": "-1.20",
+    "currency": "USD"
+  },
+  "totalBeforeTax": {
+    "value": "27.78",
+    "currency": "USD"
+  },
+  "total": {
+    "value": "29.15",
+    "currency": "USD"
+  },
+  "timePlaced": "2022-11-22T03:05:45.946Z",
+  "timeUpdated": "2022-11-22T10:17:02.666Z",
+  "lineItems": [
+    {
+      "id": "2164299252",
+      "externalId": "1427227461",
+      "status": "SHIPPED",
+      "product": {
+        "catalogEntryId": "119212",
+        "partNumber": "91563",
+        "name": "Purina ONE True Instinct Chicken Recipe in Gravy Natural High Protein Canned Cat Food, 3-oz, case of 24",
+        "description": "Purina ONE True Instinct Chicken Recipe in Gravy Natural High Protein Canned Cat Food, 3-oz, case of 24",
+        "thumbnail": "image.chewy.com/is/image/catalog/91563_MAIN,1657661111"
+      },
+      "fulfillmentCenter": "CLT1",
+      "fulfillmentStatus": "SHIPPED",
+      "quantity": 1,
+      "totalProduct": {
+        "value": "24.03"
+      },
+      "unitPrice": {
+        "value": "24.03"
+      },
+      "bundleItem": false,
+      "can": true,
+      "food": true,
+      "canCount": 24,
+      "shippingCharge": {
+        "value": "4.95"
+      },
+      "totalAdjustment": {
+        "value": "-1.20"
+      },
+      "salesTax": {
+        "value": "1.37"
+      },
+      "shippingTax": {
+        "value": "0.00"
+      },
+      "currency": "USD"
+    }
+  ],
+  "subscriptionInfos": [
+    {
+      "subscriptionId": "804671449",
+      "parentOrderId": "804671449"
+    }
+  ],
+  "trackingData": {
+    "shippingStep": "DELIVERED",
+    "shippingStatus": "ON_TIME",
+    "chewyPromisedDeliveryDate": "2022-11-25",
+    "estimatedDeliveryDate": "2022-11-25"
+  },
+  "shippingAddress": {
+    "id": "1377101593",
+    "nickname": "2b6b9d7f-d908-4683-b397-827d5f2490e9",
+    "fullName": "Erin Rowe",
+    "addressLine1": "110 W 12th St",
+    "addressLine2": "A",
+    "city": "Richmond",
+    "state": "VA",
+    "postcode": "23224",
+    "country": "US",
+    "phone": "5714356186",
+    "primaryAddress": false,
+    "verified": false
+  },
+  "orderAttributes": [
+    "AUTOSHIP"
+  ],
+  "shipments": [
+    {
+      "id": "662183668",
+      "shippingModeCode": "FDXHD",
+      "trackingId": "618553943724",
+      "timeShipped": "2022-11-22T10:14:58.390Z",
+      "packageId": "682713596",
+      "trackingData": {
+        "shippingStep": "DELIVERED",
+        "shippingStatus": "ON_TIME",
+        "chewyPromisedDeliveryDate": "2022-11-25",
+        "estimatedDeliveryDate": "2022-11-23",
+        "trackingEvent": {
+          "eventCode": "DELIVERED",
+          "subEventCode": "_DN",
+          "date": "2022-11-23T17:01:00Z",
+          "address": {
+            "city": "Richmond",
+            "state": "VA",
+            "country": "US",
+            "primaryAddress": false,
+            "verified": false
+          },
+          "description": "Your package has been delivered!",
+          "contextualMessage": {
+            "message": "In Transit and will arrive on XX/YY"
+          },
+          "internalMessage": {
+            "message": "Your package has been delivered!"
+          }
+        },
+        "progressPercentage": 100,
+        "actualShipDateTime": "2022-11-22T10:15:44Z",
+        "actualDeliveryTime": "2022-11-23T17:01:00Z",
+        "packagesCountFromOrder": 1,
+        "currentPackageStatus": "DELIVERED",
+        "derivedDeliveryDate": "2022-11-23",
+        "fulfillmentCenter": "CLT1"
+      },
+      "carrier": "FDEG",
+      "carrierDescription": "Fedex Home Delivery",
+      "trackingUrl": "https:www.fedex.com/apps/fedextrack/?action=track&tracknumbers=618553943724",
+      "fulfillmentCenterDetails": {
+        "id": "CLT1",
+        "type": "fulfillmentCenters",
+        "attributes": {
+          "fulfillmentCenterId": "CLT1",
+          "displayName": "Chewy CLT1",
+          "fulfillmentCenterType": "CHEWY",
+          "address": {
+            "addressLine1": "255 Front Creek Road",
+            "city": "Salisbury",
+            "state": "NC",
+            "postcode": "28146",
+            "country": "US",
+            "phone": "816-384-2290",
+            "primaryAddress": false,
+            "verified": false
+          },
+          "returnAddress": {
+            "addressLine1": "255 Front Creek Road",
+            "city": "Salisbury",
+            "state": "NC",
+            "postcode": "28146",
+            "country": "US",
+            "primaryAddress": false,
+            "verified": false
+          },
+          "fcEnabled": true,
+          "fulfillerId": "b85ddeec-e3ea-4247-bfc1-4e0cd200de0b"
+        }
+      },
+      "shipmentItems": [
+        {
+          "lineItemId": "2164299252",
+          "quantity": 1,
+          "shippedQuantity": 0
+        }
+      ]
+    }
+  ],
+  "releases": [
+    {
+      "id": "598583676",
+      "status": "MANIFESTED",
+      "releaseNumber": 1,
+      "shippingModeCode": "FLATRATE",
+      "fulfillmentAck": "2022-11-22T03:38:49.404Z",
+      "fulfillmentCenter": "CLT1",
+      "fulfillmentCenterType": "CHEWY",
+      "captureDate": "2022-11-22T10:17:02.731Z",
+      "customerConfirm": "2022-11-22T10:17:02.638Z",
+      "lineItemIds": [
+        "2164299252"
+      ],
+      "shipmentIds": [
+        "662183668"
+      ],
+      "timeCreated": "2022-11-22T03:30:46.925Z",
+      "timeUpdated": "2022-11-22T10:17:02.592Z"
+    }
+  ],
+  "payments": {
+    "paymentInstructions": [
+      {
+        "id": "650084307",
+        "walletId": "1523ea37-a6f3-4080-a447-bb3865fb2626",
+        "paymentMethod": {
+          "paymentReferenceId": "2ebe5b6e-7c3b-4fd2-bf00-5b1fb1c22834",
+          "type": "CARD",
+          "card": {
+            "expirationMonth": "5",
+            "expirationYear": "2026",
+            "cardHolderName": "Erin Rowe",
+            "type": "VISA",
+            "accountNumber": "4266XXXXXXXX5190"
+          }
+        },
+        "billingAddress": {
+          "fullName": "Erin Rowe",
+          "addressLine1": "500 W 14TH ST",
+          "addressLine2": "APT 409",
+          "city": "RICHMOND",
+          "state": "VA",
+          "postcode": "23224-2145",
+          "country": "USA"
+        },
+        "amount": "29.15",
+        "state": "VALID",
+        "timeCreated": "2022-11-22T03:05:46.043Z",
+        "timeUpdated": "2022-11-22T03:30:46.925Z"
+      }
+    ]
+  },
+  "remoteIp": "10.134.140.180",
+  "businessChannel": "AUTOSHIP",
+  "submitter": "SYSTEM",
+  "submitterId": "-1",
+  "promotions": [
+    {
+      "code": "AUTOSHIPNSAVE",
+      "name": "Autoship & Save - 5% off eligible brands",
+      "amount": {
+        "value": "-1.20"
+      }
+    }
+  ]
+}

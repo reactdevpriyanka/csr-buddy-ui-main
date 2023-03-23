@@ -1,0 +1,31 @@
+[
+    {
+        "id": "12345",
+        "status": "MANIFESTED",
+        "releaseNumber": 1,
+        "shippingModeCode": "FLATRATE",
+        "lineItemIds": [
+            "1504724130"
+        ],
+        "shipmentIds": [
+            "428396787"
+        ],
+        "timeCreated": "2022-05-24T14:44:53.174Z",
+        "timeUpdated": "2022-05-24T14:45:06.743Z"
+    },
+    {
+        "id": "12346",
+        "status": "MANIFESTED",
+        "releaseNumber": 2,
+        "shippingModeCode": "FLATRATE",
+        "lineItemIds": [
+            "1504724131",
+            "1504724132"
+        ],
+        "shipmentIds": [
+            "428396786"
+        ],
+        "timeCreated": "2022-05-24T14:44:53.174Z",
+        "timeUpdated": "2022-05-24T14:45:06.743Z"
+    }
+  ]

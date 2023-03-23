@@ -1,0 +1,2778 @@
+[
+  {
+    "type": "ORDER_RELEASED",
+    "createdAt": "2021-08-11T21:18:02.254Z",
+    "data": {
+      "order": {
+        "id": "1070000530",
+        "customerId": "148817292",
+        "status": "RELEASED",
+        "totalProduct": {
+          "value": "82.71"
+        },
+        "totalSalesTax": {
+          "value": "4.66"
+        },
+        "totalShippingTax": {
+          "value": "0.00"
+        },
+        "totalAdjustment": {
+          "value": "-15.00"
+        },
+        "totalBeforeTax": {
+          "value": "67.71"
+        },
+        "total": {
+          "value": "72.37"
+        },
+        "timePlaced": "2021-08-11T21:16:39.644Z",
+        "timeUpdated": "2021-08-11T21:18:02.254Z",
+        "lineItems": [
+          {
+            "id": "1463283944",
+            "product": {
+              "catalogEntryId": "270791",
+              "partNumber": "244306",
+              "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+              "attributes": [
+                "ELECTRONIC_DELIVERY",
+                "GIFT_CARD"
+              ]
+            },
+            "fulfillmentCenter": "DGC1",
+            "quantity": 1,
+            "totalProduct": {
+              "value": "5.00"
+            },
+            "unitPrice": {
+              "value": "5.00"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "-5.00"
+            },
+            "salesTax": {
+              "value": "0.00"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          },
+          {
+            "id": "1463283945",
+            "product": {
+              "catalogEntryId": "31991",
+              "partNumber": "46811",
+              "name": "Blue Buffalo Homestyle Recipe Chicken Dinner with Garden Vegetables & Brown Rice Canned Dog Food, 12.5-oz, case of 12",
+              "description": "Blue Buffalo Homestyle Recipe Chicken Dinner with Garden Vegetables & Brown Rice Canned Dog Food, 12.5-oz, case of 12",
+              "thumbnail": "//img.chewy.com/is/image/catalog/46811_MAIN,1572895160"
+            },
+            "fulfillmentCenter": "CFC1",
+            "quantity": 3,
+            "totalProduct": {
+              "value": "67.71"
+            },
+            "unitPrice": {
+              "value": "22.57"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "0.00"
+            },
+            "salesTax": {
+              "value": "4.66"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          },
+          {
+            "id": "1463283946",
+            "product": {
+              "catalogEntryId": "270791",
+              "partNumber": "244306",
+              "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+              "attributes": [
+                "ELECTRONIC_DELIVERY",
+                "GIFT_CARD"
+              ]
+            },
+            "fulfillmentCenter": "DGC1",
+            "quantity": 1,
+            "totalProduct": {
+              "value": "5.00"
+            },
+            "unitPrice": {
+              "value": "5.00"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "-5.00"
+            },
+            "salesTax": {
+              "value": "0.00"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          },
+          {
+            "id": "1463283947",
+            "product": {
+              "catalogEntryId": "270791",
+              "partNumber": "244306",
+              "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+              "attributes": [
+                "ELECTRONIC_DELIVERY",
+                "GIFT_CARD"
+              ]
+            },
+            "fulfillmentCenter": "DGC1",
+            "quantity": 1,
+            "totalProduct": {
+              "value": "5.00"
+            },
+            "unitPrice": {
+              "value": "5.00"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "-5.00"
+            },
+            "salesTax": {
+              "value": "0.00"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          }
+        ],
+        "trackingData": {
+          "shippingStep": "ORDER_PLACED",
+          "shippingStatus": "UNKNOWN",
+          "chewyPromisedDeliveryDate": "2021-08-16",
+          "estimatedDeliveryDate": "2021-08-16"
+        },
+        "shippingAddress": {
+          "id": "72572271",
+          "nickname": "968b0126-8b20-48ad-8cd6-4a8300a0b0fc",
+          "fullName": "Scott Gerike",
+          "addressLine1": "2801 Lexington Ave N",
+          "addressLine2": "Apt A",
+          "city": "Roseville",
+          "state": "MN",
+          "postcode": "55113-2020",
+          "country": "US",
+          "primaryAddress": false
+        },
+        "shipments": [
+          {
+            "id": "418803177",
+            "shippingModeCode": "FLATRATE",
+            "trackingId": "23456787654",
+            "timeShipped": "2021-08-11T00:00:00Z",
+            "trackingData": {
+              "shippingStep": "ORDER_PLACED",
+              "shippingStatus": "UNKNOWN",
+              "chewyPromisedDeliveryDate": "2021-08-16",
+              "progressPercentage": 20,
+              "packagesCountFromOrder": 1,
+              "displayEvents": [
+                {
+                  "code": "ORDER_CREATED",
+                  "date": "2021-06-30T14:51:10Z"
+                },
+                {
+                  "code": "ORDER_RELEASED",
+                  "date": "2021-06-30T15:41:10Z"
+                }
+              ]
+            },
+            "carrierDescription": "Flat-Rate Shipping",
+            "trackingUrl": "null23456787654",
+            "shippingAddress": {
+              "id": "72572271",
+              "nickname": "968b0126-8b20-48ad-8cd6-4a8300a0b0fc",
+              "fullName": "Scott Gerike",
+              "addressLine1": "2801 Lexington Ave N",
+              "addressLine2": "Apt A",
+              "city": "Roseville",
+              "state": "MN",
+              "postcode": "55113-2020",
+              "country": "US",
+              "primaryAddress": false
+            },
+            "shipmentItems": [
+              {
+                "lineItemId": "1463283945",
+                "quantity": 3,
+                "shippedQuantity": 0
+              }
+            ]
+          }
+        ],
+        "notShippedItems": [
+          {
+            "lineItemId": "1463283944",
+            "quantity": 1,
+            "shippedQuantity": 0
+          },
+          {
+            "lineItemId": "1463283945",
+            "quantity": 3,
+            "shippedQuantity": 0
+          },
+          {
+            "lineItemId": "1463283946",
+            "quantity": 1,
+            "shippedQuantity": 0
+          },
+          {
+            "lineItemId": "1463283947",
+            "quantity": 1,
+            "shippedQuantity": 0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "ORDER_RELEASED",
+    "createdAt": "2021-08-11T21:02:25.541Z",
+    "data": {
+      "order": {
+        "id": "1070000524",
+        "customerId": "148817292",
+        "status": "RELEASED",
+        "totalProduct": {
+          "value": "141.25"
+        },
+        "totalSalesTax": {
+          "value": "7.99"
+        },
+        "totalShippingTax": {
+          "value": "0.00"
+        },
+        "totalAdjustment": {
+          "value": "-25.00"
+        },
+        "totalBeforeTax": {
+          "value": "116.25"
+        },
+        "total": {
+          "value": "124.24"
+        },
+        "timePlaced": "2021-08-11T19:28:36.358Z",
+        "timeUpdated": "2021-08-11T21:02:25.541Z",
+        "blocks": [
+          {
+            "id": "22672428",
+            "reason": "FRAUDCHECK_FAILED",
+            "resolved": true,
+            "timeBlocked": "2021-08-11T19:55:00.038Z",
+            "timeResolved": "2021-08-11T20:01:34.644Z",
+            "comments": "Agent 81 overrode riskified decision."
+          }
+        ],
+        "lineItems": [
+          {
+            "id": "1463283654",
+            "product": {
+              "catalogEntryId": "270791",
+              "partNumber": "244306",
+              "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+              "attributes": [
+                "ELECTRONIC_DELIVERY",
+                "GIFT_CARD"
+              ]
+            },
+            "fulfillmentCenter": "DGC1",
+            "quantity": 1,
+            "totalProduct": {
+              "value": "5.00"
+            },
+            "unitPrice": {
+              "value": "5.00"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "-5.00"
+            },
+            "salesTax": {
+              "value": "0.00"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          },
+          {
+            "id": "1463283655",
+            "product": {
+              "catalogEntryId": "270791",
+              "partNumber": "244306",
+              "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+              "attributes": [
+                "ELECTRONIC_DELIVERY",
+                "GIFT_CARD"
+              ]
+            },
+            "fulfillmentCenter": "DGC1",
+            "quantity": 1,
+            "totalProduct": {
+              "value": "5.00"
+            },
+            "unitPrice": {
+              "value": "5.00"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "-5.00"
+            },
+            "salesTax": {
+              "value": "0.00"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          },
+          {
+            "id": "1463283656",
+            "product": {
+              "catalogEntryId": "270791",
+              "partNumber": "244306",
+              "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+              "attributes": [
+                "ELECTRONIC_DELIVERY",
+                "GIFT_CARD"
+              ]
+            },
+            "fulfillmentCenter": "DGC1",
+            "quantity": 1,
+            "totalProduct": {
+              "value": "5.00"
+            },
+            "unitPrice": {
+              "value": "5.00"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "-5.00"
+            },
+            "salesTax": {
+              "value": "0.00"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          },
+          {
+            "id": "1463283657",
+            "product": {
+              "catalogEntryId": "270791",
+              "partNumber": "244306",
+              "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+              "attributes": [
+                "ELECTRONIC_DELIVERY",
+                "GIFT_CARD"
+              ]
+            },
+            "fulfillmentCenter": "DGC1",
+            "quantity": 1,
+            "totalProduct": {
+              "value": "5.00"
+            },
+            "unitPrice": {
+              "value": "5.00"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "-5.00"
+            },
+            "salesTax": {
+              "value": "0.00"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          },
+          {
+            "id": "1463283658",
+            "product": {
+              "catalogEntryId": "270791",
+              "partNumber": "244306",
+              "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+              "attributes": [
+                "ELECTRONIC_DELIVERY",
+                "GIFT_CARD"
+              ]
+            },
+            "fulfillmentCenter": "DGC1",
+            "quantity": 1,
+            "totalProduct": {
+              "value": "5.00"
+            },
+            "unitPrice": {
+              "value": "5.00"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "-5.00"
+            },
+            "salesTax": {
+              "value": "0.00"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          },
+          {
+            "id": "1463283659",
+            "product": {
+              "catalogEntryId": "174906",
+              "partNumber": "148074",
+              "name": "Friskies Shreds in Gravy Variety Pack Canned Cat Food, 5.5-oz, case of 40",
+              "description": "Friskies Shreds in Gravy Variety Pack Canned Cat Food, 5.5-oz, case of 40",
+              "thumbnail": "//img.chewy.com/is/image/catalog/148074_MAIN,1621432344"
+            },
+            "fulfillmentCenter": "CFC1",
+            "quantity": 5,
+            "totalProduct": {
+              "value": "116.25"
+            },
+            "unitPrice": {
+              "value": "23.25"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "0.00"
+            },
+            "salesTax": {
+              "value": "7.99"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          }
+        ],
+        "trackingData": {
+          "shippingStep": "ORDER_PLACED",
+          "shippingStatus": "UNKNOWN",
+          "chewyPromisedDeliveryDate": "2021-08-16",
+          "estimatedDeliveryDate": "2021-08-16"
+        },
+        "shippingAddress": {
+          "id": "72572271",
+          "nickname": "968b0126-8b20-48ad-8cd6-4a8300a0b0fc",
+          "fullName": "Scott Gerike",
+          "addressLine1": "2801 Lexington Ave N",
+          "addressLine2": "Apt A",
+          "city": "Roseville",
+          "state": "MN",
+          "postcode": "55113-2020",
+          "country": "US",
+          "primaryAddress": false
+        },
+        "shipments": [
+          {
+            "id": "418803173",
+            "shippingModeCode": "FLATRATE",
+            "trackingId": "1111111111",
+            "timeShipped": "2021-08-11T00:00:00Z",
+            "trackingData": {
+              "shippingStep": "ORDER_PLACED",
+              "shippingStatus": "UNKNOWN",
+              "chewyPromisedDeliveryDate": "2021-08-16",
+              "progressPercentage": 20,
+              "packagesCountFromOrder": 1,
+              "displayEvents": [
+                {
+                  "code": "ORDER_CREATED",
+                  "date": "2021-06-30T14:50:10Z"
+                },
+                {
+                  "code": "ORDER_RELEASED",
+                  "date": "2021-06-30T15:41:10Z"
+                }
+              ]
+            },
+            "carrierDescription": "Flat-Rate Shipping",
+            "trackingUrl": "null1111111111",
+            "shippingAddress": {
+              "id": "72572271",
+              "nickname": "968b0126-8b20-48ad-8cd6-4a8300a0b0fc",
+              "fullName": "Scott Gerike",
+              "addressLine1": "2801 Lexington Ave N",
+              "addressLine2": "Apt A",
+              "city": "Roseville",
+              "state": "MN",
+              "postcode": "55113-2020",
+              "country": "US",
+              "primaryAddress": false
+            },
+            "shipmentItems": [
+              {
+                "lineItemId": "1463283659",
+                "quantity": 5,
+                "shippedQuantity": 0
+              }
+            ]
+          }
+        ],
+        "notShippedItems": [
+          {
+            "lineItemId": "1463283654",
+            "quantity": 1,
+            "shippedQuantity": 0
+          },
+          {
+            "lineItemId": "1463283655",
+            "quantity": 1,
+            "shippedQuantity": 0
+          },
+          {
+            "lineItemId": "1463283656",
+            "quantity": 1,
+            "shippedQuantity": 0
+          },
+          {
+            "lineItemId": "1463283657",
+            "quantity": 1,
+            "shippedQuantity": 0
+          },
+          {
+            "lineItemId": "1463283658",
+            "quantity": 1,
+            "shippedQuantity": 0
+          },
+          {
+            "lineItemId": "1463283659",
+            "quantity": 5,
+            "shippedQuantity": 0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "ORDER_RELEASED",
+    "createdAt": "2021-08-11T21:02:24.024Z",
+    "data": {
+      "order": {
+        "id": "1070000442",
+        "customerId": "148817292",
+        "status": "RELEASED",
+        "totalProduct": {
+          "value": "87.16"
+        },
+        "totalSalesTax": {
+          "value": "4.62"
+        },
+        "totalShippingTax": {
+          "value": "0.00"
+        },
+        "totalAdjustment": {
+          "value": "-20.00"
+        },
+        "totalBeforeTax": {
+          "value": "67.16"
+        },
+        "total": {
+          "value": "71.78"
+        },
+        "timePlaced": "2021-07-29T14:39:03.308Z",
+        "timeUpdated": "2021-08-11T21:02:24.024Z",
+        "blocks": [
+          {
+            "id": "22672307",
+            "reason": "FRAUDCHECK_FAILED",
+            "resolved": true,
+            "timeBlocked": "2021-07-29T15:05:00.033Z",
+            "timeResolved": "2021-07-29T16:07:51.180Z",
+            "comments": "Fraud score below threshold after re-evaluation"
+          }
+        ],
+        "lineItems": [
+          {
+            "id": "1463265847",
+            "product": {
+              "catalogEntryId": "270791",
+              "partNumber": "244306",
+              "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+              "attributes": [
+                "ELECTRONIC_DELIVERY",
+                "GIFT_CARD"
+              ]
+            },
+            "fulfillmentCenter": "DGC1",
+            "quantity": 1,
+            "totalProduct": {
+              "value": "5.00"
+            },
+            "unitPrice": {
+              "value": "5.00"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "-5.00"
+            },
+            "salesTax": {
+              "value": "0.00"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          },
+          {
+            "id": "1463265848",
+            "product": {
+              "catalogEntryId": "270791",
+              "partNumber": "244306",
+              "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+              "attributes": [
+                "ELECTRONIC_DELIVERY",
+                "GIFT_CARD"
+              ]
+            },
+            "fulfillmentCenter": "DGC1",
+            "quantity": 1,
+            "totalProduct": {
+              "value": "5.00"
+            },
+            "unitPrice": {
+              "value": "5.00"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "-5.00"
+            },
+            "salesTax": {
+              "value": "0.00"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          },
+          {
+            "id": "1463265849",
+            "product": {
+              "catalogEntryId": "270791",
+              "partNumber": "244306",
+              "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+              "attributes": [
+                "ELECTRONIC_DELIVERY",
+                "GIFT_CARD"
+              ]
+            },
+            "fulfillmentCenter": "DGC1",
+            "quantity": 1,
+            "totalProduct": {
+              "value": "5.00"
+            },
+            "unitPrice": {
+              "value": "5.00"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "-5.00"
+            },
+            "salesTax": {
+              "value": "0.00"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          },
+          {
+            "id": "1463265850",
+            "product": {
+              "catalogEntryId": "270791",
+              "partNumber": "244306",
+              "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+              "attributes": [
+                "ELECTRONIC_DELIVERY",
+                "GIFT_CARD"
+              ]
+            },
+            "fulfillmentCenter": "DGC1",
+            "quantity": 1,
+            "totalProduct": {
+              "value": "5.00"
+            },
+            "unitPrice": {
+              "value": "5.00"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "-5.00"
+            },
+            "salesTax": {
+              "value": "0.00"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          },
+          {
+            "id": "1463265851",
+            "product": {
+              "catalogEntryId": "103856",
+              "partNumber": "75978",
+              "name": "Fancy Feast Gravy Lovers Poultry & Beef Feast Variety Pack Canned Cat Food, 3-oz, case of 24",
+              "description": "Fancy Feast Gravy Lovers Poultry & Beef Feast Variety Pack Canned Cat Food, 3-oz, case of 24",
+              "thumbnail": "//img.chewy.com/is/image/catalog/75978_MAIN,1584020009"
+            },
+            "fulfillmentCenter": "CFC1",
+            "quantity": 4,
+            "totalProduct": {
+              "value": "67.16"
+            },
+            "unitPrice": {
+              "value": "16.79"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "0.00"
+            },
+            "salesTax": {
+              "value": "4.62"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          }
+        ],
+        "trackingData": {
+          "shippingStep": "ORDER_PLACED",
+          "shippingStatus": "UNKNOWN",
+          "chewyPromisedDeliveryDate": "2021-08-16",
+          "estimatedDeliveryDate": "2021-08-16"
+        },
+        "shippingAddress": {
+          "id": "72572271",
+          "nickname": "968b0126-8b20-48ad-8cd6-4a8300a0b0fc",
+          "fullName": "Scott Gerike",
+          "addressLine1": "2801 Lexington Ave N",
+          "addressLine2": "Apt A",
+          "city": "Roseville",
+          "state": "MN",
+          "postcode": "55113-2020",
+          "country": "US",
+          "primaryAddress": false
+        },
+        "shipments": [
+          {
+            "id": "418803167",
+            "shippingModeCode": "FLATRATE",
+            "trackingId": "2222222222",
+            "timeShipped": "2021-07-29T00:00:00Z",
+            "trackingData": {
+              "shippingStep": "ORDER_PLACED",
+              "shippingStatus": "UNKNOWN",
+              "chewyPromisedDeliveryDate": "2021-08-16",
+              "progressPercentage": 20,
+              "packagesCountFromOrder": 1,
+              "displayEvents": [
+                {
+                  "code": "ORDER_CREATED",
+                  "date": "2021-06-30T14:34:15Z"
+                },
+                {
+                  "code": "ORDER_RELEASED",
+                  "date": "2021-06-30T15:21:14Z"
+                }
+              ]
+            },
+            "carrierDescription": "Flat-Rate Shipping",
+            "trackingUrl": "null2222222222",
+            "shippingAddress": {
+              "id": "72572271",
+              "nickname": "968b0126-8b20-48ad-8cd6-4a8300a0b0fc",
+              "fullName": "Scott Gerike",
+              "addressLine1": "2801 Lexington Ave N",
+              "addressLine2": "Apt A",
+              "city": "Roseville",
+              "state": "MN",
+              "postcode": "55113-2020",
+              "country": "US",
+              "primaryAddress": false
+            },
+            "shipmentItems": [
+              {
+                "lineItemId": "1463265851",
+                "quantity": 4,
+                "shippedQuantity": 0
+              }
+            ]
+          }
+        ],
+        "notShippedItems": [
+          {
+            "lineItemId": "1463265847",
+            "quantity": 1,
+            "shippedQuantity": 0
+          },
+          {
+            "lineItemId": "1463265848",
+            "quantity": 1,
+            "shippedQuantity": 0
+          },
+          {
+            "lineItemId": "1463265849",
+            "quantity": 1,
+            "shippedQuantity": 0
+          },
+          {
+            "lineItemId": "1463265850",
+            "quantity": 1,
+            "shippedQuantity": 0
+          },
+          {
+            "lineItemId": "1463265851",
+            "quantity": 4,
+            "shippedQuantity": 0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "ORDER_RELEASED",
+    "createdAt": "2021-08-11T21:02:24.001Z",
+    "data": {
+      "order": {
+        "id": "1070000447",
+        "customerId": "148817292",
+        "status": "RELEASED",
+        "totalProduct": {
+          "value": "42.08"
+        },
+        "totalSalesTax": {
+          "value": "2.21"
+        },
+        "totalShippingTax": {
+          "value": "0.34"
+        },
+        "totalAdjustment": {
+          "value": "-10.00"
+        },
+        "totalBeforeTax": {
+          "value": "37.03"
+        },
+        "total": {
+          "value": "39.58"
+        },
+        "timePlaced": "2021-07-29T19:27:31.417Z",
+        "timeUpdated": "2021-08-11T21:02:24.001Z",
+        "blocks": [
+          {
+            "id": "22672312",
+            "reason": "FRAUDCHECK_FAILED",
+            "resolved": true,
+            "timeBlocked": "2021-07-29T19:55:00.028Z",
+            "timeResolved": "2021-08-03T22:24:08.999Z",
+            "comments": "Agent 81 overrode riskified decision."
+          },
+          {
+            "id": "22672311",
+            "reason": "MULTIPLE_ORDERS",
+            "resolved": true,
+            "timeBlocked": "2021-07-29T19:27:32.876Z",
+            "timeResolved": "2021-07-29T19:27:58.867Z"
+          }
+        ],
+        "lineItems": [
+          {
+            "id": "1463266055",
+            "product": {
+              "catalogEntryId": "270791",
+              "partNumber": "244306",
+              "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+              "attributes": [
+                "ELECTRONIC_DELIVERY",
+                "GIFT_CARD"
+              ]
+            },
+            "fulfillmentCenter": "DGC1",
+            "quantity": 1,
+            "totalProduct": {
+              "value": "5.00"
+            },
+            "unitPrice": {
+              "value": "5.00"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "-5.00"
+            },
+            "salesTax": {
+              "value": "0.00"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          },
+          {
+            "id": "1463266056",
+            "product": {
+              "catalogEntryId": "270791",
+              "partNumber": "244306",
+              "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+              "attributes": [
+                "ELECTRONIC_DELIVERY",
+                "GIFT_CARD"
+              ]
+            },
+            "fulfillmentCenter": "DGC1",
+            "quantity": 1,
+            "totalProduct": {
+              "value": "5.00"
+            },
+            "unitPrice": {
+              "value": "5.00"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "-5.00"
+            },
+            "salesTax": {
+              "value": "0.00"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          },
+          {
+            "id": "1463266057",
+            "product": {
+              "catalogEntryId": "127508",
+              "partNumber": "99967",
+              "name": "Meow Mix Original Choice Dry Cat Food, 22-lb bag",
+              "description": "Meow Mix Original Choice Dry Cat Food, 22-lb bag",
+              "thumbnail": "//img.chewy.com/is/catalog/99967_MAIN,1462999359"
+            },
+            "fulfillmentCenter": "CFC1",
+            "quantity": 2,
+            "totalProduct": {
+              "value": "32.08"
+            },
+            "unitPrice": {
+              "value": "16.04"
+            },
+            "shippingCharge": {
+              "value": "4.95"
+            },
+            "totalAdjustment": {
+              "value": "0.00"
+            },
+            "salesTax": {
+              "value": "2.21"
+            },
+            "shippingTax": {
+              "value": "0.34"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          }
+        ],
+        "trackingData": {
+          "shippingStep": "ORDER_PLACED",
+          "shippingStatus": "UNKNOWN",
+          "chewyPromisedDeliveryDate": "2021-08-16",
+          "estimatedDeliveryDate": "2021-08-16"
+        },
+        "shippingAddress": {
+          "id": "72572271",
+          "nickname": "968b0126-8b20-48ad-8cd6-4a8300a0b0fc",
+          "fullName": "Scott Gerike",
+          "addressLine1": "2801 Lexington Ave N",
+          "addressLine2": "Apt A",
+          "city": "Roseville",
+          "state": "MN",
+          "postcode": "55113-2020",
+          "country": "US",
+          "primaryAddress": false
+        },
+        "shipments": [
+          {
+            "id": "418803169",
+            "shippingModeCode": "FLATRATE",
+            "trackingId": "2222222222",
+            "timeShipped": "2021-07-29T00:00:00Z",
+            "trackingData": {
+              "shippingStep": "ORDER_PLACED",
+              "shippingStatus": "UNKNOWN",
+              "chewyPromisedDeliveryDate": "2021-08-16",
+              "progressPercentage": 20,
+              "packagesCountFromOrder": 1,
+              "displayEvents": [
+                {
+                  "code": "ORDER_CREATED",
+                  "date": "2021-06-30T14:35:00Z"
+                },
+                {
+                  "code": "ORDER_RELEASED",
+                  "date": "2021-06-30T15:21:42Z"
+                }
+              ]
+            },
+            "carrierDescription": "Flat-Rate Shipping",
+            "trackingUrl": "null2222222222",
+            "shippingAddress": {
+              "id": "72572271",
+              "nickname": "968b0126-8b20-48ad-8cd6-4a8300a0b0fc",
+              "fullName": "Scott Gerike",
+              "addressLine1": "2801 Lexington Ave N",
+              "addressLine2": "Apt A",
+              "city": "Roseville",
+              "state": "MN",
+              "postcode": "55113-2020",
+              "country": "US",
+              "primaryAddress": false
+            },
+            "shipmentItems": [
+              {
+                "lineItemId": "1463266057",
+                "quantity": 2,
+                "shippedQuantity": 0
+              }
+            ]
+          }
+        ],
+        "notShippedItems": [
+          {
+            "lineItemId": "1463266055",
+            "quantity": 1,
+            "shippedQuantity": 0
+          },
+          {
+            "lineItemId": "1463266056",
+            "quantity": 1,
+            "shippedQuantity": 0
+          },
+          {
+            "lineItemId": "1463266057",
+            "quantity": 2,
+            "shippedQuantity": 0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "ORDER_RELEASED",
+    "createdAt": "2021-08-11T20:22:38.697Z",
+    "data": {
+      "order": {
+        "id": "1070000529",
+        "customerId": "148817292",
+        "status": "RELEASED",
+        "totalProduct": {
+          "value": "87.16"
+        },
+        "totalSalesTax": {
+          "value": "4.62"
+        },
+        "totalShippingTax": {
+          "value": "0.00"
+        },
+        "totalAdjustment": {
+          "value": "-20.00"
+        },
+        "totalBeforeTax": {
+          "value": "67.16"
+        },
+        "total": {
+          "value": "71.78"
+        },
+        "timePlaced": "2021-08-11T20:21:27.073Z",
+        "timeUpdated": "2021-08-11T20:22:38.697Z",
+        "lineItems": [
+          {
+            "id": "1463283764",
+            "product": {
+              "catalogEntryId": "270791",
+              "partNumber": "244306",
+              "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+              "attributes": [
+                "ELECTRONIC_DELIVERY",
+                "GIFT_CARD"
+              ]
+            },
+            "fulfillmentCenter": "DGC1",
+            "quantity": 1,
+            "totalProduct": {
+              "value": "5.00"
+            },
+            "unitPrice": {
+              "value": "5.00"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "-5.00"
+            },
+            "salesTax": {
+              "value": "0.00"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          },
+          {
+            "id": "1463283765",
+            "product": {
+              "catalogEntryId": "270791",
+              "partNumber": "244306",
+              "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+              "attributes": [
+                "ELECTRONIC_DELIVERY",
+                "GIFT_CARD"
+              ]
+            },
+            "fulfillmentCenter": "DGC1",
+            "quantity": 1,
+            "totalProduct": {
+              "value": "5.00"
+            },
+            "unitPrice": {
+              "value": "5.00"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "-5.00"
+            },
+            "salesTax": {
+              "value": "0.00"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          },
+          {
+            "id": "1463283766",
+            "product": {
+              "catalogEntryId": "270791",
+              "partNumber": "244306",
+              "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+              "attributes": [
+                "ELECTRONIC_DELIVERY",
+                "GIFT_CARD"
+              ]
+            },
+            "fulfillmentCenter": "DGC1",
+            "quantity": 1,
+            "totalProduct": {
+              "value": "5.00"
+            },
+            "unitPrice": {
+              "value": "5.00"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "-5.00"
+            },
+            "salesTax": {
+              "value": "0.00"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          },
+          {
+            "id": "1463283767",
+            "product": {
+              "catalogEntryId": "270791",
+              "partNumber": "244306",
+              "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+              "attributes": [
+                "ELECTRONIC_DELIVERY",
+                "GIFT_CARD"
+              ]
+            },
+            "fulfillmentCenter": "DGC1",
+            "quantity": 1,
+            "totalProduct": {
+              "value": "5.00"
+            },
+            "unitPrice": {
+              "value": "5.00"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "-5.00"
+            },
+            "salesTax": {
+              "value": "0.00"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          },
+          {
+            "id": "1463283768",
+            "product": {
+              "catalogEntryId": "103972",
+              "partNumber": "76096",
+              "name": "Fancy Feast Grilled Seafood Feast Variety Pack Canned Cat Food, 3-oz, case of 24",
+              "description": "Fancy Feast Grilled Seafood Feast Variety Pack Canned Cat Food, 3-oz, case of 24",
+              "thumbnail": "//img.chewy.com/is/image/catalog/76096_MAIN,1584019846"
+            },
+            "fulfillmentCenter": "CFC1",
+            "quantity": 4,
+            "totalProduct": {
+              "value": "67.16"
+            },
+            "unitPrice": {
+              "value": "16.79"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "0.00"
+            },
+            "salesTax": {
+              "value": "4.62"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          }
+        ],
+        "trackingData": {
+          "shippingStep": "ORDER_PLACED",
+          "shippingStatus": "UNKNOWN",
+          "chewyPromisedDeliveryDate": "2021-08-16",
+          "estimatedDeliveryDate": "2021-08-16"
+        },
+        "shippingAddress": {
+          "id": "72572271",
+          "nickname": "968b0126-8b20-48ad-8cd6-4a8300a0b0fc",
+          "fullName": "Scott Gerike",
+          "addressLine1": "2801 Lexington Ave N",
+          "addressLine2": "Apt A",
+          "city": "Roseville",
+          "state": "MN",
+          "postcode": "55113-2020",
+          "country": "US",
+          "primaryAddress": false
+        },
+        "shipments": [
+          {
+            "id": "418803176",
+            "shippingModeCode": "FLATRATE",
+            "trackingId": "2222222222",
+            "timeShipped": "2021-08-11T00:00:00Z",
+            "trackingData": {
+              "shippingStep": "ORDER_PLACED",
+              "shippingStatus": "UNKNOWN",
+              "chewyPromisedDeliveryDate": "2021-08-16",
+              "progressPercentage": 20,
+              "packagesCountFromOrder": 1,
+              "displayEvents": [
+                {
+                  "code": "ORDER_CREATED",
+                  "date": "2021-06-30T14:50:54Z"
+                },
+                {
+                  "code": "ORDER_RELEASED",
+                  "date": "2021-06-30T15:41:10Z"
+                }
+              ]
+            },
+            "carrierDescription": "Flat-Rate Shipping",
+            "trackingUrl": "null2222222222",
+            "shippingAddress": {
+              "id": "72572271",
+              "nickname": "968b0126-8b20-48ad-8cd6-4a8300a0b0fc",
+              "fullName": "Scott Gerike",
+              "addressLine1": "2801 Lexington Ave N",
+              "addressLine2": "Apt A",
+              "city": "Roseville",
+              "state": "MN",
+              "postcode": "55113-2020",
+              "country": "US",
+              "primaryAddress": false
+            },
+            "shipmentItems": [
+              {
+                "lineItemId": "1463283768",
+                "quantity": 4,
+                "shippedQuantity": 0
+              }
+            ]
+          }
+        ],
+        "notShippedItems": [
+          {
+            "lineItemId": "1463283764",
+            "quantity": 1,
+            "shippedQuantity": 0
+          },
+          {
+            "lineItemId": "1463283765",
+            "quantity": 1,
+            "shippedQuantity": 0
+          },
+          {
+            "lineItemId": "1463283766",
+            "quantity": 1,
+            "shippedQuantity": 0
+          },
+          {
+            "lineItemId": "1463283767",
+            "quantity": 1,
+            "shippedQuantity": 0
+          },
+          {
+            "lineItemId": "1463283768",
+            "quantity": 4,
+            "shippedQuantity": 0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "ORDER_RELEASED",
+    "createdAt": "2021-08-11T20:01:56.172Z",
+    "data": {
+      "order": {
+        "id": "1070000528",
+        "customerId": "148817292",
+        "status": "READY_TO_RELEASE",
+        "totalProduct": {
+          "value": "108.95"
+        },
+        "totalSalesTax": {
+          "value": "5.77"
+        },
+        "totalShippingTax": {
+          "value": "0.00"
+        },
+        "totalAdjustment": {
+          "value": "-25.00"
+        },
+        "totalBeforeTax": {
+          "value": "83.95"
+        },
+        "total": {
+          "value": "89.72"
+        },
+        "timePlaced": "2021-08-11T20:01:05.501Z",
+        "timeUpdated": "2021-08-11T20:02:13.795Z",
+        "lineItems": [
+          {
+            "id": "1463283671",
+            "product": {
+              "catalogEntryId": "270791",
+              "partNumber": "244306",
+              "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+              "attributes": [
+                "ELECTRONIC_DELIVERY",
+                "GIFT_CARD"
+              ]
+            },
+            "fulfillmentCenter": "DGC1",
+            "quantity": 1,
+            "totalProduct": {
+              "value": "5.00"
+            },
+            "unitPrice": {
+              "value": "5.00"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "-5.00"
+            },
+            "salesTax": {
+              "value": "0.00"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          },
+          {
+            "id": "1463283672",
+            "product": {
+              "catalogEntryId": "270791",
+              "partNumber": "244306",
+              "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+              "attributes": [
+                "ELECTRONIC_DELIVERY",
+                "GIFT_CARD"
+              ]
+            },
+            "fulfillmentCenter": "DGC1",
+            "quantity": 1,
+            "totalProduct": {
+              "value": "5.00"
+            },
+            "unitPrice": {
+              "value": "5.00"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "-5.00"
+            },
+            "salesTax": {
+              "value": "0.00"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          },
+          {
+            "id": "1463283673",
+            "product": {
+              "catalogEntryId": "270791",
+              "partNumber": "244306",
+              "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+              "attributes": [
+                "ELECTRONIC_DELIVERY",
+                "GIFT_CARD"
+              ]
+            },
+            "fulfillmentCenter": "DGC1",
+            "quantity": 1,
+            "totalProduct": {
+              "value": "5.00"
+            },
+            "unitPrice": {
+              "value": "5.00"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "-5.00"
+            },
+            "salesTax": {
+              "value": "0.00"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          },
+          {
+            "id": "1463283674",
+            "product": {
+              "catalogEntryId": "270791",
+              "partNumber": "244306",
+              "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+              "attributes": [
+                "ELECTRONIC_DELIVERY",
+                "GIFT_CARD"
+              ]
+            },
+            "fulfillmentCenter": "DGC1",
+            "quantity": 1,
+            "totalProduct": {
+              "value": "5.00"
+            },
+            "unitPrice": {
+              "value": "5.00"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "-5.00"
+            },
+            "salesTax": {
+              "value": "0.00"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          },
+          {
+            "id": "1463283675",
+            "product": {
+              "catalogEntryId": "270791",
+              "partNumber": "244306",
+              "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+              "attributes": [
+                "ELECTRONIC_DELIVERY",
+                "GIFT_CARD"
+              ]
+            },
+            "fulfillmentCenter": "DGC1",
+            "quantity": 1,
+            "totalProduct": {
+              "value": "5.00"
+            },
+            "unitPrice": {
+              "value": "5.00"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "-5.00"
+            },
+            "salesTax": {
+              "value": "0.00"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          },
+          {
+            "id": "1463283676",
+            "product": {
+              "catalogEntryId": "103856",
+              "partNumber": "75978",
+              "name": "Fancy Feast Gravy Lovers Poultry & Beef Feast Variety Pack Canned Cat Food, 3-oz, case of 24",
+              "description": "Fancy Feast Gravy Lovers Poultry & Beef Feast Variety Pack Canned Cat Food, 3-oz, case of 24",
+              "thumbnail": "//img.chewy.com/is/image/catalog/75978_MAIN,1584020009"
+            },
+            "fulfillmentCenter": "CFC1",
+            "quantity": 5,
+            "totalProduct": {
+              "value": "83.95"
+            },
+            "unitPrice": {
+              "value": "16.79"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "0.00"
+            },
+            "salesTax": {
+              "value": "5.77"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          }
+        ],
+        "trackingData": {
+          "shippingStep": "ORDER_PLACED",
+          "shippingStatus": "NONE",
+          "chewyPromisedDeliveryDate": "2021-08-16",
+          "estimatedDeliveryDate": "2021-08-16"
+        },
+        "shippingAddress": {
+          "id": "72572271",
+          "nickname": "968b0126-8b20-48ad-8cd6-4a8300a0b0fc",
+          "fullName": "Scott Gerike",
+          "addressLine1": "2801 Lexington Ave N",
+          "addressLine2": "Apt A",
+          "city": "Roseville",
+          "state": "MN",
+          "postcode": "55113-2020",
+          "country": "US",
+          "primaryAddress": false
+        },
+        "notShippedItems": [
+          {
+            "lineItemId": "1463283671",
+            "quantity": 1,
+            "shippedQuantity": 0
+          },
+          {
+            "lineItemId": "1463283672",
+            "quantity": 1,
+            "shippedQuantity": 0
+          },
+          {
+            "lineItemId": "1463283673",
+            "quantity": 1,
+            "shippedQuantity": 0
+          },
+          {
+            "lineItemId": "1463283674",
+            "quantity": 1,
+            "shippedQuantity": 0
+          },
+          {
+            "lineItemId": "1463283675",
+            "quantity": 1,
+            "shippedQuantity": 0
+          },
+          {
+            "lineItemId": "1463283676",
+            "quantity": 5,
+            "shippedQuantity": 0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "ORDER_RELEASED",
+    "createdAt": "2021-08-11T19:55:24.580Z",
+    "data": {
+      "order": {
+        "id": "1070000525",
+        "customerId": "148817292",
+        "status": "RELEASED",
+        "totalProduct": {
+          "value": "65.56"
+        },
+        "totalSalesTax": {
+          "value": "3.13"
+        },
+        "totalShippingTax": {
+          "value": "0.34"
+        },
+        "totalAdjustment": {
+          "value": "-20.00"
+        },
+        "totalBeforeTax": {
+          "value": "50.51"
+        },
+        "total": {
+          "value": "53.98"
+        },
+        "timePlaced": "2021-08-11T19:54:11.425Z",
+        "timeUpdated": "2021-08-11T19:55:24.580Z",
+        "lineItems": [
+          {
+            "id": "1463283666",
+            "product": {
+              "catalogEntryId": "270791",
+              "partNumber": "244306",
+              "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+              "attributes": [
+                "ELECTRONIC_DELIVERY",
+                "GIFT_CARD"
+              ]
+            },
+            "fulfillmentCenter": "DGC1",
+            "quantity": 1,
+            "totalProduct": {
+              "value": "5.00"
+            },
+            "unitPrice": {
+              "value": "5.00"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "-5.00"
+            },
+            "salesTax": {
+              "value": "0.00"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          },
+          {
+            "id": "1463283667",
+            "product": {
+              "catalogEntryId": "270791",
+              "partNumber": "244306",
+              "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+              "attributes": [
+                "ELECTRONIC_DELIVERY",
+                "GIFT_CARD"
+              ]
+            },
+            "fulfillmentCenter": "DGC1",
+            "quantity": 1,
+            "totalProduct": {
+              "value": "5.00"
+            },
+            "unitPrice": {
+              "value": "5.00"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "-5.00"
+            },
+            "salesTax": {
+              "value": "0.00"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          },
+          {
+            "id": "1463283668",
+            "product": {
+              "catalogEntryId": "270791",
+              "partNumber": "244306",
+              "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+              "attributes": [
+                "ELECTRONIC_DELIVERY",
+                "GIFT_CARD"
+              ]
+            },
+            "fulfillmentCenter": "DGC1",
+            "quantity": 1,
+            "totalProduct": {
+              "value": "5.00"
+            },
+            "unitPrice": {
+              "value": "5.00"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "-5.00"
+            },
+            "salesTax": {
+              "value": "0.00"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          },
+          {
+            "id": "1463283669",
+            "product": {
+              "catalogEntryId": "270791",
+              "partNumber": "244306",
+              "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+              "attributes": [
+                "ELECTRONIC_DELIVERY",
+                "GIFT_CARD"
+              ]
+            },
+            "fulfillmentCenter": "DGC1",
+            "quantity": 1,
+            "totalProduct": {
+              "value": "5.00"
+            },
+            "unitPrice": {
+              "value": "5.00"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "-5.00"
+            },
+            "salesTax": {
+              "value": "0.00"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          },
+          {
+            "id": "1463283670",
+            "product": {
+              "catalogEntryId": "104396",
+              "partNumber": "76522",
+              "name": "Fancy Feast Medleys Primavera Collection Variety Pack Canned Cat Food, 3-oz, case of 12",
+              "description": "Fancy Feast Medleys Primavera Collection Variety Pack Canned Cat Food, 3-oz, case of 12",
+              "thumbnail": "//img.chewy.com/is/image/catalog/76522_MAIN,1584019748"
+            },
+            "fulfillmentCenter": "CFC1",
+            "quantity": 4,
+            "totalProduct": {
+              "value": "45.56"
+            },
+            "unitPrice": {
+              "value": "11.39"
+            },
+            "shippingCharge": {
+              "value": "4.95"
+            },
+            "totalAdjustment": {
+              "value": "0.00"
+            },
+            "salesTax": {
+              "value": "3.13"
+            },
+            "shippingTax": {
+              "value": "0.34"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          }
+        ],
+        "trackingData": {
+          "shippingStep": "ORDER_PLACED",
+          "shippingStatus": "UNKNOWN",
+          "chewyPromisedDeliveryDate": "2021-08-16",
+          "estimatedDeliveryDate": "2021-08-16"
+        },
+        "shippingAddress": {
+          "id": "72572271",
+          "nickname": "968b0126-8b20-48ad-8cd6-4a8300a0b0fc",
+          "fullName": "Scott Gerike",
+          "addressLine1": "2801 Lexington Ave N",
+          "addressLine2": "Apt A",
+          "city": "Roseville",
+          "state": "MN",
+          "postcode": "55113-2020",
+          "country": "US",
+          "primaryAddress": false
+        },
+        "shipments": [
+          {
+            "id": "418803174",
+            "shippingModeCode": "FLATRATE",
+            "trackingId": "1111111111",
+            "timeShipped": "2021-08-11T00:00:00Z",
+            "trackingData": {
+              "shippingStep": "ORDER_PLACED",
+              "shippingStatus": "UNKNOWN",
+              "chewyPromisedDeliveryDate": "2021-08-16",
+              "progressPercentage": 20,
+              "packagesCountFromOrder": 1,
+              "displayEvents": [
+                {
+                  "code": "ORDER_CREATED",
+                  "date": "2021-06-30T14:50:12Z"
+                },
+                {
+                  "code": "ORDER_RELEASED",
+                  "date": "2021-06-30T15:41:10Z"
+                }
+              ]
+            },
+            "carrierDescription": "Flat-Rate Shipping",
+            "trackingUrl": "null1111111111",
+            "shippingAddress": {
+              "id": "72572271",
+              "nickname": "968b0126-8b20-48ad-8cd6-4a8300a0b0fc",
+              "fullName": "Scott Gerike",
+              "addressLine1": "2801 Lexington Ave N",
+              "addressLine2": "Apt A",
+              "city": "Roseville",
+              "state": "MN",
+              "postcode": "55113-2020",
+              "country": "US",
+              "primaryAddress": false
+            },
+            "shipmentItems": [
+              {
+                "lineItemId": "1463283670",
+                "quantity": 4,
+                "shippedQuantity": 0
+              }
+            ]
+          }
+        ],
+        "notShippedItems": [
+          {
+            "lineItemId": "1463283666",
+            "quantity": 1,
+            "shippedQuantity": 0
+          },
+          {
+            "lineItemId": "1463283667",
+            "quantity": 1,
+            "shippedQuantity": 0
+          },
+          {
+            "lineItemId": "1463283668",
+            "quantity": 1,
+            "shippedQuantity": 0
+          },
+          {
+            "lineItemId": "1463283669",
+            "quantity": 1,
+            "shippedQuantity": 0
+          },
+          {
+            "lineItemId": "1463283670",
+            "quantity": 4,
+            "shippedQuantity": 0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "ORDER_RELEASED",
+    "createdAt": "2021-08-11T18:16:58.197Z",
+    "data": {
+      "order": {
+        "id": "1070000509",
+        "customerId": "148817292",
+        "status": "RELEASED",
+        "totalProduct": {
+          "value": "15.99"
+        },
+        "totalSalesTax": {
+          "value": "0.76"
+        },
+        "totalShippingTax": {
+          "value": "0.34"
+        },
+        "totalAdjustment": {
+          "value": "-5.00"
+        },
+        "totalBeforeTax": {
+          "value": "15.94"
+        },
+        "total": {
+          "value": "17.04"
+        },
+        "timePlaced": "2021-08-09T19:35:11.943Z",
+        "timeUpdated": "2021-08-11T18:16:58.197Z",
+        "blocks": [
+          {
+            "id": "22672354",
+            "reason": "FRAUDCHECK_FAILED",
+            "resolved": true,
+            "timeBlocked": "2021-08-09T20:05:00.036Z",
+            "timeResolved": "2021-08-09T21:07:47.975Z",
+            "comments": "Fraud score below threshold after re-evaluation"
+          }
+        ],
+        "lineItems": [
+          {
+            "id": "1463281111",
+            "product": {
+              "catalogEntryId": "270791",
+              "partNumber": "244306",
+              "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+              "attributes": [
+                "ELECTRONIC_DELIVERY",
+                "GIFT_CARD"
+              ]
+            },
+            "fulfillmentCenter": "DGC1",
+            "quantity": 1,
+            "totalProduct": {
+              "value": "5.00"
+            },
+            "unitPrice": {
+              "value": "5.00"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "-5.00"
+            },
+            "salesTax": {
+              "value": "0.00"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          },
+          {
+            "id": "1463281112",
+            "product": {
+              "catalogEntryId": "52448",
+              "partNumber": "67512",
+              "name": "Purina Pro Plan Adult Shredded Blend Chicken & Rice Formula Dry Dog Food, 35-lb bag",
+              "description": "Purina Pro Plan Adult Shredded Blend Chicken & Rice Formula Dry Dog Food, 35-lb bag",
+              "thumbnail": "//img.chewy.com/is/image/catalog/67512_MAIN,1598029574"
+            },
+            "fulfillmentCenter": "CFC1",
+            "quantity": 1,
+            "totalProduct": {
+              "value": "10.99"
+            },
+            "unitPrice": {
+              "value": "10.99"
+            },
+            "shippingCharge": {
+              "value": "4.95"
+            },
+            "totalAdjustment": {
+              "value": "0.00"
+            },
+            "salesTax": {
+              "value": "0.76"
+            },
+            "shippingTax": {
+              "value": "0.34"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          }
+        ],
+        "trackingData": {
+          "shippingStep": "ORDER_PLACED",
+          "shippingStatus": "UNKNOWN",
+          "chewyPromisedDeliveryDate": "2021-08-16",
+          "estimatedDeliveryDate": "2021-08-16"
+        },
+        "shippingAddress": {
+          "id": "72572271",
+          "nickname": "968b0126-8b20-48ad-8cd6-4a8300a0b0fc",
+          "fullName": "Scott Gerike",
+          "addressLine1": "2801 Lexington Ave N",
+          "addressLine2": "Apt A",
+          "city": "Roseville",
+          "state": "MN",
+          "postcode": "55113-2020",
+          "country": "US",
+          "primaryAddress": false
+        },
+        "shipments": [
+          {
+            "id": "418803170",
+            "shippingModeCode": "FLATRATE",
+            "trackingId": "1111111111",
+            "timeShipped": "2021-08-11T00:00:00Z",
+            "trackingData": {
+              "shippingStep": "ORDER_PLACED",
+              "shippingStatus": "UNKNOWN",
+              "chewyPromisedDeliveryDate": "2021-08-16",
+              "progressPercentage": 20,
+              "packagesCountFromOrder": 1,
+              "displayEvents": [
+                {
+                  "code": "ORDER_CREATED",
+                  "date": "2021-06-30T14:46:58Z"
+                },
+                {
+                  "code": "ORDER_RELEASED",
+                  "date": "2021-06-30T15:40:37Z"
+                }
+              ]
+            },
+            "carrierDescription": "Flat-Rate Shipping",
+            "trackingUrl": "null1111111111",
+            "shippingAddress": {
+              "id": "72572271",
+              "nickname": "968b0126-8b20-48ad-8cd6-4a8300a0b0fc",
+              "fullName": "Scott Gerike",
+              "addressLine1": "2801 Lexington Ave N",
+              "addressLine2": "Apt A",
+              "city": "Roseville",
+              "state": "MN",
+              "postcode": "55113-2020",
+              "country": "US",
+              "primaryAddress": false
+            },
+            "shipmentItems": [
+              {
+                "lineItemId": "1463281112",
+                "quantity": 1,
+                "shippedQuantity": 0
+              }
+            ]
+          }
+        ],
+        "notShippedItems": [
+          {
+            "lineItemId": "1463281111",
+            "quantity": 1,
+            "shippedQuantity": 0
+          },
+          {
+            "lineItemId": "1463281112",
+            "quantity": 1,
+            "shippedQuantity": 0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "ORDER_RELEASED",
+    "createdAt": "2021-07-29T19:22:51.301Z",
+    "data": {
+      "order": {
+        "id": "1070000445",
+        "customerId": "148817292",
+        "status": "RELEASED",
+        "totalProduct": {
+          "value": "42.08"
+        },
+        "totalSalesTax": {
+          "value": "2.21"
+        },
+        "totalShippingTax": {
+          "value": "0.34"
+        },
+        "totalAdjustment": {
+          "value": "-10.00"
+        },
+        "totalBeforeTax": {
+          "value": "37.03"
+        },
+        "total": {
+          "value": "39.58"
+        },
+        "timePlaced": "2021-07-29T17:36:51.423Z",
+        "timeUpdated": "2021-07-29T19:22:51.301Z",
+        "blocks": [
+          {
+            "id": "22672309",
+            "reason": "FRAUDCHECK_FAILED",
+            "resolved": true,
+            "timeBlocked": "2021-07-29T18:05:00.024Z",
+            "timeResolved": "2021-07-29T19:07:49.594Z",
+            "comments": "Fraud score below threshold after re-evaluation"
+          }
+        ],
+        "lineItems": [
+          {
+            "id": "1463265962",
+            "product": {
+              "catalogEntryId": "270791",
+              "partNumber": "244306",
+              "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+              "attributes": [
+                "ELECTRONIC_DELIVERY",
+                "GIFT_CARD"
+              ]
+            },
+            "fulfillmentCenter": "DGC1",
+            "quantity": 1,
+            "totalProduct": {
+              "value": "5.00"
+            },
+            "unitPrice": {
+              "value": "5.00"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "-5.00"
+            },
+            "salesTax": {
+              "value": "0.00"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          },
+          {
+            "id": "1463265963",
+            "product": {
+              "catalogEntryId": "270791",
+              "partNumber": "244306",
+              "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+              "attributes": [
+                "ELECTRONIC_DELIVERY",
+                "GIFT_CARD"
+              ]
+            },
+            "fulfillmentCenter": "DGC1",
+            "quantity": 1,
+            "totalProduct": {
+              "value": "5.00"
+            },
+            "unitPrice": {
+              "value": "5.00"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "-5.00"
+            },
+            "salesTax": {
+              "value": "0.00"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          },
+          {
+            "id": "1463265964",
+            "product": {
+              "catalogEntryId": "127508",
+              "partNumber": "99967",
+              "name": "Meow Mix Original Choice Dry Cat Food, 22-lb bag",
+              "description": "Meow Mix Original Choice Dry Cat Food, 22-lb bag",
+              "thumbnail": "//img.chewy.com/is/catalog/99967_MAIN,1462999359"
+            },
+            "fulfillmentCenter": "CFC1",
+            "quantity": 2,
+            "totalProduct": {
+              "value": "32.08"
+            },
+            "unitPrice": {
+              "value": "16.04"
+            },
+            "shippingCharge": {
+              "value": "4.95"
+            },
+            "totalAdjustment": {
+              "value": "0.00"
+            },
+            "salesTax": {
+              "value": "2.21"
+            },
+            "shippingTax": {
+              "value": "0.34"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          }
+        ],
+        "trackingData": {
+          "shippingStep": "ORDER_PLACED",
+          "shippingStatus": "UNKNOWN",
+          "chewyPromisedDeliveryDate": "2021-08-16",
+          "estimatedDeliveryDate": "2021-08-16"
+        },
+        "shippingAddress": {
+          "id": "72572271",
+          "nickname": "968b0126-8b20-48ad-8cd6-4a8300a0b0fc",
+          "fullName": "Scott Gerike",
+          "addressLine1": "2801 Lexington Ave N",
+          "addressLine2": "Apt A",
+          "city": "Roseville",
+          "state": "MN",
+          "postcode": "55113-2020",
+          "country": "US",
+          "primaryAddress": false
+        },
+        "shipments": [
+          {
+            "id": "418803168",
+            "shippingModeCode": "FLATRATE",
+            "trackingId": "1111111111",
+            "timeShipped": "2021-07-29T00:00:00Z",
+            "trackingData": {
+              "shippingStep": "ORDER_PLACED",
+              "shippingStatus": "UNKNOWN",
+              "chewyPromisedDeliveryDate": "2021-08-16",
+              "progressPercentage": 20,
+              "packagesCountFromOrder": 1,
+              "displayEvents": [
+                {
+                  "code": "ORDER_CREATED",
+                  "date": "2021-06-30T14:34:44Z"
+                },
+                {
+                  "code": "ORDER_RELEASED",
+                  "date": "2021-06-30T15:21:42Z"
+                }
+              ]
+            },
+            "carrierDescription": "Flat-Rate Shipping",
+            "trackingUrl": "null1111111111",
+            "shippingAddress": {
+              "id": "72572271",
+              "nickname": "968b0126-8b20-48ad-8cd6-4a8300a0b0fc",
+              "fullName": "Scott Gerike",
+              "addressLine1": "2801 Lexington Ave N",
+              "addressLine2": "Apt A",
+              "city": "Roseville",
+              "state": "MN",
+              "postcode": "55113-2020",
+              "country": "US",
+              "primaryAddress": false
+            },
+            "shipmentItems": [
+              {
+                "lineItemId": "1463265964",
+                "quantity": 2,
+                "shippedQuantity": 0
+              }
+            ]
+          }
+        ],
+        "notShippedItems": [
+          {
+            "lineItemId": "1463265962",
+            "quantity": 1,
+            "shippedQuantity": 0
+          },
+          {
+            "lineItemId": "1463265963",
+            "quantity": 1,
+            "shippedQuantity": 0
+          },
+          {
+            "lineItemId": "1463265964",
+            "quantity": 2,
+            "shippedQuantity": 0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "ORDER_RELEASED",
+    "createdAt": "2021-07-29T16:47:43.138Z",
+    "data": {
+      "order": {
+        "id": "1070000439",
+        "customerId": "148817292",
+        "status": "RELEASED",
+        "totalProduct": {
+          "value": "209.96"
+        },
+        "totalSalesTax": {
+          "value": "13.06"
+        },
+        "totalShippingTax": {
+          "value": "0.00"
+        },
+        "totalAdjustment": {
+          "value": "-20.00"
+        },
+        "totalBeforeTax": {
+          "value": "189.96"
+        },
+        "total": {
+          "value": "203.02"
+        },
+        "timePlaced": "2021-07-28T22:25:30.154Z",
+        "timeUpdated": "2021-07-29T16:47:43.138Z",
+        "blocks": [
+          {
+            "id": "22672304",
+            "reason": "FRAUDCHECK_FAILED",
+            "resolved": true,
+            "timeBlocked": "2021-07-28T22:55:00.027Z",
+            "timeResolved": "2021-07-29T01:07:48.874Z",
+            "comments": "Fraud score below threshold after re-evaluation"
+          }
+        ],
+        "lineItems": [
+          {
+            "id": "1463265209",
+            "product": {
+              "catalogEntryId": "270791",
+              "partNumber": "244306",
+              "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+              "attributes": [
+                "ELECTRONIC_DELIVERY",
+                "GIFT_CARD"
+              ]
+            },
+            "fulfillmentCenter": "DGC1",
+            "quantity": 1,
+            "totalProduct": {
+              "value": "5.00"
+            },
+            "unitPrice": {
+              "value": "5.00"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "-5.00"
+            },
+            "salesTax": {
+              "value": "0.00"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          },
+          {
+            "id": "1463265210",
+            "product": {
+              "catalogEntryId": "270791",
+              "partNumber": "244306",
+              "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+              "attributes": [
+                "ELECTRONIC_DELIVERY",
+                "GIFT_CARD"
+              ]
+            },
+            "fulfillmentCenter": "DGC1",
+            "quantity": 1,
+            "totalProduct": {
+              "value": "5.00"
+            },
+            "unitPrice": {
+              "value": "5.00"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "-5.00"
+            },
+            "salesTax": {
+              "value": "0.00"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          },
+          {
+            "id": "1463265211",
+            "product": {
+              "catalogEntryId": "270791",
+              "partNumber": "244306",
+              "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+              "attributes": [
+                "ELECTRONIC_DELIVERY",
+                "GIFT_CARD"
+              ]
+            },
+            "fulfillmentCenter": "DGC1",
+            "quantity": 1,
+            "totalProduct": {
+              "value": "5.00"
+            },
+            "unitPrice": {
+              "value": "5.00"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "-5.00"
+            },
+            "salesTax": {
+              "value": "0.00"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          },
+          {
+            "id": "1463265212",
+            "product": {
+              "catalogEntryId": "270791",
+              "partNumber": "244306",
+              "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+              "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+              "attributes": [
+                "ELECTRONIC_DELIVERY",
+                "GIFT_CARD"
+              ]
+            },
+            "fulfillmentCenter": "DGC1",
+            "quantity": 1,
+            "totalProduct": {
+              "value": "5.00"
+            },
+            "unitPrice": {
+              "value": "5.00"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "-5.00"
+            },
+            "salesTax": {
+              "value": "0.00"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          },
+          {
+            "id": "1463265213",
+            "product": {
+              "catalogEntryId": "181320",
+              "partNumber": "154551",
+              "name": "Taste of the Wild High Prairie Grain-Free Dry Dog Food, 28-lb bag",
+              "description": "Taste of the Wild High Prairie Grain-Free Dry Dog Food, 28-lb bag",
+              "thumbnail": "//img.chewy.com/is/image/catalog/154551_MAIN,1601342154"
+            },
+            "fulfillmentCenter": "CFC1",
+            "quantity": 4,
+            "totalProduct": {
+              "value": "189.96"
+            },
+            "unitPrice": {
+              "value": "47.49"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "0.00"
+            },
+            "salesTax": {
+              "value": "13.06"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          }
+        ],
+        "trackingData": {
+          "shippingStep": "ORDER_PLACED",
+          "shippingStatus": "UNKNOWN",
+          "chewyPromisedDeliveryDate": "2021-08-16",
+          "estimatedDeliveryDate": "2021-08-16"
+        },
+        "shippingAddress": {
+          "id": "72572271",
+          "nickname": "968b0126-8b20-48ad-8cd6-4a8300a0b0fc",
+          "fullName": "Scott Gerike",
+          "addressLine1": "2801 Lexington Ave N",
+          "addressLine2": "Apt A",
+          "city": "Roseville",
+          "state": "MN",
+          "postcode": "55113-2020",
+          "country": "US",
+          "primaryAddress": false
+        },
+        "shipments": [
+          {
+            "id": "418803166",
+            "shippingModeCode": "FLATRATE",
+            "trackingId": "1111111111",
+            "timeShipped": "2021-07-28T00:00:00Z",
+            "trackingData": {
+              "shippingStep": "ORDER_PLACED",
+              "shippingStatus": "UNKNOWN",
+              "chewyPromisedDeliveryDate": "2021-08-16",
+              "progressPercentage": 20,
+              "packagesCountFromOrder": 1,
+              "displayEvents": [
+                {
+                  "code": "ORDER_CREATED",
+                  "date": "2021-06-30T14:33:55Z"
+                },
+                {
+                  "code": "ORDER_RELEASED",
+                  "date": "2021-06-30T15:21:14Z"
+                }
+              ]
+            },
+            "carrier": "(null)",
+            "carrierDescription": "Flat-Rate Shipping",
+            "trackingUrl": "null1111111111",
+            "shippingAddress": {
+              "id": "72572271",
+              "nickname": "968b0126-8b20-48ad-8cd6-4a8300a0b0fc",
+              "fullName": "Scott Gerike",
+              "addressLine1": "2801 Lexington Ave N",
+              "addressLine2": "Apt A",
+              "city": "Roseville",
+              "state": "MN",
+              "postcode": "55113-2020",
+              "country": "US",
+              "primaryAddress": false
+            },
+            "shipmentItems": [
+              {
+                "lineItemId": "1463265213",
+                "quantity": 4,
+                "shippedQuantity": 0
+              }
+            ]
+          }
+        ],
+        "notShippedItems": [
+          {
+            "lineItemId": "1463265209",
+            "quantity": 1,
+            "shippedQuantity": 0
+          },
+          {
+            "lineItemId": "1463265210",
+            "quantity": 1,
+            "shippedQuantity": 0
+          },
+          {
+            "lineItemId": "1463265211",
+            "quantity": 1,
+            "shippedQuantity": 0
+          },
+          {
+            "lineItemId": "1463265212",
+            "quantity": 1,
+            "shippedQuantity": 0
+          },
+          {
+            "lineItemId": "1463265213",
+            "quantity": 4,
+            "shippedQuantity": 0
+          }
+        ]
+      }
+    }
+  }
+]

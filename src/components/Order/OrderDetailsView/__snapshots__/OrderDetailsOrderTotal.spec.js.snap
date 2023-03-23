@@ -1,0 +1,514 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderDetailsOrderTotal /> it should render children 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="makeStyles-root-1"
+        data-testid="orderDetailsOrderTotal"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiCard-root css-xg2nla-MuiPaper-root-MuiCard-root"
+        >
+          <div
+            class="makeStyles-orderDetailContent-2"
+          >
+            <h2
+              class="MuiTypography-root makeStyles-title-3 MuiTypography-h2"
+            >
+              Order Totals
+            </h2>
+            <div
+              class="makeStyles-detail-5"
+            >
+              <span>
+                <label
+                  class="MuiFormLabel-root makeStyles-label-8"
+                  data-testid="order-itemSubtotal-label"
+                >
+                  Item(s) Subtotal:
+                </label>
+              </span>
+              <span
+                class="makeStyles-right-7"
+              >
+                <label
+                  class="MuiFormLabel-root makeStyles-value-6"
+                  data-testid="order-itemSubtotal-value"
+                >
+                  $NaN
+                </label>
+              </span>
+            </div>
+            <div
+              class="makeStyles-detail-5"
+            >
+              <label
+                class="MuiFormLabel-root"
+                data-testid="order:adjustmentApplied-label"
+              >
+                <div
+                  class="makeStyles-accordionComponent-12"
+                >
+                  <div
+                    class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAccordion-root Mui-disabled Component-root-24 Component-root-25 css-19fv6u5-MuiPaper-root-MuiAccordion-root"
+                    data-testid="autoship:payment:viewdetails:adjustment:accordion"
+                  >
+                    <div
+                      aria-controls="panel1d-content"
+                      aria-disabled="true"
+                      aria-expanded="false"
+                      class="MuiButtonBase-root Mui-disabled MuiAccordionSummary-root Mui-disabled Component-root-26 Component-root-27 css-1pvvkxv-MuiButtonBase-root-MuiAccordionSummary-root"
+                      data-testid="autoship:payment:viewdetails:adjustment:accordion:summary"
+                      id="panel1d-header"
+                      role="button"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="MuiAccordionSummary-content css-1betqn-MuiAccordionSummary-content"
+                      >
+                        <div
+                          class="makeStyles-nameValue-19"
+                          id="nameValueContainer"
+                        >
+                          <span
+                            class="makeStyles-displayName-20"
+                            data-testid="totalAdjustment_name"
+                            id="nameContainer"
+                          >
+                            Adjustment(s) Applied
+                          </span>
+                          <span
+                            class="makeStyles-displayValue-21"
+                            data-testid="totalAdjustment_value"
+                            id="valueContainer"
+                          >
+                            $NaN
+                          </span>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiAccordionSummary-expandIconWrapper css-yw020d-MuiAccordionSummary-expandIconWrapper"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-v84d5j-MuiSvgIcon-root"
+                          data-testid="ArrowForwardIosSharpIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M6.23 20.23 8 22l10-10L8 2 6.23 3.77 14.46 12z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-bz4dnt-MuiCollapse-root"
+                      style="min-height: 0px;"
+                    >
+                      <div
+                        class="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+                      >
+                        <div
+                          class="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+                        >
+                          <div
+                            aria-labelledby="panel1d-header"
+                            class="MuiAccordion-region"
+                            id="panel1d-content"
+                            role="region"
+                          >
+                            <div
+                              class="MuiAccordionDetails-root ForwardRef(AccordionDetails)-root-28 ForwardRef(AccordionDetails)-root-29 css-15v22id-MuiAccordionDetails-root"
+                            >
+                              <div
+                                data-testid="autoship:payment:viewdetails:adjustment:accordion:details"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </label>
+            </div>
+            <div
+              class="makeStyles-detail-5"
+            >
+              <span>
+                <label
+                  class="MuiFormLabel-root makeStyles-label-8"
+                  data-testid="order:shipping-label"
+                >
+                  Shipping:
+                </label>
+              </span>
+              <span
+                class="makeStyles-right-7"
+              >
+                <label
+                  class="MuiFormLabel-root makeStyles-value-6"
+                  data-testid="order:shipping-value"
+                >
+                  $0.00
+                </label>
+              </span>
+            </div>
+            <div
+              class="makeStyles-detail-5"
+            >
+              <span>
+                <label
+                  class="MuiFormLabel-root makeStyles-label-8"
+                  data-testid="order:beforeTax-label"
+                >
+                  Total Before Tax:
+                </label>
+              </span>
+              <span
+                class="makeStyles-right-7"
+              >
+                <label
+                  class="MuiFormLabel-root makeStyles-value-6"
+                  data-testid="order:beforeTax-value"
+                >
+                  $NaN
+                </label>
+              </span>
+            </div>
+            <div
+              class="makeStyles-detail-5"
+            >
+              <span>
+                <label
+                  class="MuiFormLabel-root makeStyles-label-8"
+                  data-testid="order:salesTax-label"
+                >
+                  Sales Tax:
+                </label>
+              </span>
+              <span
+                class="makeStyles-right-7"
+              >
+                <label
+                  class="MuiFormLabel-root makeStyles-value-6"
+                  data-testid="order:salesTax-value"
+                >
+                  $NaN
+                </label>
+              </span>
+            </div>
+            <hr
+              class="MuiDivider-root MuiDivider-fullWidth css-10xvm1q-MuiDivider-root"
+            />
+            <div
+              class="makeStyles-detail-5 makeStyles-grandTotal-9"
+            >
+              <span>
+                <label
+                  class="MuiFormLabel-root makeStyles-label-8"
+                  data-testid="order:grandTotal-label"
+                >
+                  Grand Total:
+                </label>
+              </span>
+              <span
+                class="makeStyles-right-7"
+              >
+                <label
+                  class="MuiFormLabel-root makeStyles-value-6"
+                  data-testid="order:grandTotal-value"
+                >
+                  $NaN
+                </label>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="makeStyles-root-1"
+      data-testid="orderDetailsOrderTotal"
+    >
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiCard-root css-xg2nla-MuiPaper-root-MuiCard-root"
+      >
+        <div
+          class="makeStyles-orderDetailContent-2"
+        >
+          <h2
+            class="MuiTypography-root makeStyles-title-3 MuiTypography-h2"
+          >
+            Order Totals
+          </h2>
+          <div
+            class="makeStyles-detail-5"
+          >
+            <span>
+              <label
+                class="MuiFormLabel-root makeStyles-label-8"
+                data-testid="order-itemSubtotal-label"
+              >
+                Item(s) Subtotal:
+              </label>
+            </span>
+            <span
+              class="makeStyles-right-7"
+            >
+              <label
+                class="MuiFormLabel-root makeStyles-value-6"
+                data-testid="order-itemSubtotal-value"
+              >
+                $NaN
+              </label>
+            </span>
+          </div>
+          <div
+            class="makeStyles-detail-5"
+          >
+            <label
+              class="MuiFormLabel-root"
+              data-testid="order:adjustmentApplied-label"
+            >
+              <div
+                class="makeStyles-accordionComponent-12"
+              >
+                <div
+                  class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAccordion-root Mui-disabled Component-root-24 Component-root-25 css-19fv6u5-MuiPaper-root-MuiAccordion-root"
+                  data-testid="autoship:payment:viewdetails:adjustment:accordion"
+                >
+                  <div
+                    aria-controls="panel1d-content"
+                    aria-disabled="true"
+                    aria-expanded="false"
+                    class="MuiButtonBase-root Mui-disabled MuiAccordionSummary-root Mui-disabled Component-root-26 Component-root-27 css-1pvvkxv-MuiButtonBase-root-MuiAccordionSummary-root"
+                    data-testid="autoship:payment:viewdetails:adjustment:accordion:summary"
+                    id="panel1d-header"
+                    role="button"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="MuiAccordionSummary-content css-1betqn-MuiAccordionSummary-content"
+                    >
+                      <div
+                        class="makeStyles-nameValue-19"
+                        id="nameValueContainer"
+                      >
+                        <span
+                          class="makeStyles-displayName-20"
+                          data-testid="totalAdjustment_name"
+                          id="nameContainer"
+                        >
+                          Adjustment(s) Applied
+                        </span>
+                        <span
+                          class="makeStyles-displayValue-21"
+                          data-testid="totalAdjustment_value"
+                          id="valueContainer"
+                        >
+                          $NaN
+                        </span>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiAccordionSummary-expandIconWrapper css-yw020d-MuiAccordionSummary-expandIconWrapper"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-v84d5j-MuiSvgIcon-root"
+                        data-testid="ArrowForwardIosSharpIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M6.23 20.23 8 22l10-10L8 2 6.23 3.77 14.46 12z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <div
+                    class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-bz4dnt-MuiCollapse-root"
+                    style="min-height: 0px;"
+                  >
+                    <div
+                      class="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+                    >
+                      <div
+                        class="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+                      >
+                        <div
+                          aria-labelledby="panel1d-header"
+                          class="MuiAccordion-region"
+                          id="panel1d-content"
+                          role="region"
+                        >
+                          <div
+                            class="MuiAccordionDetails-root ForwardRef(AccordionDetails)-root-28 ForwardRef(AccordionDetails)-root-29 css-15v22id-MuiAccordionDetails-root"
+                          >
+                            <div
+                              data-testid="autoship:payment:viewdetails:adjustment:accordion:details"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </label>
+          </div>
+          <div
+            class="makeStyles-detail-5"
+          >
+            <span>
+              <label
+                class="MuiFormLabel-root makeStyles-label-8"
+                data-testid="order:shipping-label"
+              >
+                Shipping:
+              </label>
+            </span>
+            <span
+              class="makeStyles-right-7"
+            >
+              <label
+                class="MuiFormLabel-root makeStyles-value-6"
+                data-testid="order:shipping-value"
+              >
+                $0.00
+              </label>
+            </span>
+          </div>
+          <div
+            class="makeStyles-detail-5"
+          >
+            <span>
+              <label
+                class="MuiFormLabel-root makeStyles-label-8"
+                data-testid="order:beforeTax-label"
+              >
+                Total Before Tax:
+              </label>
+            </span>
+            <span
+              class="makeStyles-right-7"
+            >
+              <label
+                class="MuiFormLabel-root makeStyles-value-6"
+                data-testid="order:beforeTax-value"
+              >
+                $NaN
+              </label>
+            </span>
+          </div>
+          <div
+            class="makeStyles-detail-5"
+          >
+            <span>
+              <label
+                class="MuiFormLabel-root makeStyles-label-8"
+                data-testid="order:salesTax-label"
+              >
+                Sales Tax:
+              </label>
+            </span>
+            <span
+              class="makeStyles-right-7"
+            >
+              <label
+                class="MuiFormLabel-root makeStyles-value-6"
+                data-testid="order:salesTax-value"
+              >
+                $NaN
+              </label>
+            </span>
+          </div>
+          <hr
+            class="MuiDivider-root MuiDivider-fullWidth css-10xvm1q-MuiDivider-root"
+          />
+          <div
+            class="makeStyles-detail-5 makeStyles-grandTotal-9"
+          >
+            <span>
+              <label
+                class="MuiFormLabel-root makeStyles-label-8"
+                data-testid="order:grandTotal-label"
+              >
+                Grand Total:
+              </label>
+            </span>
+            <span
+              class="makeStyles-right-7"
+            >
+              <label
+                class="MuiFormLabel-root makeStyles-value-6"
+                data-testid="order:grandTotal-value"
+              >
+                $NaN
+              </label>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

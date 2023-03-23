@@ -1,0 +1,206 @@
+[
+  {
+    "incidentId": "220606-000851",
+    "createdAt": "2022-06-06T12:36:16-04:00",
+    "contactChannel": "Phone Inbound",
+    "contactReason": "Spam",
+    "agentName": "Test Agent",
+    "disposition": "No Action Needed",
+    "switchToUser": true,
+    "appeasements": [
+      {
+        "appeasementId": "83677931",
+        "type": "CUSTOMER_PROFILE",
+        "description": "message.interactionSummary.customerProfile.modified",
+        "details": {
+          "currentVal": {
+            "email": "newemail@chewy.com",
+            "fullName": "newname",
+            "status": "ACTIVE",
+            "phone": "1231231234"
+          },
+          "prevVal": {
+            "email": "oldemail@chewy.com",
+            "fullName": "oldname",
+            "phone": "2342342341",
+            "status": "INACTIVE"
+          }
+        }
+      },
+      {
+        "appeasementId": "83677931",
+        "type": "CUSTOMER_TAGS",
+        "description": "message.interactionSummary.customerProfile.modified",
+        "details": {
+          "currentVal": {
+            "HEARING_IMPAIRED": "true",
+            "WEIGHT_LIMIT": "-1"
+          },
+          "prevVal": {
+            "HEARING_IMPAIRED": "false",
+            "WEIGHT_LIMIT": "10"
+          }
+        }
+      },
+      {
+        "appeasementId": "83677931",
+        "type": "CUSTOMER_TAGS",
+        "description": "message.interactionSummary.customerProfile.modified",
+        "details": {
+          "currentVal": {
+            "WEIGHT_LIMIT": "-1"
+          },
+          "prevVal": {
+            "WEIGHT_LIMIT": "10"
+          }
+        }
+      },
+      {
+        "appeasementId": "83677931",
+        "type": "ACCOUNT_PASSWORD_RESET",
+        "description": "message.interactionSummary.customerProfile.modified",
+        "details": {
+          "currentVal": null,
+          "prevVal": null
+        }
+      },
+      {
+        "appeasementId": "83677932",
+        "type": "CUSTOMER_PROFILE",
+        "description": "message.interactionSummary.customerProfile.modified",
+        "details": {
+          "currentVal": {
+            "email": "newemail@chewy.com",
+            "fullName": "newname",
+            "status": "ACTIVE",
+            "phone": "1231231234"
+          },
+          "prevVal": {
+            "email": "newemail@chewy.com",
+            "fullName": "newname",
+            "status": "ACTIVE",
+            "phone": "1231231234"
+          }
+        }
+      },
+      {
+        "appeasementId": "83677929",
+        "type": "PET_PROFILE",
+        "description": "message.interactionSummary.petProfile.modified",
+        "details": {
+          "currentVal": {
+            "name": "pet_a",
+            "type": {
+              "id": 4,
+              "name": "Bird"
+            },
+            "weightInPounds": 15,
+            "id": 83677929
+          }
+        }
+      }
+    ]
+  },
+  {
+    "incidentId": "220688-000858",
+    "createdAt": "2022-06-06T12:36:16-04:00",
+    "contactChannel": "Phone Inbound",
+    "contactReason": "Spam",
+    "agentName": "Test Agent",
+    "disposition": "No Action Needed",
+    "switchToUser": true,
+    "appeasements": [
+      {
+        "appeasementId": "83677940",
+        "type": "CUSTOMER_PROFILE",
+        "description": "message.interactionSummary.customerProfile.modified",
+        "details": {
+          "currentVal": {
+            "email": "newemail@chewy.com",
+            "fullName": "newname",
+            "status": "ACTIVE",
+            "phone": "1231231234"
+          },
+          "prevVal": {
+            "email": "oldemail@chewy.com",
+            "fullName": "oldname",
+            "phone": "2342342341",
+            "status": "INACTIVE"
+          }
+        }
+      },
+      {
+        "appeasementId": "83677940",
+        "type": "CUSTOMER_TAGS",
+        "description": "message.interactionSummary.customerProfile.modified",
+        "details": {
+          "currentVal": {
+            "HEARING_IMPAIRED": "true",
+            "WEIGHT_LIMIT": "-1"
+          },
+          "prevVal": {
+            "HEARING_IMPAIRED": "false",
+            "WEIGHT_LIMIT": "10"
+          }
+        }
+      },
+      {
+        "appeasementId": "83677940",
+        "type": "CUSTOMER_TAGS",
+        "description": "message.interactionSummary.customerProfile.modified",
+        "details": {
+          "currentVal": {
+            "WEIGHT_LIMIT": "-1"
+          },
+          "prevVal": {
+            "WEIGHT_LIMIT": "10"
+          }
+        }
+      },
+      {
+        "appeasementId": "83677940",
+        "type": "ACCOUNT_PASSWORD_RESET",
+        "description": "message.interactionSummary.customerProfile.modified",
+        "details": {
+          "currentVal": null,
+          "prevVal": null
+        }
+      },
+      {
+        "appeasementId": "83677960",
+        "type": "CUSTOMER_PROFILE",
+        "description": "message.interactionSummary.customerProfile.modified",
+        "details": {
+          "currentVal": {
+            "email": "newemail@chewy.com",
+            "fullName": "newname",
+            "status": "ACTIVE",
+            "phone": "1231231234"
+          },
+          "prevVal": {
+            "email": "newemail@chewy.com",
+            "fullName": "newname",
+            "status": "ACTIVE",
+            "phone": "1231231234"
+          }
+        }
+      },
+      {
+        "appeasementId": "83677941",
+        "type": "PET_PROFILE",
+        "description": "message.interactionSummary.petProfile.modified",
+        "details": {
+          "currentVal": {
+            "name": "pet_a",
+            "type": {
+              "id": 4,
+              "name": "Bird"
+            },
+            "weightInPounds": 15,
+            "id": 83677929
+          }
+        }
+      }
+    ]
+  }
+]

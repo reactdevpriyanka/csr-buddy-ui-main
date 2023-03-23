@@ -1,0 +1,4 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npx --no -- commitlint --edit -H "Commit message should be in conventional format - 'type(scope): subject' - eg. 'feat(CSRB-XXX): Add changes for functionality'"

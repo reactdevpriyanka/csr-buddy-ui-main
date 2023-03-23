@@ -1,0 +1,480 @@
+[
+  {
+    "incidentId": "220606-000851",
+    "createdAt": "2022-06-06T12:36:16-04:00",
+    "contactChannel": "Phone Inbound",
+    "contactReason": "Spam",
+    "agentName": "Test Agent",
+    "disposition": "No Action Needed",
+    "appeasements": [
+      {
+        "appeasementId": "1074738801",
+        "type": "CANCELLED_ORDER",
+        "description": "Modified Order",
+        "details": {
+          "currentVal": {
+            "skipNotification": false,
+            "orderId": "1074738801",
+            "comments": "test",
+            "cancelReason": "reason"
+          },
+          "prevVal": {}
+        }
+      },
+      {
+        "appeasementId": "1074738802",
+        "type": "SENT_ORDER_CONFIRM_EMAIL",
+        "description": "Modified Order",
+        "details": {
+          "currentVal": {
+            "customerId": "157307902",
+            "eventType": "NOTIFICATION",
+            "notificationType": "ORDER_CREATED",
+            "orderId": "1074738802",
+            "rid": "46fe4f47-13ca-4aa9-a494-ba7b0c662717",
+            "subscriptionId": null
+          },
+          "prevVal": {}
+        }
+      },
+      {
+        "appeasementId": "1074738803",
+        "type": "SENT_INVOICE_EMAIL",
+        "description": "Modified Order",
+        "details": {
+          "currentVal": {
+            "customerId": "157307902",
+            "eventType": "NOTIFICATION",
+            "notificationType": "ORDER_INVOICE",
+            "orderId": "1074738803",
+            "rid": "ad7b2115-c088-41c9-ade7-b71b1bbd68f2",
+            "subscriptionId": null
+          },
+          "prevVal": {}
+        }
+      },
+      {
+        "appeasementId": "1074738804",
+        "type": "TRACKED_PACKAGE",
+        "description": "Modified Order",
+        "details": {
+          "currentVal": {
+            "trackingUrl" : "https://fedex.com?trackingId=123456",
+            "trackingId" : "123456"
+          },
+          "prevVal": {}
+        }
+      },
+      {
+        "appeasementId": "1074738805",
+        "type": "REMOVED_ITEM",
+        "description": "Modified Order",
+        "details": {
+          "currentVal": {
+            "quantity":"2"
+          },
+          "prevVal": {
+            "quantity":""
+          }
+        }
+      },
+      {
+        "appeasementId": "1074738806",
+        "type": "REDUCED_QUANTITY",
+        "description": "Modified Order",
+        "details": {
+          "currentVal": {
+            "quantity":"1"
+          },
+          "prevVal": {
+            "quantity":"2"
+          }
+        }
+      },
+      {
+        "appeasementId": "1074738801",
+        "type": "REDUCED_QUANTITY",
+        "description": "Modified Order",
+        "details": {
+          "currentVal": {
+            "quantity":"1"
+          },
+          "prevVal": {
+            "quantity":"2"
+          }
+        }
+      },
+      {
+        "appeasementId": "1074738806",
+        "type": "ADJUSTED_PRICE",
+        "description": "Modified Order",
+        "details": {
+          "currentVal": {
+            "discountAdjustmentAmount": 100000,
+            "shippingAdjustmentAmount": 0
+          },
+          "prevVal": {}
+        }
+      },
+      {
+        "appeasementId": "1074738806",
+        "type": "ADDED_PROMOTION",
+        "description": "Modified Order",
+        "details": {
+          "currentVal": {
+            "promoCode": "hfdofeahoahfahh"
+          },
+          "prevVal": {}
+        }
+      },
+      {
+        "appeasementId": "1074738806",
+        "type": "UPDATED_SHIPPING_ADDRESS",
+        "description": "Modified Order",
+        "details": {
+          "currentVal": {
+            "kyriosAddrId": "123"
+          },
+          "prevVal": {}
+        }
+      },
+      {
+        "appeasementId": "1074738806",
+        "type": "RETURNS",
+        "description": "Frisco Plush Squeaking Sloth Dog Toy, Medium",
+        "actions": [
+          {
+            "actionId": "fd58c570-eff4-450a-b20b-32293c9a7a69",
+            "actionType": "REFUND",
+            "state": "RECEIVE_WAIT",
+            "type": "REFUND"
+          }
+        ],
+        "details": {
+          "quantityOfBoxesChecked": true,
+          "fedexPickup": true,
+          "shippingInstructions": true,
+          "tertiary": "NON_SPECIFIC_DAMAGE",
+          "cardType": "VISA",
+          "accountNumber": "4112XXXXXXXX4113",
+          "snailMailLabels": true,
+          "secondary": "BOX_AND_PRODUCT",
+          "itemId": "174681",
+          "selectAll": false,
+          "comment": "frisco plush toy, damaged, box & product, no s pecific damage. ",
+          "totalRefunded": 0,
+          "deliveryComplaint": true,
+          "returnType": "REFUND",
+          "returnAmount": "8.42",
+          "primary": "DAMAGED"
+        }
+      },
+      {
+        "appeasementId": "1074738806",
+        "type": "RETURNS",
+        "description": "Frisco Moppy Ball Cat Toy, Blue",
+        "actions": [
+          {
+            "actionId": "fd58c570-eff4-450a-b20b-32293c9a7a69",
+            "actionType": "REFUND",
+            "state": "RECEIVE_WAIT",
+            "type": "REFUND"
+          }
+        ],
+        "details": {
+          "quantityOfBoxesChecked": true,
+          "fedexPickup": true,
+          "shippingInstructions": true,
+          "tertiary": "MADE_PET_SICK",
+          "cardType": "VISA",
+          "accountNumber": "4112XXXXXXXX4113",
+          "snailMailLabels": true,
+          "secondary": "CUSTOMER_OR_PET_PREFERENCE",
+          "itemId": "161280",
+          "selectAll": false,
+          "comment": "frisco Moppy Ball, does not want, made pet sick. ",
+          "totalRefunded": 0,
+          "deliveryComplaint": true,
+          "returnType": "REFUND",
+          "returnAmount": "4.20",
+          "primary": "DOES_NOT_WANT"
+        }
+      },
+      {
+        "appeasementId": "1074738804",
+        "type": "CANCELLED_RETURN",
+        "description": "message.interactionSummary.return.modified",
+        "details": {
+          "currentVal": {},
+          "prevVal": {}
+        }
+      },
+      {
+        "appeasementId": "1074738805",
+        "type": "CREATED_NEW_LABELS",
+        "description": "message.interactionSummary.return.modified",
+        "details": {
+          "currentVal": {},
+          "prevVal": {}
+        }
+      },
+      {
+        "appeasementId": "1074738805",
+        "type": "CANCELLED_RELEASE",
+        "description": "Modified Order",
+        "details": {
+          "currentVal": {},
+          "prevVal": {}
+        }
+      },
+      {
+        "appeasementId": "1074738806",
+        "type": "MARKED_ALL_AS_RECEIVED",
+        "description": "message.interactionSummary.return.modified",
+        "details": {
+          "currentVal": {},
+          "prevVal": {}
+        }
+      }
+    ]
+  },
+  {
+    "incidentId": "220606-000861",
+    "createdAt": "2022-06-06T12:36:16-04:00",
+    "contactChannel": "Phone Inbound",
+    "contactReason": "Spam",
+    "agentName": "Test Agent",
+    "disposition": "No Action Needed",
+    "appeasements": [
+      {
+        "appeasementId": "1074738901",
+        "type": "CANCELLED_ORDER",
+        "description": "Modified Order",
+        "details": {
+          "currentVal": {
+            "skipNotification": false,
+            "orderId": "1074738901",
+            "comments": "test",
+            "cancelReason": "reason"
+          },
+          "prevVal": {}
+        }
+      },
+      {
+        "appeasementId": "1074738902",
+        "type": "SENT_ORDER_CONFIRM_EMAIL",
+        "description": "Modified Order",
+        "details": {
+          "currentVal": {
+            "customerId": "157307902",
+            "eventType": "NOTIFICATION",
+            "notificationType": "ORDER_CREATED",
+            "orderId": "1074738902",
+            "rid": "46fe4f47-13ca-4aa9-a494-ba7b0c662717",
+            "subscriptionId": null
+          },
+          "prevVal": {}
+        }
+      },
+      {
+        "appeasementId": "1074738903",
+        "type": "SENT_INVOICE_EMAIL",
+        "description": "Modified Order",
+        "details": {
+          "currentVal": {
+            "customerId": "157307902",
+            "eventType": "NOTIFICATION",
+            "notificationType": "ORDER_INVOICE",
+            "orderId": "1074738903",
+            "rid": "ad7b2115-c088-41c9-ade7-b71b1bbd68f2",
+            "subscriptionId": null
+          },
+          "prevVal": {}
+        }
+      },
+      {
+        "appeasementId": "1074738904",
+        "type": "TRACKED_PACKAGE",
+        "description": "Modified Order",
+        "details": {
+          "currentVal": {
+            "trackingUrl" : "https://fedex.com?trackingId=123456",
+            "trackingId" : "123456"
+          },
+          "prevVal": {}
+        }
+      },
+      {
+        "appeasementId": "1074738905",
+        "type": "REMOVED_ITEM",
+        "description": "Modified Order",
+        "details": {
+          "currentVal": {
+            "quantity":"2"
+          },
+          "prevVal": {
+            "quantity":""
+          }
+        }
+      },
+      {
+        "appeasementId": "1074738906",
+        "type": "REDUCED_QUANTITY",
+        "description": "Modified Order",
+        "details": {
+          "currentVal": {
+            "quantity":"1"
+          },
+          "prevVal": {
+            "quantity":"2"
+          }
+        }
+      },
+      {
+        "appeasementId": "1074738901",
+        "type": "REDUCED_QUANTITY",
+        "description": "Modified Order",
+        "details": {
+          "currentVal": {
+            "quantity":"1"
+          },
+          "prevVal": {
+            "quantity":"2"
+          }
+        }
+      },
+      {
+        "appeasementId": "1074738906",
+        "type": "ADJUSTED_PRICE",
+        "description": "Modified Order",
+        "details": {
+          "currentVal": {
+            "discountAdjustmentAmount": 100000,
+            "shippingAdjustmentAmount": 0
+          },
+          "prevVal": {}
+        }
+      },
+      {
+        "appeasementId": "1074738906",
+        "type": "ADDED_PROMOTION",
+        "description": "Modified Order",
+        "details": {
+          "currentVal": {
+            "promoCode": "hfdofeahoahfahh"
+          },
+          "prevVal": {}
+        }
+      },
+      {
+        "appeasementId": "1074738906",
+        "type": "UPDATED_SHIPPING_ADDRESS",
+        "description": "Modified Order",
+        "details": {
+          "currentVal": {
+            "kyriosAddrId": "123"
+          },
+          "prevVal": {}
+        }
+      },
+      {
+        "appeasementId": "1074738906",
+        "type": "RETURNS",
+        "description": "Frisco Plush Squeaking Sloth Dog Toy, Medium",
+        "actions": [
+          {
+            "actionId": "fd58c570-eff4-450a-b20b-32293c9a7a69",
+            "actionType": "REFUND",
+            "state": "RECEIVE_WAIT",
+            "type": "REFUND"
+          }
+        ],
+        "details": {
+          "quantityOfBoxesChecked": true,
+          "fedexPickup": true,
+          "shippingInstructions": true,
+          "tertiary": "NON_SPECIFIC_DAMAGE",
+          "cardType": "VISA",
+          "accountNumber": "4112XXXXXXXX4113",
+          "snailMailLabels": true,
+          "secondary": "BOX_AND_PRODUCT",
+          "itemId": "174681",
+          "selectAll": false,
+          "comment": "frisco plush toy, damaged, box & product, no s pecific damage. ",
+          "totalRefunded": 0,
+          "deliveryComplaint": true,
+          "returnType": "REFUND",
+          "returnAmount": "8.42",
+          "primary": "DAMAGED"
+        }
+      },
+      {
+        "appeasementId": "1074738906",
+        "type": "RETURNS",
+        "description": "Frisco Moppy Ball Cat Toy, Blue",
+        "actions": [
+          {
+            "actionId": "fd58c570-eff4-450a-b20b-32293c9a7a69",
+            "actionType": "REFUND",
+            "state": "RECEIVE_WAIT",
+            "type": "REFUND"
+          }
+        ],
+        "details": {
+          "quantityOfBoxesChecked": true,
+          "fedexPickup": true,
+          "shippingInstructions": true,
+          "tertiary": "MADE_PET_SICK",
+          "cardType": "VISA",
+          "accountNumber": "4112XXXXXXXX4113",
+          "snailMailLabels": true,
+          "secondary": "CUSTOMER_OR_PET_PREFERENCE",
+          "itemId": "161280",
+          "selectAll": false,
+          "comment": "frisco Moppy Ball, does not want, made pet sick. ",
+          "totalRefunded": 0,
+          "deliveryComplaint": true,
+          "returnType": "REFUND",
+          "returnAmount": "4.20",
+          "primary": "DOES_NOT_WANT"
+        }
+      },
+      {
+        "appeasementId": "1074738904",
+        "type": "CANCELLED_RETURN",
+        "description": "message.interactionSummary.return.modified",
+        "details": {
+          "currentVal": {},
+          "prevVal": {}
+        }
+      },
+      {
+        "appeasementId": "1074738905",
+        "type": "CREATED_NEW_LABELS",
+        "description": "message.interactionSummary.return.modified",
+        "details": {
+          "currentVal": {},
+          "prevVal": {}
+        }
+      },
+      {
+        "appeasementId": "1074738905",
+        "type": "CANCELLED_RELEASE",
+        "description": "Modified Order",
+        "details": {
+          "currentVal": {},
+          "prevVal": {}
+        }
+      },
+      {
+        "appeasementId": "1074738906",
+        "type": "MARKED_ALL_AS_RECEIVED",
+        "description": "message.interactionSummary.return.modified",
+        "details": {
+          "currentVal": {},
+          "prevVal": {}
+        }
+      }
+    ]
+  }
+]

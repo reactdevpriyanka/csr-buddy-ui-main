@@ -1,0 +1,16 @@
+{
+  "baseUrl": "http://localhost:8080",
+  "env": {
+    "ADMIN_USERNAME": "admin",
+    "ADMIN_PASSWORD": "new123pass",
+    "TEST_CUSTOMER_ID": "154492684",
+    "TEST_CUSTOMER_ID2": "162318096",
+    "AGENT_PROFILE": "DEV - CSRBuddy - Admin"
+  },
+  "viewportWidth": 1536,
+  "viewportHeight": 960,
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "configFile": "cypress/configFiles/reporter-config.json"
+  }
+}

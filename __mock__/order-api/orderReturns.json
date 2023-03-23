@@ -1,0 +1,2329 @@
+[
+    {
+        "id": "1075315418",
+        "timePlaced": "2022-05-12T04:02:15.126Z",
+        "timeUpdated": "2022-05-16T16:34:49.895Z",
+        "returns": [
+            {
+                "id": "a8adf195-4467-4ca1-8248-b4d451099a17",
+                "orderId": "1075315418",
+                "state": "RECEIVE_WAIT",
+                "type": "REFUND",
+                "timeCreated": "2022-06-28T22:13:55.694540Z",
+                "timeUpdated": "2022-06-28T22:13:56.988867Z",
+                "totalCredit": 35.7000,
+                "items": [
+                    {
+                        "returnId": "a8adf195-4467-4ca1-8248-b4d451099a17",
+                        "lineItemId": "1504857792",
+                        "orderId": "1075315418",
+                        "state": "RECEIVE_WAIT",
+                        "type": "REFUND",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "PAST_EXPIRATION"
+                        },
+                        "timeCreated": "2022-06-28T22:13:55.694540Z",
+                        "timeUpdated": "2022-06-28T22:13:56.988867Z",
+                        "comment": "Created from CSRBuddy",
+                        "partNumber": "51243",
+                        "quantity": 1,
+                        "totalCredit": 35.7000,
+                        "sendBack": true,
+                        "shelterDonation": true,
+                        "shelterDonationReason": "NO",
+                        "giftCard": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "1075125968",
+        "timePlaced": "2022-04-19T19:54:18.584Z",
+        "timeUpdated": "2022-04-19T20:34:40.173Z",
+        "returns": [
+            {
+                "id": "48d53a2c-dd16-4508-9cda-e4563301f70f",
+                "orderId": "1075125968",
+                "state": "PROCESSED",
+                "type": "REFUND",
+                "timeCreated": "2022-04-19T20:17:09.750715Z",
+                "timeUpdated": "2022-04-19T21:08:37.974574Z",
+                "timeProcessed": "2022-04-19T21:08:36.803252Z",
+                "totalCredit": 12.8600,
+                "payments": [
+                    {
+                        "id": "cf53a1a9-b67a-412b-90bd-fcc76f1ae086",
+                        "amount": 12.8600,
+                        "creditedAmount": 12.8600,
+                        "creditingAmount": 0.0000,
+                        "paymentMethod": "PayPal",
+                        "state": "COMPLETE"
+                    }
+                ],
+                "items": [
+                    {
+                        "returnId": "48d53a2c-dd16-4508-9cda-e4563301f70f",
+                        "lineItemId": "1504464331",
+                        "orderId": "1075125968",
+                        "state": "PROCESSED",
+                        "type": "REFUND",
+                        "reasonCategory": "OTHER",
+                        "reason": {
+                            "primary": "OTHER"
+                        },
+                        "timeCreated": "2022-04-19T20:17:09.750715Z",
+                        "timeUpdated": "2022-04-19T21:08:37.974574Z",
+                        "comment": "This is a shorter comment",
+                        "partNumber": "213826",
+                        "quantity": 1,
+                        "totalCredit": 6.4200,
+                        "sendBack": false,
+                        "shelterDonation": true,
+                        "shelterDonationReason": "NO",
+                        "giftCard": false
+                    },
+                    {
+                        "returnId": "48d53a2c-dd16-4508-9cda-e4563301f70f",
+                        "lineItemId": "1504464333",
+                        "orderId": "1075125968",
+                        "state": "PROCESSED",
+                        "type": "REFUND",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "DEFECTIVE",
+                            "tertiary": "DOES_NOT_FUNCTION_AS_INTENDED"
+                        },
+                        "timeCreated": "2022-04-19T20:17:09.750715Z",
+                        "timeUpdated": "2022-04-19T21:08:37.974574Z",
+                        "comment": "This is a very long commentttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+                        "partNumber": "53235",
+                        "quantity": 1,
+                        "totalCredit": 6.4400,
+                        "sendBack": false,
+                        "shelterDonation": true,
+                        "shelterDonationReason": "NO",
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "f35e96a9-b170-4204-9c63-864a7d90febd",
+                "orderId": "1075125968",
+                "state": "PROCESSED",
+                "type": "REFUND",
+                "timeCreated": "2022-04-19T20:46:56.709301Z",
+                "timeUpdated": "2022-04-19T21:38:37.602853Z",
+                "timeProcessed": "2022-04-19T21:38:36.339730Z",
+                "totalCredit": 74.0200,
+                "payments": [
+                    {
+                        "id": "3227e0f8-155d-4ee6-8fbd-cbd1724fa025",
+                        "amount": 74.0200,
+                        "creditedAmount": 74.0200,
+                        "creditingAmount": 0.0000,
+                        "paymentMethod": "PayPal",
+                        "state": "COMPLETE"
+                    }
+                ],
+                "items": [
+                    {
+                        "returnId": "f35e96a9-b170-4204-9c63-864a7d90febd",
+                        "lineItemId": "1504464332",
+                        "orderId": "1075125968",
+                        "state": "PROCESSED",
+                        "type": "REFUND",
+                        "reasonCategory": "UNKNOWN",
+                        "reason": {
+                            "primary": "SHIPPING_ISSUES",
+                            "secondary": "UNDELIVERABLE",
+                            "tertiary": "FAILED_DELIVERY_ATTEMPTS"
+                        },
+                        "timeCreated": "2022-04-19T20:46:56.709301Z",
+                        "timeUpdated": "2022-04-19T21:38:37.602853Z",
+                        "comment": "This is a short comment",
+                        "partNumber": "115632",
+                        "quantity": 1,
+                        "totalCredit": 14.9800,
+                        "sendBack": false,
+                        "shelterDonation": true,
+                        "shelterDonationReason": "NO",
+                        "giftCard": false
+                    },
+                    {
+                        "returnId": "f35e96a9-b170-4204-9c63-864a7d90febd",
+                        "lineItemId": "1504464334",
+                        "orderId": "1075125968",
+                        "state": "PROCESSED",
+                        "type": "REFUND",
+                        "reasonCategory": "ORDERED_WRONG_ITEM",
+                        "reason": {
+                            "primary": "DOES_NOT_WANT",
+                            "secondary": "ORDERED_WRONG_ITEM",
+                            "tertiary": "ORDERED_WRONG_SIZE"
+                        },
+                        "timeCreated": "2022-04-19T20:46:56.709301Z",
+                        "timeUpdated": "2022-04-19T21:38:37.602853Z",
+                        "comment": "This is a really long commentttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+                        "partNumber": "154549",
+                        "quantity": 1,
+                        "totalCredit": 59.0400,
+                        "sendBack": false,
+                        "shelterDonation": true,
+                        "shelterDonationReason": "NO",
+                        "giftCard": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "1070028541",
+        "timePlaced": "2021-08-24T21:35:37.918Z",
+        "timeUpdated": "2021-08-24T21:38:56.627Z",
+        "returns": [
+            {
+                "id": "5a53d8d7-96fb-414e-9d80-57ff6b697997",
+                "orderId": "1070028541",
+                "state": "CANCELED",
+                "type": "REFUND",
+                "timeCreated": "2022-03-30T21:28:11.448369Z",
+                "timeUpdated": "2022-03-30T21:52:12.863404Z",
+                "totalCredit": 62.2700,
+                "items": [
+                    {
+                        "returnId": "5a53d8d7-96fb-414e-9d80-57ff6b697997",
+                        "lineItemId": "1493911779",
+                        "orderId": "1070028541",
+                        "state": "CANCELED",
+                        "type": "REFUND",
+                        "reasonCategory": "OTHER",
+                        "reason": {
+                            "primary": "OTHER"
+                        },
+                        "timeCreated": "2022-03-30T21:28:11.448369Z",
+                        "timeUpdated": "2022-03-30T21:52:12.863404Z",
+                        "comment": "null",
+                        "partNumber": "114165",
+                        "quantity": 1,
+                        "totalCredit": 62.2700,
+                        "sendBack": true,
+                        "shelterDonation": true,
+                        "shelterDonationReason": "NO",
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "2a554463-abcb-439d-b6e7-a67463cf7b19",
+                "orderId": "1070028541",
+                "state": "CANCELED",
+                "type": "REFUND",
+                "timeCreated": "2022-03-30T21:53:06.515400Z",
+                "timeUpdated": "2022-05-18T18:31:25.476772Z",
+                "totalCredit": 62.2700,
+                "items": [
+                    {
+                        "returnId": "2a554463-abcb-439d-b6e7-a67463cf7b19",
+                        "lineItemId": "1493911779",
+                        "orderId": "1070028541",
+                        "state": "CANCELED",
+                        "type": "REFUND",
+                        "reasonCategory": "OTHER",
+                        "reason": {
+                            "primary": "OTHER"
+                        },
+                        "timeCreated": "2022-03-30T21:53:06.515400Z",
+                        "timeUpdated": "2022-05-18T18:31:25.476772Z",
+                        "comment": "null",
+                        "partNumber": "114165",
+                        "quantity": 1,
+                        "totalCredit": 62.2700,
+                        "sendBack": true,
+                        "shelterDonation": true,
+                        "shelterDonationReason": "NO",
+                        "giftCard": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "1074723404",
+        "timePlaced": "2022-02-15T18:15:58.370Z",
+        "timeUpdated": "2022-02-16T16:34:41.692Z",
+        "returns": [
+            {
+                "id": "0f07d222-9d9a-4058-9456-b517ef2d1dda",
+                "orderId": "1074723404",
+                "state": "RECEIVE_WAIT",
+                "type": "REFUND",
+                "timeCreated": "2022-02-21T20:32:20.318965Z",
+                "timeUpdated": "2022-02-21T20:32:21.585976Z",
+                "totalCredit": 31.3300,
+                "items": [
+                    {
+                        "returnId": "0f07d222-9d9a-4058-9456-b517ef2d1dda",
+                        "lineItemId": "1503538894",
+                        "orderId": "1074723404",
+                        "state": "RECEIVE_WAIT",
+                        "type": "REFUND",
+                        "reasonCategory": "OTHER",
+                        "reason": {
+                            "primary": "OTHER"
+                        },
+                        "timeCreated": "2022-02-21T20:32:20.318965Z",
+                        "timeUpdated": "2022-02-21T20:32:21.585976Z",
+                        "comment": "null",
+                        "partNumber": "108423",
+                        "quantity": 1,
+                        "totalCredit": 31.3300,
+                        "sendBack": true,
+                        "shelterDonation": true,
+                        "shelterDonationReason": "NO",
+                        "giftCard": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "1074723395",
+        "timePlaced": "2022-02-15T18:06:02.865Z",
+        "timeUpdated": "2022-02-17T21:34:43.427Z",
+        "returns": [
+            {
+                "id": "d7b908e5-8373-47c8-a627-f8f07bd999b3",
+                "orderId": "1074723395",
+                "state": "CANCELED",
+                "type": "REFUND",
+                "timeCreated": "2022-05-18T17:55:17.805199Z",
+                "timeUpdated": "2022-05-18T18:29:13.263841Z",
+                "totalCredit": 7.2000,
+                "items": [
+                    {
+                        "returnId": "d7b908e5-8373-47c8-a627-f8f07bd999b3",
+                        "lineItemId": "1503538880",
+                        "orderId": "1074723395",
+                        "state": "CANCELED",
+                        "type": "REFUND",
+                        "reasonCategory": "OTHER",
+                        "reason": {
+                            "primary": "OTHER"
+                        },
+                        "timeCreated": "2022-05-18T17:55:17.805199Z",
+                        "timeUpdated": "2022-05-18T18:29:13.263841Z",
+                        "comment": "null",
+                        "partNumber": "62769",
+                        "quantity": 1,
+                        "totalCredit": 7.2000,
+                        "sendBack": true,
+                        "shelterDonation": true,
+                        "shelterDonationReason": "NO",
+                        "giftCard": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "1074653268",
+        "timePlaced": "2022-02-04T22:47:46.749Z",
+        "timeUpdated": "2022-02-04T23:34:44.425Z",
+        "returns": [
+            {
+                "id": "d70abed6-dbfd-4efa-b634-98a11ec01151",
+                "orderId": "1074653268",
+                "state": "CANCELED",
+                "type": "REPLACEMENT",
+                "timeCreated": "2022-05-18T17:48:18.862453Z",
+                "timeUpdated": "2022-05-18T18:30:27.441091Z",
+                "totalCredit": 0,
+                "items": [
+                    {
+                        "returnId": "d70abed6-dbfd-4efa-b634-98a11ec01151",
+                        "lineItemId": "1503415637",
+                        "orderId": "1074653268",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "OTHER",
+                        "reason": {
+                            "primary": "OTHER"
+                        },
+                        "timeCreated": "2022-05-18T17:48:18.862453Z",
+                        "timeUpdated": "2022-05-18T18:30:27.441091Z",
+                        "comment": "null",
+                        "partNumber": "114157",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "1074754484",
+        "timePlaced": "2022-02-21T20:46:51.556Z",
+        "timeUpdated": "2022-02-21T21:34:47.898Z",
+        "returns": [
+            {
+                "id": "1a5f05e9-edad-42dc-9e20-fb713a4aa4a5",
+                "orderId": "1074754484",
+                "state": "PROCESSED",
+                "type": "REFUND",
+                "timeCreated": "2022-03-25T16:57:15.160976Z",
+                "timeUpdated": "2022-03-25T17:34:20.532111Z",
+                "timeProcessed": "2022-03-25T17:34:20.027518Z",
+                "totalCredit": 24.4100,
+                "payments": [
+                    {
+                        "id": "255a06c4-da76-4429-9154-8f71d28c100e",
+                        "amount": 24.4100,
+                        "creditedAmount": 24.4100,
+                        "creditingAmount": 0.0000,
+                        "paymentMethod": "PayPal",
+                        "state": "COMPLETE"
+                    }
+                ],
+                "items": [
+                    {
+                        "returnId": "1a5f05e9-edad-42dc-9e20-fb713a4aa4a5",
+                        "lineItemId": "1503573292",
+                        "orderId": "1074754484",
+                        "state": "PROCESSED",
+                        "type": "REFUND",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "RECALL"
+                        },
+                        "timeCreated": "2022-03-25T16:57:15.160976Z",
+                        "timeUpdated": "2022-03-25T17:34:20.532111Z",
+                        "comment": "Created from CSRBuddy",
+                        "partNumber": "51243",
+                        "quantity": 1,
+                        "totalCredit": 24.4100,
+                        "sendBack": false,
+                        "shelterDonation": true,
+                        "shelterDonationReason": "NO",
+                        "giftCard": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "1074760817",
+        "timePlaced": "2022-02-22T17:44:01.437Z",
+        "timeUpdated": "2022-02-22T18:34:49.322Z",
+        "returns": [
+            {
+                "id": "3863b7ff-6946-4b35-94e6-d8478a1f0323",
+                "orderId": "1074760817",
+                "state": "CANCELED",
+                "type": "REPLACEMENT",
+                "timeCreated": "2022-03-30T03:55:25.656958Z",
+                "timeUpdated": "2022-03-30T03:57:24.736154Z",
+                "totalCredit": 0,
+                "items": [
+                    {
+                        "returnId": "3863b7ff-6946-4b35-94e6-d8478a1f0323",
+                        "lineItemId": "1503580944",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T03:55:25.656958Z",
+                        "timeUpdated": "2022-03-30T03:57:24.736154Z",
+                        "comment": "null",
+                        "partNumber": "108423",
+                        "quantity": 1,
+                        "sendBack": false,
+                        "giftCard": false
+                    },
+                    {
+                        "returnId": "3863b7ff-6946-4b35-94e6-d8478a1f0323",
+                        "lineItemId": "1503580945",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T03:55:25.656958Z",
+                        "timeUpdated": "2022-03-30T03:57:24.736154Z",
+                        "comment": "null",
+                        "partNumber": "46861",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "a6456d53-3c7e-4a13-95a4-2eaac677efe9",
+                "orderId": "1074760817",
+                "state": "CANCELED",
+                "type": "REPLACEMENT",
+                "timeCreated": "2022-03-30T03:59:39.706920Z",
+                "timeUpdated": "2022-03-30T04:05:22.697393Z",
+                "totalCredit": 0,
+                "items": [
+                    {
+                        "returnId": "a6456d53-3c7e-4a13-95a4-2eaac677efe9",
+                        "lineItemId": "1503580944",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T03:59:39.706920Z",
+                        "timeUpdated": "2022-03-30T04:05:22.697393Z",
+                        "comment": "null",
+                        "partNumber": "108423",
+                        "quantity": 1,
+                        "sendBack": false,
+                        "giftCard": false
+                    },
+                    {
+                        "returnId": "a6456d53-3c7e-4a13-95a4-2eaac677efe9",
+                        "lineItemId": "1503580945",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T03:59:39.706920Z",
+                        "timeUpdated": "2022-03-30T04:05:22.697393Z",
+                        "comment": "null",
+                        "partNumber": "46861",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "7665aedc-fbe4-447c-8813-5353be50077d",
+                "orderId": "1074760817",
+                "state": "CANCELED",
+                "type": "REPLACEMENT",
+                "timeCreated": "2022-03-30T04:07:10.880719Z",
+                "timeUpdated": "2022-03-30T04:10:59.470752Z",
+                "totalCredit": 0,
+                "items": [
+                    {
+                        "returnId": "7665aedc-fbe4-447c-8813-5353be50077d",
+                        "lineItemId": "1503580944",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T04:07:10.880719Z",
+                        "timeUpdated": "2022-03-30T04:10:59.470752Z",
+                        "comment": "null",
+                        "partNumber": "108423",
+                        "quantity": 1,
+                        "sendBack": false,
+                        "giftCard": false
+                    },
+                    {
+                        "returnId": "7665aedc-fbe4-447c-8813-5353be50077d",
+                        "lineItemId": "1503580945",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T04:07:10.880719Z",
+                        "timeUpdated": "2022-03-30T04:10:59.470752Z",
+                        "comment": "null",
+                        "partNumber": "46861",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "742f3d4b-70e6-4d56-b36c-2f770aa851b6",
+                "orderId": "1074760817",
+                "state": "CANCELED",
+                "type": "REPLACEMENT",
+                "timeCreated": "2022-03-30T04:14:06.851942Z",
+                "timeUpdated": "2022-03-30T04:15:26.878548Z",
+                "totalCredit": 0,
+                "items": [
+                    {
+                        "returnId": "742f3d4b-70e6-4d56-b36c-2f770aa851b6",
+                        "lineItemId": "1503580944",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T04:14:06.851942Z",
+                        "timeUpdated": "2022-03-30T04:15:26.878548Z",
+                        "comment": "null",
+                        "partNumber": "108423",
+                        "quantity": 1,
+                        "sendBack": false,
+                        "giftCard": false
+                    },
+                    {
+                        "returnId": "742f3d4b-70e6-4d56-b36c-2f770aa851b6",
+                        "lineItemId": "1503580945",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T04:14:06.851942Z",
+                        "timeUpdated": "2022-03-30T04:15:26.878548Z",
+                        "comment": "null",
+                        "partNumber": "46861",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "f60394da-84d1-4833-9fd3-37567c74c529",
+                "orderId": "1074760817",
+                "state": "CANCELED",
+                "type": "REPLACEMENT",
+                "timeCreated": "2022-03-30T04:16:12.188183Z",
+                "timeUpdated": "2022-03-30T04:19:18.732291Z",
+                "totalCredit": 0,
+                "items": [
+                    {
+                        "returnId": "f60394da-84d1-4833-9fd3-37567c74c529",
+                        "lineItemId": "1503580944",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T04:16:12.188183Z",
+                        "timeUpdated": "2022-03-30T04:19:18.732291Z",
+                        "comment": "null",
+                        "partNumber": "108423",
+                        "quantity": 1,
+                        "sendBack": false,
+                        "giftCard": false
+                    },
+                    {
+                        "returnId": "f60394da-84d1-4833-9fd3-37567c74c529",
+                        "lineItemId": "1503580945",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T04:16:12.188183Z",
+                        "timeUpdated": "2022-03-30T04:19:18.732291Z",
+                        "comment": "null",
+                        "partNumber": "46861",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "5b238b48-9b37-4064-ae3d-71a2feb7bd6b",
+                "orderId": "1074760817",
+                "state": "CANCELED",
+                "type": "REPLACEMENT",
+                "timeCreated": "2022-03-30T04:27:16.106669Z",
+                "timeUpdated": "2022-03-30T04:29:05.958679Z",
+                "totalCredit": 0,
+                "items": [
+                    {
+                        "returnId": "5b238b48-9b37-4064-ae3d-71a2feb7bd6b",
+                        "lineItemId": "1503580944",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T04:27:16.106669Z",
+                        "timeUpdated": "2022-03-30T04:29:05.958679Z",
+                        "comment": "null",
+                        "partNumber": "108423",
+                        "quantity": 1,
+                        "sendBack": false,
+                        "giftCard": false
+                    },
+                    {
+                        "returnId": "5b238b48-9b37-4064-ae3d-71a2feb7bd6b",
+                        "lineItemId": "1503580945",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T04:27:16.106669Z",
+                        "timeUpdated": "2022-03-30T04:29:05.958679Z",
+                        "comment": "null",
+                        "partNumber": "46861",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "b18ff8ea-68c7-422d-935d-48e8626b4684",
+                "orderId": "1074760817",
+                "state": "CANCELED",
+                "type": "REPLACEMENT",
+                "timeCreated": "2022-03-30T04:32:47.693656Z",
+                "timeUpdated": "2022-03-30T04:40:33.194258Z",
+                "totalCredit": 0,
+                "items": [
+                    {
+                        "returnId": "b18ff8ea-68c7-422d-935d-48e8626b4684",
+                        "lineItemId": "1503580944",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T04:32:47.693656Z",
+                        "timeUpdated": "2022-03-30T04:40:33.194258Z",
+                        "comment": "null",
+                        "partNumber": "108423",
+                        "quantity": 1,
+                        "sendBack": false,
+                        "giftCard": false
+                    },
+                    {
+                        "returnId": "b18ff8ea-68c7-422d-935d-48e8626b4684",
+                        "lineItemId": "1503580945",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T04:32:47.693656Z",
+                        "timeUpdated": "2022-03-30T04:40:33.194258Z",
+                        "comment": "null",
+                        "partNumber": "46861",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "20b59d5c-1b96-4349-a117-8680c95943ef",
+                "orderId": "1074760817",
+                "state": "CANCELED",
+                "type": "REPLACEMENT",
+                "timeCreated": "2022-03-30T04:42:42.776315Z",
+                "timeUpdated": "2022-03-30T04:45:32.974069Z",
+                "totalCredit": 0,
+                "items": [
+                    {
+                        "returnId": "20b59d5c-1b96-4349-a117-8680c95943ef",
+                        "lineItemId": "1503580944",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T04:42:42.776315Z",
+                        "timeUpdated": "2022-03-30T04:45:32.974069Z",
+                        "comment": "null",
+                        "partNumber": "108423",
+                        "quantity": 1,
+                        "sendBack": false,
+                        "giftCard": false
+                    },
+                    {
+                        "returnId": "20b59d5c-1b96-4349-a117-8680c95943ef",
+                        "lineItemId": "1503580945",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T04:42:42.776315Z",
+                        "timeUpdated": "2022-03-30T04:45:32.974069Z",
+                        "comment": "null",
+                        "partNumber": "46861",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "f9bbf760-4ae4-4ede-9252-c9b3512d9c3a",
+                "orderId": "1074760817",
+                "state": "CANCELED",
+                "type": "REPLACEMENT",
+                "timeCreated": "2022-03-30T04:59:50.818204Z",
+                "timeUpdated": "2022-03-30T05:14:46.564645Z",
+                "replacementOrderId": "1074990264",
+                "totalCredit": 0,
+                "items": [
+                    {
+                        "returnId": "f9bbf760-4ae4-4ede-9252-c9b3512d9c3a",
+                        "lineItemId": "1503580944",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T04:59:50.818204Z",
+                        "timeUpdated": "2022-03-30T05:14:46.564645Z",
+                        "replacementOrderId": "1074990264",
+                        "comment": "null",
+                        "partNumber": "108423",
+                        "quantity": 1,
+                        "sendBack": false,
+                        "giftCard": false
+                    },
+                    {
+                        "returnId": "f9bbf760-4ae4-4ede-9252-c9b3512d9c3a",
+                        "lineItemId": "1503580945",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T04:59:50.818204Z",
+                        "timeUpdated": "2022-03-30T05:14:46.564645Z",
+                        "replacementOrderId": "1074990264",
+                        "comment": "null",
+                        "partNumber": "46861",
+                        "quantity": 1,
+                        "sendBack": false,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "0d655772-7154-4be0-ad58-7d26d5c76589",
+                "orderId": "1074760817",
+                "state": "PROCESSED",
+                "type": "REPLACEMENT",
+                "timeCreated": "2022-03-30T05:16:40.295259Z",
+                "timeUpdated": "2022-03-30T14:32:13.344794Z",
+                "timeProcessed": "2022-03-30T14:32:12.895832Z",
+                "replacementOrderId": "1074990338",
+                "totalCredit": 0,
+                "items": [
+                    {
+                        "returnId": "0d655772-7154-4be0-ad58-7d26d5c76589",
+                        "lineItemId": "1503580944",
+                        "orderId": "1074760817",
+                        "state": "PROCESSED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "PAST_EXPIRATION"
+                        },
+                        "timeCreated": "2022-03-30T05:16:40.295259Z",
+                        "timeUpdated": "2022-03-30T14:32:13.344794Z",
+                        "replacementOrderId": "1074990338",
+                        "comment": "null",
+                        "partNumber": "108423",
+                        "quantity": 1,
+                        "sendBack": false,
+                        "giftCard": false
+                    },
+                    {
+                        "returnId": "0d655772-7154-4be0-ad58-7d26d5c76589",
+                        "lineItemId": "1503580945",
+                        "orderId": "1074760817",
+                        "state": "PROCESSED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T05:16:40.295259Z",
+                        "timeUpdated": "2022-03-30T14:32:13.344794Z",
+                        "replacementOrderId": "1074990338",
+                        "comment": "null",
+                        "partNumber": "46861",
+                        "quantity": 1,
+                        "sendBack": false,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "cfaa2d1e-0b3d-4ac2-bc35-3b1b55f36ac8",
+                "orderId": "1074760817",
+                "state": "CANCELED",
+                "type": "REFUND",
+                "timeCreated": "2022-03-30T21:57:48.076438Z",
+                "timeUpdated": "2022-04-25T20:01:24.640724Z",
+                "totalCredit": 115.9000,
+                "items": [
+                    {
+                        "returnId": "cfaa2d1e-0b3d-4ac2-bc35-3b1b55f36ac8",
+                        "lineItemId": "1503580943",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REFUND",
+                        "reasonCategory": "OTHER",
+                        "reason": {
+                            "primary": "OTHER"
+                        },
+                        "timeCreated": "2022-03-30T21:57:48.076438Z",
+                        "timeUpdated": "2022-04-25T20:01:24.640724Z",
+                        "comment": "null",
+                        "partNumber": "62769",
+                        "quantity": 1,
+                        "totalCredit": 7.2000,
+                        "sendBack": true,
+                        "shelterDonation": true,
+                        "shelterDonationReason": "NO",
+                        "giftCard": false
+                    },
+                    {
+                        "returnId": "cfaa2d1e-0b3d-4ac2-bc35-3b1b55f36ac8",
+                        "lineItemId": "1503580944",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REFUND",
+                        "reasonCategory": "OTHER",
+                        "reason": {
+                            "primary": "OTHER"
+                        },
+                        "timeCreated": "2022-03-30T21:57:48.076438Z",
+                        "timeUpdated": "2022-04-25T20:01:24.640724Z",
+                        "comment": "null",
+                        "partNumber": "108423",
+                        "quantity": 1,
+                        "totalCredit": 50.7300,
+                        "sendBack": true,
+                        "shelterDonation": true,
+                        "shelterDonationReason": "NO",
+                        "giftCard": false
+                    },
+                    {
+                        "returnId": "cfaa2d1e-0b3d-4ac2-bc35-3b1b55f36ac8",
+                        "lineItemId": "1503580945",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REFUND",
+                        "reasonCategory": "OTHER",
+                        "reason": {
+                            "primary": "OTHER"
+                        },
+                        "timeCreated": "2022-03-30T21:57:48.076438Z",
+                        "timeUpdated": "2022-04-25T20:01:24.640724Z",
+                        "comment": "null",
+                        "partNumber": "46861",
+                        "quantity": 1,
+                        "totalCredit": 57.9700,
+                        "sendBack": true,
+                        "shelterDonation": true,
+                        "shelterDonationReason": "NO",
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "f5267480-61ab-4874-8dc1-6819c50657b6",
+                "orderId": "1074760817",
+                "state": "PROCESSED",
+                "type": "REPLACEMENT",
+                "timeCreated": "2022-03-31T16:45:06.028709Z",
+                "timeUpdated": "2022-03-31T16:45:07.105343Z",
+                "timeProcessed": "2022-03-31T16:45:06.770597Z",
+                "replacementOrderId": "1074993479",
+                "totalCredit": 0,
+                "items": [
+                    {
+                        "returnId": "f5267480-61ab-4874-8dc1-6819c50657b6",
+                        "lineItemId": "1503580946",
+                        "orderId": "1074760817",
+                        "state": "PROCESSED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DAMAGED",
+                        "reason": {
+                            "primary": "DAMAGED",
+                            "secondary": "BOX_AND_PRODUCT",
+                            "tertiary": "WEATHER_BOX_OR_PRODUCT"
+                        },
+                        "timeCreated": "2022-03-31T16:45:06.028709Z",
+                        "timeUpdated": "2022-03-31T16:45:07.105343Z",
+                        "replacementOrderId": "1074993479",
+                        "comment": "Created from CSRBuddy",
+                        "partNumber": "86492",
+                        "quantity": 1,
+                        "sendBack": false,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "461005a6-42be-4526-8df1-74591a5192d3",
+                "orderId": "1074760817",
+                "state": "CANCELED",
+                "type": "REPLACEMENT",
+                "timeCreated": "2022-03-23T21:28:58.056106Z",
+                "timeUpdated": "2022-03-29T20:49:16.506277Z",
+                "totalCredit": 0,
+                "items": [
+                    {
+                        "returnId": "461005a6-42be-4526-8df1-74591a5192d3",
+                        "lineItemId": "1503580943",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "OTHER",
+                        "reason": {
+                            "primary": "OTHER"
+                        },
+                        "timeCreated": "2022-03-23T21:28:58.056106Z",
+                        "timeUpdated": "2022-03-29T20:49:16.506277Z",
+                        "comment": "null",
+                        "partNumber": "62769",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "858ca81a-81e3-44f5-b75f-75040d72782e",
+                "orderId": "1074760817",
+                "state": "PROCESSED",
+                "type": "CONCESSION",
+                "timeCreated": "2022-03-31T16:45:05.816064Z",
+                "timeUpdated": "2022-03-31T17:34:13.068760Z",
+                "timeProcessed": "2022-03-31T17:34:12.560847Z",
+                "totalCredit": 10.9900,
+                "payments": [
+                    {
+                        "id": "8baa1eeb-1689-4e26-bef2-5a3985095229",
+                        "amount": 10.9900,
+                        "creditedAmount": 10.9900,
+                        "creditingAmount": 0.0000,
+                        "paymentMethod": "PayPal",
+                        "state": "COMPLETE"
+                    }
+                ],
+                "items": [
+                    {
+                        "returnId": "858ca81a-81e3-44f5-b75f-75040d72782e",
+                        "lineItemId": "1503580946",
+                        "orderId": "1074760817",
+                        "state": "PROCESSED",
+                        "type": "PRODUCT_CONCESSION",
+                        "reasonCategory": "DAMAGED",
+                        "reason": {
+                            "primary": "DAMAGED",
+                            "secondary": "BOX_AND_PRODUCT",
+                            "tertiary": "WEATHER_BOX_OR_PRODUCT"
+                        },
+                        "timeCreated": "2022-03-31T16:45:05.816064Z",
+                        "timeUpdated": "2022-03-31T17:34:13.068760Z",
+                        "comment": "Created with CSRBuddy",
+                        "partNumber": "86492",
+                        "totalCredit": 10.9900,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "e42d7543-0f33-4815-9aa3-1c27becbcd7e",
+                "orderId": "1074760817",
+                "state": "PROCESSED",
+                "type": "CONCESSION",
+                "timeCreated": "2022-03-24T16:24:47.337559Z",
+                "timeUpdated": "2022-03-24T17:04:20.608114Z",
+                "timeProcessed": "2022-03-24T17:04:20.071955Z",
+                "totalCredit": 0.0100,
+                "payments": [
+                    {
+                        "id": "c13730dd-144a-41a1-a8ce-b19125b03c9c",
+                        "amount": 0.0100,
+                        "creditedAmount": 0.0100,
+                        "creditingAmount": 0.0000,
+                        "paymentMethod": "PayPal",
+                        "state": "COMPLETE"
+                    }
+                ],
+                "items": [
+                    {
+                        "returnId": "e42d7543-0f33-4815-9aa3-1c27becbcd7e",
+                        "lineItemId": "1503580946",
+                        "orderId": "1074760817",
+                        "state": "PROCESSED",
+                        "type": "PRODUCT_CONCESSION",
+                        "reasonCategory": "DAMAGED",
+                        "reason": {
+                            "primary": "DAMAGED",
+                            "secondary": "BOX_AND_PRODUCT",
+                            "tertiary": "BROKEN_OR_SMASHED_BOX_OR_PRODUCT"
+                        },
+                        "timeCreated": "2022-03-24T16:24:47.337559Z",
+                        "timeUpdated": "2022-03-24T17:04:20.608114Z",
+                        "comment": "Created with CSRBuddy",
+                        "partNumber": "86492",
+                        "totalCredit": 0.0100,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "00af1bc3-21a1-4e09-b340-73f3dd293d1d",
+                "orderId": "1074760817",
+                "state": "CANCELED",
+                "type": "REPLACEMENT",
+                "timeCreated": "2022-03-29T15:57:20.337967Z",
+                "timeUpdated": "2022-03-29T20:48:56.771793Z",
+                "totalCredit": 0,
+                "items": [
+                    {
+                        "returnId": "00af1bc3-21a1-4e09-b340-73f3dd293d1d",
+                        "lineItemId": "1503580945",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DAMAGED",
+                        "reason": {
+                            "primary": "DAMAGED",
+                            "secondary": "PRODUCT_ONLY",
+                            "tertiary": "BROKEN_OR_SMASHED_PRODUCT"
+                        },
+                        "timeCreated": "2022-03-29T15:57:20.337967Z",
+                        "timeUpdated": "2022-03-29T20:48:56.771793Z",
+                        "comment": "null",
+                        "partNumber": "46861",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    },
+                    {
+                        "returnId": "00af1bc3-21a1-4e09-b340-73f3dd293d1d",
+                        "lineItemId": "1503580946",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "UNKNOWN",
+                        "reason": {
+                            "primary": "SHIPPING_ISSUES",
+                            "secondary": "SHIPPED_TO_WRONG_ADDRESS"
+                        },
+                        "timeCreated": "2022-03-29T15:57:20.337967Z",
+                        "timeUpdated": "2022-03-29T20:48:56.771793Z",
+                        "comment": "null",
+                        "partNumber": "86492",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "844ebd23-ce28-4235-8c87-c7561e8122b6",
+                "orderId": "1074760817",
+                "state": "CANCELED",
+                "type": "REPLACEMENT",
+                "timeCreated": "2022-03-15T13:29:30.204728Z",
+                "timeUpdated": "2022-03-29T20:49:31.650410Z",
+                "totalCredit": 0,
+                "items": [
+                    {
+                        "returnId": "844ebd23-ce28-4235-8c87-c7561e8122b6",
+                        "lineItemId": "1503580943",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DAMAGED",
+                        "reason": {
+                            "primary": "DAMAGED",
+                            "secondary": "BOX_AND_PRODUCT",
+                            "tertiary": "TAPE_ISSUE"
+                        },
+                        "timeCreated": "2022-03-15T13:29:30.204728Z",
+                        "timeUpdated": "2022-03-29T20:49:31.650410Z",
+                        "comment": "test comment 1",
+                        "partNumber": "62769",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    },
+                    {
+                        "returnId": "844ebd23-ce28-4235-8c87-c7561e8122b6",
+                        "lineItemId": "1503580944",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-15T13:29:30.204728Z",
+                        "timeUpdated": "2022-03-29T20:49:31.650410Z",
+                        "comment": "test comment 2",
+                        "partNumber": "108423",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "d0868a4e-6c06-44ff-b44d-a31b1615a0af",
+                "orderId": "1074760817",
+                "state": "CANCELED",
+                "type": "REPLACEMENT",
+                "timeCreated": "2022-03-29T15:54:36.947915Z",
+                "timeUpdated": "2022-03-29T20:51:41.924276Z",
+                "replacementOrderId": "1074988019",
+                "totalCredit": 0,
+                "items": [
+                    {
+                        "returnId": "d0868a4e-6c06-44ff-b44d-a31b1615a0af",
+                        "lineItemId": "1503580944",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-29T15:54:36.947915Z",
+                        "timeUpdated": "2022-03-29T20:51:41.924276Z",
+                        "replacementOrderId": "1074988019",
+                        "comment": "null",
+                        "partNumber": "108423",
+                        "quantity": 1,
+                        "sendBack": false,
+                        "giftCard": false
+                    },
+                    {
+                        "returnId": "d0868a4e-6c06-44ff-b44d-a31b1615a0af",
+                        "lineItemId": "1503580945",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DAMAGED",
+                        "reason": {
+                            "primary": "DAMAGED",
+                            "secondary": "BOX_AND_PRODUCT",
+                            "tertiary": "BROKEN_OR_SMASHED_BOX_OR_PRODUCT"
+                        },
+                        "timeCreated": "2022-03-29T15:54:36.947915Z",
+                        "timeUpdated": "2022-03-29T20:51:41.924276Z",
+                        "replacementOrderId": "1074988019",
+                        "comment": "null",
+                        "partNumber": "46861",
+                        "quantity": 1,
+                        "sendBack": false,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "6337f205-291b-4c81-b33e-93444fe19b72",
+                "orderId": "1074760817",
+                "state": "PROCESSED",
+                "type": "CONCESSION",
+                "timeCreated": "2022-03-22T18:34:00.807733Z",
+                "timeUpdated": "2022-03-22T19:34:20.608443Z",
+                "timeProcessed": "2022-03-22T19:34:20.117656Z",
+                "totalCredit": 1.0000,
+                "payments": [
+                    {
+                        "id": "e2858346-0d61-4911-bff8-f3abca03333d",
+                        "amount": 1.0000,
+                        "creditedAmount": 1.0000,
+                        "creditingAmount": 0.0000,
+                        "paymentMethod": "PayPal",
+                        "state": "COMPLETE"
+                    }
+                ],
+                "items": [
+                    {
+                        "returnId": "6337f205-291b-4c81-b33e-93444fe19b72",
+                        "lineItemId": "1503580946",
+                        "orderId": "1074760817",
+                        "state": "PROCESSED",
+                        "type": "PRODUCT_CONCESSION",
+                        "reasonCategory": "OTHER",
+                        "reason": {
+                            "primary": "OTHER"
+                        },
+                        "timeCreated": "2022-03-22T18:34:00.807733Z",
+                        "timeUpdated": "2022-03-22T19:34:20.608443Z",
+                        "comment": "null",
+                        "partNumber": "86492",
+                        "totalCredit": 1.0000,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "f3f0f7d8-c3ea-4c3e-86f0-a0fab48a1b53",
+                "orderId": "1074760817",
+                "state": "CANCELED",
+                "type": "REPLACEMENT",
+                "timeCreated": "2022-03-30T00:27:32.380146Z",
+                "timeUpdated": "2022-03-30T00:39:30.996082Z",
+                "totalCredit": 0,
+                "items": [
+                    {
+                        "returnId": "f3f0f7d8-c3ea-4c3e-86f0-a0fab48a1b53",
+                        "lineItemId": "1503580944",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T00:27:32.380146Z",
+                        "timeUpdated": "2022-03-30T00:39:30.996082Z",
+                        "comment": "null",
+                        "partNumber": "108423",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    },
+                    {
+                        "returnId": "f3f0f7d8-c3ea-4c3e-86f0-a0fab48a1b53",
+                        "lineItemId": "1503580945",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DOES_NOT_WANT",
+                        "reason": {
+                            "primary": "DOES_NOT_WANT",
+                            "secondary": "CUSTOMER_OR_PET_PREFERENCE",
+                            "tertiary": "MADE_PET_SICK"
+                        },
+                        "timeCreated": "2022-03-30T00:27:32.380146Z",
+                        "timeUpdated": "2022-03-30T00:39:30.996082Z",
+                        "comment": "null",
+                        "partNumber": "46861",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "37e687f7-1ee7-469a-ad7c-917cc523a31b",
+                "orderId": "1074760817",
+                "state": "PROCESSED",
+                "type": "CONCESSION",
+                "timeCreated": "2022-03-22T18:34:50.652897Z",
+                "timeUpdated": "2022-03-22T19:34:21.114594Z",
+                "timeProcessed": "2022-03-22T19:34:20.805336Z",
+                "totalCredit": 1.0000,
+                "payments": [
+                    {
+                        "id": "357933dd-6fd0-4447-a598-93c736cbb956",
+                        "amount": 1.0000,
+                        "creditedAmount": 1.0000,
+                        "creditingAmount": 0.0000,
+                        "paymentMethod": "PayPal",
+                        "state": "COMPLETE"
+                    }
+                ],
+                "items": [
+                    {
+                        "returnId": "37e687f7-1ee7-469a-ad7c-917cc523a31b",
+                        "lineItemId": "1503580946",
+                        "orderId": "1074760817",
+                        "state": "PROCESSED",
+                        "type": "PRODUCT_CONCESSION",
+                        "reasonCategory": "OTHER",
+                        "reason": {
+                            "primary": "OTHER"
+                        },
+                        "timeCreated": "2022-03-22T18:34:50.652897Z",
+                        "timeUpdated": "2022-03-22T19:34:21.114594Z",
+                        "comment": "null",
+                        "partNumber": "86492",
+                        "totalCredit": 1.0000,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "d54aad05-1a4f-4741-a0df-7a43fe25484b",
+                "orderId": "1074760817",
+                "state": "PROCESSED",
+                "type": "CONCESSION",
+                "timeCreated": "2022-03-22T18:51:03.392042Z",
+                "timeUpdated": "2022-03-22T19:34:20.437159Z",
+                "timeProcessed": "2022-03-22T19:34:19.973428Z",
+                "totalCredit": 1.0000,
+                "payments": [
+                    {
+                        "id": "b54a629a-8a4a-4160-aa20-d0514718051a",
+                        "amount": 1.0000,
+                        "creditedAmount": 1.0000,
+                        "creditingAmount": 0.0000,
+                        "paymentMethod": "PayPal",
+                        "state": "COMPLETE"
+                    }
+                ],
+                "items": [
+                    {
+                        "returnId": "d54aad05-1a4f-4741-a0df-7a43fe25484b",
+                        "lineItemId": "1503580946",
+                        "orderId": "1074760817",
+                        "state": "PROCESSED",
+                        "type": "PRODUCT_CONCESSION",
+                        "reasonCategory": "OTHER",
+                        "reason": {
+                            "primary": "OTHER"
+                        },
+                        "timeCreated": "2022-03-22T18:51:03.392042Z",
+                        "timeUpdated": "2022-03-22T19:34:20.437159Z",
+                        "comment": "null",
+                        "partNumber": "86492",
+                        "totalCredit": 1.0000,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "515d5f6e-b786-429f-8d1e-dcaf9b43344c",
+                "orderId": "1074760817",
+                "state": "CANCELED",
+                "type": "REPLACEMENT",
+                "timeCreated": "2022-03-30T00:54:42.328089Z",
+                "timeUpdated": "2022-03-30T00:59:11.065655Z",
+                "totalCredit": 0,
+                "items": [
+                    {
+                        "returnId": "515d5f6e-b786-429f-8d1e-dcaf9b43344c",
+                        "lineItemId": "1503580944",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DAMAGED",
+                        "reason": {
+                            "primary": "DAMAGED",
+                            "secondary": "BOX_AND_PRODUCT",
+                            "tertiary": "NON_SPECIFIC_DAMAGE"
+                        },
+                        "timeCreated": "2022-03-30T00:54:42.328089Z",
+                        "timeUpdated": "2022-03-30T00:59:11.065655Z",
+                        "comment": "null",
+                        "partNumber": "108423",
+                        "quantity": 1,
+                        "sendBack": false,
+                        "giftCard": false
+                    },
+                    {
+                        "returnId": "515d5f6e-b786-429f-8d1e-dcaf9b43344c",
+                        "lineItemId": "1503580945",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DAMAGED",
+                        "reason": {
+                            "primary": "DAMAGED",
+                            "secondary": "BOX_AND_PRODUCT",
+                            "tertiary": "NON_SPECIFIC_DAMAGE"
+                        },
+                        "timeCreated": "2022-03-30T00:54:42.328089Z",
+                        "timeUpdated": "2022-03-30T00:59:11.065655Z",
+                        "comment": "null",
+                        "partNumber": "46861",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "ba028757-d9a3-499a-9ecc-025229b5f0cc",
+                "orderId": "1074760817",
+                "state": "PROCESSED",
+                "type": "CONCESSION",
+                "timeCreated": "2022-03-22T18:24:42.492221Z",
+                "timeUpdated": "2022-03-22T19:04:20.528801Z",
+                "timeProcessed": "2022-03-22T19:04:19.934368Z",
+                "totalCredit": 1.0000,
+                "payments": [
+                    {
+                        "id": "b9e27a66-6ab8-40ae-b5bf-19c69402e2ea",
+                        "amount": 1.0000,
+                        "creditedAmount": 1.0000,
+                        "creditingAmount": 0.0000,
+                        "paymentMethod": "PayPal",
+                        "state": "COMPLETE"
+                    }
+                ],
+                "items": [
+                    {
+                        "returnId": "ba028757-d9a3-499a-9ecc-025229b5f0cc",
+                        "lineItemId": "1503580946",
+                        "orderId": "1074760817",
+                        "state": "PROCESSED",
+                        "type": "PRODUCT_CONCESSION",
+                        "reasonCategory": "OTHER",
+                        "reason": {
+                            "primary": "OTHER"
+                        },
+                        "timeCreated": "2022-03-22T18:24:42.492221Z",
+                        "timeUpdated": "2022-03-22T19:04:20.528801Z",
+                        "comment": "null",
+                        "partNumber": "86492",
+                        "totalCredit": 1.0000,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "52fb7e34-ddd6-4ac7-b914-c2b6532361bc",
+                "orderId": "1074760817",
+                "state": "CANCELED",
+                "type": "REPLACEMENT",
+                "timeCreated": "2022-03-30T01:02:20.179368Z",
+                "timeUpdated": "2022-03-30T01:21:37.703910Z",
+                "totalCredit": 0,
+                "items": [
+                    {
+                        "returnId": "52fb7e34-ddd6-4ac7-b914-c2b6532361bc",
+                        "lineItemId": "1503580944",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T01:02:20.179368Z",
+                        "timeUpdated": "2022-03-30T01:21:37.703910Z",
+                        "comment": "null",
+                        "partNumber": "108423",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    },
+                    {
+                        "returnId": "52fb7e34-ddd6-4ac7-b914-c2b6532361bc",
+                        "lineItemId": "1503580945",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T01:02:20.179368Z",
+                        "timeUpdated": "2022-03-30T01:21:37.703910Z",
+                        "comment": "null",
+                        "partNumber": "46861",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "de21e568-23e9-4e13-a289-576822ac452a",
+                "orderId": "1074760817",
+                "state": "PROCESSED",
+                "type": "CONCESSION",
+                "timeCreated": "2022-03-22T19:16:48.805581Z",
+                "timeUpdated": "2022-03-22T20:04:20.685529Z",
+                "timeProcessed": "2022-03-22T20:04:20.097338Z",
+                "totalCredit": 1.0000,
+                "payments": [
+                    {
+                        "id": "a59cd5ae-2e79-4c70-aa7b-69b175eb7457",
+                        "amount": 1.0000,
+                        "creditedAmount": 1.0000,
+                        "creditingAmount": 0.0000,
+                        "paymentMethod": "PayPal",
+                        "state": "COMPLETE"
+                    }
+                ],
+                "items": [
+                    {
+                        "returnId": "de21e568-23e9-4e13-a289-576822ac452a",
+                        "lineItemId": "1503580946",
+                        "orderId": "1074760817",
+                        "state": "PROCESSED",
+                        "type": "PRODUCT_CONCESSION",
+                        "reasonCategory": "OTHER",
+                        "reason": {
+                            "primary": "OTHER"
+                        },
+                        "timeCreated": "2022-03-22T19:16:48.805581Z",
+                        "timeUpdated": "2022-03-22T20:04:20.685529Z",
+                        "comment": "null",
+                        "partNumber": "86492",
+                        "totalCredit": 1.0000,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "f3b379b1-4e5b-46c2-9ae4-953d69ce2d11",
+                "orderId": "1074760817",
+                "state": "CANCELED",
+                "type": "REPLACEMENT",
+                "timeCreated": "2022-03-30T01:23:34.241159Z",
+                "timeUpdated": "2022-04-25T20:01:36.907667Z",
+                "totalCredit": 0,
+                "items": [
+                    {
+                        "returnId": "f3b379b1-4e5b-46c2-9ae4-953d69ce2d11",
+                        "lineItemId": "1503580944",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T01:23:34.241159Z",
+                        "timeUpdated": "2022-04-25T20:01:36.907667Z",
+                        "comment": "null",
+                        "partNumber": "108423",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    },
+                    {
+                        "returnId": "f3b379b1-4e5b-46c2-9ae4-953d69ce2d11",
+                        "lineItemId": "1503580945",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T01:23:34.241159Z",
+                        "timeUpdated": "2022-04-25T20:01:36.907667Z",
+                        "comment": "null",
+                        "partNumber": "46861",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "45efa7a7-8bb9-40c9-80e1-ce93f3ecd14f",
+                "orderId": "1074760817",
+                "state": "CANCELED",
+                "type": "REPLACEMENT",
+                "timeCreated": "2022-03-30T01:48:47.091329Z",
+                "timeUpdated": "2022-03-30T01:50:33.748031Z",
+                "totalCredit": 0,
+                "items": [
+                    {
+                        "returnId": "45efa7a7-8bb9-40c9-80e1-ce93f3ecd14f",
+                        "lineItemId": "1503580944",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T01:48:47.091329Z",
+                        "timeUpdated": "2022-03-30T01:50:33.748031Z",
+                        "comment": "null",
+                        "partNumber": "108423",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    },
+                    {
+                        "returnId": "45efa7a7-8bb9-40c9-80e1-ce93f3ecd14f",
+                        "lineItemId": "1503580945",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T01:48:47.091329Z",
+                        "timeUpdated": "2022-03-30T01:50:33.748031Z",
+                        "comment": "null",
+                        "partNumber": "46861",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "c7c29dbc-e1e6-48e7-9a66-6b9219a3b347",
+                "orderId": "1074760817",
+                "state": "PROCESSED",
+                "type": "CONCESSION",
+                "timeCreated": "2022-03-22T19:22:42.939327Z",
+                "timeUpdated": "2022-03-22T20:04:20.533615Z",
+                "timeProcessed": "2022-03-22T20:04:20.009947Z",
+                "totalCredit": 1.0000,
+                "payments": [
+                    {
+                        "id": "2b0ab518-9f2b-47e3-83c2-64be7e74d746",
+                        "amount": 1.0000,
+                        "creditedAmount": 1.0000,
+                        "creditingAmount": 0.0000,
+                        "paymentMethod": "PayPal",
+                        "state": "COMPLETE"
+                    }
+                ],
+                "items": [
+                    {
+                        "returnId": "c7c29dbc-e1e6-48e7-9a66-6b9219a3b347",
+                        "lineItemId": "1503580946",
+                        "orderId": "1074760817",
+                        "state": "PROCESSED",
+                        "type": "PRODUCT_CONCESSION",
+                        "reasonCategory": "DAMAGED",
+                        "reason": {
+                            "primary": "DAMAGED",
+                            "secondary": "BOX_AND_PRODUCT",
+                            "tertiary": "DENTED_BOX_OR_PRODUCT"
+                        },
+                        "timeCreated": "2022-03-22T19:22:42.939327Z",
+                        "timeUpdated": "2022-03-22T20:04:20.533615Z",
+                        "comment": "null",
+                        "partNumber": "86492",
+                        "totalCredit": 1.0000,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "7b6040e8-7bfe-4de7-8d8a-f711b7a3740f",
+                "orderId": "1074760817",
+                "state": "PROCESSED",
+                "type": "CONCESSION",
+                "timeCreated": "2022-03-22T19:21:23.384703Z",
+                "timeUpdated": "2022-03-22T20:04:20.611675Z",
+                "timeProcessed": "2022-03-22T20:04:20.053178Z",
+                "totalCredit": 1.0000,
+                "payments": [
+                    {
+                        "id": "ae9ce1b4-bc2f-4813-a9f1-b21bb2bc2e3c",
+                        "amount": 1.0000,
+                        "creditedAmount": 1.0000,
+                        "creditingAmount": 0.0000,
+                        "paymentMethod": "PayPal",
+                        "state": "COMPLETE"
+                    }
+                ],
+                "items": [
+                    {
+                        "returnId": "7b6040e8-7bfe-4de7-8d8a-f711b7a3740f",
+                        "lineItemId": "1503580946",
+                        "orderId": "1074760817",
+                        "state": "PROCESSED",
+                        "type": "PRODUCT_CONCESSION",
+                        "reasonCategory": "OTHER",
+                        "reason": {
+                            "primary": "OTHER"
+                        },
+                        "timeCreated": "2022-03-22T19:21:23.384703Z",
+                        "timeUpdated": "2022-03-22T20:04:20.611675Z",
+                        "comment": "null",
+                        "partNumber": "86492",
+                        "totalCredit": 1.0000,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "af68714c-b564-49c0-ba74-6529a1d2d0f5",
+                "orderId": "1074760817",
+                "state": "PROCESSED",
+                "type": "CONCESSION",
+                "timeCreated": "2022-03-22T19:24:08.393290Z",
+                "timeUpdated": "2022-03-22T20:04:20.999810Z",
+                "timeProcessed": "2022-03-22T20:04:20.585327Z",
+                "totalCredit": 1.0000,
+                "payments": [
+                    {
+                        "id": "6508a254-89f1-4826-9e97-67daf2645401",
+                        "amount": 1.0000,
+                        "creditedAmount": 1.0000,
+                        "creditingAmount": 0.0000,
+                        "paymentMethod": "PayPal",
+                        "state": "COMPLETE"
+                    }
+                ],
+                "items": [
+                    {
+                        "returnId": "af68714c-b564-49c0-ba74-6529a1d2d0f5",
+                        "lineItemId": "1503580946",
+                        "orderId": "1074760817",
+                        "state": "PROCESSED",
+                        "type": "PRODUCT_CONCESSION",
+                        "reasonCategory": "DAMAGED",
+                        "reason": {
+                            "primary": "DAMAGED",
+                            "secondary": "BOX_AND_PRODUCT",
+                            "tertiary": "TAPE_ISSUE"
+                        },
+                        "timeCreated": "2022-03-22T19:24:08.393290Z",
+                        "timeUpdated": "2022-03-22T20:04:20.999810Z",
+                        "comment": "null",
+                        "partNumber": "86492",
+                        "totalCredit": 1.0000,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "49b58981-5be7-47c8-9e4b-b28e74874a20",
+                "orderId": "1074760817",
+                "state": "CANCELED",
+                "type": "REPLACEMENT",
+                "timeCreated": "2022-03-30T01:51:27.387481Z",
+                "timeUpdated": "2022-03-30T01:55:06.175090Z",
+                "totalCredit": 0,
+                "items": [
+                    {
+                        "returnId": "49b58981-5be7-47c8-9e4b-b28e74874a20",
+                        "lineItemId": "1503580944",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T01:51:27.387481Z",
+                        "timeUpdated": "2022-03-30T01:55:06.175090Z",
+                        "comment": "null",
+                        "partNumber": "108423",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    },
+                    {
+                        "returnId": "49b58981-5be7-47c8-9e4b-b28e74874a20",
+                        "lineItemId": "1503580945",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T01:51:27.387481Z",
+                        "timeUpdated": "2022-03-30T01:55:06.175090Z",
+                        "comment": "null",
+                        "partNumber": "46861",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "18be5f48-490f-4c38-a9b9-13a715aa9fe4",
+                "orderId": "1074760817",
+                "state": "PROCESSED",
+                "type": "CONCESSION",
+                "timeCreated": "2022-03-22T19:33:40.248370Z",
+                "timeUpdated": "2022-03-22T20:34:22.271406Z",
+                "timeProcessed": "2022-03-22T20:34:20.088298Z",
+                "totalCredit": 1.0000,
+                "payments": [
+                    {
+                        "id": "4d18eaae-539c-4b6e-84a1-8b3060c5272b",
+                        "amount": 1.0000,
+                        "creditedAmount": 1.0000,
+                        "creditingAmount": 0.0000,
+                        "paymentMethod": "PayPal",
+                        "state": "COMPLETE"
+                    }
+                ],
+                "items": [
+                    {
+                        "returnId": "18be5f48-490f-4c38-a9b9-13a715aa9fe4",
+                        "lineItemId": "1503580946",
+                        "orderId": "1074760817",
+                        "state": "PROCESSED",
+                        "type": "PRODUCT_CONCESSION",
+                        "reasonCategory": "OTHER",
+                        "reason": {
+                            "primary": "OTHER"
+                        },
+                        "timeCreated": "2022-03-22T19:33:40.248370Z",
+                        "timeUpdated": "2022-03-22T20:34:22.271406Z",
+                        "comment": "null",
+                        "partNumber": "86492",
+                        "totalCredit": 1.0000,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "7f491f5c-cf4c-4193-a780-812892935f3c",
+                "orderId": "1074760817",
+                "state": "CANCELED",
+                "type": "REPLACEMENT",
+                "timeCreated": "2022-03-30T01:56:14.369017Z",
+                "timeUpdated": "2022-03-30T02:00:53.043635Z",
+                "totalCredit": 0,
+                "items": [
+                    {
+                        "returnId": "7f491f5c-cf4c-4193-a780-812892935f3c",
+                        "lineItemId": "1503580944",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T01:56:14.369017Z",
+                        "timeUpdated": "2022-03-30T02:00:53.043635Z",
+                        "comment": "null",
+                        "partNumber": "108423",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    },
+                    {
+                        "returnId": "7f491f5c-cf4c-4193-a780-812892935f3c",
+                        "lineItemId": "1503580945",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T01:56:14.369017Z",
+                        "timeUpdated": "2022-03-30T02:00:53.043635Z",
+                        "comment": "null",
+                        "partNumber": "46861",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "e32a074e-043a-4a3b-8cec-df156b41cd12",
+                "orderId": "1074760817",
+                "state": "CANCELED",
+                "type": "REPLACEMENT",
+                "timeCreated": "2022-03-30T02:02:38.897087Z",
+                "timeUpdated": "2022-03-30T02:05:40.016549Z",
+                "totalCredit": 0,
+                "items": [
+                    {
+                        "returnId": "e32a074e-043a-4a3b-8cec-df156b41cd12",
+                        "lineItemId": "1503580944",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T02:02:38.897087Z",
+                        "timeUpdated": "2022-03-30T02:05:40.016549Z",
+                        "comment": "null",
+                        "partNumber": "108423",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    },
+                    {
+                        "returnId": "e32a074e-043a-4a3b-8cec-df156b41cd12",
+                        "lineItemId": "1503580945",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T02:02:38.897087Z",
+                        "timeUpdated": "2022-03-30T02:05:40.016549Z",
+                        "comment": "null",
+                        "partNumber": "46861",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "692fc18e-ec6d-4117-ab44-9d96d9d4cc28",
+                "orderId": "1074760817",
+                "state": "PROCESSED",
+                "type": "CONCESSION",
+                "timeCreated": "2022-03-22T18:53:35.158636Z",
+                "timeUpdated": "2022-03-22T19:34:21.619387Z",
+                "timeProcessed": "2022-03-22T19:34:21.298708Z",
+                "totalCredit": 1.0000,
+                "payments": [
+                    {
+                        "id": "91ad2c99-bc46-4fc5-a754-c41a8881c2e1",
+                        "amount": 1.0000,
+                        "creditedAmount": 1.0000,
+                        "creditingAmount": 0.0000,
+                        "paymentMethod": "PayPal",
+                        "state": "COMPLETE"
+                    }
+                ],
+                "items": [
+                    {
+                        "returnId": "692fc18e-ec6d-4117-ab44-9d96d9d4cc28",
+                        "lineItemId": "1503580946",
+                        "orderId": "1074760817",
+                        "state": "PROCESSED",
+                        "type": "PRODUCT_CONCESSION",
+                        "reasonCategory": "OTHER",
+                        "reason": {
+                            "primary": "OTHER"
+                        },
+                        "timeCreated": "2022-03-22T18:53:35.158636Z",
+                        "timeUpdated": "2022-03-22T19:34:21.619387Z",
+                        "comment": "null",
+                        "partNumber": "86492",
+                        "totalCredit": 1.0000,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "d0e5ed5f-cc8d-4f98-ba91-9a066147ba70",
+                "orderId": "1074760817",
+                "state": "CANCELED",
+                "type": "REPLACEMENT",
+                "timeCreated": "2022-03-30T02:08:02.786444Z",
+                "timeUpdated": "2022-03-30T02:13:53.684441Z",
+                "totalCredit": 0,
+                "items": [
+                    {
+                        "returnId": "d0e5ed5f-cc8d-4f98-ba91-9a066147ba70",
+                        "lineItemId": "1503580944",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T02:08:02.786444Z",
+                        "timeUpdated": "2022-03-30T02:13:53.684441Z",
+                        "comment": "null",
+                        "partNumber": "108423",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    },
+                    {
+                        "returnId": "d0e5ed5f-cc8d-4f98-ba91-9a066147ba70",
+                        "lineItemId": "1503580945",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T02:08:02.786444Z",
+                        "timeUpdated": "2022-03-30T02:13:53.684441Z",
+                        "comment": "null",
+                        "partNumber": "46861",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "a095058e-8f5d-405b-a6b7-3f0d6c9261ce",
+                "orderId": "1074760817",
+                "state": "CANCELED",
+                "type": "REPLACEMENT",
+                "timeCreated": "2022-03-30T02:16:28.129090Z",
+                "timeUpdated": "2022-03-30T02:31:20.060931Z",
+                "totalCredit": 0,
+                "items": [
+                    {
+                        "returnId": "a095058e-8f5d-405b-a6b7-3f0d6c9261ce",
+                        "lineItemId": "1503580944",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T02:16:28.129090Z",
+                        "timeUpdated": "2022-03-30T02:31:20.060931Z",
+                        "comment": "null",
+                        "partNumber": "108423",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    },
+                    {
+                        "returnId": "a095058e-8f5d-405b-a6b7-3f0d6c9261ce",
+                        "lineItemId": "1503580945",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T02:16:28.129090Z",
+                        "timeUpdated": "2022-03-30T02:31:20.060931Z",
+                        "comment": "null",
+                        "partNumber": "46861",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "bb7f9b21-1da1-4aeb-9e3e-f0c04d5f12dd",
+                "orderId": "1074760817",
+                "state": "CANCELED",
+                "type": "REPLACEMENT",
+                "timeCreated": "2022-03-30T02:33:26.573681Z",
+                "timeUpdated": "2022-03-30T02:38:07.261973Z",
+                "totalCredit": 0,
+                "items": [
+                    {
+                        "returnId": "bb7f9b21-1da1-4aeb-9e3e-f0c04d5f12dd",
+                        "lineItemId": "1503580945",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "PAST_EXPIRATION"
+                        },
+                        "timeCreated": "2022-03-30T02:33:26.573681Z",
+                        "timeUpdated": "2022-03-30T02:38:07.261973Z",
+                        "comment": "null",
+                        "partNumber": "46861",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    },
+                    {
+                        "returnId": "bb7f9b21-1da1-4aeb-9e3e-f0c04d5f12dd",
+                        "lineItemId": "1503580944",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "PAST_EXPIRATION"
+                        },
+                        "timeCreated": "2022-03-30T02:33:26.573681Z",
+                        "timeUpdated": "2022-03-30T02:38:07.261973Z",
+                        "comment": "null",
+                        "partNumber": "108423",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "ac9856ad-a351-402b-b8cd-a1862ba0fae3",
+                "orderId": "1074760817",
+                "state": "CANCELED",
+                "type": "REPLACEMENT",
+                "timeCreated": "2022-03-30T02:39:52.219277Z",
+                "timeUpdated": "2022-03-30T03:00:39.230931Z",
+                "totalCredit": 0,
+                "items": [
+                    {
+                        "returnId": "ac9856ad-a351-402b-b8cd-a1862ba0fae3",
+                        "lineItemId": "1503580944",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T02:39:52.219277Z",
+                        "timeUpdated": "2022-03-30T03:00:39.230931Z",
+                        "comment": "null",
+                        "partNumber": "108423",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    },
+                    {
+                        "returnId": "ac9856ad-a351-402b-b8cd-a1862ba0fae3",
+                        "lineItemId": "1503580945",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T02:39:52.219277Z",
+                        "timeUpdated": "2022-03-30T03:00:39.230931Z",
+                        "comment": "null",
+                        "partNumber": "46861",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    }
+                ]
+            },
+            {
+                "id": "17c14195-7b22-4ee2-b9d0-a4fcd27ae420",
+                "orderId": "1074760817",
+                "state": "CANCELED",
+                "type": "REPLACEMENT",
+                "timeCreated": "2022-03-30T03:02:06.835433Z",
+                "timeUpdated": "2022-03-30T03:07:54.892730Z",
+                "totalCredit": 0,
+                "items": [
+                    {
+                        "returnId": "17c14195-7b22-4ee2-b9d0-a4fcd27ae420",
+                        "lineItemId": "1503580944",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T03:02:06.835433Z",
+                        "timeUpdated": "2022-03-30T03:07:54.892730Z",
+                        "comment": "null",
+                        "partNumber": "108423",
+                        "quantity": 1,
+                        "sendBack": false,
+                        "giftCard": false
+                    },
+                    {
+                        "returnId": "17c14195-7b22-4ee2-b9d0-a4fcd27ae420",
+                        "lineItemId": "1503580945",
+                        "orderId": "1074760817",
+                        "state": "CANCELED",
+                        "type": "REPLACEMENT",
+                        "reasonCategory": "DEFECTIVE",
+                        "reason": {
+                            "primary": "PRODUCT_DEFECTS",
+                            "secondary": "INFESTED"
+                        },
+                        "timeCreated": "2022-03-30T03:02:06.835433Z",
+                        "timeUpdated": "2022-03-30T03:07:54.892730Z",
+                        "comment": "null",
+                        "partNumber": "46861",
+                        "quantity": 1,
+                        "sendBack": true,
+                        "giftCard": false
+                    }
+                ]
+            }
+        ]
+    }
+]

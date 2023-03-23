@@ -1,0 +1,196 @@
+[
+  {
+    "type": "ORDER_RELEASED",
+    "createdAt": "2022-04-26T17:30:03.912Z",
+    "data": {
+      "order": {
+        "id": "1075184872",
+        "customerId": "264651133",
+        "status": "RELEASED",
+        "totalProduct": {
+          "value": "52.99"
+        },
+        "totalSalesTax": {
+          "value": "3.71"
+        },
+        "totalShippingTax": {
+          "value": "0.00"
+        },
+        "totalAdjustment": {
+          "value": "-18.55"
+        },
+        "totalBeforeTax": {
+          "value": "34.44"
+        },
+        "total": {
+          "value": "38.15"
+        },
+        "timePlaced": "2022-04-26T17:28:45.954Z",
+        "timeUpdated": "2022-04-26T17:30:03.912Z",
+        "lineItems": [
+          {
+            "id": "1504583133",
+            "status": "RELEASED",
+            "product": {
+              "catalogEntryId": "32041",
+              "partNumber": "46861",
+              "name": "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 30-lb bag",
+              "description": "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 30-lb bag",
+              "thumbnail": "//img.chewy.com/is/image/catalog/46861_MAIN,1636150597"
+            },
+            "fulfillmentCenter": "MDT1",
+            "fulfillmentStatus": "RELEASED",
+            "quantity": 1,
+            "totalProduct": {
+              "value": "52.99"
+            },
+            "unitPrice": {
+              "value": "52.99"
+            },
+            "shippingCharge": {
+              "value": "0.00"
+            },
+            "totalAdjustment": {
+              "value": "-18.55"
+            },
+            "salesTax": {
+              "value": "3.71"
+            },
+            "shippingTax": {
+              "value": "0.00"
+            },
+            "currency": "USD",
+            "bundleItem": false
+          }
+        ],
+        "subscriptionInfos": [
+          {
+            "subscriptionId": "800136490",
+            "parentOrderId": "800136490"
+          }
+        ],
+        "trackingData": {
+          "shippingStep": "ORDER_PLACED",
+          "shippingStatus": "NONE",
+          "chewyPromisedDeliveryDate": "2022-04-26",
+          "estimatedDeliveryDate": "2022-04-26"
+        },
+        "shippingAddress": {
+          "id": "328104544",
+          "nickname": "3cd64761-fb09-4d1b-b0f2-4959167c9887",
+          "fullName": "Janis Kauffman",
+          "addressLine1": "505 E EVANSTON CIR",
+          "city": "FORT LAUDERDALE",
+          "state": "FL",
+          "postcode": "33312-1930",
+          "country": "US",
+          "phone": "5555555515",
+          "primaryAddress": false
+        },
+        "orderAttributes": [
+          "AUTOSHIP"
+        ],
+        "notShippedItems": [
+          {
+            "lineItemId": "1504583133",
+            "quantity": 1,
+            "shippedQuantity": 0
+          }
+        ],
+        "payments": {
+          "paymentInstructions": [
+            {
+              "id": "434253582",
+              "walletId": "35127356-015f-4e28-ab72-b223ba301fea",
+              "paymentMethod": {
+                "paymentReferenceId": "8c9a1c47-a0c5-4a24-afac-419b003c1c3f",
+                "type": "CARD",
+                "card": {
+                  "expirationMonth": "5",
+                  "expirationYear": "2027",
+                  "cardHolderName": "Janis K Kauffman",
+                  "type": "AMEX",
+                  "accountNumber": "3411XXXXXXX1347"
+                }
+              },
+              "billingAddress": {
+                "fullName": "Janis K Kauffman",
+                "addressLine1": "505 E EVANSTON CIR",
+                "city": "FORT LAUDERDALE",
+                "state": "FL",
+                "postcode": "33312-1930",
+                "country": "USA"
+              },
+              "amount": "38.15",
+              "state": "VALID",
+              "timeCreated": "2022-04-26T17:28:46.778Z",
+              "timeUpdated": "2022-04-26T17:30:03.447Z"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "type": "AUTOSHIP_CREATED",
+    "createdAt": "2022-04-26T17:28:46.362Z",
+    "data": {
+      "autoship": {
+        "id": "800136490",
+        "parentOrderId": "800136490",
+        "status": "ACTIVE",
+        "name": "Autoship #1",
+        "totalProduct": {
+          "value": "52.99"
+        },
+        "blocked": false,
+        "paymentMethods": [
+          {
+            "type": "CARD",
+            "card": {
+              "expirationMonth": "5",
+              "expirationYear": "2027",
+              "cardHolderName": "Janis K Kauffman",
+              "type": "AMEX",
+              "accountNumber": "341134XXXXXX1347"
+            }
+          }
+        ],
+        "nextFulfillmentDate": "2022-05-24T17:28:41.936Z",
+        "fulfillmentFrequency": 4,
+        "fulfillmentFrequencyUom": "WEEK",
+        "shippingAddress": {
+          "id": "218551639",
+          "fullName": "Janis Kauffman",
+          "addressLine1": "505 E EVANSTON CIR",
+          "city": "FORT LAUDERDALE",
+          "state": "FL",
+          "postcode": "33312-1930",
+          "country": "US",
+          "primaryAddress": false
+        },
+        "lastShipmentDate": "2022-04-26T17:28:46.469Z",
+        "lastOrderId": "0",
+        "lastOrderStatus": "RELEASED",
+        "items": [
+          {
+            "product": {
+              "catalogEntryId": "32041",
+              "partNumber": "46861",
+              "name": "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 30-lb bag",
+              "thumbnail": "//img.chewy.com/is/image/catalog/46861_MAIN,1636150597"
+            },
+            "quantity": 1,
+            "totalProduct": {
+              "value": "52.99"
+            },
+            "unitPrice": {
+              "value": "52.99"
+            },
+            "bundleItem": false
+          }
+        ]
+      }
+    }
+  }
+]

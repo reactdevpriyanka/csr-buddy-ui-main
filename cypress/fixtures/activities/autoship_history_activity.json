@@ -1,0 +1,11 @@
+[
+  {
+    "activityTimestamp": "2022-06-25T10:46:01.920Z",
+    "activityType": "AUTOSHIP_UPCOMING_FULFILLMENT",
+    "activitySource": "AUTOSHIP",
+    "activityId": "800040386",
+    "activityCategory": "AUTOSHIP",
+    "customerId": "162318096",
+    "sourceEventId": "2B48O6lU0w8KasOcY2TaspCUQNW"
+  }
+]

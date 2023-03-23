@@ -1,0 +1,6 @@
+{
+  "baseUrl": "https://csrb-gateway.csbb.dev.chewy.com",
+  "env": {
+    "TEST_CUSTOMER_ID": "154492684"
+  }
+}

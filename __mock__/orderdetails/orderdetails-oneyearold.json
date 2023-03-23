@@ -1,0 +1,366 @@
+{
+  "id": "1075268420",
+  "itemMap": {
+    "1504724130": {
+        "id": "1504724130",
+        "externalId": "392182423",
+        "status": "SHIPPED",
+        "product": {
+            "catalogEntryId": "114674",
+            "partNumber": "86899",
+            "name": "Bones & Chews Made in USA Roasted Marrow Bone 6\" Dog Treat",
+            "description": "Bones & Chews Made in USA Roasted Marrow Bone 6\" Dog Treat",
+            "thumbnail": "//img.chewy.com/is/image/catalog/86899_MAIN,1512484676"
+        },
+        "fulfillmentCenter": "MCI1",
+        "fulfillmentStatus": "SHIPPED",
+        "quantity": 5,
+        "totalProduct": {
+            "value": "27.35"
+        },
+        "unitPrice": {
+            "value": "5.47"
+        },
+        "can": false,
+        "food": false,
+        "shippingCharge": {
+            "value": "0.00"
+        },
+        "totalAdjustment": {
+            "value": "0.00"
+        },
+        "salesTax": {
+            "value": "2.25"
+        },
+        "shippingTax": {
+            "value": "0.00"
+        },
+        "currency": "USD",
+        "bundleItem": false
+    },
+    "1504724131": {
+        "id": "1504724131",
+        "externalId": "392182424",
+        "status": "SHIPPED",
+        "product": {
+            "catalogEntryId": "31989",
+            "partNumber": "46809",
+            "name": "Blue Buffalo Homestyle Recipe Lamb Dinner with Garden Vegetables Canned Dog Food, 12.5-oz, case of 12",
+            "description": "Blue Buffalo Homestyle Recipe Lamb Dinner with Garden Vegetables Canned Dog Food, 12.5-oz, case of 12",
+            "thumbnail": "//img.chewy.com/is/image/catalog/46809_MAIN,1572895147"
+        },
+        "fulfillmentCenter": "DFW3",
+        "fulfillmentStatus": "SHIPPED",
+        "quantity": 3,
+        "totalProduct": {
+            "value": "100.08"
+        },
+        "unitPrice": {
+            "value": "33.36"
+        },
+        "can": true,
+        "food": true,
+        "canCount": 12,
+        "shippingCharge": {
+            "value": "0.00"
+        },
+        "totalAdjustment": {
+            "value": "0.00"
+        },
+        "salesTax": {
+            "value": "8.26"
+        },
+        "shippingTax": {
+            "value": "0.00"
+        },
+        "currency": "USD",
+        "bundleItem": false
+    },
+    "1504724132": {
+        "id": "1504724132",
+        "externalId": "392182425",
+        "status": "SHIPPED",
+        "product": {
+            "catalogEntryId": "111912",
+            "partNumber": "84108",
+            "name": "Blue Buffalo Life Protection Formula Large Breed Adult Lamb & Brown Rice Recipe Dry Dog Food, 30-lb bag",
+            "description": "Blue Buffalo Life Protection Formula Large Breed Adult Lamb & Brown Rice Recipe Dry Dog Food, 30-lb bag",
+            "thumbnail": "//img.chewy.com/is/image/catalog/84108_MAIN,1636145839"
+        },
+        "fulfillmentCenter": "DFW3",
+        "fulfillmentStatus": "SHIPPED",
+        "quantity": 2,
+        "totalProduct": {
+            "value": "117.98"
+        },
+        "unitPrice": {
+            "value": "58.99"
+        },
+        "can": false,
+        "food": true,
+        "shippingCharge": {
+            "value": "0.00"
+        },
+        "totalAdjustment": {
+            "value": "0.00"
+        },
+        "salesTax": {
+            "value": "9.74"
+        },
+        "shippingTax": {
+            "value": "0.00"
+        },
+        "currency": "USD",
+        "bundleItem": false
+    }
+},
+  "canceledItems": [],
+  "orderAttributes":[],
+  "orderDate": "2021-05-10T15:10:18.985Z",
+  "orderNumber": "1075268420",
+  "paymentDetails": "",
+  "returnItems": [],
+  "releases": [
+    {
+        "id": "12345",
+        "status": "MANIFESTED",
+        "releaseNumber": 1,
+        "shippingModeCode": "FLATRATE",
+        "lineItemIds": [
+            "1504724130"
+        ],
+        "shipmentIds": [
+            "428396787"
+        ],
+        "timeCreated": "2022-05-24T14:44:53.174Z",
+        "timeUpdated": "2022-05-24T14:45:06.743Z"
+    },
+    {
+        "id": "12345",
+        "status": "MANIFESTED",
+        "releaseNumber": 2,
+        "shippingModeCode": "FLATRATE",
+        "lineItemIds": [
+            "1504724131",
+            "1504724132"
+        ],
+        "shipmentIds": [
+            "428396786"
+        ],
+        "timeCreated": "2022-05-24T14:44:53.174Z",
+        "timeUpdated": "2022-05-24T14:45:06.743Z"
+    }
+  ],
+  "replaces": {
+    "id": "3ada3e40-de62-4d0a-875e-fec74580be99",
+    "orderId": "1075185064",
+    "state": "PROCESSED",
+    "type": "REPLACEMENT",
+    "timeCreated": "2022-04-29T15:13:53.048089Z",
+    "timeUpdated": "2022-04-29T15:13:54.093451Z",
+    "timeProcessed": "2022-04-29T15:13:54.070382Z",
+    "replacementOrderId": "1075196429",
+    "totalCredit": 0,
+    "items": [
+        {
+            "returnId": "3ada3e40-de62-4d0a-875e-fec74580be99",
+            "orderId": "1075185064",
+            "state": "PROCESSED",
+            "type": "REPLACEMENT",
+            "reasonCategory": "DAMAGED",
+            "reason": {
+                "primary": "DAMAGED",
+                "secondary": "PRODUCT_ONLY",
+                "tertiary": "DENTED_PRODUCT"
+            },
+            "timeCreated": "2022-04-29T15:13:53.048089Z",
+            "timeUpdated": "2022-04-29T15:13:54.093451Z",
+            "replacementOrderId": "1075196429",
+            "comment": "This is an optional return comment.",
+            "partNumber": "46861",
+            "quantity": 1,
+            "sendBack": false,
+            "giftCard": false
+        }
+    ]
+    },
+    "shipments": [
+        {
+            "id": "428396787",
+            "shippingModeCode": "FLATRATE",
+            "timeShipped": "2022-05-10T00:00:00Z",
+            "trackingData": {
+                "shippingStep": "PACKING_ITEMS",
+                "shippingStatus": "UNKNOWN",
+                "progressPercentage": 20,
+                "packagesCountFromOrder": 1,
+                "displayEvents": [
+                    {
+                        "code": "ORDER_CREATED",
+                        "date": "2021-07-21T20:14:37Z"
+                    },
+                    {
+                        "code": "ORDER_RELEASED",
+                        "date": "2021-07-21T21:01:08Z"
+                    }
+                ]
+            },
+            "carrierDescription": "Flat-Rate Shipping",
+            "trackingUrl": "nullnull",
+            "shippingAddress": {
+                "id": "328345904",
+                "nickname": "a96f1abb-53e6-4304-bd9a-4339e4e10b72",
+                "fullName": "Erica Deleoz",
+                "addressLine1": "1950 N STEMMONS FWY",
+                "addressLine2": "STE 3000",
+                "city": "DALLAS",
+                "state": "TX",
+                "postcode": "75207-3203",
+                "country": "US",
+                "phone": "4805247058",
+                "primaryAddress": false,
+                "verified": false
+            },
+            "fulfillmentCenterDetails": {
+                "id": "MCI1",
+                "type": "fulfillmentCenters",
+                "attributes": {
+                    "fulfillmentCenterId": "MCI1",
+                    "displayName": "MCI1",
+                    "fulfillmentCenterType": "NORMAL",
+                    "address": {
+                        "addressLine1": "15999 South Outer Road",
+                        "city": "Belton",
+                        "state": "MO",
+                        "postcode": "64012",
+                        "country": "US",
+                        "primaryAddress": false,
+                        "verified": false
+                    },
+                    "returnAddress": {
+                        "primaryAddress": false,
+                        "verified": false
+                    },
+                    "fcEnabled": true,
+                    "fulfillerId": "da295753-1507-4ea7-a0e6-967b949dda72"
+                }
+            },
+            "shipmentItems": [
+                {
+                    "lineItemId": "1504724130",
+                    "quantity": 5,
+                    "shippedQuantity": 0
+                }
+            ]
+        },
+        {
+            "id": "428396786",
+            "shippingModeCode": "FLATRATE",
+            "timeShipped": "2022-05-10T00:00:00Z",
+            "trackingData": {
+                "shippingStep": "PACKING_ITEMS",
+                "shippingStatus": "UNKNOWN",
+                "progressPercentage": 20,
+                "packagesCountFromOrder": 1,
+                "displayEvents": [
+                    {
+                        "code": "ORDER_CREATED",
+                        "date": "2021-07-21T20:14:37Z"
+                    },
+                    {
+                        "code": "ORDER_RELEASED",
+                        "date": "2021-07-21T21:01:08Z"
+                    }
+                ]
+            },
+            "carrierDescription": "Flat-Rate Shipping",
+            "trackingUrl": "nullnull",
+            "shippingAddress": {
+                "id": "328345904",
+                "nickname": "a96f1abb-53e6-4304-bd9a-4339e4e10b72",
+                "fullName": "Erica Deleoz",
+                "addressLine1": "1950 N STEMMONS FWY",
+                "addressLine2": "STE 3000",
+                "city": "DALLAS",
+                "state": "TX",
+                "postcode": "75207-3203",
+                "country": "US",
+                "phone": "4805247058",
+                "primaryAddress": false,
+                "verified": false
+            },
+            "fulfillmentCenterDetails": {
+                "id": "DFW3",
+                "type": "fulfillmentCenters",
+                "attributes": {
+                    "fulfillmentCenterId": "DFW3",
+                    "displayName": "DFW3",
+                    "fulfillmentCenterType": "NORMAL",
+                    "address": {
+                        "addressLine1": "2200 Danieldale Road Suite 140",
+                        "city": "Lancaster",
+                        "state": "TX",
+                        "postcode": "75134",
+                        "country": "US",
+                        "phone": "800-672-4399",
+                        "primaryAddress": false,
+                        "verified": false
+                    },
+                    "returnAddress": {
+                        "addressLine1": "2200 Danieldale Road",
+                        "city": "Lancaster",
+                        "state": "TX",
+                        "postcode": "75134",
+                        "country": "US",
+                        "primaryAddress": false,
+                        "verified": false
+                    },
+                    "fcEnabled": false,
+                    "fulfillerId": "da295753-1507-4ea7-a0e6-967b949dda72"
+                }
+            },
+            "shipmentItems": [
+                {
+                    "lineItemId": "1504724131",
+                    "quantity": 3,
+                    "shippedQuantity": 0
+                },
+                {
+                    "lineItemId": "1504724132",
+                    "quantity": 2,
+                    "shippedQuantity": 0
+                }
+            ]
+        }
+    ],
+    "shippingAddress": {
+        "id": "328345904",
+        "nickname": "a96f1abb-53e6-4304-bd9a-4339e4e10b72",
+        "fullName": "Erica Deleoz",
+        "addressLine1": "1950 N STEMMONS FWY",
+        "addressLine2": "STE 3000",
+        "city": "DALLAS",
+        "state": "TX",
+        "postcode": "75207-3203",
+        "country": "US",
+        "phone": "4805247058",
+        "primaryAddress": false,
+        "verified": false
+    },
+    "status": "SHIPPED",
+    "subscriptionInfos": [],
+    "timeUpdated": "2022-05-10T15:14:38.577Z",
+    "total": "265.66",
+    "trackingData": {
+        "shippingStep": "PACKING_ITEMS",
+        "shippingStatus": "UNKNOWN"
+    },
+    "orderComments": [
+        {
+            "id": "31919564",
+            "text": "Fulfillment center rejected release 1075264529-1 with part number 108423 (Rejected - out of stock)",
+            "timestamp": "2022-05-09T18:20:40.557Z",
+            "userId": "-1"
+        }
+    ]
+}

@@ -1,0 +1,129 @@
+{
+  "id": "1008437832",
+  "customerId": "127782408",
+  "status": "SHIPPED",
+  "totalProduct": {
+    "value": "17.82"
+  },
+  "totalSalesTax": {
+    "value": "1.27"
+  },
+  "totalShippingTax": {
+    "value": "0.36"
+  },
+  "totalAdjustment": {
+    "value": "-0.89"
+  },
+  "totalBeforeTax": {
+    "value": "21.88"
+  },
+  "total": {
+    "value": "23.51"
+  },
+  "timePlaced": "2021-05-28T16:10:01.573Z",
+  "timeUpdated": "2021-05-28T16:10:56.415Z",
+  "blocks": [
+    {
+      "id": "20174604",
+      "reason": "MULTIPLE_ORDERS",
+      "resolved": true,
+      "timeBlocked": "2021-05-28T16:10:04.822Z",
+      "timeResolved": "2021-05-28T16:10:20.445Z"
+    }
+  ],
+  "lineItems": [
+    {
+      "id": "1302542095",
+      "product": {
+        "catalogEntryId": "127505",
+        "partNumber": "99964",
+        "name": "Meow Mix Original Choice Dry Cat Food, 3.15-lb bag",
+        "description": "Meow Mix Original Choice Dry Cat Food, 3.15-lb bag",
+        "thumbnail": "//img.chewy.com/is/catalog/99964_MAIN,1462999355"
+      },
+      "quantity": 1,
+      "totalProduct": {
+        "value": "3.99"
+      },
+      "unitPrice": {
+        "value": "3.99"
+      },
+      "can": false,
+      "food": true,
+      "bundleItem": false
+    },
+    {
+      "id": "1302542096",
+      "product": {
+        "catalogEntryId": "34245",
+        "partNumber": "49064",
+        "name": "Taste of the Wild High Prairie Grain-Free Dry Dog Food, 5-lb bag",
+        "description": "Taste of the Wild High Prairie Grain-Free Dry Dog Food, 5-lb bag",
+        "thumbnail": "//img.chewy.com/is/image/catalog/49064_MAIN,1601335570"
+      },
+      "quantity": 1,
+      "totalProduct": {
+        "value": "13.83"
+      },
+      "unitPrice": {
+        "value": "13.83"
+      },
+      "can": false,
+      "food": true,
+      "bundleItem": false
+    }
+  ],
+  "subscriptionInfos": [
+    {
+      "subscriptionId": "800000288",
+      "parentOrderId": "800000288"
+    }
+  ],
+  "trackingData": {
+    "shippingStep": "IN_TRANSIT",
+    "shippingStatus": "ON_TIME",
+    "chewyPromisedDeliveryDate": "2021-07-21",
+    "estimatedDeliveryDate": "2021-07-21"
+  },
+  "orderAttributes": ["AUTOSHIP"],
+  "shipments": [
+    {
+      "id": "343375988",
+      "shippingModeCode": "FLATRATE",
+      "trackingId": "1111111111",
+      "timeShipped": "2021-05-28T00:00:00Z",
+      "trackingData": {
+        "shippingStep": "IN_TRANSIT",
+        "shippingStatus": "ON_TIME",
+        "chewyPromisedDeliveryDate": "2021-07-21",
+        "estimatedDeliveryDate": "2020-12-04",
+        "progressPercentage": 0,
+        "packagesCountFromOrder": 1,
+        "displayEvents": [
+          {
+            "code": "ORDER_CREATED",
+            "date": "2020-12-01T20:27:43Z"
+          },
+          {
+            "code": "ORDER_RELEASED",
+            "date": "2020-12-01T21:01:02Z"
+          }
+        ]
+      },
+      "carrierDescription": "Flat-Rate Shipping",
+      "shipmentItems": [
+        {
+          "lineItemId": "1302542095",
+          "quantity": 1,
+          "shippedQuantity": 0
+        },
+        {
+          "lineItemId": "1302542096",
+          "quantity": 1,
+          "shippedQuantity": 0
+        }
+      ]
+    }
+  ],
+  "orderId": "1008437832"
+}

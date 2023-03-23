@@ -1,0 +1,52 @@
+{
+  "context": {
+    "dropdownChoices": [
+      "Pet loved the food",
+      "Pet has not tried the food",
+      "Pet did not like the food"
+    ],
+    "dropdownChoiceIds": ["2", "3", "4"],
+    "dropdownChoice": "3"
+  },
+  "startNode": { "id": "2" },
+  "flow": {
+    "flowName": "show-address",
+    "startNode": {
+      "id": "2",
+      "nodeType": "START_NODE",
+      "singularOutcomeId": "2"
+    },
+    "flowLinks": [
+      {
+        "outcomeId": "1",
+        "destinationNodeId": "2"
+      },
+      {
+        "outcomeId": "2",
+        "destinationNodeId": "3"
+      },
+      {
+        "outcomeId": "3",
+        "destinationNodeId": "4"
+      }
+    ],
+    "flowNodes": [
+      {
+        "id": "2",
+        "nodeType": "VARIABLE_OPTION",
+        "label": "Tried Food?",
+        "decisionInputAttribute": "dropdownChoice",
+        "displayInputAttribute": "dropdownChoices",
+        "valueInputAttribute": "dropdownChoiceIds",
+        "singularOutcomeId": "2",
+        "outcomeChooserType": "SINGULAR"
+      },
+      {
+        "id": "3",
+        "nodeType": "LABEL",
+        "label": { "value": "Complete" },
+        "singularOutcomeId": "3"
+      }
+    ]
+  }
+}

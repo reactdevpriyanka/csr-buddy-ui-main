@@ -1,0 +1,185 @@
+{
+    "id": "800135317",
+    "parentOrderId": "800135317",
+    "fulfillmentFrequency": 4,
+    "fulfillmentFrequencyUom": "WEEK",
+    "nextFulfillmentDate": "2022-05-19T15:28:34.183Z",
+    "memberId": "255148684",
+    "status": "ACTIVE",
+    "name": "Suki's Meds",
+    "totalProduct": {"value": "130.79"},
+    "totalAdjustment": "-6.55",
+    "totalTax": {"value": "7.77"},
+    "totalTaxShipping": {"value": "0.00"},
+    "totalShipping": {"value": "0.00"},
+    "totalSaved":{"value": "0.00"},
+    "totalBeforeTax": {"value": "124.24"},
+    "totalOrder": "132.01",
+    "total": {"value": "132.01"},
+    "blocked": false,
+    "shippingAddress": {
+        "addressId": "218543459",
+        "fullName": "EM TEST0228QA",
+        "street1": "343 CONGRESS ST",
+        "street2": "LBBY 3",
+        "city": "BOSTON",
+        "state": "MA",
+        "postcode": "02210-1214",
+        "country": "US",
+        "phone1": "4089133999"
+    },
+    "items": [
+        {
+            "itemid": "634359",
+            "catalogEntryId": "173047",
+            "sku": "146204",
+            "quantity": 4,
+            "totalProduct": "10.12",
+            "rxRequired": false,
+            "pharma": true,
+            "currency": "USD",
+            "shipAmount": "0.00",
+            "totalAdjustments": "-0.51",
+            "totalDiscountAdjustment": "-0.51",
+            "skipNext": false,
+            "shipTaxAmount": "0.00",
+            "taxAmount": "0.60",
+            "price": "2.53",
+            "adjustments": [
+                {
+                    "amount": -0.51,
+                    "type": "PROMOTION",
+                    "code": "AUTOSHIPNSAVE",
+                    "adjustmentId": "132",
+                    "displayLevel": "ORDERITEM",
+                    "description": "Autoship & Save - 5% off",
+                    "shortDescription": "Autoship & Save - 5% off"
+                },
+                {
+                    "amount": 0.6,
+                    "type": "SALES_TAX",
+                    "code": "STATE SALES TAX"
+                }
+            ]
+        },
+        {
+            "itemid": "634360",
+            "catalogEntryId": "282230",
+            "sku": "255769",
+            "quantity": 1,
+            "totalProduct": "51.98",
+            "rxRequired": false,
+            "pharma": false,
+            "currency": "USD",
+            "shipAmount": "0.00",
+            "totalAdjustments": "-2.60",
+            "totalDiscountAdjustment": "-2.60",
+            "skipNext": false,
+            "shipTaxAmount": "0.00",
+            "taxAmount": "3.08",
+            "price": "51.98",
+            "adjustments": [
+                {
+                    "amount": -2.6,
+                    "type": "PROMOTION",
+                    "code": "AUTOSHIPNSAVE",
+                    "adjustmentId": "132",
+                    "displayLevel": "ORDERITEM",
+                    "description": "Autoship & Save - 5% off",
+                    "shortDescription": "Autoship & Save - 5% off"
+                },
+                {
+                    "amount": 3.08,
+                    "type": "SALES_TAX",
+                    "code": "STATE SALES TAX"
+                }
+            ]
+        },
+        {
+            "itemid": "634361",
+            "catalogEntryId": "324738",
+            "sku": "298396",
+            "quantity": 1,
+            "totalProduct": "53.18",
+            "rxRequired": false,
+            "pharma": false,
+            "currency": "USD",
+            "shipAmount": "0.00",
+            "totalAdjustments": "-2.66",
+            "totalDiscountAdjustment": "-2.66",
+            "skipNext": false,
+            "shipTaxAmount": "0.00",
+            "taxAmount": "3.16",
+            "price": "53.18",
+            "adjustments": [
+                {
+                    "amount": -2.66,
+                    "type": "PROMOTION",
+                    "code": "AUTOSHIPNSAVE",
+                    "adjustmentId": "132",
+                    "displayLevel": "ORDERITEM",
+                    "description": "Autoship & Save - 5% off",
+                    "shortDescription": "Autoship & Save - 5% off"
+                },
+                {
+                    "amount": 3.16,
+                    "type": "SALES_TAX",
+                    "code": "STATE SALES TAX"
+                }
+            ]
+        },
+        {
+            "itemid": "634362",
+            "catalogEntryId": "281876",
+            "sku": "255415",
+            "quantity": 1,
+            "totalProduct": "15.51",
+            "rxRequired": false,
+            "pharma": false,
+            "currency": "USD",
+            "shipAmount": "0.00",
+            "totalAdjustments": "-0.78",
+            "totalDiscountAdjustment": "-0.78",
+            "skipNext": false,
+            "shipTaxAmount": "0.00",
+            "taxAmount": "0.93",
+            "price": "15.51",
+            "adjustments": [
+                {
+                    "amount": -0.78,
+                    "type": "PROMOTION",
+                    "code": "AUTOSHIPNSAVE",
+                    "adjustmentId": "132",
+                    "displayLevel": "ORDERITEM",
+                    "description": "Autoship & Save - 5% off",
+                    "shortDescription": "Autoship & Save - 5% off"
+                },
+                {
+                    "amount": 0.93,
+                    "type": "SALES_TAX",
+                    "code": "STATE SALES TAX"
+                }
+            ]
+        }
+    ],
+    "promotions": [{"code": "AUTOSHIPNSAVE", "name": "Autoship & Save - 5% off", "amount": {"value": "$6.55"}}],
+    "payments": [
+        {
+            "paymentMethodId": "bb5cc345-b3c0-4a93-ba93-296b69cf142e",
+            "paymentMethodType": "PAYPAL",
+            "paymentMethodDetail": {
+                "creditcardDetail": {
+                    "billingAddress": {}
+                },
+                "paypalDetail": {
+                    "accountEmail": "ChewyDev47@test.com"
+                },
+                "giftcardDetail": {
+                    "availableBalance": {}
+                }
+            }
+        }
+    ],
+    "lastUpdated": "2022-04-21T15:31:26.767Z",
+    "timePlaced": "2022-04-21T15:28:34.182Z"
+}

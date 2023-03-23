@@ -1,0 +1,46 @@
+[
+	{
+		"type": "AUTOSHIP_UPDATED",
+		"createdAt": "2022-03-21T16:01:20.372Z",
+		"data": {
+		  "autoship": {
+			"id": "800111696",
+			"parentOrderId": "800111696",
+			"status": "ACTIVE",
+			"name": "Autoship #16",
+			"totalProduct": {
+			  "value": "126.96"
+			},
+			"blocked": false,
+			"paymentMethods": [
+			  {
+				"type": "CARD",
+				"card": {
+				  "expirationMonth": "2",
+				  "expirationYear": "2026",
+				  "cardHolderName": "Gaurav",
+				  "type": "AMEX",
+				  "accountNumber": "341134XXXXXX1347"
+				}
+			  }
+			],
+			"nextFulfillmentDate": "2022-04-07T15:24:35.354Z",
+			"fulfillmentFrequency": 4,
+			"fulfillmentFrequencyUom": "DAY",
+			"shippingAddress": {
+			  "id": "218526305",
+			  "fullName": "Gaurav",
+			  "addressLine1": "13 PI ALY",
+			  "city": "BOSTON",
+			  "state": "MA",
+			  "postcode": "02108-4302",
+			  "country": "US",
+			  "primaryAddress": false
+			},
+			"lastShipmentDate": "2022-03-17T15:24:35.356Z",
+			"lastOrderId": "0",
+			"lastOrderStatus": "RELEASED"
+		  }
+		}
+	  }
+]

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tag/utils blacklistedTags it should match snapshot 1`] = `
+Set {
+  "DISCOUNT_ABUSER",
+  "RETURNS_ABUSER",
+  "SUSPECTED_FRAUD",
+}
+`;

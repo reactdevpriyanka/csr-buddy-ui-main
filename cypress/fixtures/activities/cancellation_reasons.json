@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "code": "NON",
+        "description": "No longer needed",
+        "is_customer": false,
+        "is_support": true
+    },
+    {
+        "id": 2,
+        "code": "SCH",
+        "description": "Difficult to schedule",
+        "is_customer": true,
+        "is_support": true
+    },
+    {
+        "id": 3,
+        "code": "DIS",
+        "description": "Dissatisfied with service",
+        "is_customer": false,
+        "is_support": true
+    },
+    {
+        "id": 4,
+        "code": "PAY",
+        "description": "Payment Declined",
+        "is_customer": false,
+        "is_support": true
+    },
+    {
+        "id": 5,
+        "code": "DCA",
+        "description": "Discontinued",
+        "is_customer": false,
+        "is_support": true
+    },
+    {
+        "id": 6,
+        "code": "PRD",
+        "description": "Product Availability",
+        "is_customer": false,
+        "is_support": true
+    },
+    {
+        "id": 7,
+        "code": "ETC",
+        "description": "Other",
+        "is_customer": true,
+        "is_support": true
+    },
+    {
+        "id": 8,
+        "code": "MED",
+        "description": "Issue with Medication or Prescription",
+        "is_customer": true,
+        "is_support": true
+    },
+    {
+        "id": 9,
+        "code": "FCE",
+        "description": "Found cheaper elsewhere",
+        "is_customer": true,
+        "is_support": true
+    },
+    {
+        "id": 10,
+        "code": "FCU",
+        "description": "Fraud Clean Up",
+        "is_customer": false,
+        "is_support": false
+    },
+    {
+        "id": 11,
+        "code": "CCR",
+        "description": "CCPA Cancel Request",
+        "is_customer": false,
+        "is_support": false
+    },
+    {
+        "id": 12,
+        "code": "NMO",
+        "description": "Need more often",
+        "is_customer": true,
+        "is_support": false
+    },
+    {
+        "id": 13,
+        "code": "NLO",
+        "description": "Need less often",
+        "is_customer": true,
+        "is_support": false
+    },
+    {
+        "id": 14,
+        "code": "CDI",
+        "description": "Charge date issue",
+        "is_customer": true,
+        "is_support": false
+    },
+    {
+        "id": 15,
+        "code": "PDC",
+        "description": "Pet diet or food changed",
+        "is_customer": true,
+        "is_support": false
+    },
+    {
+        "id": 16,
+        "code": "OOS",
+        "description": "Product OOS",
+        "is_customer": true,
+        "is_support": false
+    },
+    {
+        "id": 17,
+        "code": "STE",
+        "description": "Shipping price",
+        "is_customer": true,
+        "is_support": false
+    },
+    {
+        "id": 18,
+        "code": "NRS",
+        "description": "No reason selected",
+        "is_customer": false,
+        "is_support": false
+    }
+]

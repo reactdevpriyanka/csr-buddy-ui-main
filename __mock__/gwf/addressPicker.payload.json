@@ -1,0 +1,57 @@
+{
+  "flow": {
+    "startNode": {
+      "id": "1",
+      "singularOutcomeId": "1",
+      "nodeType": "START_NODE"
+    },
+    "flowLinks": [
+      {
+        "outcomeId": "1",
+        "destinationNodeId": "2"
+      }
+    ],
+    "flowNodes": [
+      {
+        "id": "1",
+        "singularOutcomeId": "1",
+        "nodeType": "START_NODE"
+      },
+      {
+        "id": "2",
+        "nodeType": "ADDRESS",
+        "visible": {
+          "value": "false"
+        },
+        "questionContent": {
+          "value": "Select from {customer.addresses.length} addresses"
+        },
+        "answerChoices": {
+          "contextVariableName": "customer.addresses"
+        }
+      }
+    ]
+  },
+  "context": {
+    "customer": {
+      "addresses": [
+        {
+          "id": "24623083",
+          "kyriosId": "24623083",
+          "nickname": "UjAZjEVN-xgx9-aV5d-vUu6-0JcY6Co3NL4r",
+          "fullName": "VOWYm ZGwBW1",
+          "firstName": "ud jBaBt",
+          "lastName": "Xu 3QQHA",
+          "addressLine1": "6828 Autumn Lake TRail",
+          "city": "Hixson",
+          "state": "TN",
+          "postcode": "37343-2551",
+          "country": "US",
+          "phone": "8549767632",
+          "verificationStatus": "VERIFIED",
+          "primaryAddress": true
+        }
+      ]
+    }
+  }
+}

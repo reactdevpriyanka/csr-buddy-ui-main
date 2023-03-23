@@ -1,0 +1,1022 @@
+{
+  "flow": {
+    "flowName" : "returns-continueToSummary",
+    "startNode" : {
+      "id" : "205",
+      "nodeType" : "START_NODE",
+      "singularOutcomeId" : "205"
+    },
+    "flowLinks" : [ {
+      "outcomeId" : "240",
+      "destinationNodeId" : "246"
+    }, {
+      "outcomeId" : "230",
+      "destinationNodeId" : "236"
+    }, {
+      "outcomeId" : "205",
+      "destinationNodeId" : "207"
+    }, {
+      "outcomeId" : "216",
+      "destinationNodeId" : "217"
+    }, {
+      "outcomeId" : "217",
+      "destinationNodeId" : "218"
+    }, {
+      "outcomeId" : "207",
+      "destinationNodeId" : "208"
+    }, {
+      "outcomeId" : "218",
+      "destinationNodeId" : "219"
+    }, {
+      "outcomeId" : "208",
+      "destinationNodeId" : "209"
+    }, {
+      "outcomeId" : "223",
+      "destinationNodeId" : "224"
+    }, {
+      "outcomeId" : "234",
+      "destinationNodeId" : "235"
+    }, {
+      "outcomeId" : "245",
+      "destinationNodeId" : "246"
+    }, {
+      "outcomeId" : "214",
+      "destinationNodeId" : "217"
+    }, {
+      "outcomeId" : "224",
+      "destinationNodeId" : "225"
+    }, {
+      "outcomeId" : "235",
+      "destinationNodeId" : "236"
+    }, {
+      "outcomeId" : "246",
+      "destinationNodeId" : "247"
+    }, {
+      "outcomeId" : "209",
+      "destinationNodeId" : "211"
+    }, {
+      "outcomeId" : "219",
+      "destinationNodeId" : "220"
+    }, {
+      "outcomeId" : "225",
+      "destinationNodeId" : "226"
+    }, {
+      "outcomeId" : "242",
+      "destinationNodeId" : "246"
+    }, {
+      "outcomeId" : "232",
+      "destinationNodeId" : "236"
+    }, {
+      "outcomeId" : "220",
+      "destinationNodeId" : "221"
+    }, {
+      "outcomeId" : "238",
+      "destinationNodeId" : "246"
+    }, {
+      "outcomeId" : "221",
+      "destinationNodeId" : "222"
+    }, {
+      "outcomeId" : "228",
+      "destinationNodeId" : "236"
+    }, {
+      "outcomeId" : "211",
+      "destinationNodeId" : "212"
+    }, {
+      "outcomeId" : "222",
+      "destinationNodeId" : "223"
+    }, {
+      "outcomeId" : "244",
+      "destinationNodeId" : "245"
+    } ],
+    "flowNodes" : [ {
+      "id" : "245",
+      "nodeType" : "TEXT",
+      "required" : {
+        "value" : true
+      },
+      "enabled" : {
+        "value" : true
+      },
+      "visible" : {
+        "value" : true
+      },
+      "decisionInputAttribute" : "summaryDetails.shippingInstructionsText",
+      "label" : {
+        "value" : "Other Instructions"
+      },
+      "placeHolder" : {
+        "value" : "Other Instructions"
+      },
+      "singularOutcomeId" : "245",
+      "outcomeChooserType" : "SINGULAR"
+    }, {
+      "id" : "207",
+      "nodeType" : "LABEL",
+      "visible" : {
+        "value" : true
+      },
+      "label" : {
+        "value" : "Items Cost"
+      },
+      "subLabel" : {
+        "contextVariableName" : "summaryDetails.itemsCostLabel"
+      },
+      "questionContent" : {
+        "value" : "Review and Finalize"
+      },
+      "alignment" : {
+        "value" : "VERTICAL"
+      },
+      "singularOutcomeId" : "207"
+    }, {
+      "id" : "209",
+      "nodeType" : "LABEL",
+      "visible" : {
+        "value" : true
+      },
+      "label" : {
+        "value" : "Total Customer Refund"
+      },
+      "subLabel" : {
+        "contextVariableName" : "summaryDetails.totalRefundLabel"
+      },
+      "alignment" : {
+        "value" : "VERTICAL"
+      },
+      "singularOutcomeId" : "209"
+    }, {
+      "id" : "220",
+      "nodeType" : "BOOLEAN",
+      "required" : {
+        "value" : true
+      },
+      "enabled" : {
+        "contextVariableName" : "summaryDetails.hasReturn"
+      },
+      "visible" : {
+        "contextVariableName" : "summaryDetails.hasReturn"
+      },
+      "decisionInputAttribute" : "summaryDetails.fedexPickup",
+      "label" : {
+        "value" : "FedEx Pickup"
+      },
+      "singularOutcomeId" : "220",
+      "outcomeChooserType" : "SINGULAR"
+    }, {
+      "id" : "223",
+      "nodeType" : "INTEGER",
+      "required" : {
+        "value" : true
+      },
+      "enabled" : {
+        "contextVariableName" : "summaryDetails.hasReturn"
+      },
+      "visible" : {
+        "contextVariableName" : "summaryDetails.hasReturn"
+      },
+      "questionContent" : {
+        "value" : "Labels Needed"
+      },
+      "decisionInputAttribute" : "summaryDetails.quantityOfLabels",
+      "placeHolder" : {
+        "value" : "Quantity of Labels"
+      },
+      "invalidityMessage" : {
+        "value" : "A number between 1 and 6 is required."
+      },
+      "minimumValue" : {
+        "value" : 1
+      },
+      "maximumValue" : {
+        "value" : 6
+      },
+      "singularOutcomeId" : "223",
+      "outcomeChooserType" : "SINGULAR"
+    }, {
+      "id" : "225",
+      "nodeType" : "DATE",
+      "required" : {
+        "value" : true
+      },
+      "enabled" : {
+        "contextVariableName" : "summaryDetails.hasReturn"
+      },
+      "visible" : {
+        "contextVariableName" : "summaryDetails.hasReturn"
+      },
+      "questionContent" : {
+        "value" : "Fedex Pickup Date"
+      },
+      "decisionInputAttribute" : "summaryDetails.returnFedexPickupDate",
+      "label" : {
+        "value" : "Reminder: Fedex only picks up Monday Through Friday and cannot be scheduled for same-day"
+      },
+      "singularOutcomeId" : "225",
+      "outcomeChooserType" : "SINGULAR"
+    }, {
+      "id" : "247",
+      "nextFlowName" : "returns-submit",
+      "nodeType" : "NEXT_CHAPTER_TRANSITION"
+    }, {
+      "id" : "221",
+      "nodeType" : "BOOLEAN",
+      "required" : {
+        "value" : true
+      },
+      "enabled" : {
+        "contextVariableName" : "summaryDetails.hasReturn"
+      },
+      "visible" : {
+        "contextVariableName" : "summaryDetails.hasReturn"
+      },
+      "decisionInputAttribute" : "summaryDetails.sendBoxes",
+      "label" : {
+        "value" : "Send box(es) to customer"
+      },
+      "singularOutcomeId" : "221",
+      "outcomeChooserType" : "SINGULAR"
+    }, {
+      "id" : "222",
+      "nodeType" : "INTEGER",
+      "required" : {
+        "value" : true
+      },
+      "enabled" : {
+        "contextVariableName" : "summaryDetails.hasReturn"
+      },
+      "visible" : {
+        "contextVariableName" : "summaryDetails.hasReturn"
+      },
+      "questionContent" : {
+        "value" : "Boxes Needed"
+      },
+      "decisionInputAttribute" : "summaryDetails.quantityOfBoxes",
+      "placeHolder" : {
+        "value" : "Quantity of Boxes"
+      },
+      "invalidityMessage" : {
+        "value" : "A number between 0 and 6 is required."
+      },
+      "minimumValue" : {
+        "value" : 0
+      },
+      "maximumValue" : {
+        "value" : 6
+      },
+      "singularOutcomeId" : "222",
+      "outcomeChooserType" : "SINGULAR"
+    }, {
+      "id" : "219",
+      "nodeType" : "BOOLEAN",
+      "required" : {
+        "value" : true
+      },
+      "enabled" : {
+        "contextVariableName" : "summaryDetails.hasReturn"
+      },
+      "visible" : {
+        "contextVariableName" : "summaryDetails.hasReturn"
+      },
+      "decisionInputAttribute" : "summaryDetails.snailMailLabels",
+      "label" : {
+        "value" : "Mailed Shipping Label (Snail Mail)"
+      },
+      "singularOutcomeId" : "219",
+      "outcomeChooserType" : "SINGULAR"
+    }, {
+      "id" : "205",
+      "nodeType" : "START_NODE",
+      "singularOutcomeId" : "205"
+    }, {
+      "id" : "208",
+      "nodeType" : "LABEL",
+      "visible" : {
+        "value" : true
+      },
+      "label" : {
+        "value" : "Shipping Cost"
+      },
+      "subLabel" : {
+        "contextVariableName" : "summaryDetails.shippingCostLabel"
+      },
+      "alignment" : {
+        "value" : "VERTICAL"
+      },
+      "singularOutcomeId" : "208"
+    }, {
+      "id" : "217",
+      "nodeType" : "EMAIL_ADDRESS",
+      "required" : {
+        "value" : true
+      },
+      "enabled" : {
+        "contextVariableName" : "summaryDetails.useAnotherEmail"
+      },
+      "visible" : {
+        "contextVariableName" : "summaryDetails.hasReturn"
+      },
+      "decisionInputAttribute" : "summaryDetails.emailAddress",
+      "label" : {
+        "value" : "Email Address"
+      },
+      "singularOutcomeId" : "217",
+      "outcomeChooserType" : "SINGULAR"
+    }, {
+      "id" : "226",
+      "nodeType" : "MULTIPLE_CHOICE",
+      "required" : {
+        "value" : true
+      },
+      "enabled" : {
+        "value" : true
+      },
+      "visible" : {
+        "value" : true
+      },
+      "questionContent" : {
+        "value" : "Delivery Complaint"
+      },
+      "decisionInputAttribute" : "summaryDetails.deliveryComplaint",
+      "answerChoices" : [ {
+        "label" : {
+          "value" : "Order damaged/open upon delivery"
+        },
+        "enabled" : {
+          "value" : true
+        },
+        "visible" : {
+          "value" : true
+        },
+        "value" : "Damaged",
+        "outcomeId" : "228"
+      }, {
+        "label" : {
+          "value" : "Package left in rain without a cover"
+        },
+        "enabled" : {
+          "value" : true
+        },
+        "visible" : {
+          "value" : true
+        },
+        "value" : "LeftInRain",
+        "outcomeId" : "230"
+      }, {
+        "label" : {
+          "value" : "Witnessed driver mishandling package"
+        },
+        "enabled" : {
+          "value" : true
+        },
+        "visible" : {
+          "value" : true
+        },
+        "value" : "DriverMishandledPackage",
+        "outcomeId" : "232"
+      }, {
+        "label" : {
+          "value" : "Other (Free text)"
+        },
+        "enabled" : {
+          "value" : true
+        },
+        "visible" : {
+          "value" : true
+        },
+        "value" : "Other",
+        "outcomeId" : "234"
+      } ],
+      "outcomeChooserType" : "MULTIPLE_CHOICE"
+    }, {
+      "id" : "224",
+      "nodeType" : "ADDRESS",
+      "required" : {
+        "value" : true
+      },
+      "enabled" : {
+        "contextVariableName" : "summaryDetails.hasReturn"
+      },
+      "visible" : {
+        "contextVariableName" : "summaryDetails.hasReturn"
+      },
+      "questionContent" : {
+        "value" : "Mailing Address"
+      },
+      "decisionInputAttribute" : "summaryDetails.returnMailingAddress",
+      "choices" : {
+        "contextVariableName" : "summaryDetails.returnMailingAddresses"
+      },
+      "singularOutcomeId" : "224",
+      "outcomeChooserType" : "SINGULAR"
+    }, {
+      "id" : "211",
+      "nodeType" : "ADDRESS_LABEL",
+      "visible" : {
+        "contextVariableName" : "summaryDetails.hasReplacement"
+      },
+      "questionContent" : {
+        "value" : "Shipping Address"
+      },
+      "value" : {
+        "contextVariableName" : "summaryDetails.shippingAddress"
+      },
+      "singularOutcomeId" : "211"
+    }, {
+      "id" : "236",
+      "nodeType" : "MULTIPLE_CHOICE",
+      "required" : {
+        "value" : true
+      },
+      "enabled" : {
+        "value" : true
+      },
+      "visible" : {
+        "value" : true
+      },
+      "questionContent" : {
+        "value" : "Additional Shipping Instructions"
+      },
+      "decisionInputAttribute" : "summaryDetails.shippingInstructions",
+      "answerChoices" : [ {
+        "label" : {
+          "value" : "Bring to front door"
+        },
+        "enabled" : {
+          "value" : true
+        },
+        "visible" : {
+          "value" : true
+        },
+        "value" : "FrontDoor",
+        "outcomeId" : "238"
+      }, {
+        "label" : {
+          "value" : "Bring to back door"
+        },
+        "enabled" : {
+          "value" : true
+        },
+        "visible" : {
+          "value" : true
+        },
+        "value" : "BackDoor",
+        "outcomeId" : "240"
+      }, {
+        "label" : {
+          "value" : "Bring order to Apt door"
+        },
+        "enabled" : {
+          "value" : true
+        },
+        "visible" : {
+          "value" : true
+        },
+        "value" : "AptDoor",
+        "outcomeId" : "242"
+      }, {
+        "label" : {
+          "value" : "Other (Free text)"
+        },
+        "enabled" : {
+          "value" : true
+        },
+        "visible" : {
+          "value" : true
+        },
+        "value" : "Other",
+        "outcomeId" : "244"
+      } ],
+      "outcomeChooserType" : "MULTIPLE_CHOICE"
+    }, {
+      "id" : "235",
+      "nodeType" : "TEXT",
+      "required" : {
+        "value" : true
+      },
+      "enabled" : {
+        "value" : true
+      },
+      "visible" : {
+        "value" : true
+      },
+      "decisionInputAttribute" : "summaryDetails.deliveryComplaintText",
+      "label" : {
+        "value" : "Other Reason"
+      },
+      "placeHolder" : {
+        "value" : "Other Reason"
+      },
+      "singularOutcomeId" : "235",
+      "outcomeChooserType" : "SINGULAR"
+    }, {
+      "id" : "212",
+      "nodeType" : "MULTIPLE_CHOICE",
+      "required" : {
+        "value" : true
+      },
+      "enabled" : {
+        "contextVariableName" : "summaryDetails.hasReturn"
+      },
+      "visible" : {
+        "contextVariableName" : "summaryDetails.hasReturn"
+      },
+      "questionContent" : {
+        "value" : "Verify the customer's email address {summaryDetails.emailAddress} can be used for receiving a return shipping label."
+      },
+      "decisionInputAttribute" : "summaryDetails.useAnotherEmail",
+      "answerChoices" : [ {
+        "label" : {
+          "value" : "Yes, use existing email address"
+        },
+        "enabled" : {
+          "value" : true
+        },
+        "visible" : {
+          "value" : true
+        },
+        "value" : "false",
+        "outcomeId" : "214"
+      }, {
+        "label" : {
+          "value" : "No, use another email address"
+        },
+        "enabled" : {
+          "value" : true
+        },
+        "visible" : {
+          "value" : true
+        },
+        "value" : "true",
+        "outcomeId" : "216"
+      } ],
+      "outcomeChooserType" : "MULTIPLE_CHOICE"
+    }, {
+      "id" : "218",
+      "nodeType" : "BOOLEAN",
+      "required" : {
+        "value" : true
+      },
+      "enabled" : {
+        "contextVariableName" : "summaryDetails.hasReturn"
+      },
+      "visible" : {
+        "contextVariableName" : "summaryDetails.hasReturn"
+      },
+      "decisionInputAttribute" : "summaryDetails.additionalLabels",
+      "label" : {
+        "value" : "Additional Labels"
+      },
+      "singularOutcomeId" : "218",
+      "outcomeChooserType" : "SINGULAR"
+    }, {
+      "id" : "246",
+      "nodeType" : "BUTTON",
+      "required" : {
+        "value" : true
+      },
+      "enabled" : {
+        "value" : true
+      },
+      "visible" : {
+        "value" : true
+      },
+      "label" : {
+        "value" : "Submit Issues"
+      },
+      "type" : "CONTAINED",
+      "singularOutcomeId" : "246",
+      "outcomeChooserType" : "SINGULAR"
+    } ],
+    "context" : { }
+  }
+,
+  "context": {
+    "totalBeforeTax" : {
+      "value" : "34.94"
+    },
+    "returnItems" : [ {
+      "id" : "1463233993",
+      "status" : null,
+      "product" : {
+        "catalogEntryId" : "44918",
+        "partNumber" : "59922",
+        "name" : "Stewart Pro-Treat Beef Liver Freeze-Dried Raw Dog Treats, 21-oz tub",
+        "description" : "Stewart Pro-Treat Beef Liver Freeze-Dried Raw Dog Treats, 21-oz tub",
+        "bundleTitle" : null,
+        "thumbnail" : "//img.chewy.com/is/image/catalog/59922_MAIN,1611084934",
+        "attributes" : null
+      },
+      "shippingModeCode" : null,
+      "fulfillmentCenter" : "DAY1",
+      "quantity" : 1,
+      "totalProduct" : {
+        "value" : "29.99",
+        "currency" : "USD"
+      },
+      "unitPrice" : {
+        "value" : "29.99",
+        "currency" : "USD"
+      },
+      "timeCreated" : null,
+      "timeUpdated" : null,
+      "timeReleased" : null,
+      "timeShipped" : null,
+      "estimatedAvailabilityTime" : null,
+      "promisedShippingTime" : null,
+      "comments" : null,
+      "shippingAddress" : null,
+      "personalizationAttributes" : null,
+      "wishListId" : null,
+      "isAutoRefill" : null,
+      "lineItemBlocks" : null,
+      "can" : false,
+      "food" : false,
+      "canCount" : null,
+      "shippingCharge" : {
+        "value" : "4.95",
+        "currency" : null
+      },
+      "totalAdjustment" : {
+        "value" : "0.00",
+        "currency" : null
+      },
+      "salesTax" : {
+        "value" : "2.22",
+        "currency" : null
+      },
+      "shippingTax" : {
+        "value" : "0.36",
+        "currency" : null
+      },
+      "currency" : null,
+      "electronicGiftCardIds" : null,
+      "bundleItem" : false
+    } ],
+    "currentItemDetails" : {
+      "wasBoxDamaged" : false,
+      "productDamage" : "RIPPED_OR_TORN_PRODUCT",
+      "howManyHadIssues" : 1,
+      "concession" : {
+        "maxProductConcession" : 32.21,
+        "maxShippingConcession" : 5.31,
+        "productConcession" : "0.01",
+        "shippingConcession" : "0.01",
+        "productConcessionValid" : true,
+        "shippingConcessionValid" : true
+      },
+      "productType" : "OTHER",
+      "emailupdates" : false
+    },
+    "label.salesTax.value" : "Sales Tax (2.22)",
+    "orderId" : "1070008449",
+    "returnItemDetails" : [ {
+      "totalNumberCansForItem" : null,
+      "whatsWrong" : null,
+      "wasBoxDamaged" : false,
+      "boxDamage" : null,
+      "productDamage" : "RIPPED_OR_TORN_PRODUCT",
+      "wereToppersUsed" : null,
+      "howManyHadIssues" : 1,
+      "howManyCansHadIssues" : null,
+      "maxConcessionAmount" : null,
+      "refund" : null,
+      "concession" : {
+        "maxProductConcession" : 32.21,
+        "maxShippingConcession" : 5.31,
+        "productConcession" : 0.01,
+        "shippingConcession" : 0.01,
+        "replacementConcession" : null,
+        "shippingConcessionValid" : false,
+        "productConcessionValid" : false
+      },
+      "productType" : "OTHER",
+      "recommendation" : null,
+      "emailupdates" : false,
+      "chosenSolution" : null,
+      "shouldReceive" : false,
+      "shelterDonationReason" : null
+    } ],
+    "refundTotal" : "   (29.99)",
+    "label.unitPrice.value" : "Item Price (29.99)",
+    "label.none" : " ",
+    "visible.currentItem.food" : false,
+    "lineItems" : [ {
+      "id" : "1463233993",
+      "product" : {
+        "catalogEntryId" : "44918",
+        "partNumber" : "59922",
+        "name" : "Stewart Pro-Treat Beef Liver Freeze-Dried Raw Dog Treats, 21-oz tub",
+        "description" : "Stewart Pro-Treat Beef Liver Freeze-Dried Raw Dog Treats, 21-oz tub",
+        "thumbnail" : "//img.chewy.com/is/image/catalog/59922_MAIN,1611084934"
+      },
+      "fulfillmentCenter" : "DAY1",
+      "quantity" : 1,
+      "totalProduct" : {
+        "value" : "29.99"
+      },
+      "unitPrice" : {
+        "value" : "29.99"
+      },
+      "can" : false,
+      "food" : false,
+      "shippingCharge" : {
+        "value" : "4.95"
+      },
+      "totalAdjustment" : {
+        "value" : "0.00"
+      },
+      "salesTax" : {
+        "value" : "2.22"
+      },
+      "shippingTax" : {
+        "value" : "0.36"
+      },
+      "currency" : "USD",
+      "bundleItem" : false
+    } ],
+    "total" : {
+      "value" : "37.52"
+    },
+    "recommended.product.c" : "none",
+    "recommended.product.b" : "none",
+    "continue" : true,
+    "timeUpdated" : "2021-07-21T21:10:19.675Z",
+    "label.replacement" : " ",
+    "customerId" : "136315994",
+    "id" : "1070008449",
+    "timePlaced" : "2021-07-21T21:06:18.823Z",
+    "currentItemDetails.emailupdates" : true,
+    "totalSalesTax" : {
+      "value" : "2.22"
+    },
+    "whatKindOfIssue" : "productsOrderedIssue",
+    "currentItemDetails.recommendation" : "currentItem0",
+    "totalProduct" : {
+      "value" : "29.99"
+    },
+    "summaryDetails" : {
+      "itemsCost" : 0.01,
+      "shippingCost" : 0.01,
+      "totalRefund" : 0.02,
+      "paymentMethods" : null,
+      "shippingAddress" : {
+        "id" : "72575188",
+        "kyriosId" : null,
+        "legacyId" : null,
+        "nickname" : "af9196f0-601c-4156-9fa7-18cc4960c32b",
+        "fullName" : "Don Demo",
+        "firstName" : null,
+        "lastName" : null,
+        "addressLine1" : "2801 Lexington Ave N",
+        "addressLine2" : "Apt F",
+        "city" : "Roseville",
+        "state" : "MN",
+        "postcode" : "55113-2020",
+        "country" : "US",
+        "phone" : null,
+        "verificationStatus" : null,
+        "primaryAddress" : false
+      },
+      "emailAddress" : null,
+      "useAnotherEmail" : null,
+      "additionalLabels" : null,
+      "snailMailLabels" : null,
+      "fedexPick" : null,
+      "sendBoxes" : null,
+      "quantityOfBoxes" : null,
+      "quantityOfLabels" : null,
+      "returnMailingAddress" : {
+        "id" : "72575188",
+        "kyriosId" : null,
+        "legacyId" : null,
+        "nickname" : "af9196f0-601c-4156-9fa7-18cc4960c32b",
+        "fullName" : "Don Demo",
+        "firstName" : null,
+        "lastName" : null,
+        "addressLine1" : "2801 Lexington Ave N",
+        "addressLine2" : "Apt F",
+        "city" : "Roseville",
+        "state" : "MN",
+        "postcode" : "55113-2020",
+        "country" : "US",
+        "phone" : null,
+        "verificationStatus" : null,
+        "primaryAddress" : false
+      },
+      "returnMailingAddresses" : [ {
+        "id" : "72575188",
+        "kyriosId" : null,
+        "legacyId" : null,
+        "nickname" : "af9196f0-601c-4156-9fa7-18cc4960c32b",
+        "fullName" : "Don Demo",
+        "firstName" : null,
+        "lastName" : null,
+        "addressLine1" : "2801 Lexington Ave N",
+        "addressLine2" : "Apt F",
+        "city" : "Roseville",
+        "state" : "MN",
+        "postcode" : "55113-2020",
+        "country" : "US",
+        "phone" : null,
+        "verificationStatus" : null,
+        "primaryAddress" : false
+      }, {
+        "id" : "1234567",
+        "kyriosId" : null,
+        "legacyId" : null,
+        "nickname" : null,
+        "fullName" : null,
+        "firstName" : null,
+        "lastName" : null,
+        "addressLine1" : "343 Congress Street",
+        "addressLine2" : null,
+        "city" : "Boston",
+        "state" : "MA",
+        "postcode" : "02151",
+        "country" : null,
+        "phone" : null,
+        "verificationStatus" : null,
+        "primaryAddress" : false
+      } ],
+      "returnFedexPickupDate" : null,
+      "deliveryComplaint" : null,
+      "deliveryComplaintText" : null,
+      "shippingInstructions" : null,
+      "shippingInstructionsText" : null,
+      "hasRefund" : true,
+      "hasReplacement" : false,
+      "shouldReturn" : true,
+      "itemsCostLabel" : "$0.01",
+      "shippingCostLabel" : "$0.01",
+      "totalRefundLabel" : "$0.02"
+    },
+    "suzzieOrderUrl" : "https://cs-platform.csbb.qat.chewy.com/orders/1070008449/summary",
+    "whatsWrong" : "DAMAGED",
+    "shipments" : [ {
+      "id" : "418803175",
+      "shippingModeCode" : "FLATRATE",
+      "trackingId" : "1111111111",
+      "timeShipped" : "2021-07-21T00:00:00Z",
+      "trackingData" : {
+        "shippingStep" : "ORDER_PLACED",
+        "shippingStatus" : "UNKNOWN",
+        "chewyPromisedDeliveryDate" : "2021-07-24"
+      },
+      "carrierDescription" : "Flat-Rate Shipping",
+      "shippingAddress" : {
+        "id" : "72575188",
+        "nickname" : "af9196f0-601c-4156-9fa7-18cc4960c32b",
+        "fullName" : "Don Demo",
+        "addressLine1" : "2801 Lexington Ave N",
+        "addressLine2" : "Apt F",
+        "city" : "Roseville",
+        "state" : "MN",
+        "postcode" : "55113-2020",
+        "country" : "US",
+        "primaryAddress" : false
+      },
+      "fulfillmentCenterDetails" : {
+        "id" : "DAY1",
+        "type" : "fulfillmentCenters",
+        "attributes" : {
+          "fulfillmentCenterId" : "DAY1",
+          "displayName" : "DAY1",
+          "fulfillmentCenterType" : "NORMAL",
+          "address" : {
+            "addressLine1" : "3280 Lightner Road",
+            "city" : "Dayton",
+            "state" : "OH",
+            "postcode" : "45377",
+            "country" : "US",
+            "primaryAddress" : false
+          },
+          "fcEnabled" : true,
+          "fulfillerId" : "f4abf781-1958-46ff-9e4a-b82480d0b873"
+        }
+      },
+      "shipmentItems" : [ {
+        "lineItemId" : "1463233993",
+        "quantity" : 1,
+        "shippedQuantity" : 0
+      } ]
+    } ],
+    "label.refund" : "(Recommended)",
+    "label.concession" : " ",
+    "trackingData" : {
+      "shippingStep" : "ORDER_PLACED",
+      "shippingStatus" : "UNKNOWN",
+      "chewyPromisedDeliveryDate" : "2021-07-24",
+      "estimatedDeliveryDate" : "2021-07-24"
+    },
+    "totalShippingTax" : {
+      "value" : "0.36"
+    },
+    "logonId" : "sgerike+dev3@chewy.com",
+    "currentItemDetails.additionalconcession" : 0,
+    "shippingAddress" : {
+      "id" : "72575188",
+      "nickname" : "af9196f0-601c-4156-9fa7-18cc4960c32b",
+      "fullName" : "Don Demo",
+      "addressLine1" : "2801 Lexington Ave N",
+      "addressLine2" : "Apt F",
+      "city" : "Roseville",
+      "state" : "MN",
+      "postcode" : "55113-2020",
+      "country" : "US",
+      "primaryAddress" : false
+    },
+    "label.send" : "(Recommended)",
+    "returns" : {
+      "items" : {
+        "1463233993" : {
+          "partNumber" : "59922",
+          "refundQuantityExisting" : 0,
+          "refundQuantityRemaining" : 1,
+          "replacementQuantityExisting" : 0,
+          "replacementQuantityRemaining" : 1,
+          "concessionAmountExisting" : {
+            "value" : "0"
+          },
+          "concessionAmountRemaining" : {
+            "value" : "32.21"
+          },
+          "shelterDonationQualified" : true
+        }
+      },
+      "shippingConcessionExisting" : {
+        "value" : "0"
+      },
+      "shippingConcessionRemaining" : {
+        "value" : "5.31"
+      }
+    },
+    "totalAdjustment" : {
+      "value" : "0.00"
+    },
+    "currentItem" : {
+      "id" : "1463233993",
+      "product" : {
+        "catalogEntryId" : "44918",
+        "partNumber" : "59922",
+        "name" : "Stewart Pro-Treat Beef Liver Freeze-Dried Raw Dog Treats, 21-oz tub",
+        "description" : "Stewart Pro-Treat Beef Liver Freeze-Dried Raw Dog Treats, 21-oz tub",
+        "thumbnail" : "//img.chewy.com/is/image/catalog/59922_MAIN,1611084934"
+      },
+      "fulfillmentCenter" : "DAY1",
+      "quantity" : 1,
+      "totalProduct" : {
+        "value" : "29.99",
+        "currency" : "USD"
+      },
+      "unitPrice" : {
+        "value" : "29.99",
+        "currency" : "USD"
+      },
+      "can" : false,
+      "food" : false,
+      "shippingCharge" : {
+        "value" : "4.95"
+      },
+      "totalAdjustment" : {
+        "value" : "0.00"
+      },
+      "salesTax" : {
+        "value" : "2.22"
+      },
+      "shippingTax" : {
+        "value" : "0.36"
+      },
+      "bundleItem" : false,
+      "chosenSolution" : "CONCESSION"
+    },
+    "status" : "SHIPPED",
+    "label.shippingCost.value" : "Shipping Cost (4.95)",
+    "customer" : {
+      "customerFullName" : null,
+      "id" : null,
+      "registrationDate" : null,
+      "email" : null,
+      "addresses" : [ {
+        "id" : "1234567",
+        "kyriosId" : null,
+        "legacyId" : null,
+        "nickname" : null,
+        "fullName" : null,
+        "firstName" : null,
+        "lastName" : null,
+        "addressLine1" : "343 Congress Street",
+        "addressLine2" : null,
+        "city" : "Boston",
+        "state" : "MA",
+        "postcode" : "02151",
+        "country" : null,
+        "phone" : null,
+        "verificationStatus" : null,
+        "primaryAddress" : false
+      } ],
+      "pets" : null,
+      "fraud" : null,
+      "fraudSourceSystem" : null
+    }
+  }
+}

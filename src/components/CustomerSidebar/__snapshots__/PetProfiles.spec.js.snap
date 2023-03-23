@@ -1,0 +1,478 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PetProfiles /> it should render profiles for customer pets 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <section
+        class="makeStyles-root-1"
+        data-testid="pet-profile"
+      >
+        <div
+          class="makeStyles-header-2"
+        >
+          <h2
+            class="MuiTypography-root makeStyles-heading-3 MuiTypography-h2"
+          >
+            Pet Profiles
+          </h2>
+          <span
+            class="MuiTypography-root MuiTypography-text MuiLink-root MuiLink-underlineHover makeStyles-editPetLink-8 css-1ifudzl-MuiTypography-root-MuiLink-root"
+            data-dd-action-name="Edit Pet Profile"
+            data-testid="pet-profile:edit"
+          >
+            Edit
+          </span>
+        </div>
+        <div
+          class="makeStyles-gridContainer-5"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root makeStyles-card-12 css-bhp9pd-MuiPaper-root-MuiCard-root"
+            data-testid="pet-profile:card"
+          >
+            <div
+              class="MuiCardMedia-root css-16sznc5-MuiCardMedia-root"
+            >
+              <div
+                class="MuiAvatar-root WithStyles(ForwardRef(Avatar))-root-23 WithStyles(ForwardRef(Avatar))-root-24 MuiAvatar-square"
+                data-testid="pet-profile:avatar"
+                gender="MALE"
+              >
+                <img
+                  alt="pet-profile:avatar"
+                  class="MuiAvatar-img"
+                  src="https://dotcms-ui.chewy.com/images/pet-profile/avatars/default_dog.png"
+                />
+              </div>
+            </div>
+            <div
+              class="MuiBox-root css-5hp7ux"
+            >
+              <button
+                class="MuiButtonBase-root MuiCardActionArea-root css-b6lsxj-MuiButtonBase-root-MuiCardActionArea-root"
+                data-dd-action-name="Pet Profile"
+                tabindex="0"
+                type="button"
+              >
+                <div
+                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                >
+                  <div
+                    class="makeStyles-mainPanel-18"
+                  >
+                    <div
+                      class="makeStyles-topPanel-19"
+                    >
+                      <div
+                        class="makeStyles-nameAge-21"
+                      >
+                        <div
+                          aria-label="Booker"
+                          class="makeStyles-toolTip-22"
+                          data-mui-internal-clone-element="true"
+                        >
+                          <span>
+                            <span>
+                              <h6
+                                class="MuiTypography-root makeStyles-name-14 MuiTypography-h6"
+                                data-dd-action-name="Pet Profile"
+                                data-testid="pet-profile:name"
+                              >
+                                Booker
+                              </h6>
+                              <span
+                                class="makeStyles-confirmation-26"
+                              >
+                                <span
+                                  style="display: flex; flex-flow: row nowrap; align-items: center;"
+                                >
+                                   
+                                  Copied
+                                </span>
+                              </span>
+                            </span>
+                          </span>
+                        </div>
+                        <div
+                          class="MuiTypography-root makeStyles-age-15 MuiTypography-h6"
+                          data-testid="pet-profile:birthday"
+                        >
+                          <div
+                            class="makeStyles-root-27"
+                            data-testid="pet-profile:age"
+                          >
+                            <span
+                              class="makeStyles-value-28"
+                            >
+                              3
+                            </span>
+                            YRS
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        aria-label="Dog, Chihuahua"
+                        class="makeStyles-toolTip-22"
+                        data-mui-internal-clone-element="true"
+                      >
+                        <div
+                          class="MuiTypography-root makeStyles-breedAndType-16 MuiTypography-subtitle1 MuiTypography-colorTextSecondary"
+                        >
+                          <a
+                            class="makeStyles-root-29"
+                            data-testid="pet-profile:breedType"
+                          >
+                            Dog
+                          </a>
+                          , 
+                          <a
+                            class="makeStyles-root-30"
+                            data-testid="pet-profile:breed"
+                          >
+                            Chihuahua
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="makeStyles-bottomPanel-20"
+                    />
+                  </div>
+                </div>
+                <span
+                  class="MuiCardActionArea-focusHighlight css-1v2exvi-MuiCardActionArea-focusHighlight"
+                />
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="makeStyles-gridContainer-5"
+          data-testid="add-pet-container"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-qz1ock-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardMedia-root css-ketfxa-MuiCardMedia-root"
+            >
+              <div
+                class="MuiAvatar-root WithStyles(ForwardRef(Avatar))-root-23 WithStyles(ForwardRef(Avatar))-root-31 MuiAvatar-circular"
+                data-testid="pet-profile:avatar"
+              >
+                <img
+                  class="MuiAvatar-img"
+                  src="https://dotcms-ui.chewy.com/images/pet-profile/avatars/avatar_dog_xx_generic.png"
+                />
+              </div>
+            </div>
+            <button
+              aria-label="ADD A PET"
+              class="MuiButtonBase-root MuiCardActionArea-root css-b6lsxj-MuiButtonBase-root-MuiCardActionArea-root"
+              data-testid="pet-profile:add-pet-button"
+              tabindex="0"
+              type="button"
+            >
+              <div
+                class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+              >
+                <div
+                  class="MuiTypography-root makeStyles-name-4 MuiTypography-h6"
+                >
+                  <span
+                    aria-hidden="true"
+                    class="material-icons MuiIcon-root makeStyles-imgContainer-6"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root makeStyles-img-7"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+                      />
+                    </svg>
+                  </span>
+                  ADD A PET
+                </div>
+              </div>
+              <span
+                class="MuiCardActionArea-focusHighlight css-1v2exvi-MuiCardActionArea-focusHighlight"
+              />
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>,
+  "container": <div>
+    <section
+      class="makeStyles-root-1"
+      data-testid="pet-profile"
+    >
+      <div
+        class="makeStyles-header-2"
+      >
+        <h2
+          class="MuiTypography-root makeStyles-heading-3 MuiTypography-h2"
+        >
+          Pet Profiles
+        </h2>
+        <span
+          class="MuiTypography-root MuiTypography-text MuiLink-root MuiLink-underlineHover makeStyles-editPetLink-8 css-1ifudzl-MuiTypography-root-MuiLink-root"
+          data-dd-action-name="Edit Pet Profile"
+          data-testid="pet-profile:edit"
+        >
+          Edit
+        </span>
+      </div>
+      <div
+        class="makeStyles-gridContainer-5"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root makeStyles-card-12 css-bhp9pd-MuiPaper-root-MuiCard-root"
+          data-testid="pet-profile:card"
+        >
+          <div
+            class="MuiCardMedia-root css-16sznc5-MuiCardMedia-root"
+          >
+            <div
+              class="MuiAvatar-root WithStyles(ForwardRef(Avatar))-root-23 WithStyles(ForwardRef(Avatar))-root-24 MuiAvatar-square"
+              data-testid="pet-profile:avatar"
+              gender="MALE"
+            >
+              <img
+                alt="pet-profile:avatar"
+                class="MuiAvatar-img"
+                src="https://dotcms-ui.chewy.com/images/pet-profile/avatars/default_dog.png"
+              />
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-5hp7ux"
+          >
+            <button
+              class="MuiButtonBase-root MuiCardActionArea-root css-b6lsxj-MuiButtonBase-root-MuiCardActionArea-root"
+              data-dd-action-name="Pet Profile"
+              tabindex="0"
+              type="button"
+            >
+              <div
+                class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+              >
+                <div
+                  class="makeStyles-mainPanel-18"
+                >
+                  <div
+                    class="makeStyles-topPanel-19"
+                  >
+                    <div
+                      class="makeStyles-nameAge-21"
+                    >
+                      <div
+                        aria-label="Booker"
+                        class="makeStyles-toolTip-22"
+                        data-mui-internal-clone-element="true"
+                      >
+                        <span>
+                          <span>
+                            <h6
+                              class="MuiTypography-root makeStyles-name-14 MuiTypography-h6"
+                              data-dd-action-name="Pet Profile"
+                              data-testid="pet-profile:name"
+                            >
+                              Booker
+                            </h6>
+                            <span
+                              class="makeStyles-confirmation-26"
+                            >
+                              <span
+                                style="display: flex; flex-flow: row nowrap; align-items: center;"
+                              >
+                                 
+                                Copied
+                              </span>
+                            </span>
+                          </span>
+                        </span>
+                      </div>
+                      <div
+                        class="MuiTypography-root makeStyles-age-15 MuiTypography-h6"
+                        data-testid="pet-profile:birthday"
+                      >
+                        <div
+                          class="makeStyles-root-27"
+                          data-testid="pet-profile:age"
+                        >
+                          <span
+                            class="makeStyles-value-28"
+                          >
+                            3
+                          </span>
+                          YRS
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      aria-label="Dog, Chihuahua"
+                      class="makeStyles-toolTip-22"
+                      data-mui-internal-clone-element="true"
+                    >
+                      <div
+                        class="MuiTypography-root makeStyles-breedAndType-16 MuiTypography-subtitle1 MuiTypography-colorTextSecondary"
+                      >
+                        <a
+                          class="makeStyles-root-29"
+                          data-testid="pet-profile:breedType"
+                        >
+                          Dog
+                        </a>
+                        , 
+                        <a
+                          class="makeStyles-root-30"
+                          data-testid="pet-profile:breed"
+                        >
+                          Chihuahua
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="makeStyles-bottomPanel-20"
+                  />
+                </div>
+              </div>
+              <span
+                class="MuiCardActionArea-focusHighlight css-1v2exvi-MuiCardActionArea-focusHighlight"
+              />
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="makeStyles-gridContainer-5"
+        data-testid="add-pet-container"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-qz1ock-MuiPaper-root-MuiCard-root"
+        >
+          <div
+            class="MuiCardMedia-root css-ketfxa-MuiCardMedia-root"
+          >
+            <div
+              class="MuiAvatar-root WithStyles(ForwardRef(Avatar))-root-23 WithStyles(ForwardRef(Avatar))-root-31 MuiAvatar-circular"
+              data-testid="pet-profile:avatar"
+            >
+              <img
+                class="MuiAvatar-img"
+                src="https://dotcms-ui.chewy.com/images/pet-profile/avatars/avatar_dog_xx_generic.png"
+              />
+            </div>
+          </div>
+          <button
+            aria-label="ADD A PET"
+            class="MuiButtonBase-root MuiCardActionArea-root css-b6lsxj-MuiButtonBase-root-MuiCardActionArea-root"
+            data-testid="pet-profile:add-pet-button"
+            tabindex="0"
+            type="button"
+          >
+            <div
+              class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+            >
+              <div
+                class="MuiTypography-root makeStyles-name-4 MuiTypography-h6"
+              >
+                <span
+                  aria-hidden="true"
+                  class="material-icons MuiIcon-root makeStyles-imgContainer-6"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-img-7"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+                    />
+                  </svg>
+                </span>
+                ADD A PET
+              </div>
+            </div>
+            <span
+              class="MuiCardActionArea-focusHighlight css-1v2exvi-MuiCardActionArea-focusHighlight"
+            />
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

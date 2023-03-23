@@ -1,0 +1,50 @@
+{
+  "customerFullName": "Nessa Bobbins",
+  "id": 148824357,
+  "registrationDate": "2021-10-20 09:19:21",
+  "email": "nbobbins@chewy.net",
+  "addresses": [
+    {
+      "id": "215589273",
+      "kyriosId": "215589273",
+      "nickname": "7ad81a06-4f5d-46cd-8091-ec567acffb52",
+      "fullName": "Nessa Bobbins",
+      "addressLine1": "550 COLUMBUS PKWY",
+      "city": "HOLLYWOOD",
+      "state": "FL",
+      "postcode": "33021-6225",
+      "country": "US",
+      "phone": "5554563320",
+      "verificationStatus": "PAYPAL_VERIFIED",
+      "primaryAddress": false
+    }
+  ],
+  "customerAddresses": [
+    {
+      "id": "215589273",
+      "kyriosId": "215589273",
+      "nickname": "nbobbins@chewy.net",
+      "fullName": "Nessa Bobbins",
+      "phone": "5554563320",
+      "primaryAddress": false
+    }
+  ],
+  "pets": [
+    {
+      "id": "82236071",
+      "name": "Booker",
+      "weight": 9,
+      "gender": "MALE",
+      "breedType": "Dog",
+      "breed": "Chihuahua",
+      "birthday": "2020-04-16T00:00:00Z",
+      "adopted": false,
+      "avatarUrl": "https://dotcms-ui.chewy.com/images/pet-profile/avatars/avatar_dog_22_pommeranian.png",
+      "status": "ACTIVE",
+      "timeCreated": "2021-10-21 08:26:20",
+      "timeUpdated": "2021-10-21 08:27:01"
+    }
+  ],
+  "fraud": false,
+  "fraudSourceSystem": "CHEWY"
+}

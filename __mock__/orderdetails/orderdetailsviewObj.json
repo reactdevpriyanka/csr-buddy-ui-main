@@ -1,0 +1,450 @@
+{
+    "orderNumber": "1782110437",
+    "itemMap": {
+        "21474925619": {
+            "id": "21474925619",
+            "externalId": "45353405",
+            "status": "RELEASED",
+            "product": {
+                "catalogEntryId": "173230",
+                "partNumber": "146387",
+                "name": "Heartgard Plus Chew for Dogs, up to 25 lbs, (Blue Box), 6 Chews (6-mos. supply)",
+                "description": "Heartgard Plus Chew for Dogs, up to 25 lbs, (Blue Box), 6 Chews (6-mos. supply)",
+                "thumbnail": "//image.chewy.com/is/image/catalog/146387_MAIN,1622727773",
+                "attributes": [
+                    "PHARMACEUTICAL"
+                ],
+                "personalizationAttributeMap": {
+                    "ClinicId": "28284",
+                    "ContactVet": "true",
+                    "PetProfileId": "82658737"
+                }
+            },
+            "inventoryStatus": "RELEASED",
+            "fulfillmentCenter": "SDF4",
+            "fulfillmentCenterType": "CHEWY",
+            "fulfillmentStatus": "RELEASED",
+            "quantity": 1,
+            "totalProduct": {
+                "value": "42.99"
+            },
+            "unitPrice": {
+                "value": "42.99"
+            },
+            "timeCreated": "2023-01-26T18:17:44.871Z",
+            "timeUpdated": "2023-01-30T19:50:21.629Z",
+            "timeReleased": "2023-01-30T19:50:21.629Z",
+            "bundleItem": false,
+            "shippingCharge": {
+                "value": "0.00"
+            },
+            "totalAdjustment": {
+                "value": "-2.15"
+            },
+            "salesTax": {
+                "value": "0.00"
+            },
+            "shippingTax": {
+                "value": "0.00"
+            },
+            "currency": "USD",
+            "vetContactInfo": {
+                "clinicId": "28284",
+                "clinicName": "VCA Saginaw",
+                "vetProfileId": "76107532",
+                "contactVet": "true",
+                "petProfileId": "82658737",
+                "petName": "Dog1"
+            },
+            "tags": [
+                "PHARMACY"
+            ]
+        }
+    },
+    "orderDate":"2023-01-26T18:17:44.871Z",
+    "orderDetails":{
+        "id": "1782110437",
+        "customerId": "255259460",
+        "status": "RELEASED",
+        "totalProduct": {
+            "value": "42.99",
+            "currency": "USD"
+        },
+        "totalSalesTax": {
+            "value": "0.00",
+            "currency": "USD"
+        },
+        "totalShipping": {
+            "value": "0.00",
+            "currency": "USD"
+        },
+        "totalShippingTax": {
+            "value": "0.00",
+            "currency": "USD"
+        },
+        "totalAdjustment": {
+            "value": "-2.15",
+            "currency": "USD"
+        },
+        "totalBeforeTax": {
+            "value": "40.84",
+            "currency": "USD"
+        },
+        "total": {
+            "value": "40.84",
+            "currency": "USD"
+        },
+        "timePlaced": "2023-01-26T18:17:44.871Z",
+        "timeUpdated": "2023-01-30T19:50:25.592Z",
+        "blocks": [
+            {
+                "id": "23608607",
+                "reason": "FRAUDCHECK_FAILED",
+                "resolved": true,
+                "resolvable": false,
+                "timeBlocked": "2023-01-26T18:17:51.863Z",
+                "timeResolved": "2023-01-30T19:48:44.255Z",
+                "comments": "Agent 81 overrode riskified decision."
+            },
+            {
+                "id": "23609115",
+                "reason": "OTHER",
+                "resolved": true,
+                "resolvable": false,
+                "timeBlocked": "2023-01-30T18:59:48.026Z",
+                "timeResolved": "2023-01-30T18:59:54.347Z",
+                "comments": "Order unblocked For Edit"
+            }
+        ],
+        "lineItems": [
+            {
+                "id": "21474925619",
+                "externalId": "45353405",
+                "status": "RELEASED",
+                "product": {
+                    "catalogEntryId": "173230",
+                    "partNumber": "146387",
+                    "name": "Heartgard Plus Chew for Dogs, up to 25 lbs, (Blue Box), 6 Chews (6-mos. supply)",
+                    "description": "Heartgard Plus Chew for Dogs, up to 25 lbs, (Blue Box), 6 Chews (6-mos. supply)",
+                    "thumbnail": "//image.chewy.com/is/image/catalog/146387_MAIN,1622727773",
+                    "attributes": [
+                        "PHARMACEUTICAL"
+                    ],
+                    "personalizationAttributeMap": {
+                        "ClinicId": "28284",
+                        "ContactVet": "true",
+                        "PetProfileId": "82658737"
+                    }
+                },
+                "inventoryStatus": "RELEASED",
+                "fulfillmentCenter": "SDF4",
+                "fulfillmentCenterType": "CHEWY",
+                "fulfillmentStatus": "RELEASED",
+                "quantity": 1,
+                "totalProduct": {
+                    "value": "42.99"
+                },
+                "unitPrice": {
+                    "value": "42.99"
+                },
+                "timeCreated": "2023-01-26T18:17:44.871Z",
+                "timeUpdated": "2023-01-30T19:50:21.629Z",
+                "timeReleased": "2023-01-30T19:50:21.629Z",
+                "bundleItem": false,
+                "shippingCharge": {
+                    "value": "0.00"
+                },
+                "totalAdjustment": {
+                    "value": "-2.15"
+                },
+                "salesTax": {
+                    "value": "0.00"
+                },
+                "shippingTax": {
+                    "value": "0.00"
+                },
+                "currency": "USD",
+                "vetContactInfo": {
+                    "clinicId": "28284",
+                    "clinicName": "VCA Saginaw",
+                    "vetProfileId": "76107532",
+                    "contactVet": "true",
+                    "petProfileId": "82658737",
+                    "petName": "Dog1"
+                },
+                "tags": [
+                    "PHARMACY"
+                ]
+            }
+        ],
+        "subscriptionInfos": [
+            {
+                "subscriptionId": "810038354",
+                "parentOrderId": "810038354"
+            }
+        ],
+        "trackingData": {
+            "shippingStep": "PENDING",
+            "shippingStatus": "UNKNOWN"
+        },
+        "shippingAddress": {
+            "id": "35763704",
+            "nickname": "3cd33deb-0afe-462c-af0b-f8ef2f2c32e9",
+            "fullName": "Aubree",
+            "addressLine1": "1 HAM RD",
+            "city": "BARRINGTON",
+            "state": "NH",
+            "postcode": "03825-5604",
+            "country": "US",
+            "phone": "1234567890",
+            "primaryAddress": false,
+            "verified": false
+        },
+        "orderAttributes": [
+            "AUTOSHIP",
+            "PRESCRIPTION"
+        ],
+        "releases": [
+            {
+                "id": "17857730",
+                "status": "PRINTED",
+                "releaseNumber": 1,
+                "shippingModeCode": "FLATRATE",
+                "fulfillmentAck": "2023-01-30T20:03:18.423Z",
+                "fulfillmentCenter": "SDF4",
+                "fulfillmentCenterType": "CHEWY",
+                "lineItemIds": [
+                    "21474925619"
+                ],
+                "timeCreated": "2023-01-30T19:50:21.629Z",
+                "timeUpdated": "2023-01-30T19:50:25.507Z",
+                "attributes": [
+                    "CANCELLABLE"
+                ]
+            }
+        ],
+        "releasesNotShippedItems": [
+            {
+                "id": "17857730",
+                "status": "PRINTED",
+                "releaseNumber": 1,
+                "shippingModeCode": "FLATRATE",
+                "fulfillmentAck": "2023-01-30T20:03:18.423Z",
+                "fulfillmentCenter": "SDF4",
+                "fulfillmentCenterType": "CHEWY",
+                "lineItemIds": [
+                    "21474925619"
+                ],
+                "timeCreated": "2023-01-30T19:50:21.629Z",
+                "timeUpdated": "2023-01-30T19:50:25.507Z",
+                "attributes": [
+                    "CANCELLABLE"
+                ]
+            }
+        ],
+        "notShippedItems": [
+            {
+                "lineItemId": "21474925619",
+                "quantity": 1,
+                "shippedQuantity": 0
+            }
+        ],
+        "payments": {
+            "paymentInstructions": [
+                {
+                    "id": "422334555",
+                    "walletId": "90d1d77d-5068-41eb-9897-b270172ab2a8",
+                    "paymentMethod": {
+                        "paymentReferenceId": "c72153fd-6c9f-4900-a23a-6b540c721387",
+                        "type": "CARD",
+                        "card": {
+                            "expirationMonth": "12",
+                            "expirationYear": "2023",
+                            "cardHolderName": "Aubree",
+                            "type": "MASTERCARD",
+                            "accountNumber": "222100ISxP-JER60009"
+                        }
+                    },
+                    "billingAddress": {
+                        "fullName": "Aubree",
+                        "addressLine1": "1 HAM RD",
+                        "city": "BARRINGTON",
+                        "state": "NH",
+                        "postcode": "03825-5604",
+                        "country": "USA"
+                    },
+                    "amount": "40.84",
+                    "state": "VALID",
+                    "timeCreated": "2023-01-26T18:17:45.304Z",
+                    "timeUpdated": "2023-01-30T19:50:21.613Z"
+                }
+            ]
+        },
+        "remoteIp": "192.88.179.42",
+        "businessChannel": "WEB",
+        "submitter": "CUSTOMER",
+        "submitterId": "255259460",
+        "submitterDetail": {
+            "id": "255259460",
+            "email": "aken2@0109.com",
+            "fullName": "Aubree",
+            "status": "ACTIVE"
+        },
+        "promotions": [
+            {
+                "code": "AUTOSHIPNSAVE",
+                "name": "Autoship & Save - 5% off eligible brands",
+                "amount": {
+                    "value": "-2.15"
+                }
+            }
+        ],
+        "releasedItemCount": 1
+    },
+    "status": "RELEASED",
+    "total":{
+        "value": "40.84",
+        "currency": "USD"
+    },
+    "shipments":[],
+    "releases":[],
+    "notReleasedLineItems": [],
+    "releasesNotShippedItems": [],
+    "submitter": "CUSTOMER",
+    "remoteIp": "192.88.179.42",
+    "comment": "",
+    "businessChannel":"WEB",
+    "submitterDetail":{
+        "id": "255259460",
+        "email": "aken2@0109.com",
+        "fullName": "Aubree",
+        "status": "ACTIVE"
+    },
+    "timeUpdated": "2023-01-30T19:50:25.592Z",
+    "returns": [],
+    "shippingAddress": {
+        "id": "35763704",
+        "nickname": "3cd33deb-0afe-462c-af0b-f8ef2f2c32e9",
+        "fullName": "Aubree",
+        "addressLine1": "1 HAM RD",
+        "city": "BARRINGTON",
+        "state": "NH",
+        "postcode": "03825-5604",
+        "country": "US",
+        "phone": "1234567890",
+        "primaryAddress": false,
+        "verified": false
+    },
+    "subscriptionInfos":[
+        {
+            "subscriptionId": "810038354",
+            "parentOrderId": "810038354"
+        }
+    ],
+    "blocks": [
+        {
+            "id": "35354761",
+            "reason": "RELEASE_CANCELED",
+            "resolved": false,
+            "resolvable": true,
+            "timeBlocked": "2022-11-15T18:51:10.919Z",
+            "comments": "Rejected by fulfillment center - Rejected - missing/invalid SKU"
+        }
+    ],
+    "lineItems": [
+        {
+            "id": "21474925619",
+            "externalId": "45353405",
+            "status": "RELEASED",
+            "product": {
+                "catalogEntryId": "173230",
+                "partNumber": "146387",
+                "name": "Heartgard Plus Chew for Dogs, up to 25 lbs, (Blue Box), 6 Chews (6-mos. supply)",
+                "description": "Heartgard Plus Chew for Dogs, up to 25 lbs, (Blue Box), 6 Chews (6-mos. supply)",
+                "thumbnail": "//image.chewy.com/is/image/catalog/146387_MAIN,1622727773",
+                "attributes": [
+                    "PHARMACEUTICAL"
+                ],
+                "personalizationAttributeMap": {
+                    "ClinicId": "28284",
+                    "ContactVet": "true",
+                    "PetProfileId": "82658737"
+                }
+            },
+            "inventoryStatus": "RELEASED",
+            "fulfillmentCenter": "SDF4",
+            "fulfillmentCenterType": "CHEWY",
+            "fulfillmentStatus": "RELEASED",
+            "quantity": 1,
+            "totalProduct": {
+                "value": "42.99"
+            },
+            "unitPrice": {
+                "value": "42.99"
+            },
+            "timeCreated": "2023-01-26T18:17:44.871Z",
+            "timeUpdated": "2023-01-30T19:50:21.629Z",
+            "timeReleased": "2023-01-30T19:50:21.629Z",
+            "bundleItem": false,
+            "shippingCharge": {
+                "value": "0.00"
+            },
+            "totalAdjustment": {
+                "value": "-2.15"
+            },
+            "salesTax": {
+                "value": "0.00"
+            },
+            "shippingTax": {
+                "value": "0.00"
+            },
+            "currency": "USD",
+            "vetContactInfo": {
+                "clinicId": "28284",
+                "clinicName": "VCA Saginaw",
+                "vetProfileId": "76107532",
+                "contactVet": "true",
+                "petProfileId": "82658737",
+                "petName": "Dog1"
+            },
+            "tags": [
+                "PHARMACY"
+            ]
+        }
+    ],
+    "replaces": {
+        "id": "aa03731c-dad7-43e6-8e8d-c9d34c69942b",
+        "orderId": "1075185067",
+        "state": "PROCESSED",
+        "type": "REPLACEMENT",
+        "timeCreated": "2022-11-15T18:00:29.308056Z",
+        "timeUpdated": "2022-11-15T18:00:29.961098Z",
+        "timeProcessed": "2022-11-15T18:00:29.942010Z",
+        "replacementOrderId": "1783607122",
+        "totalCredit": 0,
+        "items": [
+            {
+                "returnId": "aa03731c-dad7-43e6-8e8d-c9d34c69942b",
+                "lineItemId": "1504583408",
+                "orderId": "1075185067",
+                "state": "PROCESSED",
+                "type": "REPLACEMENT",
+                "reasonCategory": "OTHER",
+                "reason": {
+                    "primary": "OTHER"
+                },
+                "timeCreated": "2022-11-15T18:00:29.308056Z",
+                "timeUpdated": "2022-11-15T18:00:29.961098Z",
+                "replacementOrderId": "1783607122",
+                "comment": "null",
+                "partNumber": "174681",
+                "quantity": 1,
+                "sendBack": false,
+                "giftCard": false
+            }
+        ]
+    },
+    "timePlaced": "2023-01-26T18:17:44.871Z",
+    "orderComments": [],
+    "returnItems": []
+}

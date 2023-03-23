@@ -1,0 +1,12 @@
+[
+  {
+    "activityTimestamp": "2022-08-31T22:04:19.270Z",
+    "activityType": "RETURN_PROCESSED",
+    "activitySource": "RETURNS",
+    "activityId": "1243509195",
+    "activityCategory": "ORDER",
+    "customerId": "268500256",
+    "sourceEventId": "UFXDPRY35ZFC3I77IBIJHMWDAQ"
+  }
+  ]
+  

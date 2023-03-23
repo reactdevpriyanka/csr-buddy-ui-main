@@ -1,0 +1,374 @@
+[
+  {
+    "type": "ORDER_RELEASE_SHIPPED",
+    "createdAt": "2021-09-07T20:00:04.102Z",
+    "data": {
+        "order": {
+            "id": "1070045906",
+            "customerId": "152454973",
+            "status": "SHIPPED",
+            "totalProduct": {
+                "value": "76.57"
+            },
+            "totalSalesTax": {
+                "value": "5.13"
+            },
+            "totalShippingTax": {
+                "value": "0.00"
+            },
+            "totalAdjustment": {
+                "value": "-3.25"
+            },
+            "totalBeforeTax": {
+                "value": "73.32"
+            },
+            "total": {
+                "value": "78.45"
+            },
+            "timePlaced": "2021-09-07T19:56:16.415Z",
+            "timeUpdated": "2021-09-07T20:00:04.102Z",
+            "lineItems": [
+                {
+                    "id": "1493940061",
+                    "externalId": "381285802",
+                    "status": "SHIPPED",
+                    "product": {
+                        "catalogEntryId": "141611",
+                        "partNumber": "114333",
+                        "name": "Pedigree Chopped Ground Dinner Variety Pack With Filet Mignon & Beef Canned Dog Food, 13.2-oz, case of 12",
+                        "description": "Pedigree Chopped Ground Dinner Variety Pack With Filet Mignon & Beef Canned Dog Food, 13.2-oz, case of 12",
+                        "thumbnail": "//img.chewy.com/is/image/catalog/114333_MAIN,1607717855"
+                    },
+                    "fulfillmentCenter": "EFC3",
+                    "fulfillmentStatus": "SHIPPED",
+                    "quantity": 1,
+                    "totalProduct": {
+                        "value": "11.58"
+                    },
+                    "unitPrice": {
+                        "value": "11.58"
+                    },
+                    "can": true,
+                    "food": true,
+                    "canCount": 12,
+                    "shippingCharge": {
+                        "value": "0.00"
+                    },
+                    "totalAdjustment": {
+                        "value": "0.00"
+                    },
+                    "salesTax": {
+                        "value": "0.81"
+                    },
+                    "shippingTax": {
+                        "value": "0.00"
+                    },
+                    "currency": "USD",
+                    "bundleItem": false
+                },
+                {
+                    "id": "1493940062",
+                    "externalId": "381285803",
+                    "status": "SHIPPED",
+                    "product": {
+                        "catalogEntryId": "130491",
+                        "partNumber": "102992",
+                        "name": "Bones & Chews Bully Stick 6\" Dog Treats, case of 35",
+                        "description": "Bones & Chews Bully Stick 6\" Dog Treats, case of 35",
+                        "thumbnail": "//img.chewy.com/is/catalog/102992_MAIN,1475098206"
+                    },
+                    "fulfillmentCenter": "AVP1",
+                    "fulfillmentStatus": "SHIPPED",
+                    "quantity": 1,
+                    "totalProduct": {
+                        "value": "64.99"
+                    },
+                    "unitPrice": {
+                        "value": "64.99"
+                    },
+                    "can": false,
+                    "food": false,
+                    "shippingCharge": {
+                        "value": "0.00"
+                    },
+                    "totalAdjustment": {
+                        "value": "-3.25"
+                    },
+                    "salesTax": {
+                        "value": "4.32"
+                    },
+                    "shippingTax": {
+                        "value": "0.00"
+                    },
+                    "currency": "USD",
+                    "bundleItem": false
+                }
+            ],
+            "subscriptionInfos": [
+                {
+                    "subscriptionId": "800014914",
+                    "parentOrderId": "800014914"
+                }
+            ],
+            "trackingData": {
+                "shippingStep": "PACKING_ITEMS",
+                "shippingStatus": "UNKNOWN"
+            },
+            "shippingAddress": {
+                "id": "314555802",
+                "nickname": "70372faa-fa0a-4f17-878e-06124bf0172a",
+                "fullName": "qa test",
+                "addressLine1": "500 NE 3RD ST",
+                "city": "DANIA",
+                "state": "FL",
+                "postcode": "33004-2906",
+                "country": "US",
+                "phone": "2222222222",
+                "primaryAddress": false,
+                "verified": false
+            },
+            "orderAttributes": [
+                "AUTOSHIP"
+            ],
+            "shipments": [
+                {
+                    "id": "428386577",
+                    "shippingModeCode": "FLATRATE",
+                    "timeShipped": "2021-09-07T00:00:00Z",
+                    "trackingData": {
+                        "shippingStep": "PACKING_ITEMS",
+                        "shippingStatus": "UNKNOWN",
+                        "progressPercentage": 20,
+                        "packagesCountFromOrder": 1,
+                        "displayEvents": [
+                            {
+                                "code": "ORDER_CREATED",
+                                "date": "2021-07-08T16:05:52Z"
+                            },
+                            {
+                                "code": "ORDER_RELEASED",
+                                "date": "2021-07-08T16:51:26Z"
+                            }
+                        ]
+                    },
+                    "carrierDescription": "Flat-Rate Shipping",
+                    "trackingUrl": "nullnull",
+                    "shippingAddress": {
+                        "id": "314555802",
+                        "nickname": "70372faa-fa0a-4f17-878e-06124bf0172a",
+                        "fullName": "qa test",
+                        "addressLine1": "500 NE 3RD ST",
+                        "city": "DANIA",
+                        "state": "FL",
+                        "postcode": "33004-2906",
+                        "country": "US",
+                        "phone": "2222222222",
+                        "primaryAddress": false,
+                        "verified": false
+                    },
+                    "fulfillmentCenterDetails": {
+                        "id": "EFC3",
+                        "type": "fulfillmentCenters",
+                        "attributes": {
+                            "fulfillmentCenterId": "EFC3",
+                            "displayName": "EFC3",
+                            "fulfillmentCenterType": "NORMAL",
+                            "address": {
+                                "addressLine1": "40 Dauphin Drive",
+                                "city": "Mechanicsburg",
+                                "state": "PA",
+                                "postcode": "17050",
+                                "country": "US",
+                                "phone": "800-672-4399",
+                                "primaryAddress": false,
+                                "email": "service@chewy.com",
+                                "verified": false
+                            },
+                            "fcEnabled": true,
+                            "fulfillerId": "da295753-1507-4ea7-a0e6-967b949dda72"
+                        }
+                    },
+                    "shipmentItems": [
+                        {
+                            "lineItemId": "1493940061",
+                            "quantity": 1,
+                            "shippedQuantity": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "428386576",
+                    "shippingModeCode": "FLATRATE",
+                    "timeShipped": "2021-09-07T00:00:00Z",
+                    "trackingData": {
+                        "shippingStep": "PACKING_ITEMS",
+                        "shippingStatus": "UNKNOWN",
+                        "progressPercentage": 20,
+                        "packagesCountFromOrder": 1,
+                        "displayEvents": [
+                            {
+                                "code": "ORDER_CREATED",
+                                "date": "2021-07-08T16:05:52Z"
+                            },
+                            {
+                                "code": "ORDER_RELEASED",
+                                "date": "2021-07-08T16:51:26Z"
+                            }
+                        ]
+                    },
+                    "carrierDescription": "Flat-Rate Shipping",
+                    "trackingUrl": "nullnull",
+                    "shippingAddress": {
+                        "id": "314555802",
+                        "nickname": "70372faa-fa0a-4f17-878e-06124bf0172a",
+                        "fullName": "qa test",
+                        "addressLine1": "500 NE 3RD ST",
+                        "city": "DANIA",
+                        "state": "FL",
+                        "postcode": "33004-2906",
+                        "country": "US",
+                        "phone": "2222222222",
+                        "primaryAddress": false,
+                        "verified": false
+                    },
+                    "fulfillmentCenterDetails": {
+                        "id": "AVP1",
+                        "type": "fulfillmentCenters",
+                        "attributes": {
+                            "fulfillmentCenterId": "AVP1",
+                            "displayName": "AVP1",
+                            "fulfillmentCenterType": "NORMAL",
+                            "address": {
+                                "addressLine1": "600 New Commerce Blvd",
+                                "city": "Hanover Township",
+                                "state": "PA",
+                                "postcode": "18706",
+                                "country": "US",
+                                "phone": "800-672-4399",
+                                "primaryAddress": false,
+                                "email": "service@chewy.com",
+                                "verified": false
+                            },
+                            "returnAddress": {
+                                "addressLine1": "600 New Commerce Blvd, Suite R",
+                                "city": "Wilkes-Barre",
+                                "state": "PA",
+                                "postcode": "18706",
+                                "country": "US",
+                                "phone": "800-672-4399",
+                                "primaryAddress": false,
+                                "email": "service@chewy.com",
+                                "verified": false
+                            },
+                            "fcEnabled": true,
+                            "fulfillerId": "da295753-1507-4ea7-a0e6-967b949dda72"
+                        }
+                    },
+                    "shipmentItems": [
+                        {
+                            "lineItemId": "1493940062",
+                            "quantity": 1,
+                            "shippedQuantity": 0
+                        }
+                    ]
+                }
+            ],
+            "releases": [
+                {
+                    "id": "383197247",
+                    "status": "MANIFESTED",
+                    "releaseNumber": 1,
+                    "shippingModeCode": "FLATRATE",
+                    "lineItemIds": [
+                        "1493940061"
+                    ],
+                    "shipmentIds": [
+                        "428386577"
+                    ],
+                    "timeCreated": "2021-09-07T19:59:39.277Z",
+                    "timeUpdated": "2021-09-07T20:00:03.952Z"
+                },
+                {
+                    "id": "383197248",
+                    "status": "MANIFESTED",
+                    "releaseNumber": 2,
+                    "shippingModeCode": "FLATRATE",
+                    "lineItemIds": [
+                        "1493940062"
+                    ],
+                    "shipmentIds": [
+                        "428386576"
+                    ],
+                    "timeCreated": "2021-09-07T19:59:39.277Z",
+                    "timeUpdated": "2021-09-07T19:59:50.548Z"
+                }
+            ],
+            "returnItems": [
+                {
+                    "returnId": "2cd6e08b-ef2e-459d-9371-1f523aab6258",
+                    "lineItemId": "1493940061",
+                    "orderId": "1070045906",
+                    "state": "FAILED",
+                    "type": "REFUND",
+                    "reasonCategory": "UNKNOWN",
+                    "reason": {
+                        "primary": "UNAUTHORIZED_PURCHASE"
+                    },
+                    "timeCreated": "2021-10-28T21:16:23.937006Z",
+                    "timeUpdated": "2022-02-24T07:17:32.438362Z",
+                    "comment": "cci//purchase not authority//processing refund",
+                    "giftCard": false
+                },
+                {
+                    "returnId": "1a6f81e1-eae6-43f4-abf8-5f224a6c40d7",
+                    "lineItemId": "1493940062",
+                    "orderId": "1070045906",
+                    "state": "PAY_WAIT",
+                    "type": "PRODUCT_CONCESSION",
+                    "reasonCategory": "DAMAGED",
+                    "reason": {
+                        "primary": "DAMAGED",
+                        "secondary": "PRODUCT_ONLY",
+                        "tertiary": "RIPPED_OR_TORN_PRODUCT"
+                    },
+                    "timeCreated": "2021-09-11T15:13:33.043351Z",
+                    "timeUpdated": "2021-09-11T15:13:33.150896Z",
+                    "comment": "CCI bag food tear// only half of food was useable// Concession issued for $32",
+                    "giftCard": false
+                }
+            ],
+            "payments": {
+                "paymentInstructions": [
+                    {
+                        "id": "429822399",
+                        "walletId": "7648edf5-17c3-44f5-acad-2e3acb3c8d26",
+                        "paymentMethod": {
+                            "paymentReferenceId": "91e664e6-02ca-4877-8a97-ff32a8a9f556",
+                            "type": "CARD",
+                            "card": {
+                                "expirationMonth": "2",
+                                "expirationYear": "2022",
+                                "cardHolderName": "Pragya dixit",
+                                "type": "AMEX",
+                                "accountNumber": "3411XXXXXXX1347"
+                            }
+                        },
+                        "billingAddress": {
+                            "fullName": "Pragya dixit",
+                            "addressLine1": "500 NE 3RD ST",
+                            "city": "DANIA",
+                            "state": "FL",
+                            "postcode": "33004-2906",
+                            "country": "USA"
+                        },
+                        "amount": "78.68",
+                        "state": "VALID",
+                        "timeCreated": "2021-09-07T19:56:17.168Z",
+                        "timeUpdated": "2021-09-07T19:59:50.505Z"
+                    }
+                ]
+            }
+        }
+    }
+}
+]

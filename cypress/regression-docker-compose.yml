@@ -1,0 +1,44 @@
+version: '3.9'
+
+services:
+  gateway:
+    image: 278833423079.dkr.ecr.us-east-1.amazonaws.com/csbb/csrb-gateway:0.10.0
+    environment:
+      SPRING_PROFILES_ACTIVE: $ENVIRONMENT
+      SPRING_REDIS_CLUSTER_NODES: $REDIS_HOST
+      CSRB_GATEWAY_ROUTE_CSRBTIERBAPIBASEURL: $TIERB_BASE_URL
+      CSRB_GATEWAY_LOGIN_ACCOUNTSERVICEURI: $ACCOUNT_SERVICE_URI
+      CSRB_GATEWAY_ROUTE_CSRBALPHAAPPSERVERSETTINGS_BASEURL: http://host.docker.internal:3000
+      CSRB_GATEWAY_ROUTE_CSRBBETAAPPSERVERSETTINGS_BASEURL: http://host.docker.internal:3000
+      CSRB_GATEWAY_ROUTE_CSRBSTABLEAPPSERVERSETTINGS_BASEURL: http://host.docker.internal:3000
+      CSRB_CONFIGURATION_CONTENTSECURITYPOLICYSOURCES: https://chewy--tst3.custhelp.com
+      LOGGING_LEVEL_ORG_SPRINGFRAMEWORK_CLOUD_GATEWAY_FILTER_GATEWAYMETRICSFILTER: ERROR
+      LOGGING_LEVEL_ORG_SPRINGFRAMEWORK: ERROR
+      LOGGING_LEVEL_COM_CHEWY_CSRB_GATEWAY: INFO
+      LOGGING_LEVEL_REACTOR_NETTY_HTTP_CLIENT_HTTPCLIENT: INFO
+    ports:
+      - '8080:8080'
+
+  csr-buddy-ui-regression:
+    image: 278833423079.dkr.ecr.us-east-1.amazonaws.com/csbb/csr-buddy-ui:$PUBLISH_VERSION
+    depends_on:
+      - gateway
+    ports:
+      - 3000:3000
+    command: sh -c "yarn start"
+
+  cypress:
+    container_name: cypress
+    build:
+      context: ./
+      dockerfile: Dockerfile.cypress
+    working_dir: /cypress
+    depends_on:
+      - csr-buddy-ui-regression
+    environment:
+      - CYPRESS_baseUrl=http://gateway:8080 
+      - CYPRESS_VIDEO=false
+    volumes:
+      - ./:/cypress
+    command: ./wait-for-it.sh gateway:8080
+

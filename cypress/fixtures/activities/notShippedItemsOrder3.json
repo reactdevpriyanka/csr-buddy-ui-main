@@ -1,0 +1,192 @@
+{
+    "id": "1782059109",
+    "customerId": "152902024",
+    "status": "RELEASED",
+    "totalProduct": {
+        "value": "400.08",
+        "currency": "USD"
+    },
+    "totalSalesTax": {
+        "value": "24.40",
+        "currency": "USD"
+    },
+    "totalShipping": {
+        "value": "0.00",
+        "currency": "USD"
+    },
+    "totalShippingTax": {
+        "value": "0.00",
+        "currency": "USD"
+    },
+    "totalAdjustment": {
+        "value": "0.00",
+        "currency": "USD"
+    },
+    "totalBeforeTax": {
+        "value": "400.08",
+        "currency": "USD"
+    },
+    "total": {
+        "value": "424.48",
+        "currency": "USD"
+    },
+    "timePlaced": "2022-10-26T12:07:14.481Z",
+    "timeUpdated": "2022-10-26T12:20:39.832Z",
+    "blocks": [
+        {
+            "id": "33891359",
+            "reason": "FRAUDCHECK_FAILED",
+            "resolved": true,
+            "resolvable": false,
+            "timeBlocked": "2022-10-26T12:07:46.543Z",
+            "timeResolved": "2022-10-26T12:09:25.721Z",
+            "comments": "Agent 81 overrode riskified decision."
+        },
+        {
+            "id": "33891283",
+            "reason": "MULTIPLE_ORDERS",
+            "resolved": true,
+            "resolvable": false,
+            "timeBlocked": "2022-10-26T12:07:16.163Z",
+            "timeResolved": "2022-10-26T12:07:37.547Z"
+        }
+    ],
+    "lineItems": [
+        {
+            "id": "2147823073",
+            "externalId": "404867458",
+            "status": "RELEASED",
+            "product": {
+                "catalogEntryId": "349322",
+                "partNumber": "323047",
+                "name": "Walking Palm Felted Wool Cat Cave Bed, Black & White",
+                "description": "Walking Palm Felted Wool Cat Cave Bed, Black & White",
+                "thumbnail": "//image.chewy.com/is/image/catalog/323047_MAIN,1632185845",
+                "attributes": [
+                    "DROPSHIP"
+                ]
+            },
+            "fulfillmentCenter": "AVP1",
+            "fulfillmentCenterType": "DROPSHIP",
+            "fulfillmentStatus": "RELEASED",
+            "quantity": 8,
+            "totalProduct": {
+                "value": "400.08"
+            },
+            "unitPrice": {
+                "value": "50.01"
+            },
+            "minDeliveryDate": "2022-10-30T02:30:00.557Z",
+            "maxDeliveryDate": "2022-11-07T02:30:00.557Z",
+            "bundleItem": false,
+            "shippingCharge": {
+                "value": "0.00"
+            },
+            "totalAdjustment": {
+                "value": "0.00"
+            },
+            "salesTax": {
+                "value": "24.40"
+            },
+            "shippingTax": {
+                "value": "0.00"
+            },
+            "currency": "USD",
+            "tags": [
+                "OUT_OF_STOCK",
+                "DROPSHIP"
+            ]
+        }
+    ],
+    "trackingData": {
+        "shippingStep": "ORDER_PLACED",
+        "shippingStatus": "NONE"
+    },
+    "shippingAddress": {
+        "id": "347146058",
+        "nickname": "4957e6cd-86fe-4434-a9fb-ca9a44bbec13",
+        "fullName": "Allie AZ",
+        "addressLine1": "3780 S CAMINO DEL GOLFISTA",
+        "city": "GREEN VALLEY",
+        "state": "AZ",
+        "postcode": "85614-5758",
+        "country": "US",
+        "phone": "8885551234",
+        "primaryAddress": false,
+        "verified": false
+    },
+    "releases": [
+        {
+            "id": "169246335",
+            "status": "PRINTED",
+            "releaseNumber": 1,
+            "shippingModeCode": "FLATRATE",
+            "fulfillmentCenter": "AVP1",
+            "fulfillmentCenterType": "DROPSHIP",
+            "lineItemIds": [
+                "2147823073"
+            ],
+            "timeCreated": "2022-10-26T12:20:39.557Z",
+            "timeUpdated": "2022-10-26T12:20:39.805Z",
+            "attributes": [
+                "CANCELLABLE"
+            ]
+        }
+    ],
+    "releasesNotShippedItems": [
+        {
+            "id": "169246335",
+            "status": "PRINTED",
+            "releaseNumber": 1,
+            "shippingModeCode": "FLATRATE",
+            "fulfillmentCenter": "AVP1",
+            "fulfillmentCenterType": "DROPSHIP",
+            "lineItemIds": [
+                "2147823073"
+            ],
+            "timeCreated": "2022-10-26T12:20:39.557Z",
+            "timeUpdated": "2022-10-26T12:20:39.805Z",
+            "attributes": [
+                "CANCELLABLE"
+            ]
+        }
+    ],
+    "notShippedItems": [
+        {
+            "lineItemId": "2147823073",
+            "quantity": 8,
+            "shippedQuantity": 0
+        }
+    ],
+    "payments": {
+        "paymentInstructions": [
+            {
+                "id": "440760943",
+                "walletId": "ebd75639-579d-4285-8110-e00dcefc4263",
+                "paymentMethod": {
+                    "paymentReferenceId": "444dc288-a33a-4ee0-a137-01e66da29f8c",
+                    "type": "SERVICE",
+                    "service": {
+                        "serviceName": "PayPal",
+                        "accountEmail": "ChewyDev49@test.com"
+                    }
+                },
+                "billingAddress": {},
+                "amount": "424.48",
+                "state": "VALID",
+                "timeCreated": "2022-10-26T12:07:14.981Z",
+                "timeUpdated": "2022-10-26T12:20:39.557Z"
+            }
+        ]
+    },
+    "remoteIp": "192.88.179.15",
+    "businessChannel": "WEB",
+    "submitter": "CUSTOMER",
+    "submitterId": "152902024",
+    "submitterDetail": {
+        "id": "152902024",
+        "email": "jeubanks@chewy.com",
+        "fullName": "Allie",
+        "status": "ACTIVE"
+    }
+}

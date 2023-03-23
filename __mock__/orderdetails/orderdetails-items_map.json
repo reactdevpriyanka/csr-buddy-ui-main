@@ -1,0 +1,114 @@
+{
+    "1504724130": {
+        "id": "1504724130",
+        "externalId": "392182423",
+        "status": "SHIPPED",
+        "product": {
+            "catalogEntryId": "114674",
+            "partNumber": "86899",
+            "name": "Bones & Chews Made in USA Roasted Marrow Bone 6\" Dog Treat",
+            "description": "Bones & Chews Made in USA Roasted Marrow Bone 6\" Dog Treat",
+            "thumbnail": "//img.chewy.com/is/image/catalog/86899_MAIN,1512484676"
+        },
+        "fulfillmentCenter": "MCI1",
+        "fulfillmentStatus": "SHIPPED",
+        "quantity": 5,
+        "totalProduct": {
+            "value": "27.35"
+        },
+        "unitPrice": {
+            "value": "5.47"
+        },
+        "can": false,
+        "food": false,
+        "shippingCharge": {
+            "value": "0.00"
+        },
+        "totalAdjustment": {
+            "value": "0.00"
+        },
+        "salesTax": {
+            "value": "2.25"
+        },
+        "shippingTax": {
+            "value": "0.00"
+        },
+        "currency": "USD",
+        "bundleItem": false
+    },
+    "1504724131": {
+        "id": "1504724131",
+        "externalId": "392182424",
+        "status": "SHIPPED",
+        "product": {
+            "catalogEntryId": "31989",
+            "partNumber": "46809",
+            "name": "Blue Buffalo Homestyle Recipe Lamb Dinner with Garden Vegetables Canned Dog Food, 12.5-oz, case of 12",
+            "description": "Blue Buffalo Homestyle Recipe Lamb Dinner with Garden Vegetables Canned Dog Food, 12.5-oz, case of 12",
+            "thumbnail": "//img.chewy.com/is/image/catalog/46809_MAIN,1572895147"
+        },
+        "fulfillmentCenter": "DFW3",
+        "fulfillmentStatus": "SHIPPED",
+        "quantity": 3,
+        "totalProduct": {
+            "value": "100.08"
+        },
+        "unitPrice": {
+            "value": "33.36"
+        },
+        "can": true,
+        "food": true,
+        "canCount": 12,
+        "shippingCharge": {
+            "value": "0.00"
+        },
+        "totalAdjustment": {
+            "value": "0.00"
+        },
+        "salesTax": {
+            "value": "8.26"
+        },
+        "shippingTax": {
+            "value": "0.00"
+        },
+        "currency": "USD",
+        "bundleItem": false
+    },
+    "1504724132": {
+        "id": "1504724132",
+        "externalId": "392182425",
+        "status": "SHIPPED",
+        "product": {
+            "catalogEntryId": "111912",
+            "partNumber": "84108",
+            "name": "Blue Buffalo Life Protection Formula Large Breed Adult Lamb & Brown Rice Recipe Dry Dog Food, 30-lb bag",
+            "description": "Blue Buffalo Life Protection Formula Large Breed Adult Lamb & Brown Rice Recipe Dry Dog Food, 30-lb bag",
+            "thumbnail": "//img.chewy.com/is/image/catalog/84108_MAIN,1636145839"
+        },
+        "fulfillmentCenter": "DFW3",
+        "fulfillmentStatus": "SHIPPED",
+        "quantity": 2,
+        "totalProduct": {
+            "value": "117.98"
+        },
+        "unitPrice": {
+            "value": "58.99"
+        },
+        "can": false,
+        "food": true,
+        "shippingCharge": {
+            "value": "0.00"
+        },
+        "totalAdjustment": {
+            "value": "0.00"
+        },
+        "salesTax": {
+            "value": "9.74"
+        },
+        "shippingTax": {
+            "value": "0.00"
+        },
+        "currency": "USD",
+        "bundleItem": false
+    }
+}

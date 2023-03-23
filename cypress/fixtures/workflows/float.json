@@ -1,0 +1,53 @@
+{
+  "context": {
+    "floatVal": { "value": 22 }
+  },
+  "startNode": { "id": "2" },
+  "flow": {
+    "flowName": "show-address",
+    "startNode": {
+      "id": "2",
+      "nodeType": "START_NODE",
+      "singularOutcomeId": "2"
+    },
+    "flowLinks": [
+      {
+        "outcomeId": "1",
+        "destinationNodeId": "2"
+      },
+      {
+        "outcomeId": "2",
+        "destinationNodeId": "3"
+      }
+    ],
+    "flowNodes": [
+      {
+        "id": "2",
+        "singularOutcomeId": "2",
+        "singularOutcome": "2",
+        "nodeType": "FLOAT",
+        "required": true,
+        "decisionInputAttribute": "floatVal",
+        "label": "Boxes Needed",
+        "placeHolder": {
+          "value": "Enter a concession amount"
+        },
+        "invalidityMessage": {
+          "value": "Please enter a number between 1 and 50"
+        },
+        "minimumValue": {
+          "value": 1
+        },
+        "maximumValue": {
+          "value": 50
+        }
+      },
+      {
+        "id": "3",
+        "nodeType": "LABEL",
+        "label": { "value": "Complete" },
+        "singularOutcomeId": "3"
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+[
+    {
+        "lineItemId": "1504724130",
+        "quantity": 5,
+        "shippedQuantity": 0,
+        "id": "1504724130",
+        "externalId": "392182423",
+        "status": "SHIPPED",
+        "lineItemAttributes": [
+            "QTY_REDUCIBLE",
+            "CANCELLABLE"
+        ],
+        "product": {
+            "catalogEntryId": "114674",
+            "partNumber": "86899",
+            "name": "Bones & Chews Made in USA Roasted Marrow Bone 6\" Dog Treat",
+            "description": "Bones & Chews Made in USA Roasted Marrow Bone 6\" Dog Treat",
+            "thumbnail": "//img.chewy.com/is/image/catalog/86899_MAIN,1512484676"
+        },
+        "fulfillmentCenter": "MCI1",
+        "fulfillmentStatus": "SHIPPED",
+        "inventoryStatus": "SHIPPED",
+        "totalProduct": {
+            "value": "27.35"
+        },
+        "unitPrice": {
+            "value": "5.47"
+        },
+        "can": false,
+        "food": false,
+        "shippingCharge": {
+            "value": "0.00"
+        },
+        "totalAdjustment": {
+            "value": "0.00"
+        },
+        "salesTax": {
+            "value": "2.25"
+        },
+        "shippingTax": {
+            "value": "0.00"
+        },
+        "currency": "USD",
+        "bundleItem": false
+    }
+]

@@ -1,0 +1,26 @@
+{
+    "id": "83617530",
+    "name": "Jimmu",
+    "weight": 2,
+    "gender": "MALE",
+    "breedType": "Fish",
+    "breed": "Guppy",
+    "birthday": "2021-01-15T00:00:00Z",
+    "adopted": false,
+    "medications": [
+        "Cefa-Drops",
+        "Cephalexin"
+    ],
+    "medicationAllergies": [
+        "Clindamycin",
+        "Beta Blockers"
+    ],
+    "existingMedicalConditions": [
+        "Bladder/Kidney Stones",
+        "Hypothyroid"
+    ],
+    "status": "ACTIVE",
+    "timeCreated": "2022-03-14 15:31:05",
+    "timeUpdated": "2022-03-14 15:31:05",
+    "weightInPounds": 2
+}

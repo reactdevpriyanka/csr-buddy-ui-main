@@ -1,0 +1,53 @@
+{
+  "id": "testid",
+  "parentOrderId": "testorder",
+  "fulfillmentFrequency": 6,
+  "fulfillmentFrequencyUom": "MON",
+  "memberId": "testcustomer",
+  "status": "ACTIVE",
+  "name": "TEST AUTOSHIP",
+  "totalProduct": "17.99",
+  "blocked": false,
+  "shippingAddress": {
+    "addressId": "217050626",
+    "fullName": "Test Person",
+    "street1": "4 EMPLOYEE LN",
+    "city": "KOKOMO",
+    "state": "IN",
+    "postcode": "46902-5678",
+    "country": "US",
+    "phone1": "5551234567"
+  },
+  "items": [
+    {
+      "itemid": "432136",
+      "catalogEntryId": "161860",
+      "sku": "134859",
+      "quantity": 1,
+      "totalProduct": "17.99",
+      "rxRequired": false,
+      "pharma": false
+    }
+  ],
+  "payments": [
+    {
+      "paymentMethodId": "afb0cd74-1441-4f5d-8937-359b2d64cf4a",
+      "paymentMethodType": "CREDITCARD",
+      "paymentMethodDetail": {
+        "creditcardDetail": {
+          "maskedAccountNumber": "341134XXXXXX1347",
+          "expirationMonth": "2",
+          "expirationYear": "2026",
+          "cardHolderName": "Gaurav",
+          "creditcardType": "AMEX"
+        },
+        "paypalDetail": {},
+        "giftcardDetail": {
+          "availableBalance": {}
+        }
+      }
+    }
+  ],
+  "lastUpdated": "2022-01-20T22:02:16.039Z",
+  "timePlaced": "2022-01-05T16:31:02.275Z"
+}

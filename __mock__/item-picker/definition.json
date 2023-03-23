@@ -1,0 +1,26 @@
+{
+    "id": "82",
+    "nodeType": "ITEM_OPTION",
+    "required": {
+        "value": true
+    },
+    "enabled": {
+        "value": true
+    },
+    "visible": {
+        "value": true
+    },
+    "decisionInputAttribute": "currentItem",
+    "itemChoices": {
+        "contextVariableName": "lineItems"
+    },
+    "shipmentChoices": {
+        "contextVariableName": "shipments"
+    },
+    "notShippedItemChoices": {
+        "contextVariableName": "notShippedItems"
+    },
+    "orientation": "VERTICAL",
+    "singularOutcomeId": "82",
+    "outcomeChooserType": "SINGULAR"
+}

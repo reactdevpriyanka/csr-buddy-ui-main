@@ -1,0 +1,59 @@
+{
+  "context": {},
+  "startNode": { "id": "2" },
+  "flow": {
+    "flowName": "checkbox",
+
+    "startNode": {
+      "id": "2",
+      "nodeType": "START_NODE",
+      "singularOutcomeId": "2"
+    },
+    "flowLinks": [
+      {
+        "outcomeId": "1",
+        "destinationNodeId": "2"
+      },
+      {
+        "outcomeId": "3",
+        "destinationNodeId": "4"
+      },
+      {
+        "outcomeId": "5",
+        "destinationNodeId": "6"
+      }
+    ],
+    "flowNodes": [
+      {
+        "id": "2",
+        "nodeType": "MULTIPLE_CHOICE",
+        "outcomeChooserType": "MULTIPLE_CHOICE",
+        "label": { "value": "Refund(s)" },
+        "answerChoices": [
+          {
+            "label": "Refund shipping ($3.44)",
+            "value": "Refund",
+            "outcomeId": "3"
+          },
+          {
+            "label": "Refund shipping ($5.00)",
+            "value": "BigRefund",
+            "outcomeId": "5"
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "nodeType": "LABEL",
+        "label": { "value": "Complete" },
+        "singularOutcomeId": "4"
+      },
+      {
+        "id": "6",
+        "nodeType": "LABEL",
+        "label": { "value": "Complete2" },
+        "singularOutcomeId": "6"
+      }
+    ]
+  }
+}

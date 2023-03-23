@@ -1,0 +1,88 @@
+{
+  "id": 83629954,
+  "submitterId": "154492684",
+  "adopted": false,
+  "adoptionDate": "2022-02-03 00:00:00",
+  "birthday": "2022-02-01 00:00:00",
+  "birthdayEstimated": false,
+  "type": {
+    "id": 3,
+    "name": "Fish"
+  },
+  "name": "FishWFA",
+  "weight": 1,
+  "gender": "FMLE",
+  "allergies": [
+    {
+      "id": 9,
+      "name": "Corn",
+      "writein": false
+    },
+    {
+      "id": 4,
+      "name": "Beef",
+      "writein": false
+    },
+    {
+      "id": 8,
+      "name": "Egg",
+      "writein": false
+    }
+  ],
+  "medicationAllergies": [
+    {
+      "id": 1,
+      "name": "ACE Inhibitors",
+      "writein": false
+    },
+    {
+      "id": 9,
+      "name": "Clavulanic Acid",
+      "writein": false
+    }
+  ],
+  "medications": [
+    {
+      "id": 11,
+      "name": "Cephalosporins"
+    },
+    {
+      "id": 7,
+      "name": "Bacitracin"
+    }
+  ],
+  "existingMedicalConditions": [
+    {
+      "id": 13,
+      "name": "Lactating"
+    },
+    {
+      "id": 2,
+      "name": "Bladder/Kidney Stones"
+    }
+  ],
+  "breed": {
+    "id": 639,
+    "name": "Tetras",
+    "type": {
+      "id": 3,
+      "name": "Fish"
+    }
+  },
+  "breeds": [
+    {
+      "id": 639,
+      "name": "Tetras",
+      "type": {
+        "id": 3,
+        "name": "Fish"
+      }
+    }
+  ],
+  "sizeType": "UNK",
+  "weightType": "H",
+  "status": "ACTIVE",
+  "timeCreated": "2022-04-05 15:30:09",
+  "timeUpdated": "2022-04-05 15:30:09",
+  "weightInPounds": 1.0
+}

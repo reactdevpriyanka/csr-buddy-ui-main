@@ -1,0 +1,10 @@
+[
+  {
+    "name": "HEARING_IMPAIRED",
+    "description": "Please speak slowly and clearly for the customer",
+    "sourceSystem": "KYRIOS",
+    "updatable": true,
+    "displayName": "Hearing Impaired",
+    "value": true
+  }
+]

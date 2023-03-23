@@ -1,0 +1,47 @@
+{
+  "flow": {
+    "startNode": {
+      "id": "1",
+      "nodeType": "START_NODE",
+      "singularOutcomeId": "1"
+    },
+    "flowLinks": [
+      {
+        "outcomeId": "1",
+        "destinationNodeId": "2"
+      }
+    ],
+    "flowNodes": [
+      {
+        "nodeType": "START_NODE",
+        "singularOutcomeId": "1"
+      },
+      {
+        "nodeType": "MULTIPLE_CHOICE",
+        "id": "2",
+        "decisionInputAttribute": {
+          "value": "currentItemDetails.isCans"
+        },
+        "answerChoices": [
+          {
+            "value": {
+              "value": true
+            },
+            "label": "Yes"
+          },
+          {
+            "value": {
+              "value": false
+            },
+            "label": "No"
+          }
+        ]
+      }
+    ]
+  },
+  "context": {
+    "currentItemDetails": {
+      "isCans": true
+    }
+  }
+}

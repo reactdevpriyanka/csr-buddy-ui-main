@@ -1,0 +1,11 @@
+[
+  {
+    "activityTimestamp": "2022-10-26T12:07:15.710Z",
+    "activityType": "ORDER_RELEASED",
+    "activitySource": "OMS",
+    "activityId": "1782059109",
+    "activityCategory": "ORDER",
+    "customerId": "152902024",
+    "sourceEventId": "1561491771"
+}
+]

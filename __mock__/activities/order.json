@@ -1,0 +1,322 @@
+{
+  "type": "ORDER_RELEASED",
+  "createdAt": "2021-08-11T21:18:02.254Z",
+  "data": {
+    "order": {
+      "id": "1070000530",
+      "customerId": "148817292",
+      "status": "RELEASED",
+      "totalProduct": {
+        "value": "82.71"
+      },
+      "totalSalesTax": {
+        "value": "4.66"
+      },
+      "totalShippingTax": {
+        "value": "0.00"
+      },
+      "totalAdjustment": {
+        "value": "-15.00"
+      },
+      "totalBeforeTax": {
+        "value": "67.71"
+      },
+      "total": {
+        "value": "72.37"
+      },
+      "timePlaced": "2021-08-11T21:16:39.644Z",
+      "timeUpdated": "2021-08-11T21:18:02.254Z",
+      "lineItems": [
+        {
+          "id": "1463283944",
+          "product": {
+            "catalogEntryId": "270791",
+            "partNumber": "244306",
+            "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+            "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+            "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+            "attributes": [
+              "ELECTRONIC_DELIVERY",
+              "GIFT_CARD"
+            ]
+          },
+          "fulfillmentCenter": "DGC1",
+          "quantity": 1,
+          "totalProduct": {
+            "value": "5.00"
+          },
+          "unitPrice": {
+            "value": "5.00"
+          },
+          "shippingCharge": {
+            "value": "0.00"
+          },
+          "totalAdjustment": {
+            "value": "-5.00"
+          },
+          "salesTax": {
+            "value": "0.00"
+          },
+          "shippingTax": {
+            "value": "0.00"
+          },
+          "currency": "USD",
+          "bundleItem": false
+        },
+        {
+          "id": "1463283945",
+          "product": {
+            "catalogEntryId": "31991",
+            "partNumber": "46811",
+            "name": "Blue Buffalo Homestyle Recipe Chicken Dinner with Garden Vegetables & Brown Rice Canned Dog Food, 12.5-oz, case of 12",
+            "description": "Blue Buffalo Homestyle Recipe Chicken Dinner with Garden Vegetables & Brown Rice Canned Dog Food, 12.5-oz, case of 12",
+            "thumbnail": "//img.chewy.com/is/image/catalog/46811_MAIN,1572895160"
+          },
+          "fulfillmentCenter": "CFC1",
+          "quantity": 3,
+          "totalProduct": {
+            "value": "67.71"
+          },
+          "unitPrice": {
+            "value": "22.57"
+          },
+          "shippingCharge": {
+            "value": "0.00"
+          },
+          "totalAdjustment": {
+            "value": "0.00"
+          },
+          "salesTax": {
+            "value": "4.66"
+          },
+          "shippingTax": {
+            "value": "0.00"
+          },
+          "currency": "USD",
+          "bundleItem": false
+        },
+        {
+          "id": "1463283946",
+          "product": {
+            "catalogEntryId": "270791",
+            "partNumber": "244306",
+            "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+            "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+            "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+            "attributes": [
+              "ELECTRONIC_DELIVERY",
+              "GIFT_CARD"
+            ]
+          },
+          "fulfillmentCenter": "DGC1",
+          "quantity": 1,
+          "totalProduct": {
+            "value": "5.00"
+          },
+          "unitPrice": {
+            "value": "5.00"
+          },
+          "shippingCharge": {
+            "value": "0.00"
+          },
+          "totalAdjustment": {
+            "value": "-5.00"
+          },
+          "salesTax": {
+            "value": "0.00"
+          },
+          "shippingTax": {
+            "value": "0.00"
+          },
+          "currency": "USD",
+          "bundleItem": false
+        },
+        {
+          "id": "1463283947",
+          "product": {
+            "catalogEntryId": "270791",
+            "partNumber": "244306",
+            "name": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+            "description": "Chewy Promotional $5 eGift Card, Included Free With an Item in Your Order",
+            "thumbnail": "//img.chewy.com/is/image/catalog/244306_MAIN,1598623564",
+            "attributes": [
+              "ELECTRONIC_DELIVERY",
+              "GIFT_CARD"
+            ]
+          },
+          "fulfillmentCenter": "DGC1",
+          "quantity": 1,
+          "totalProduct": {
+            "value": "5.00"
+          },
+          "unitPrice": {
+            "value": "5.00"
+          },
+          "shippingCharge": {
+            "value": "0.00"
+          },
+          "totalAdjustment": {
+            "value": "-5.00"
+          },
+          "salesTax": {
+            "value": "0.00"
+          },
+          "shippingTax": {
+            "value": "0.00"
+          },
+          "currency": "USD",
+          "bundleItem": false
+        }
+      ],
+      "trackingData": {
+        "shippingStep": "ORDER_PLACED",
+        "shippingStatus": "UNKNOWN",
+        "chewyPromisedDeliveryDate": "2021-08-16",
+        "estimatedDeliveryDate": "2021-08-16"
+      },
+      "shippingAddress": {
+        "id": "72572271",
+        "nickname": "968b0126-8b20-48ad-8cd6-4a8300a0b0fc",
+        "fullName": "Scott Gerike",
+        "addressLine1": "2801 Lexington Ave N",
+        "addressLine2": "Apt A",
+        "city": "Roseville",
+        "state": "MN",
+        "postcode": "55113-2020",
+        "country": "US",
+        "primaryAddress": false
+      },
+      "shipments": [
+        {
+          "id": "418803177",
+          "shippingModeCode": "FLATRATE",
+          "trackingId": "23456787654",
+          "timeShipped": "2021-08-11T00:00:00Z",
+          "trackingData": {
+            "shippingStep": "ORDER_PLACED",
+            "shippingStatus": "UNKNOWN",
+            "chewyPromisedDeliveryDate": "2021-08-16",
+            "progressPercentage": 20,
+            "packagesCountFromOrder": 1,
+            "displayEvents": [
+              {
+                "code": "ORDER_CREATED",
+                "date": "2021-06-30T14:51:10Z"
+              },
+              {
+                "code": "ORDER_RELEASED",
+                "date": "2021-06-30T15:41:10Z"
+              }
+            ]
+          },
+          "carrierDescription": "Flat-Rate Shipping",
+          "trackingUrl": "null23456787654",
+          "shippingAddress": {
+            "id": "72572271",
+            "nickname": "968b0126-8b20-48ad-8cd6-4a8300a0b0fc",
+            "fullName": "Scott Gerike",
+            "addressLine1": "2801 Lexington Ave N",
+            "addressLine2": "Apt A",
+            "city": "Roseville",
+            "state": "MN",
+            "postcode": "55113-2020",
+            "country": "US",
+            "primaryAddress": false
+          },
+          "shipmentItems": [
+            {
+              "lineItemId": "1463283945",
+              "quantity": 3,
+              "shippedQuantity": 0
+            }
+          ]
+        }
+      ],
+      "notShippedItems": [
+        {
+          "lineItemId": "1463283944",
+          "quantity": 1,
+          "shippedQuantity": 0
+        },
+        {
+          "lineItemId": "1463283945",
+          "quantity": 3,
+          "shippedQuantity": 0
+        },
+        {
+          "lineItemId": "1463283946",
+          "quantity": 1,
+          "shippedQuantity": 0
+        },
+        {
+          "lineItemId": "1463283947",
+          "quantity": 1,
+          "shippedQuantity": 0
+        }
+      ],
+      "payments": {
+        "paymentInstructions": [
+          {
+            "id": "433879955",
+            "walletId": "796d0f98-974f-4283-9aae-a8734d1b4349",
+            "paymentMethod": {
+              "paymentReferenceId": "caded6db-9b7d-4e7d-a4d8-d59a395252b7",
+              "type": "CARD",
+              "card": {
+                "cardHolderName": "Sumit Singh",
+                "type": "AMEX",
+                "accountNumber": "3411XXXXXXX1347"
+              }
+            },
+            "billingAddress": {
+              "fullName": "Sumit Singh",
+              "addressLine1": "4 NORTHEASTERN BLVD",
+              "city": "SALEM",
+              "state": "NH",
+              "postcode": "03079-5916",
+              "country": "USA"
+            },
+            "amount": "19.95",
+            "state": "VALID",
+            "timeCreated": "2022-03-08T20:32:04.038Z",
+            "timeUpdated": "2022-03-08T20:40:02.832Z"
+          }
+        ]
+      },
+      "blocks": [
+        {
+          "id": "26728183",
+          "reason": "OTHER",
+          "resolved": true,
+          "resolvable": false,
+          "timeBlocked": "2022-05-16T16:00:35.779Z",
+          "timeResolved": "2022-06-15T05:10:20.778Z",
+          "comments": "Order unblocked For Edit"
+        },
+        {
+          "id": "26611631",
+          "reason": "RELEASE_CANCELED",
+          "resolved": true,
+          "resolvable": false,
+          "timeBlocked": "2022-04-25T16:31:59.855Z",
+          "timeResolved": "2022-05-16T15:59:45.868Z"
+        }
+      ],
+      "canceledItems": [
+        {
+          "lineItemId": "1463283945",
+          "quantity": 1,
+          "timeUpdated": "2022-04-21T04:10:13.856Z"
+        }
+      ],
+      "updatedItems": [
+        {
+          "lineItemId": "1463283945",
+          "oldQuantity": 1,
+          "oldDescription": "Blue Buffalo Homestyle Recipe Chicken Dinner with Garden Vegetables & Brown Rice Canned Dog Food, 12.5-oz, case of 12",
+          "timeUpdated": "2022-08-03T19:55:14.449Z"
+        }
+      ]
+    }
+  }
+}

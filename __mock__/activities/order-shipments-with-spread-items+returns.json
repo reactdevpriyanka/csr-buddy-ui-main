@@ -1,0 +1,889 @@
+{
+  "id": "1246015185",
+  "orderNumber": "1246015185",
+  "customerId": "269428389",
+  "status": "DEPOSITED",
+  "totalProduct": {
+    "value": "50.92",
+    "currency": "USD"
+  },
+  "totalSalesTax": {
+    "value": "4.07",
+    "currency": "USD"
+  },
+  "totalShipping": {
+    "value": "0.00",
+    "currency": "USD"
+  },
+  "totalShippingTax": {
+    "value": "0.00",
+    "currency": "USD"
+  },
+  "totalAdjustment": {
+    "value": "0.00",
+    "currency": "USD"
+  },
+  "totalBeforeTax": {
+    "value": "50.92",
+    "currency": "USD"
+  },
+  "total": {
+    "value": "54.99",
+    "currency": "USD"
+  },
+  "timePlaced": "2022-09-04T18:41:21.543Z",
+  "timeUpdated": "2022-09-05T03:33:39.606Z",
+  "itemMap": {
+    "2063270453": {
+      "id": "2063270453",
+      "externalId": "1355559913",
+      "status": "SHIPPED",
+      "product": {
+        "catalogEntryId": "34290",
+        "partNumber": "49109",
+        "name": "Tidy Cats 24/7 Performance Scented Non-Clumping Clay Cat Litter, 40-lb bag",
+        "description": "Tidy Cats 24/7 Performance Scented Non-Clumping Clay Cat Litter, 40-lb bag",
+        "thumbnail": "//image.chewy.com/is/image/catalog/49109_MAIN,1635476536"
+      },
+      "fulfillmentCenter": "CLT1",
+      "fulfillmentStatus": "SHIPPED",
+      "quantity": 4,
+      "totalProduct": {
+        "value": "50.92"
+      },
+      "unitPrice": {
+        "value": "12.73"
+      },
+      "bundleItem": false,
+      "can": false,
+      "food": false,
+      "shippingCharge": {
+        "value": "0.00"
+      },
+      "totalAdjustment": {
+        "value": "0.00"
+      },
+      "salesTax": {
+        "value": "4.07"
+      },
+      "shippingTax": {
+        "value": "0.00"
+      },
+      "currency": "USD"
+    }
+  },
+  "lineItems": [
+    {
+      "id": "2063270453",
+      "externalId": "1355559913",
+      "status": "SHIPPED",
+      "product": {
+        "catalogEntryId": "34290",
+        "partNumber": "49109",
+        "name": "Tidy Cats 24/7 Performance Scented Non-Clumping Clay Cat Litter, 40-lb bag",
+        "description": "Tidy Cats 24/7 Performance Scented Non-Clumping Clay Cat Litter, 40-lb bag",
+        "thumbnail": "//image.chewy.com/is/image/catalog/49109_MAIN,1635476536"
+      },
+      "fulfillmentCenter": "CLT1",
+      "fulfillmentStatus": "SHIPPED",
+      "quantity": 4,
+      "totalProduct": {
+        "value": "50.92"
+      },
+      "unitPrice": {
+        "value": "12.73"
+      },
+      "bundleItem": false,
+      "can": false,
+      "food": false,
+      "shippingCharge": {
+        "value": "0.00"
+      },
+      "totalAdjustment": {
+        "value": "0.00"
+      },
+      "salesTax": {
+        "value": "4.07"
+      },
+      "shippingTax": {
+        "value": "0.00"
+      },
+      "currency": "USD"
+    }
+  ],
+  "trackingData": {
+    "shippingStep": "DELIVERED",
+    "shippingStatus": "ON_TIME",
+    "chewyPromisedDeliveryDate": "2022-09-06",
+    "estimatedDeliveryDate": "2022-09-06"
+  },
+  "shippingAddress": {
+    "id": "1289241595",
+    "nickname": "bc2e986a-ecef-4b4e-949a-6f6615674bf8",
+    "fullName": "Ross lazar",
+    "addressLine1": "803 SEYMOUR DR",
+    "city": "NORTH AUGUSTA",
+    "state": "SC",
+    "postcode": "29841-4340",
+    "country": "US",
+    "phone": "7605215496",
+    "primaryAddress": false,
+    "verified": false
+  },
+  "shipments": [
+    {
+      "id": "626430533",
+      "shippingModeCode": "FDXHD",
+      "trackingId": "607062747371",
+      "timeShipped": "2022-09-05T03:32:14.333Z",
+      "packageId": "647878322",
+      "trackingData": {
+        "shippingStep": "DELIVERED",
+        "shippingStatus": "ON_TIME",
+        "chewyPromisedDeliveryDate": "2022-09-06",
+        "estimatedDeliveryDate": "2022-09-06",
+        "trackingEvent": {
+          "code": "DELIVERED",
+          "date": "2022-09-06T18:41:00Z",
+          "address": {
+            "city": "NORTH AUGUSTA",
+            "state": "SC",
+            "country": "US",
+            "primaryAddress": false,
+            "verified": false
+          },
+          "description": "Your package has been delivered!"
+        },
+        "progressPercentage": 100,
+        "actualShipDateTime": "2022-09-05T03:27:57Z",
+        "actualDeliveryTime": "2022-09-06T18:41:00Z",
+        "packagesCountFromOrder": 1,
+        "currentPackageStatus": "DELIVERED",
+        "derivedDeliveryDate": "2022-09-06T00:00:00Z",
+        "displayEvents": [
+          {
+            "code": "ORDER_CREATED",
+            "date": "2022-09-04T18:41:21Z"
+          },
+          {
+            "code": "ORDER_RELEASED",
+            "date": "2022-09-04T19:40:05Z"
+          },
+          {
+            "code": "650",
+            "date": "2022-09-04T23:39:48Z",
+            "description": "PICK COMPLETE"
+          },
+          {
+            "code": "820",
+            "date": "2022-09-05T03:27:57Z",
+            "description": "LOADED"
+          },
+          {
+            "code": "ORDERED",
+            "date": "2022-09-05T04:17:00Z",
+            "address": {
+              "primaryAddress": false,
+              "verified": false
+            },
+            "description": "Your Chewy Order has shipped"
+          },
+          {
+            "code": "ARRIVAL_SCAN",
+            "date": "2022-09-06T04:12:00Z",
+            "address": {
+              "city": "ELLENWOOD",
+              "state": "GA",
+              "country": "US",
+              "primaryAddress": false,
+              "verified": false
+            },
+            "description": "Package arrived at carrier facility"
+          },
+          {
+            "code": "ARRIVAL_SCAN",
+            "date": "2022-09-06T10:43:00Z",
+            "address": {
+              "city": "AUGUSTA",
+              "state": "GA",
+              "country": "US",
+              "primaryAddress": false,
+              "verified": false
+            },
+            "description": "Package arrived at carrier facility"
+          },
+          {
+            "code": "OUT_FOR_DELIVERY",
+            "date": "2022-09-06T10:57:00Z",
+            "address": {
+              "city": "AUGUSTA",
+              "state": "GA",
+              "country": "US",
+              "primaryAddress": false,
+              "verified": false
+            },
+            "description": "Out for delivery to you"
+          },
+          {
+            "code": "DELIVERED",
+            "date": "2022-09-06T18:41:00Z",
+            "address": {
+              "city": "NORTH AUGUSTA",
+              "state": "SC",
+              "country": "US",
+              "primaryAddress": false,
+              "verified": false
+            },
+            "description": "Your package has been delivered!"
+          },
+          {
+            "code": "840",
+            "date": "2022-09-06T21:04:00Z",
+            "description": "SHIPPED"
+          }
+        ],
+        "fulfillmentCenter": "CLT1"
+      },
+      "carrier": "FDEG",
+      "carrierDescription": "Fedex Home Delivery",
+      "trackingUrl": "https://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=607062747371",
+      "fulfillmentCenterDetails": {
+        "id": "CLT1",
+        "type": "fulfillmentCenters",
+        "attributes": {
+          "fulfillmentCenterId": "CLT1",
+          "displayName": "Chewy CLT1",
+          "fulfillmentCenterType": "CHEWY",
+          "address": {
+            "addressLine1": "255 Front Creek Road",
+            "city": "Salisbury",
+            "state": "NC",
+            "postcode": "28146",
+            "country": "US",
+            "phone": "816-384-2290",
+            "primaryAddress": false,
+            "verified": false
+          },
+          "returnAddress": {
+            "addressLine1": "255 Front Creek Road",
+            "city": "Salisbury",
+            "state": "NC",
+            "postcode": "28146",
+            "country": "US",
+            "primaryAddress": false,
+            "verified": false
+          },
+          "fcEnabled": true,
+          "fulfillerId": "b85ddeec-e3ea-4247-bfc1-4e0cd200de0b"
+        }
+      },
+      "shipmentItems": [
+        {
+          "lineItemId": "2063270453",
+          "quantity": 1,
+          "shippedQuantity": 0
+        }
+      ]
+    },
+    {
+      "id": "626430536",
+      "shippingModeCode": "FDXHD",
+      "trackingId": "607062747382",
+      "timeShipped": "2022-09-05T03:32:14.333Z",
+      "packageId": "647878323",
+      "trackingData": {
+        "shippingStep": "DELIVERED",
+        "shippingStatus": "ON_TIME",
+        "chewyPromisedDeliveryDate": "2022-09-06",
+        "estimatedDeliveryDate": "2022-09-06",
+        "trackingEvent": {
+          "code": "DELIVERED",
+          "date": "2022-09-06T18:41:00Z",
+          "address": {
+            "city": "NORTH AUGUSTA",
+            "state": "SC",
+            "country": "US",
+            "primaryAddress": false,
+            "verified": false
+          },
+          "description": "Your package has been delivered!"
+        },
+        "progressPercentage": 100,
+        "actualShipDateTime": "2022-09-05T03:28:37Z",
+        "actualDeliveryTime": "2022-09-06T18:41:00Z",
+        "packagesCountFromOrder": 1,
+        "currentPackageStatus": "DELIVERED",
+        "derivedDeliveryDate": "2022-09-06T00:00:00Z",
+        "displayEvents": [
+          {
+            "code": "ORDER_CREATED",
+            "date": "2022-09-04T18:41:21Z"
+          },
+          {
+            "code": "ORDER_RELEASED",
+            "date": "2022-09-04T19:40:05Z"
+          },
+          {
+            "code": "650",
+            "date": "2022-09-04T23:42:31Z",
+            "description": "PICK COMPLETE"
+          },
+          {
+            "code": "820",
+            "date": "2022-09-05T03:28:37Z",
+            "description": "LOADED"
+          },
+          {
+            "code": "ORDERED",
+            "date": "2022-09-05T06:47:00Z",
+            "address": {
+              "primaryAddress": false,
+              "verified": false
+            },
+            "description": "Your Chewy Order has shipped"
+          },
+          {
+            "code": "ARRIVAL_SCAN",
+            "date": "2022-09-06T04:15:00Z",
+            "address": {
+              "city": "ELLENWOOD",
+              "state": "GA",
+              "country": "US",
+              "primaryAddress": false,
+              "verified": false
+            },
+            "description": "Package arrived at carrier facility"
+          },
+          {
+            "code": "ARRIVAL_SCAN",
+            "date": "2022-09-06T10:35:00Z",
+            "address": {
+              "city": "AUGUSTA",
+              "state": "GA",
+              "country": "US",
+              "primaryAddress": false,
+              "verified": false
+            },
+            "description": "Package arrived at carrier facility"
+          },
+          {
+            "code": "OUT_FOR_DELIVERY",
+            "date": "2022-09-06T10:44:00Z",
+            "address": {
+              "city": "AUGUSTA",
+              "state": "GA",
+              "country": "US",
+              "primaryAddress": false,
+              "verified": false
+            },
+            "description": "Out for delivery to you"
+          },
+          {
+            "code": "DELIVERED",
+            "date": "2022-09-06T18:41:00Z",
+            "address": {
+              "city": "NORTH AUGUSTA",
+              "state": "SC",
+              "country": "US",
+              "primaryAddress": false,
+              "verified": false
+            },
+            "description": "Your package has been delivered!"
+          },
+          {
+            "code": "840",
+            "date": "2022-09-06T21:04:00Z",
+            "description": "SHIPPED"
+          }
+        ],
+        "fulfillmentCenter": "CLT1"
+      },
+      "carrier": "FDEG",
+      "carrierDescription": "Fedex Home Delivery",
+      "trackingUrl": "https://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=607062747382",
+      "fulfillmentCenterDetails": {
+        "id": "CLT1",
+        "type": "fulfillmentCenters",
+        "attributes": {
+          "fulfillmentCenterId": "CLT1",
+          "displayName": "Chewy CLT1",
+          "fulfillmentCenterType": "CHEWY",
+          "address": {
+            "addressLine1": "255 Front Creek Road",
+            "city": "Salisbury",
+            "state": "NC",
+            "postcode": "28146",
+            "country": "US",
+            "phone": "816-384-2290",
+            "primaryAddress": false,
+            "verified": false
+          },
+          "returnAddress": {
+            "addressLine1": "255 Front Creek Road",
+            "city": "Salisbury",
+            "state": "NC",
+            "postcode": "28146",
+            "country": "US",
+            "primaryAddress": false,
+            "verified": false
+          },
+          "fcEnabled": true,
+          "fulfillerId": "b85ddeec-e3ea-4247-bfc1-4e0cd200de0b"
+        }
+      },
+      "shipmentItems": [
+        {
+          "lineItemId": "2063270453",
+          "quantity": 1,
+          "shippedQuantity": 0
+        }
+      ]
+    },
+    {
+      "id": "626430537",
+      "shippingModeCode": "FDXHD",
+      "trackingId": "607525187551",
+      "timeShipped": "2022-09-05T03:32:14.333Z",
+      "packageId": "647878321",
+      "trackingData": {
+        "shippingStep": "DELIVERED",
+        "shippingStatus": "ON_TIME",
+        "chewyPromisedDeliveryDate": "2022-09-06",
+        "estimatedDeliveryDate": "2022-09-06",
+        "trackingEvent": {
+          "code": "DELIVERED",
+          "date": "2022-09-06T18:41:00Z",
+          "address": {
+            "city": "NORTH AUGUSTA",
+            "state": "SC",
+            "country": "US",
+            "primaryAddress": false,
+            "verified": false
+          },
+          "description": "Your package has been delivered!"
+        },
+        "progressPercentage": 100,
+        "actualShipDateTime": "2022-09-05T03:27:16Z",
+        "actualDeliveryTime": "2022-09-06T18:41:00Z",
+        "packagesCountFromOrder": 1,
+        "currentPackageStatus": "DELIVERED",
+        "derivedDeliveryDate": "2022-09-06T00:00:00Z",
+        "displayEvents": [
+          {
+            "code": "ORDER_CREATED",
+            "date": "2022-09-04T18:41:21Z"
+          },
+          {
+            "code": "ORDER_RELEASED",
+            "date": "2022-09-04T19:40:05Z"
+          },
+          {
+            "code": "650",
+            "date": "2022-09-04T23:39:48Z",
+            "description": "PICK COMPLETE"
+          },
+          {
+            "code": "820",
+            "date": "2022-09-05T03:27:16Z",
+            "description": "LOADED"
+          },
+          {
+            "code": "ORDERED",
+            "date": "2022-09-05T04:17:00Z",
+            "address": {
+              "primaryAddress": false,
+              "verified": false
+            },
+            "description": "Your Chewy Order has shipped"
+          },
+          {
+            "code": "ARRIVAL_SCAN",
+            "date": "2022-09-06T04:13:00Z",
+            "address": {
+              "city": "ELLENWOOD",
+              "state": "GA",
+              "country": "US",
+              "primaryAddress": false,
+              "verified": false
+            },
+            "description": "Package arrived at carrier facility"
+          },
+          {
+            "code": "ARRIVAL_SCAN",
+            "date": "2022-09-06T10:44:00Z",
+            "address": {
+              "city": "AUGUSTA",
+              "state": "GA",
+              "country": "US",
+              "primaryAddress": false,
+              "verified": false
+            },
+            "description": "Package arrived at carrier facility"
+          },
+          {
+            "code": "OUT_FOR_DELIVERY",
+            "date": "2022-09-06T10:57:00Z",
+            "address": {
+              "city": "AUGUSTA",
+              "state": "GA",
+              "country": "US",
+              "primaryAddress": false,
+              "verified": false
+            },
+            "description": "Out for delivery to you"
+          },
+          {
+            "code": "DELIVERED",
+            "date": "2022-09-06T18:41:00Z",
+            "address": {
+              "city": "NORTH AUGUSTA",
+              "state": "SC",
+              "country": "US",
+              "primaryAddress": false,
+              "verified": false
+            },
+            "description": "Your package has been delivered!"
+          },
+          {
+            "code": "840",
+            "date": "2022-09-06T21:04:00Z",
+            "description": "SHIPPED"
+          }
+        ],
+        "fulfillmentCenter": "CLT1"
+      },
+      "carrier": "FDEG",
+      "carrierDescription": "Fedex Home Delivery",
+      "trackingUrl": "https://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=607525187551",
+      "fulfillmentCenterDetails": {
+        "id": "CLT1",
+        "type": "fulfillmentCenters",
+        "attributes": {
+          "fulfillmentCenterId": "CLT1",
+          "displayName": "Chewy CLT1",
+          "fulfillmentCenterType": "CHEWY",
+          "address": {
+            "addressLine1": "255 Front Creek Road",
+            "city": "Salisbury",
+            "state": "NC",
+            "postcode": "28146",
+            "country": "US",
+            "phone": "816-384-2290",
+            "primaryAddress": false,
+            "verified": false
+          },
+          "returnAddress": {
+            "addressLine1": "255 Front Creek Road",
+            "city": "Salisbury",
+            "state": "NC",
+            "postcode": "28146",
+            "country": "US",
+            "primaryAddress": false,
+            "verified": false
+          },
+          "fcEnabled": true,
+          "fulfillerId": "b85ddeec-e3ea-4247-bfc1-4e0cd200de0b"
+        }
+      },
+      "shipmentItems": [
+        {
+          "lineItemId": "2063270453",
+          "quantity": 1,
+          "shippedQuantity": 0
+        }
+      ]
+    },
+    {
+      "id": "626430540",
+      "shippingModeCode": "FDXHD",
+      "trackingId": "607581234930",
+      "timeShipped": "2022-09-05T03:32:14.333Z",
+      "packageId": "647878324",
+      "trackingData": {
+        "shippingStep": "DELIVERED",
+        "shippingStatus": "ON_TIME",
+        "chewyPromisedDeliveryDate": "2022-09-06",
+        "estimatedDeliveryDate": "2022-09-06",
+        "trackingEvent": {
+          "code": "DELIVERED",
+          "date": "2022-09-06T18:41:00Z",
+          "address": {
+            "city": "NORTH AUGUSTA",
+            "state": "SC",
+            "country": "US",
+            "primaryAddress": false,
+            "verified": false
+          },
+          "description": "Your package has been delivered!"
+        },
+        "progressPercentage": 100,
+        "actualShipDateTime": "2022-09-05T03:28:41Z",
+        "actualDeliveryTime": "2022-09-06T18:41:00Z",
+        "packagesCountFromOrder": 1,
+        "currentPackageStatus": "DELIVERED",
+        "derivedDeliveryDate": "2022-09-06T00:00:00Z",
+        "displayEvents": [
+          {
+            "code": "ORDER_CREATED",
+            "date": "2022-09-04T18:41:21Z"
+          },
+          {
+            "code": "ORDER_RELEASED",
+            "date": "2022-09-04T19:40:05Z"
+          },
+          {
+            "code": "650",
+            "date": "2022-09-04T23:42:31Z",
+            "description": "PICK COMPLETE"
+          },
+          {
+            "code": "820",
+            "date": "2022-09-05T03:28:41Z",
+            "description": "LOADED"
+          },
+          {
+            "code": "ORDERED",
+            "date": "2022-09-05T04:32:00Z",
+            "address": {
+              "primaryAddress": false,
+              "verified": false
+            },
+            "description": "Your Chewy Order has shipped"
+          },
+          {
+            "code": "ARRIVAL_SCAN",
+            "date": "2022-09-06T04:15:00Z",
+            "address": {
+              "city": "ELLENWOOD",
+              "state": "GA",
+              "country": "US",
+              "primaryAddress": false,
+              "verified": false
+            },
+            "description": "Package arrived at carrier facility"
+          },
+          {
+            "code": "ARRIVAL_SCAN",
+            "date": "2022-09-06T10:44:00Z",
+            "address": {
+              "city": "AUGUSTA",
+              "state": "GA",
+              "country": "US",
+              "primaryAddress": false,
+              "verified": false
+            },
+            "description": "Package arrived at carrier facility"
+          },
+          {
+            "code": "OUT_FOR_DELIVERY",
+            "date": "2022-09-06T10:58:00Z",
+            "address": {
+              "city": "AUGUSTA",
+              "state": "GA",
+              "country": "US",
+              "primaryAddress": false,
+              "verified": false
+            },
+            "description": "Out for delivery to you"
+          },
+          {
+            "code": "DELIVERED",
+            "date": "2022-09-06T18:41:00Z",
+            "address": {
+              "city": "NORTH AUGUSTA",
+              "state": "SC",
+              "country": "US",
+              "primaryAddress": false,
+              "verified": false
+            },
+            "description": "Your package has been delivered!"
+          },
+          {
+            "code": "840",
+            "date": "2022-09-06T21:04:00Z",
+            "description": "SHIPPED"
+          }
+        ],
+        "fulfillmentCenter": "CLT1"
+      },
+      "carrier": "FDEG",
+      "carrierDescription": "Fedex Home Delivery",
+      "trackingUrl": "https://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=607581234930",
+      "fulfillmentCenterDetails": {
+        "id": "CLT1",
+        "type": "fulfillmentCenters",
+        "attributes": {
+          "fulfillmentCenterId": "CLT1",
+          "displayName": "Chewy CLT1",
+          "fulfillmentCenterType": "CHEWY",
+          "address": {
+            "addressLine1": "255 Front Creek Road",
+            "city": "Salisbury",
+            "state": "NC",
+            "postcode": "28146",
+            "country": "US",
+            "phone": "816-384-2290",
+            "primaryAddress": false,
+            "verified": false
+          },
+          "returnAddress": {
+            "addressLine1": "255 Front Creek Road",
+            "city": "Salisbury",
+            "state": "NC",
+            "postcode": "28146",
+            "country": "US",
+            "primaryAddress": false,
+            "verified": false
+          },
+          "fcEnabled": true,
+          "fulfillerId": "b85ddeec-e3ea-4247-bfc1-4e0cd200de0b"
+        }
+      },
+      "shipmentItems": [
+        {
+          "lineItemId": "2063270453",
+          "quantity": 1,
+          "shippedQuantity": 0
+        }
+      ]
+    }
+  ],
+  "releases": [
+    {
+      "id": "564535945",
+      "status": "MANIFESTED",
+      "releaseNumber": 1,
+      "shippingModeCode": "FLATRATE",
+      "fulfillmentAck": "2022-09-04T19:43:56.683Z",
+      "fulfillmentCenter": "CLT1",
+      "fulfillmentCenterType": "CHEWY",
+      "captureDate": "2022-09-05T03:33:39.928Z",
+      "customerConfirm": "2022-09-05T03:33:39.574Z",
+      "lineItemIds": [
+        "2063270453"
+      ],
+      "shipmentIds": [
+        "626430533",
+        "626430536",
+        "626430537",
+        "626430540"
+      ],
+      "timeCreated": "2022-09-04T19:40:04.975Z",
+      "timeUpdated": "2022-09-05T03:33:39.528Z"
+    }
+  ],
+  "returnItems": [
+    {
+      "returnId": "06f81094-7215-40be-9572-7f670f91e304",
+      "lineItemId": "2063270453",
+      "orderId": "1246015185",
+      "state": "PROCESSED",
+      "type": "REFUND",
+      "reasonCategory": "DAMAGED",
+      "reason": {
+        "primary": "DAMAGED",
+        "secondary": "BOX_AND_PRODUCT",
+        "tertiary": "DENTED_BOX_OR_PRODUCT"
+      },
+      "timeCreated": "2022-09-06T18:54:09.856730Z",
+      "timeUpdated": "2022-09-06T23:03:13.104258Z",
+      "comment": "box crushed/ dented upon arrival, \nproduct busted and leaking all in box",
+      "partNumber": "49109",
+      "quantity": 1,
+      "totalCredit": 13.75,
+      "sendBack": false,
+      "shelterDonation": false,
+      "shelterDonationReason": "NO",
+      "giftCard": false
+    }
+  ],
+  "payments": {
+    "paymentInstructions": [
+      {
+        "id": "617870244",
+        "walletId": "2a0de798-f5f2-46d7-b93c-d44a971cdd11",
+        "paymentMethod": {
+          "paymentReferenceId": "b136f283-9dfa-4e0d-bae8-0ee548422bda",
+          "type": "CARD",
+          "card": {
+            "expirationMonth": "6",
+            "expirationYear": "2023",
+            "cardHolderName": "Ross lazar",
+            "type": "VISA",
+            "accountNumber": "4400XXXXXXXX1653"
+          }
+        },
+        "billingAddress": {
+          "fullName": "Ross lazar",
+          "addressLine1": "803 SEYMOUR DR",
+          "city": "NORTH AUGUSTA",
+          "state": "SC",
+          "postcode": "29841-4340",
+          "country": "USA"
+        },
+        "amount": "54.99",
+        "state": "VALID",
+        "timeCreated": "2022-09-04T18:41:21.741Z",
+        "timeUpdated": "2022-09-04T19:40:04.975Z"
+      }
+    ]
+  },
+  "remoteIp": "2600:1700:18f1:84c0:15ef:abae:128b:fcce",
+  "businessChannel": "WEB",
+  "submitter": "CUSTOMER",
+  "submitterId": "269428389",
+  "submitterDetail": {
+    "id": "269428389",
+    "email": "rosslazar@hotmail.com",
+    "fullName": "Ross lazar",
+    "status": "ACTIVE"
+  },
+  "returns": [
+    {
+      "id": "06f81094-7215-40be-9572-7f670f91e304",
+      "orderId": "1246015185",
+      "state": "PROCESSED",
+      "type": "REFUND",
+      "timeCreated": "2022-09-06T18:54:09.856730Z",
+      "timeUpdated": "2022-09-06T23:03:13.104258Z",
+      "timeProcessed": "2022-09-06T23:03:12.268209Z",
+      "totalCredit": 13.75,
+      "payments": [
+        {
+          "id": "a2f769fc-a324-4aef-b265-31044a455553",
+          "paymentReferenceId": "a2f769fc-a324-4aef-b265-31044a455553",
+          "amount": 13.75,
+          "creditedAmount": 13.75,
+          "creditingAmount": 0,
+          "paymentMethod": "VISA",
+          "state": "COMPLETE"
+        }
+      ],
+      "items": [
+        {
+          "returnId": "06f81094-7215-40be-9572-7f670f91e304",
+          "lineItemId": "2063270453",
+          "orderId": "1246015185",
+          "state": "PROCESSED",
+          "type": "REFUND",
+          "reasonCategory": "DAMAGED",
+          "reason": {
+            "primary": "DAMAGED",
+            "secondary": "BOX_AND_PRODUCT",
+            "tertiary": "DENTED_BOX_OR_PRODUCT"
+          },
+          "timeCreated": "2022-09-06T18:54:09.856730Z",
+          "timeUpdated": "2022-09-06T23:03:13.104258Z",
+          "comment": "box crushed/ dented upon arrival, \nproduct busted and leaking all in box",
+          "partNumber": "49109",
+          "quantity": 1,
+          "totalCredit": 13.75,
+          "sendBack": false,
+          "shelterDonation": false,
+          "shelterDonationReason": "NO",
+          "giftCard": false
+        }
+      ]
+    }
+  ]
+}

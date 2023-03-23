@@ -1,0 +1,8 @@
+{
+  "orderActions": [
+    "SEND_ORDER_INVOICE",
+    "SEND_ORDER_CONFIRMATION",
+    "ADD_PROMOTION_CODE",
+    "ADD_PRICE_ADJUSTMENT"
+  ]
+}

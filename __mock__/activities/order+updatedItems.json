@@ -1,0 +1,107 @@
+{
+  "type": "ORDER_BLOCK_RESOLVED",
+  "createdAt": "2021-08-17T18:16:26.003Z",
+  "data": {
+    "order": {
+      "id": "1070017932",
+      "customerId": "148817668",
+      "status": "READY_TO_RELEASE",
+      "totalProduct": {
+        "value": "12.36"
+      },
+      "totalSalesTax": {
+        "value": "1.48"
+      },
+      "totalShippingTax": {
+        "value": "0.00"
+      },
+      "totalAdjustment": {
+        "value": "0.00"
+      },
+      "totalBeforeTax": {
+        "value": "17.31"
+      },
+      "total": {
+        "value": "18.79"
+      },
+      "timePlaced": "2021-08-17T18:15:31.853Z",
+      "timeUpdated": "2021-08-17T18:16:26.003Z",
+      "blocks": [
+        {
+          "id": "22678025",
+          "reason": "OTHER",
+          "resolved": true,
+          "timeBlocked": "2021-08-17T18:16:00.098Z",
+          "timeResolved": "2021-08-17T18:16:26.003Z",
+          "comments": "Order unblocked For Edit"
+        }
+      ],
+      "lineItems": [
+        {
+          "id": "1463303225",
+          "product": {
+            "catalogEntryId": "47739",
+            "partNumber": "62769",
+            "name": "KONG Cozie Marvin the Moose Plush Dog Toy, Medium",
+            "description": "KONG Cozie Marvin the Moose Plush Dog Toy, Medium",
+            "thumbnail": "//img.chewy.com/is/image/catalog/62769_MAIN,1588626359"
+          },
+          "quantity": 1,
+          "totalProduct": {
+            "value": "12.36"
+          },
+          "unitPrice": {
+            "value": "12.36"
+          },
+          "shippingCharge": {
+            "value": "4.95"
+          },
+          "totalAdjustment": {
+            "value": "0.00"
+          },
+          "salesTax": {
+            "value": "1.48"
+          },
+          "shippingTax": {
+            "value": "0.00"
+          },
+          "currency": "USD",
+          "bundleItem": false
+        }
+      ],
+      "trackingData": {
+        "shippingStep": "ORDER_PLACED",
+        "shippingStatus": "NONE",
+        "chewyPromisedDeliveryDate": "2021-08-17",
+        "estimatedDeliveryDate": "2021-08-17"
+      },
+      "shippingAddress": {
+        "id": "72577039",
+        "nickname": "4fe43ec9-8b38-4105-ac8d-1550779a1e47",
+        "fullName": "Jonathon Pemberton",
+        "addressLine1": "2310 CHATAM AVE SW",
+        "city": "DECATUR",
+        "state": "AL",
+        "postcode": "35603-1816",
+        "country": "US",
+        "primaryAddress": false
+      },
+      "notShippedItems": [
+        {
+          "lineItemId": "1463303225",
+          "quantity": 1,
+          "shippedQuantity": 0
+        }
+      ],
+      "updatedItems": [
+        {
+          "lineItemId": "1463303225",
+          "oldQuantity": 3,
+          "oldDescription": "KONG Cozie Marvin the Moose Plush Dog Toy, Medium",
+          "timeUpdated": "2021-08-17T18:16:07.392Z",
+          "reason": "QUANTITY"
+        }
+      ]
+    }
+  }
+}

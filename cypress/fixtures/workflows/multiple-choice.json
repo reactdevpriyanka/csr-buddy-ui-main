@@ -1,0 +1,64 @@
+{
+  "context": {},
+  "startNode": { "id": "2" },
+  "flow": {
+    "flowName": "show-multipleChoice",
+    "startNode": {
+      "id": "2",
+      "nodeType": "START_NODE",
+      "singularOutcomeId": "2"
+    },
+    "flowLinks": [
+      {
+        "outcomeId": "1",
+        "destinationNodeId": "2"
+      }
+    ],
+    "flowNodes": [
+      {
+        "id": "2",
+        "nodeType": "MULTIPLE_CHOICE_CARDS",
+        "required": {
+          "value": true
+        },
+        "enabled": {
+          "value": true
+        },
+        "visible": {
+          "value": true
+        },
+        "choices": [
+          {
+            "label": "Pet passed",
+            "value": "PET_PASSED",
+            "outcomeId": "3"
+          },
+          {
+            "label": "Pet had a birthday",
+            "value": "PET_BIRTHDAY",
+            "outcomeId": "4"
+          },
+          {
+            "label": "Pet did something cute",
+            "value": "PET_CUTE",
+            "outcomeId": "5"
+          },
+          {
+            "label": "I am disabled",
+            "value": "NOPE",
+            "outcomeId": "6",
+            "disabled": {
+              "value": true
+            }
+          },
+          {
+            "label": "I am working",
+            "value": "YEP",
+            "outcomeId": "7"
+          }
+        ]
+      }
+    ],
+    "label": "What is the reason for this Wow request?"
+  }
+}
